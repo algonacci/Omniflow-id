@@ -1,26 +1,30 @@
-import React from 'react';
-import Header from './components/Header';
-import Hero from './components/Hero';
-import Modules from './components/Modules';
-import Advantages from './components/Advantages';
-import FAQ from './components/FAQ';
-import Contact from './components/Contact';
-import Footer from './components/Footer';
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import Header from "./components/Header";
+import Footer from "./components/Footer";
+import HomePage from "./pages/Home";
+import HRISPage from "./pages/modules/HRIS";
+import CustomersPage from "./pages/modules/Customers";
+import BlogPage from "./pages/blog";
+import NotFound from "./pages/404";
+import ScrollToTop from "./components/ScrollToTop";
 
-function App() {
+export default function App() {
   return (
-    <div className="min-h-screen bg-white">
-      <Header />
-      <main>
-        <Hero />
-        <Modules />
-        <Advantages />
-        <FAQ />
-        <Contact />
-      </main>
-      <Footer />
-    </div>
+    <Router>
+      <div className="min-h-screen bg-white">
+        <Header />
+        <main>
+          <ScrollToTop />
+          <Routes>
+            <Route path="/" element={<HomePage />} />
+            <Route path="/modules/hris" element={<HRISPage />} />
+            <Route path="/modules/customers" element={<CustomersPage />} />
+            <Route path="/blog" element={<BlogPage />} />
+            <Route path="*" element={<NotFound />} />
+          </Routes>
+        </main>
+        <Footer />
+      </div>
+    </Router>
   );
 }
-
-export default App;
