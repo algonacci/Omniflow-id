@@ -1,3 +1,4 @@
+import React from 'react';
 import { CircuitBoard, Facebook, Twitter, Linkedin, Instagram } from 'lucide-react';
 
 export default function Footer() {

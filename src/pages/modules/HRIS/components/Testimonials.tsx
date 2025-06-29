@@ -1,25 +1,24 @@
+import React from 'react';
+
 const testimonials = [
   {
-    quote:
-      "Implementing Omniflow's HRIS has transformed our HR operations. The automation and efficiency gains are remarkable.",
+    quote: "Implementing Omniflow's HRIS has transformed our HR operations. The automation and efficiency gains are remarkable.",
     author: "Sarah Johnson",
     position: "HR Director",
-    company: "Tech Solutions Inc.",
+    company: "Tech Solutions Inc."
   },
   {
-    quote:
-      "The employee self-service features have reduced our HR team's workload significantly. Our employees love the intuitive interface.",
+    quote: "The employee self-service features have reduced our HR team's workload significantly. Our employees love the intuitive interface.",
     author: "Michael Chen",
     position: "Head of People",
-    company: "Global Innovations",
+    company: "Global Innovations"
   },
   {
-    quote:
-      "The reporting and analytics capabilities have given us valuable insights into our workforce management.",
+    quote: "The reporting and analytics capabilities have given us valuable insights into our workforce management.",
     author: "Emma Rodriguez",
     position: "HR Manager",
-    company: "Future Corp",
-  },
+    company: "Future Corp"
+  }
 ];
 
 export default function Testimonials() {
