@@ -1,5 +1,7 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import { BlogPost } from '../../../types/blog';
+import { Calendar, Clock, ArrowRight } from 'lucide-react';
 
 interface BlogCardProps {
   post: BlogPost;
@@ -33,26 +35,58 @@ export default function BlogCard({ post }: BlogCardProps) {
       : plainText;
   };
 
+  const getReadingTime = (content: string) => {
+    const wordsPerMinute = 200;
+    const wordCount = content.split(' ').length;
+    return Math.ceil(wordCount / wordsPerMinute);
+  };
+
   return (
-    <article className="bg-white rounded-lg shadow-md overflow-hidden hover:shadow-xl transition-shadow duration-300">
-      <img
-        src={post.banner_url}
-        alt={post.title}
-        className="w-full h-48 object-cover"
-      />
-      <div className="p-6">
-        <div className="flex items-center text-sm text-gray-500 mb-2">
-          <span>{formatDate(post.created_at)}</span>
+    <article className="card-enterprise group cursor-pointer overflow-hidden">
+      <div className="relative overflow-hidden">
+        <img
+          src={post.banner_url}
+          alt={post.title}
+          className="w-full h-48 object-cover group-hover:scale-105 transition-transform duration-500"
+        />
+        <div className="absolute inset-0 bg-gradient-to-t from-black/20 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
+      </div>
+      
+      <div className="p-8">
+        <div className="flex items-center text-sm text-enterprise-muted mb-4 space-x-4">
+          <div className="flex items-center">
+            <Calendar className="h-4 w-4 mr-2" />
+            <span>{formatDate(post.created_at)}</span>
+          </div>
+          <div className="flex items-center">
+            <Clock className="h-4 w-4 mr-2" />
+            <span>{getReadingTime(post.content)} min read</span>
+          </div>
         </div>
-        <h2 className="text-xl font-bold mb-2 hover:text-blue-600 transition-colors">
-          <a href={`/blog/${post.slug}`}>{post.title}</a>
+        
+        <h2 className="text-xl font-bold text-enterprise-primary mb-4 group-hover:text-blue-600 transition-colors leading-tight">
+          <Link to={`/blog/${post.slug}`}>{post.title}</Link>
         </h2>
-        <p className="text-gray-600 mb-4">{getExcerpt(post.content)}</p>
+        
+        <p className="text-enterprise-secondary mb-6 leading-relaxed">
+          {getExcerpt(post.content)}
+        </p>
+        
         <div className="flex items-center justify-between">
-          <span className="text-sm text-blue-600 font-medium">Read More</span>
-          <div className="text-xs text-gray-400">
+          <Link 
+            to={`/blog/${post.slug}`}
+            className="inline-flex items-center text-blue-600 font-semibold hover:text-blue-700 transition-colors group"
+          >
+            Read More
+            <ArrowRight className="ml-2 h-4 w-4 group-hover:translate-x-1 transition-transform" />
+          </Link>
+          
+          <div className="flex flex-wrap gap-2">
             {post.meta_keywords.split(', ').slice(0, 2).map((keyword, index) => (
-              <span key={index} className="inline-block bg-gray-100 px-2 py-1 rounded mr-1">
+              <span 
+                key={index} 
+                className="inline-block bg-blue-100 text-blue-800 px-3 py-1 rounded-full text-xs font-medium"
+              >
                 {keyword}
               </span>
             ))}

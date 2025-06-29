@@ -3,7 +3,7 @@ import { useParams, Link } from 'react-router-dom';
 import ReactMarkdown from 'react-markdown';
 import remarkGfm from 'remark-gfm';
 import { BlogPost, BlogDetailResponse } from '../../types/blog';
-import { ArrowLeft, Calendar, Tag, Loader2, Share2, Facebook, Twitter, Linkedin } from 'lucide-react';
+import { ArrowLeft, Calendar, Tag, Loader2, Share2, Facebook, Twitter, Linkedin, Clock, BookOpen } from 'lucide-react';
 
 export default function BlogDetailPage() {
   const { slug } = useParams<{ slug: string }>();
@@ -83,39 +83,56 @@ export default function BlogDetailPage() {
 
   if (loading) {
     return (
-      <div className="min-h-screen bg-white pt-24 pb-16">
-        <div className="container mx-auto px-6">
-          <div className="flex items-center justify-center min-h-[400px]">
+      <div className="min-h-screen bg-white">
+        <section className="section-hero">
+          <div className="container-enterprise">
             <div className="text-center">
-              <Loader2 className="h-8 w-8 animate-spin mx-auto mb-4 text-blue-600" />
-              <p className="text-gray-600">Loading article...</p>
+              <div className="inline-flex items-center px-4 py-2 bg-blue-100 text-blue-800 rounded-full text-sm font-semibold mb-6">
+                <BookOpen className="h-4 w-4 mr-2" />
+                Loading Article
+              </div>
+              <div className="flex items-center justify-center min-h-[200px]">
+                <div className="text-center">
+                  <Loader2 className="h-12 w-12 animate-spin mx-auto mb-6 text-blue-600" />
+                  <p className="text-xl text-enterprise-secondary">Loading article content...</p>
+                </div>
+              </div>
             </div>
           </div>
-        </div>
+        </section>
       </div>
     );
   }
 
   if (error || !post) {
     return (
-      <div className="min-h-screen bg-white pt-24 pb-16">
-        <div className="container mx-auto px-6">
-          <div className="flex items-center justify-center min-h-[400px]">
-            <div className="text-center max-w-md">
-              <div className="bg-red-50 border border-red-200 rounded-lg p-6">
-                <h3 className="text-lg font-semibold text-red-800 mb-2">Article Not Found</h3>
-                <p className="text-red-600 mb-4">{error || 'The requested blog post could not be found.'}</p>
+      <div className="min-h-screen bg-white">
+        <section className="section-hero">
+          <div className="container-enterprise">
+            <div className="text-center">
+              <Link 
+                to="/blog" 
+                className="inline-flex items-center text-blue-600 hover:text-blue-700 mb-8 transition-colors"
+              >
+                <ArrowLeft className="h-4 w-4 mr-2" />
+                Back to Blog
+              </Link>
+              <div className="card-enterprise p-12 max-w-md mx-auto">
+                <div className="w-16 h-16 bg-red-100 rounded-2xl flex items-center justify-center mx-auto mb-6">
+                  <BookOpen className="h-8 w-8 text-red-600" />
+                </div>
+                <h3 className="text-xl font-bold text-enterprise-primary mb-4">Article Not Found</h3>
+                <p className="text-enterprise-secondary mb-6">{error || 'The requested blog post could not be found.'}</p>
                 <Link 
                   to="/blog" 
-                  className="inline-flex items-center px-4 py-2 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition-colors"
+                  className="btn-primary"
                 >
-                  <ArrowLeft className="h-4 w-4 mr-2" />
                   Back to Blog
                 </Link>
               </div>
             </div>
           </div>
-        </div>
+        </section>
       </div>
     );
   }
@@ -123,150 +140,198 @@ export default function BlogDetailPage() {
   return (
     <div className="min-h-screen bg-white">
       {/* Hero Section */}
-      <div className="relative h-96 bg-gradient-to-r from-blue-600 to-blue-800">
-        <img
-          src={post.banner_url}
-          alt={post.title}
-          className="absolute inset-0 w-full h-full object-cover mix-blend-overlay"
-        />
-        <div className="absolute inset-0 bg-black bg-opacity-40" />
-        <div className="relative container mx-auto px-6 h-full flex items-center">
-          <div className="max-w-4xl">
+      <section className="section-hero">
+        <div className="container-enterprise">
+          <div className="max-w-4xl mx-auto">
             <Link 
               to="/blog" 
-              className="inline-flex items-center text-white/80 hover:text-white mb-4 transition-colors"
+              className="inline-flex items-center text-blue-600 hover:text-blue-700 mb-8 transition-colors"
             >
               <ArrowLeft className="h-4 w-4 mr-2" />
               Back to Blog
             </Link>
-            <h1 className="text-4xl md:text-5xl font-bold text-white mb-4 leading-tight">
-              {post.title}
-            </h1>
-            <div className="flex items-center text-white/90 space-x-6">
-              <div className="flex items-center">
-                <Calendar className="h-4 w-4 mr-2" />
-                <span>{formatDate(post.created_at)}</span>
-              </div>
-              <div className="flex items-center">
-                <Tag className="h-4 w-4 mr-2" />
-                <span>{post.meta_keywords.split(', ')[0]}</span>
+            
+            <div className="card-enterprise p-12 relative overflow-hidden">
+              <div className="absolute inset-0 bg-gradient-to-br from-blue-50 to-indigo-50 opacity-50" />
+              <div className="relative">
+                <div className="flex items-center text-enterprise-muted space-x-6 mb-6">
+                  <div className="flex items-center">
+                    <Calendar className="h-4 w-4 mr-2" />
+                    <span>{formatDate(post.created_at)}</span>
+                  </div>
+                  <div className="flex items-center">
+                    <Clock className="h-4 w-4 mr-2" />
+                    <span>{Math.ceil(post.content.split(' ').length / 200)} min read</span>
+                  </div>
+                  <div className="flex items-center">
+                    <Tag className="h-4 w-4 mr-2" />
+                    <span>{post.meta_keywords.split(', ')[0]}</span>
+                  </div>
+                </div>
+                <h1 className="text-enterprise-primary mb-6 leading-tight">
+                  {post.title}
+                </h1>
+                <p className="text-xl text-enterprise-secondary">
+                  {post.meta_description}
+                </p>
               </div>
             </div>
           </div>
         </div>
-      </div>
+      </section>
 
-      {/* Content Section */}
-      <div className="container mx-auto px-6 py-16">
-        <div className="max-w-4xl mx-auto">
-          <div className="flex flex-col lg:flex-row gap-12">
-            {/* Main Content */}
-            <article className="lg:w-3/4">
-              <div className="prose prose-lg max-w-none">
-                <ReactMarkdown 
-                  remarkPlugins={[remarkGfm]}
-                  components={{
-                    h1: ({children}) => <h1 className="text-3xl font-bold text-gray-900 mb-6 mt-8 first:mt-0">{children}</h1>,
-                    h2: ({children}) => <h2 className="text-2xl font-bold text-gray-900 mb-4 mt-8">{children}</h2>,
-                    h3: ({children}) => <h3 className="text-xl font-bold text-gray-900 mb-3 mt-6">{children}</h3>,
-                    p: ({children}) => <p className="text-gray-700 mb-4 leading-relaxed">{children}</p>,
-                    ul: ({children}) => <ul className="list-disc list-inside mb-4 space-y-2 text-gray-700">{children}</ul>,
-                    ol: ({children}) => <ol className="list-decimal list-inside mb-4 space-y-2 text-gray-700">{children}</ol>,
-                    li: ({children}) => <li className="leading-relaxed">{children}</li>,
-                    blockquote: ({children}) => (
-                      <blockquote className="border-l-4 border-blue-500 pl-4 py-2 mb-4 bg-blue-50 italic text-gray-700">
-                        {children}
-                      </blockquote>
-                    ),
-                    code: ({children}) => (
-                      <code className="bg-gray-100 px-2 py-1 rounded text-sm font-mono text-gray-800">
-                        {children}
-                      </code>
-                    ),
-                    pre: ({children}) => (
-                      <pre className="bg-gray-900 text-gray-100 p-4 rounded-lg overflow-x-auto mb-4">
-                        {children}
-                      </pre>
-                    )
-                  }}
-                >
-                  {post.content}
-                </ReactMarkdown>
-              </div>
-
-              {/* Tags */}
-              <div className="mt-12 pt-8 border-t border-gray-200">
-                <h4 className="text-lg font-semibold text-gray-900 mb-4">Tags</h4>
-                <div className="flex flex-wrap gap-2">
-                  {post.meta_keywords.split(', ').map((keyword, index) => (
-                    <span 
-                      key={index} 
-                      className="inline-block bg-blue-100 text-blue-800 px-3 py-1 rounded-full text-sm font-medium"
-                    >
-                      {keyword}
-                    </span>
-                  ))}
-                </div>
-              </div>
-            </article>
-
-            {/* Sidebar */}
-            <aside className="lg:w-1/4">
-              <div className="sticky top-24 space-y-8">
-                {/* Share Section */}
-                <div className="bg-gray-50 p-6 rounded-lg">
-                  <h4 className="text-lg font-semibold text-gray-900 mb-4 flex items-center">
-                    <Share2 className="h-5 w-5 mr-2" />
-                    Share Article
-                  </h4>
-                  <div className="space-y-3">
-                    <button
-                      onClick={() => handleShare('facebook')}
-                      className="w-full flex items-center justify-center px-4 py-2 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition-colors"
-                    >
-                      <Facebook className="h-4 w-4 mr-2" />
-                      Facebook
-                    </button>
-                    <button
-                      onClick={() => handleShare('twitter')}
-                      className="w-full flex items-center justify-center px-4 py-2 bg-sky-500 text-white rounded-lg hover:bg-sky-600 transition-colors"
-                    >
-                      <Twitter className="h-4 w-4 mr-2" />
-                      Twitter
-                    </button>
-                    <button
-                      onClick={() => handleShare('linkedin')}
-                      className="w-full flex items-center justify-center px-4 py-2 bg-blue-700 text-white rounded-lg hover:bg-blue-800 transition-colors"
-                    >
-                      <Linkedin className="h-4 w-4 mr-2" />
-                      LinkedIn
-                    </button>
-                  </div>
-                </div>
-
-                {/* Article Info */}
-                <div className="bg-gray-50 p-6 rounded-lg">
-                  <h4 className="text-lg font-semibold text-gray-900 mb-4">Article Info</h4>
-                  <div className="space-y-3 text-sm">
-                    <div>
-                      <span className="font-medium text-gray-700">Published:</span>
-                      <p className="text-gray-600">{formatDate(post.created_at)}</p>
-                    </div>
-                    <div>
-                      <span className="font-medium text-gray-700">Last Updated:</span>
-                      <p className="text-gray-600">{formatDate(post.updated_at)}</p>
-                    </div>
-                    <div>
-                      <span className="font-medium text-gray-700">Reading Time:</span>
-                      <p className="text-gray-600">{Math.ceil(post.content.split(' ').length / 200)} min read</p>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </aside>
+      {/* Featured Image */}
+      <section className="section-enterprise bg-white">
+        <div className="container-enterprise">
+          <div className="max-w-4xl mx-auto">
+            <img
+              src={post.banner_url}
+              alt={post.title}
+              className="w-full h-96 object-cover rounded-2xl shadow-enterprise-lg"
+            />
           </div>
         </div>
-      </div>
+      </section>
+
+      {/* Content Section */}
+      <section className="section-enterprise gradient-secondary">
+        <div className="container-enterprise">
+          <div className="max-w-4xl mx-auto">
+            <div className="grid grid-cols-1 lg:grid-cols-4 gap-12">
+              {/* Main Content */}
+              <article className="lg:col-span-3">
+                <div className="card-enterprise p-10">
+                  <div className="prose prose-lg max-w-none">
+                    <ReactMarkdown 
+                      remarkPlugins={[remarkGfm]}
+                      components={{
+                        h1: ({children}) => <h1 className="text-3xl font-bold text-enterprise-primary mb-6 mt-8 first:mt-0">{children}</h1>,
+                        h2: ({children}) => <h2 className="text-2xl font-bold text-enterprise-primary mb-4 mt-8">{children}</h2>,
+                        h3: ({children}) => <h3 className="text-xl font-bold text-enterprise-primary mb-3 mt-6">{children}</h3>,
+                        p: ({children}) => <p className="text-enterprise-secondary mb-4 leading-relaxed">{children}</p>,
+                        ul: ({children}) => <ul className="list-disc list-inside mb-4 space-y-2 text-enterprise-secondary">{children}</ul>,
+                        ol: ({children}) => <ol className="list-decimal list-inside mb-4 space-y-2 text-enterprise-secondary">{children}</ol>,
+                        li: ({children}) => <li className="leading-relaxed">{children}</li>,
+                        blockquote: ({children}) => (
+                          <blockquote className="border-l-4 border-blue-500 pl-6 py-4 mb-6 bg-blue-50 italic text-enterprise-secondary rounded-r-lg">
+                            {children}
+                          </blockquote>
+                        ),
+                        code: ({children}) => (
+                          <code className="bg-gray-100 px-2 py-1 rounded text-sm font-mono text-gray-800">
+                            {children}
+                          </code>
+                        ),
+                        pre: ({children}) => (
+                          <pre className="bg-gray-900 text-gray-100 p-6 rounded-xl overflow-x-auto mb-6">
+                            {children}
+                          </pre>
+                        )
+                      }}
+                    >
+                      {post.content}
+                    </ReactMarkdown>
+                  </div>
+
+                  {/* Tags */}
+                  <div className="mt-12 pt-8 border-t border-gray-200">
+                    <h4 className="text-lg font-bold text-enterprise-primary mb-4">Related Topics</h4>
+                    <div className="flex flex-wrap gap-3">
+                      {post.meta_keywords.split(', ').map((keyword, index) => (
+                        <span 
+                          key={index} 
+                          className="inline-block bg-blue-100 text-blue-800 px-4 py-2 rounded-full text-sm font-medium hover:bg-blue-200 transition-colors cursor-pointer"
+                        >
+                          {keyword}
+                        </span>
+                      ))}
+                    </div>
+                  </div>
+                </div>
+              </article>
+
+              {/* Sidebar */}
+              <aside className="lg:col-span-1">
+                <div className="sticky top-24 space-y-6">
+                  {/* Share Section */}
+                  <div className="card-enterprise p-6">
+                    <h4 className="text-lg font-bold text-enterprise-primary mb-4 flex items-center">
+                      <Share2 className="h-5 w-5 mr-2" />
+                      Share Article
+                    </h4>
+                    <div className="space-y-3">
+                      <button
+                        onClick={() => handleShare('facebook')}
+                        className="w-full flex items-center justify-center px-4 py-3 bg-blue-600 text-white rounded-xl hover:bg-blue-700 transition-colors font-medium"
+                      >
+                        <Facebook className="h-4 w-4 mr-2" />
+                        Facebook
+                      </button>
+                      <button
+                        onClick={() => handleShare('twitter')}
+                        className="w-full flex items-center justify-center px-4 py-3 bg-sky-500 text-white rounded-xl hover:bg-sky-600 transition-colors font-medium"
+                      >
+                        <Twitter className="h-4 w-4 mr-2" />
+                        Twitter
+                      </button>
+                      <button
+                        onClick={() => handleShare('linkedin')}
+                        className="w-full flex items-center justify-center px-4 py-3 bg-blue-700 text-white rounded-xl hover:bg-blue-800 transition-colors font-medium"
+                      >
+                        <Linkedin className="h-4 w-4 mr-2" />
+                        LinkedIn
+                      </button>
+                    </div>
+                  </div>
+
+                  {/* Article Info */}
+                  <div className="card-enterprise p-6">
+                    <h4 className="text-lg font-bold text-enterprise-primary mb-4">Article Details</h4>
+                    <div className="space-y-4 text-sm">
+                      <div>
+                        <span className="font-semibold text-enterprise-primary">Published:</span>
+                        <p className="text-enterprise-secondary">{formatDate(post.created_at)}</p>
+                      </div>
+                      <div>
+                        <span className="font-semibold text-enterprise-primary">Last Updated:</span>
+                        <p className="text-enterprise-secondary">{formatDate(post.updated_at)}</p>
+                      </div>
+                      <div>
+                        <span className="font-semibold text-enterprise-primary">Reading Time:</span>
+                        <p className="text-enterprise-secondary">{Math.ceil(post.content.split(' ').length / 200)} minutes</p>
+                      </div>
+                      <div>
+                        <span className="font-semibold text-enterprise-primary">Word Count:</span>
+                        <p className="text-enterprise-secondary">{post.content.split(' ').length.toLocaleString()} words</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </aside>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* CTA Section */}
+      <section className="section-enterprise gradient-dark text-white">
+        <div className="container-enterprise text-center">
+          <h2 className="text-white mb-6">
+            Ready to Transform Your Business?
+          </h2>
+          <p className="text-blue-100 mb-12 max-w-3xl mx-auto text-xl">
+            Discover how Omniflow.id can help you implement the strategies and solutions discussed in this article.
+          </p>
+          <div className="flex flex-col sm:flex-row gap-6 justify-center">
+            <button className="btn-primary bg-white text-blue-700 hover:bg-blue-50">
+              Schedule a Consultation
+            </button>
+            <Link to="/blog" className="btn-outline border-white text-white hover:bg-white hover:text-blue-700">
+              Read More Articles
+            </Link>
+          </div>
+        </div>
+      </section>
     </div>
   );
 }

@@ -19,7 +19,7 @@ export default function Header() {
           <div className="hidden md:flex items-center space-x-8">
             <Link to="/" className="nav-link">Home</Link>
             <Link to="/modules/hris" className="nav-link">HRIS</Link>
-            <Link to="/blog" className="nav-link">Insights</Link>
+            <Link to="/blog" className="nav-link">Blog</Link>
             <Link to="/contact" className="nav-link">Contact</Link>
             <Link to="/contact" className="btn-primary ml-4">
               Get Started
@@ -39,7 +39,7 @@ export default function Header() {
             <div className="space-y-4">
               <Link to="/" className="block nav-link text-lg">Home</Link>
               <Link to="/modules/hris" className="block nav-link text-lg">HRIS</Link>
-              <Link to="/blog" className="block nav-link text-lg">Insights</Link>
+              <Link to="/blog" className="block nav-link text-lg">Blog</Link>
               <Link to="/contact" className="block nav-link text-lg">Contact</Link>
               <Link to="/contact" className="btn-primary w-full mt-4">
                 Get Started
