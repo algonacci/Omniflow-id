@@ -6,6 +6,7 @@ import HomePage from './pages/Home';
 import HRISPage from './pages/modules/HRIS';
 import BlogPage from './pages/blog';
 import BlogDetailPage from './pages/blog/[slug]';
+import ContactPage from './pages/Contact';
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
             <Route path="/modules/hris" element={<HRISPage />} />
             <Route path="/blog" element={<BlogPage />} />
             <Route path="/blog/:slug" element={<BlogDetailPage />} />
+            <Route path="/contact" element={<ContactPage />} />
           </Routes>
         </main>
         <Footer />
