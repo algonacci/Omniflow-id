@@ -1,4 +1,3 @@
-import React from 'react';
 import { useTranslation } from 'react-i18next';
 import { ArrowRight, CheckCircle, Users, Award, Shield } from 'lucide-react';
 

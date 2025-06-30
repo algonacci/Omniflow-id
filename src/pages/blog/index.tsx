@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import { useState, useEffect } from 'react';
 import { useTranslation } from 'react-i18next';
 import { BlogPost, BlogResponse } from '../../types/blog';
 import BlogCard from './components/BlogCard';

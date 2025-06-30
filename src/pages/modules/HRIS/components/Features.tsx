@@ -1,4 +1,3 @@
-import React from 'react';
 import { useTranslation } from 'react-i18next';
 import { 
   UserPlus, FileText, Calendar, BarChart, Clock, Shield, 
@@ -39,6 +38,9 @@ export default function Features() {
           {featureKeys.map((featureKey, index) => {
             const Icon = featureIcons[index];
             const color = featureColors[index];
+            const benefits = t(`hris.features.${featureKey}.benefits`, { returnObjects: true });
+            const benefitsArray = Array.isArray(benefits) ? benefits : [];
+            
             return (
               <div key={featureKey} className="card-feature group">
                 <div className={`inline-flex p-4 rounded-2xl bg-gradient-to-r ${color} mb-6 group-hover:scale-110 transition-transform duration-300`}>
@@ -51,7 +53,7 @@ export default function Features() {
                   {t(`hris.features.${featureKey}.description`)}
                 </p>
                 <ul className="space-y-2">
-                  {t(`hris.features.${featureKey}.benefits`, { returnObjects: true }).map((benefit: string, idx: number) => (
+                  {benefitsArray.map((benefit: string, idx: number) => (
                     <li key={idx} className="flex items-center text-sm text-enterprise-muted">
                       <CheckCircle className="h-4 w-4 text-green-500 mr-2 flex-shrink-0" />
                       {benefit}

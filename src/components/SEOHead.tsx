@@ -1,5 +1,5 @@
-import React from 'react';
 import { useTranslation } from 'react-i18next';
+import { useEffect } from 'react';
 
 interface SEOHeadProps {
   title?: string;
@@ -40,7 +40,7 @@ export default function SEOHead({
   const finalDescription = description || defaultDescription;
   const finalKeywords = keywords || defaultKeywords;
 
-  React.useEffect(() => {
+  useEffect(() => {
     // Update document title
     document.title = finalTitle;
 

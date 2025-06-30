@@ -1,4 +1,3 @@
-import React from 'react';
 import { useTranslation } from 'react-i18next';
 import { CheckCircle, TrendingUp, Shield, Zap, Globe, Award } from 'lucide-react';
 
@@ -57,7 +56,7 @@ export default function Advantages() {
         </div>
         
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-          {advantages.map((advantage, index) => (
+          {advantages.map((advantage) => (
             <div key={advantage.titleKey} className="card-enterprise p-8 group">
               <div className="flex items-start space-x-4">
                 <div className="flex-shrink-0 p-3 bg-gradient-to-r from-blue-500 to-blue-600 rounded-2xl group-hover:scale-110 transition-transform duration-300">

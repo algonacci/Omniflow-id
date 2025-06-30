@@ -1,4 +1,3 @@
-import React from 'react';
 import { useTranslation } from 'react-i18next';
 import HeroSection from './components/HeroSection';
 import Features from './components/Features';

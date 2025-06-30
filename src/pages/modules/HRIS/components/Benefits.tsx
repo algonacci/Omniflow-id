@@ -1,6 +1,5 @@
-import React from 'react';
 import { useTranslation } from 'react-i18next';
-import { TrendingUp, Clock, DollarSign, Shield, Users, Award } from 'lucide-react';
+import { TrendingUp, Clock, DollarSign, Shield, Award } from 'lucide-react';
 
 const benefitKeys = ['productivity', 'time', 'cost', 'compliance'];
 const benefitIcons = [TrendingUp, Clock, DollarSign, Shield];

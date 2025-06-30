@@ -1,4 +1,3 @@
-import React from 'react';
 import { useTranslation } from 'react-i18next';
 
 interface StructuredDataProps {
@@ -7,7 +6,7 @@ interface StructuredDataProps {
 }
 
 export default function StructuredData({ type = 'Organization', data = {} }: StructuredDataProps) {
-  const { t, i18n } = useTranslation();
+  const { t } = useTranslation();
 
   const getOrganizationData = () => ({
     "@context": "https://schema.org",
