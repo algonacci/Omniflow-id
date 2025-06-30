@@ -185,4 +185,8 @@
     }
   }
   
-  /* Enterprise Spacin
+  /* Enterprise Spacing */
+  .space-enterprise {
+    @apply space-y-8;
+  }
+}
