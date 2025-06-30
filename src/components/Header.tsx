@@ -1,8 +1,11 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import { useTranslation } from 'react-i18next';
 import { Menu, X, CircuitBoard } from 'lucide-react';
+import LanguageSwitcher from './LanguageSwitcher';
 
 export default function Header() {
+  const { t } = useTranslation();
   const [isMenuOpen, setIsMenuOpen] = React.useState(false);
 
   return (
@@ -17,12 +20,13 @@ export default function Header() {
           </Link>
           
           <div className="hidden md:flex items-center space-x-8">
-            <Link to="/" className="nav-link">Home</Link>
-            <Link to="/modules/hris" className="nav-link">HRIS</Link>
-            <Link to="/blog" className="nav-link">Blog</Link>
-            <Link to="/contact" className="nav-link">Contact</Link>
+            <Link to="/" className="nav-link">{t('common.home')}</Link>
+            <Link to="/modules/hris" className="nav-link">{t('navigation.hris')}</Link>
+            <Link to="/blog" className="nav-link">{t('common.blog')}</Link>
+            <Link to="/contact" className="nav-link">{t('common.contact')}</Link>
+            <LanguageSwitcher />
             <Link to="/contact" className="btn-primary ml-4">
-              Get Started
+              {t('common.getStarted')}
             </Link>
           </div>
 
@@ -37,12 +41,15 @@ export default function Header() {
         {isMenuOpen && (
           <div className="md:hidden mt-6 p-6 bg-white rounded-2xl shadow-enterprise-lg border border-gray-100">
             <div className="space-y-4">
-              <Link to="/" className="block nav-link text-lg">Home</Link>
-              <Link to="/modules/hris" className="block nav-link text-lg">HRIS</Link>
-              <Link to="/blog" className="block nav-link text-lg">Blog</Link>
-              <Link to="/contact" className="block nav-link text-lg">Contact</Link>
+              <Link to="/" className="block nav-link text-lg">{t('common.home')}</Link>
+              <Link to="/modules/hris" className="block nav-link text-lg">{t('navigation.hris')}</Link>
+              <Link to="/blog" className="block nav-link text-lg">{t('common.blog')}</Link>
+              <Link to="/contact" className="block nav-link text-lg">{t('common.contact')}</Link>
+              <div className="pt-4 border-t border-gray-200">
+                <LanguageSwitcher />
+              </div>
               <Link to="/contact" className="btn-primary w-full mt-4">
-                Get Started
+                {t('common.getStarted')}
               </Link>
             </div>
           </div>

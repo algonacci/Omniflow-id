@@ -1,7 +1,10 @@
 import React from 'react';
+import { useTranslation } from 'react-i18next';
 import { ArrowRight, Play, CheckCircle } from 'lucide-react';
 
 export default function Hero() {
+  const { t } = useTranslation();
+
   return (
     <section className="section-hero">
       <div className="container-enterprise">
@@ -9,41 +12,40 @@ export default function Hero() {
           <div className="space-y-8 animate-fade-in-left">
             <div className="inline-flex items-center px-4 py-2 bg-blue-100 text-blue-800 rounded-full text-sm font-semibold">
               <CheckCircle className="h-4 w-4 mr-2" />
-              Trusted by 10,000+ Businesses
+              {t('hero.trustedBy')}
             </div>
             
             <h1 className="text-enterprise-primary">
-              Transform Your Business with 
-              <span className="bg-gradient-to-r from-blue-600 to-indigo-700 bg-clip-text text-transparent"> Integrated ERP Solutions</span>
+              {t('hero.title')}
             </h1>
             
             <p className="text-xl text-enterprise-secondary max-w-2xl">
-              Omniflow.id delivers enterprise-grade business management tools designed to streamline operations, boost productivity, and accelerate growth across your entire organization.
+              {t('hero.subtitle')}
             </p>
             
             <div className="flex flex-col sm:flex-row gap-4">
               <a href="#contact" className="btn-primary group">
-                Start Your Journey
+                {t('hero.startJourney')}
                 <ArrowRight className="ml-2 h-5 w-5 group-hover:translate-x-1 transition-transform" />
               </a>
               <button className="btn-secondary group">
                 <Play className="mr-2 h-5 w-5" />
-                Watch Demo
+                {t('hero.watchDemo')}
               </button>
             </div>
             
             <div className="grid grid-cols-3 gap-8 pt-8 border-t border-gray-200">
               <div>
                 <div className="text-3xl font-bold text-blue-600">99.9%</div>
-                <div className="text-sm text-enterprise-muted">Uptime SLA</div>
+                <div className="text-sm text-enterprise-muted">{t('hero.stats.uptime')}</div>
               </div>
               <div>
                 <div className="text-3xl font-bold text-blue-600">10K+</div>
-                <div className="text-sm text-enterprise-muted">Active Users</div>
+                <div className="text-sm text-enterprise-muted">{t('hero.stats.users')}</div>
               </div>
               <div>
                 <div className="text-3xl font-bold text-blue-600">24/7</div>
-                <div className="text-sm text-enterprise-muted">Support</div>
+                <div className="text-sm text-enterprise-muted">{t('hero.stats.support')}</div>
               </div>
             </div>
           </div>
