@@ -8,7 +8,7 @@ import HRISPage from './pages/modules/HRIS';
 import BlogPage from './pages/blog';
 import BlogDetailPage from './pages/blog/[slug]';
 import ContactPage from './pages/Contact';
-import LanguageRedirect from './components/LanguageRedirect';
+import LanguageRedirect from './components/LanguageRedirect.tsx';
 
 function App() {
   const { i18n } = useTranslation();
