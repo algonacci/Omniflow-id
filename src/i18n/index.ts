@@ -34,7 +34,6 @@ i18n
     detection: {
       order: ['path', 'localStorage', 'navigator', 'htmlTag'],
       lookupFromPathIndex: 0,
-      checkWhitelist: true,
       caches: ['localStorage'],
       convertDetectedLanguage: (lng: string) => {
         // Handle path-based language detection
@@ -48,7 +47,7 @@ i18n
     
     // Whitelist supported languages
     supportedLngs: ['en', 'id', 'zh'],
-    nonExplicitSupportedLngs: true,
+    nonExplicitSupportedLngs: false,
     
     // Load namespace
     ns: ['translation'],
