@@ -41,7 +41,6 @@ export default function SEOHead({
   
   const baseUrl = getBaseUrl();
   const currentUrl = url || `${window.location.origin}${location.pathname}`;
-  const siteName = 'Omniflow.id';
   
   // Language-specific content
   const getLanguageSpecificContent = () => {
