@@ -472,6 +472,11 @@
   },
   "footer": {
     "description": "Transforming businesses worldwide with integrated ERP solutions. Join thousands of companies that trust us to streamline their operations and accelerate growth.",
+    "seo": {
+      "title": "Omniflow.id - Integrated ERP Solutions for Enterprise Success",
+      "description": "Transform your business with Omniflow.id's comprehensive ERP platform. Streamline operations, boost productivity, and accelerate growth with our enterprise-grade solutions trusted by 10,000+ businesses worldwide.",
+      "keywords": "ERP Software, HRIS, Business Management, Enterprise Solutions, Omniflow, Indonesia, Human Resources, Accounting Software, CRM System, Digital Transformation, Business Automation, Cloud ERP, Enterprise Software"
+    },
     "solutions": "Solutions",
     "company": "Company",
     "aboutUs": "About Us",

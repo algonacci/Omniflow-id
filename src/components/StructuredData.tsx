@@ -6,17 +6,43 @@ interface StructuredDataProps {
 }
 
 export default function StructuredData({ type = 'Organization', data = {} }: StructuredDataProps) {
-  const { t } = useTranslation();
+  const { t, i18n } = useTranslation();
+
+  // Language-specific content
+  const getLanguageSpecificContent = () => {
+    const content = {
+      en: {
+        companyName: 'Omniflow.id',
+        description: t('hero.subtitle'),
+        locale: 'en_US'
+      },
+      id: {
+        companyName: 'Omniflow.id',
+        description: 'Omniflow.id menghadirkan alat manajemen bisnis tingkat enterprise yang dirancang untuk menyederhanakan operasi, meningkatkan produktivitas, dan mempercepat pertumbuhan di seluruh organisasi Anda.',
+        locale: 'id_ID'
+      },
+      zh: {
+        companyName: 'Omniflow.id',
+        description: 'Omniflow.id提供企业级业务管理工具，旨在简化运营、提高生产力，并加速整个组织的增长。',
+        locale: 'zh_CN'
+      }
+    };
+
+    return content[i18n.language as keyof typeof content] || content.en;
+  };
+
+  const langContent = getLanguageSpecificContent();
 
   const getOrganizationData = () => ({
     "@context": "https://schema.org",
     "@type": "Organization",
-    "name": "Omniflow.id",
+    "name": langContent.companyName,
     "alternateName": "Omniflow",
-    "url": "https://omniflow.id",
+    "url": `${window.location.origin}/${i18n.language}`,
     "logo": "https://omniflow.id/logo.png",
-    "description": t('hero.subtitle'),
+    "description": langContent.description,
     "foundingDate": "2020",
+    "inLanguage": i18n.language,
     "founders": [
       {
         "@type": "Person",
@@ -36,7 +62,7 @@ export default function StructuredData({ type = 'Organization', data = {} }: Str
         "telephone": "+62-21-1234-5678",
         "contactType": "customer service",
         "email": "contact@omniflow.id",
-        "availableLanguage": ["English", "Indonesian", "Chinese"]
+        "availableLanguage": i18n.language === 'en' ? "English" : i18n.language === 'id' ? "Indonesian" : "Chinese"
       },
       {
         "@type": "ContactPoint",
@@ -83,38 +109,23 @@ export default function StructuredData({ type = 'Organization', data = {} }: Str
   const getWebSiteData = () => ({
     "@context": "https://schema.org",
     "@type": "WebSite",
-    "name": "Omniflow.id",
-    "url": "https://omniflow.id",
-    "description": t('hero.subtitle'),
+    "name": langContent.companyName,
+    "url": `${window.location.origin}/${i18n.language}`,
+    "description": langContent.description,
+    "inLanguage": i18n.language,
     "publisher": {
       "@type": "Organization",
-      "name": "Omniflow.id"
+      "name": langContent.companyName
     },
     "potentialAction": {
       "@type": "SearchAction",
       "target": {
         "@type": "EntryPoint",
-        "urlTemplate": "https://omniflow.id/search?q={search_term_string}"
+        "urlTemplate": `${window.location.origin}/${i18n.language}/search?q={search_term_string}`
       },
       "query-input": "required name=search_term_string"
     },
-    "inLanguage": [
-      {
-        "@type": "Language",
-        "name": "English",
-        "alternateName": "en"
-      },
-      {
-        "@type": "Language", 
-        "name": "Indonesian",
-        "alternateName": "id"
-      },
-      {
-        "@type": "Language",
-        "name": "Chinese",
-        "alternateName": "zh"
-      }
-    ],
+    "availableLanguage": ["en", "id", "zh"],
     ...data
   });
 
@@ -122,10 +133,11 @@ export default function StructuredData({ type = 'Organization', data = {} }: Str
     "@context": "https://schema.org",
     "@type": "SoftwareApplication",
     "name": "Omniflow ERP System",
-    "description": t('hero.subtitle'),
-    "url": "https://omniflow.id",
+    "description": langContent.description,
+    "url": `${window.location.origin}/${i18n.language}`,
     "applicationCategory": "BusinessApplication",
     "operatingSystem": "Web Browser",
+    "inLanguage": i18n.language,
     "offers": {
       "@type": "Offer",
       "price": "0",
@@ -141,7 +153,7 @@ export default function StructuredData({ type = 'Organization', data = {} }: Str
     },
     "author": {
       "@type": "Organization",
-      "name": "Omniflow.id"
+      "name": langContent.companyName
     },
     "datePublished": "2020-01-01",
     "dateModified": new Date().toISOString().split('T')[0],
@@ -159,10 +171,11 @@ export default function StructuredData({ type = 'Organization', data = {} }: Str
     "@context": "https://schema.org",
     "@type": "Service",
     "name": "Enterprise Resource Planning Solutions",
-    "description": t('hero.subtitle'),
+    "description": langContent.description,
+    "inLanguage": i18n.language,
     "provider": {
       "@type": "Organization",
-      "name": "Omniflow.id"
+      "name": langContent.companyName
     },
     "areaServed": {
       "@type": "Country",
@@ -217,15 +230,16 @@ export default function StructuredData({ type = 'Organization', data = {} }: Str
     "@context": "https://schema.org",
     "@type": "Article",
     "headline": data.title || "Enterprise Insights",
-    "description": data.description || t('blog.subtitle'),
+    "description": data.description || langContent.description,
     "image": data.image || "https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&q=80&w=1200",
+    "inLanguage": i18n.language,
     "author": {
       "@type": "Organization",
-      "name": "Omniflow.id"
+      "name": langContent.companyName
     },
     "publisher": {
       "@type": "Organization",
-      "name": "Omniflow.id",
+      "name": langContent.companyName,
       "logo": {
         "@type": "ImageObject",
         "url": "https://omniflow.id/logo.png"
