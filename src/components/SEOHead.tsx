@@ -31,17 +31,17 @@ export default function SEOHead({
 }: SEOHeadProps) {
   const { t, i18n } = useTranslation();
   const location = useLocation();
-  
+
   // Get base URL without language prefix
   const getBaseUrl = () => {
     const path = location.pathname;
     const langPrefix = path.match(/^\/(en|id|zh)/);
     return langPrefix ? path.replace(langPrefix[0], '') || '/' : path;
   };
-  
+
   const baseUrl = getBaseUrl();
   const currentUrl = url || `${window.location.origin}${location.pathname}`;
-  
+
   // Language-specific content
   const getLanguageSpecificContent = () => {
     const defaultContent = {
@@ -100,7 +100,7 @@ export default function SEOHead({
   // Language-specific Open Graph images
   const getLanguageSpecificImage = () => {
     const baseImageUrl = 'https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&q=80&w=1200';
-    
+
     // You can customize images per language if needed
     const languageImages = {
       en: baseImageUrl,
@@ -115,7 +115,7 @@ export default function SEOHead({
     // Update HTML lang and dir attributes
     document.documentElement.lang = i18n.language;
     document.documentElement.dir = langContent.direction;
-    
+
     // Update document title
     document.title = finalTitle;
 
@@ -123,7 +123,7 @@ export default function SEOHead({
     const updateMetaTag = (name: string, content: string, property?: boolean) => {
       const selector = property ? `meta[property="${name}"]` : `meta[name="${name}"]`;
       let meta = document.querySelector(selector) as HTMLMetaElement;
-      
+
       if (!meta) {
         meta = document.createElement('meta');
         if (property) {
@@ -170,17 +170,17 @@ export default function SEOHead({
     updateMetaTag('og:type', type, true);
     updateMetaTag('og:site_name', langContent.siteName, true);
     updateMetaTag('og:locale', langContent.locale, true);
-    
+
     // Add alternate locales
     const localeMap = {
       'en': 'en_US',
-      'id': 'id_ID', 
+      'id': 'id_ID',
       'zh': 'zh_CN'
     };
-    
+
     // Remove existing alternate locale tags
     document.querySelectorAll('meta[property="og:locale:alternate"]').forEach(meta => meta.remove());
-    
+
     // Add alternate locales
     Object.entries(localeMap).forEach(([lang, locale]) => {
       if (lang !== i18n.language) {
@@ -190,7 +190,7 @@ export default function SEOHead({
         document.head.appendChild(meta);
       }
     });
-    
+
     // Twitter Card tags with language-specific content
     updateMetaTag('twitter:card', 'summary_large_image');
     updateMetaTag('twitter:title', finalTitle);
@@ -206,10 +206,10 @@ export default function SEOHead({
       if (modifiedTime) updateMetaTag('article:modified_time', modifiedTime, true);
       if (finalAuthor) updateMetaTag('article:author', finalAuthor, true);
       if (section) updateMetaTag('article:section', section, true);
-      
+
       // Remove existing article tags
       document.querySelectorAll('meta[property="article:tag"]').forEach(meta => meta.remove());
-      
+
       // Add article tags
       tags.forEach(tag => {
         const meta = document.createElement('meta');
@@ -246,7 +246,7 @@ export default function SEOHead({
     if (existingJsonLd) {
       existingJsonLd.remove();
     }
-    
+
     const multilingualJsonLd = document.createElement('script');
     multilingualJsonLd.type = 'application/ld+json';
     multilingualJsonLd.setAttribute('data-seo', 'multilingual');
@@ -284,7 +284,7 @@ export default function SEOHead({
     if (existingOrgJsonLd) {
       existingOrgJsonLd.remove();
     }
-    
+
     const orgJsonLd = document.createElement('script');
     orgJsonLd.type = 'application/ld+json';
     orgJsonLd.setAttribute('data-seo', 'organization');
@@ -294,7 +294,7 @@ export default function SEOHead({
       "name": langContent.companyName,
       "alternateName": "Omniflow",
       "url": `${window.location.origin}/${i18n.language}`,
-      "logo": `${window.location.origin}/logo.svg`,
+      "logo": `${window.location.origin}/logo-blue.svg`,
       "description": finalDescription,
       "foundingDate": "2020",
       "address": {

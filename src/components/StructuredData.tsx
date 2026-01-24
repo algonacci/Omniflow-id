@@ -39,7 +39,7 @@ export default function StructuredData({ type = 'Organization', data = {} }: Str
     "name": langContent.companyName,
     "alternateName": "Omniflow",
     "url": `${window.location.origin}/${i18n.language}`,
-    "logo": "https://omniflow.id/logo.png",
+    "logo": `${window.location.origin}/logo-blue.svg`,
     "description": langContent.description,
     "foundingDate": "2020",
     "inLanguage": i18n.language,
@@ -196,7 +196,7 @@ export default function StructuredData({ type = 'Organization', data = {} }: Str
         {
           "@type": "Offer",
           "itemOffered": {
-            "@type": "Service", 
+            "@type": "Service",
             "name": "Business Process Automation",
             "description": "Automate your business processes"
           }
@@ -242,7 +242,7 @@ export default function StructuredData({ type = 'Organization', data = {} }: Str
       "name": langContent.companyName,
       "logo": {
         "@type": "ImageObject",
-        "url": "https://omniflow.id/logo.png"
+        "url": `${window.location.origin}/logo-blue.svg`
       }
     },
     "datePublished": data.publishedTime || new Date().toISOString(),

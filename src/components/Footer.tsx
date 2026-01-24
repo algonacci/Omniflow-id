@@ -1,6 +1,6 @@
 import { useTranslation } from 'react-i18next';
 import { useLocation } from 'react-router-dom';
-import { CircuitBoard, Facebook, Twitter, Linkedin, Instagram, Mail, Phone, MapPin } from 'lucide-react';
+import { Facebook, Twitter, Linkedin, Instagram, Mail, Phone, MapPin } from 'lucide-react';
 
 export default function Footer() {
   const { t } = useTranslation();
@@ -20,11 +20,12 @@ export default function Footer() {
       <div className="container-enterprise py-16">
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12">
           <div className="lg:col-span-2">
-            <div className="flex items-center space-x-3 mb-6">
-              <div className="p-2 bg-gradient-to-br from-blue-500 to-indigo-600 rounded-xl">
-                <CircuitBoard className="h-8 w-8 text-white" />
-              </div>
-              <span className="text-2xl font-bold">Omniflow.id</span>
+            <div className="flex items-center mb-6">
+              <img
+                src="/logo-blue.svg"
+                alt="Omniflow.id Logo"
+                className="h-20 w-auto brightness-0 invert"
+              />
             </div>
             <p className="text-blue-100 mb-6 max-w-md leading-relaxed">
               {t('footer.description')}
@@ -44,7 +45,7 @@ export default function Footer() {
               </div>
             </div>
           </div>
-          
+
           <div>
             <h3 className="text-lg font-semibold mb-6">{t('footer.solutions')}</h3>
             <ul className="space-y-3">
@@ -55,7 +56,7 @@ export default function Footer() {
               <li><a href={`${langPrefix}#modules`} className="text-blue-100 hover:text-white transition-colors">{t('modules.ai.name')}</a></li>
             </ul>
           </div>
-          
+
           <div>
             <h3 className="text-lg font-semibold mb-6">{t('footer.company')}</h3>
             <ul className="space-y-3">
@@ -67,7 +68,7 @@ export default function Footer() {
             </ul>
           </div>
         </div>
-        
+
         <div className="border-t border-blue-800 mt-12 pt-8">
           <div className="flex flex-col md:flex-row items-center justify-between">
             <div className="flex items-center space-x-6 mb-4 md:mb-0">
@@ -84,14 +85,14 @@ export default function Footer() {
                 <Instagram className="h-6 w-6" />
               </a>
             </div>
-            
+
             <div className="flex items-center space-x-6 text-sm text-blue-100">
               <a href="/privacy" className="hover:text-white transition-colors">{t('footer.privacy')}</a>
               <a href="/terms" className="hover:text-white transition-colors">{t('footer.terms')}</a>
               <a href="/cookies" className="hover:text-white transition-colors">{t('footer.cookies')}</a>
             </div>
           </div>
-          
+
           <div className="text-center mt-8 pt-8 border-t border-blue-800">
             <p className="text-blue-100">
               &copy; {new Date().getFullYear()} Omniflow.id. {t('footer.copyright')}
