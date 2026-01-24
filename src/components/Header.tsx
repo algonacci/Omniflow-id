@@ -26,7 +26,7 @@ export default function Header() {
             <img
               src="/logo-blue.svg"
               alt="Omniflow.id Logo"
-              className="h-20 w-auto transition-transform duration-300 group-hover:scale-105"
+              className="h-12 w-auto transition-transform duration-300 group-hover:scale-105"
             />
           </Link>
 

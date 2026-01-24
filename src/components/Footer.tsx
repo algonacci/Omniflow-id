@@ -24,7 +24,7 @@ export default function Footer() {
               <img
                 src="/logo-blue.svg"
                 alt="Omniflow.id Logo"
-                className="h-20 w-auto brightness-0 invert"
+                className="h-12 w-auto brightness-0 invert"
               />
             </div>
             <p className="text-blue-100 mb-6 max-w-md leading-relaxed">
