@@ -30,6 +30,8 @@
 		"modules": "模块",
 		"hris": "人力资源",
 		"ecommerce": "E-Commerce",
+		"xrm": "XRM",
+		"accounting": "会计",
 		"insights": "洞察",
 		"resources": "资源",
 		"support": "支持",
@@ -539,6 +541,164 @@
 		"cta": {
 			"title": "准备开始？",
 			"subtitle": "今天迁移到Omniflow电商平台，体验差异。我们的平台与Omniflow ERP系统无缝集成，实现卓越的业务管理。",
+			"getStarted": "免费开始",
+			"scheduleDemo": "安排演示"
+		}
+	},
+	"xrm": {
+		"hero": {
+			"badge": "扩展关系管理",
+			"title": "XRM - 扩展关系管理",
+			"subtitle": "先进的CRM++解决方案，具有全面的用户管理、基于角色的访问控制、活动记录和企业级安全功能，适用于现代业务运营。"
+		},
+		"features": {
+			"title": "全面的XRM功能",
+			"subtitle": "企业级关系管理，具有先进的安全、性能优化和灵活的访问控制。",
+			"mobileApp": {
+				"title": "移动应用程序",
+				"description": "适用于iOS和Android的原生Flutter移动应用程序。随时随地访问您的XRM，在移动设备上获得完整的功能支持。"
+			},
+			"users": {
+				"title": "用户管理",
+				"description": "完整的用户帐户管理，具有基于角色的访问控制、帐户状态控制和批量用户操作。"
+			},
+			"rbac": {
+				"title": "基于角色的访问控制",
+				"description": "灵活的RBAC系统，具有细粒度权限、用户特定覆盖和动态菜单可见性。"
+			},
+			"activityLogs": {
+				"title": "活动记录",
+				"description": "全面的审计跟踪，具有数据更改跟踪、设备指纹识别和敏感数据屏蔽。"
+			},
+			"twofa": {
+				"title": "双因素身份验证",
+				"description": "企业级2FA，具有电子邮件OTP、滑动会话超时和自动会话管理。"
+			},
+			"caching": {
+				"title": "Redis缓存",
+				"description": "高性能缓存，具有自动回退、智能失效和实时性能指标。"
+			},
+			"queue": {
+				"title": "作业队列系统",
+				"description": "由RabbitMQ驱动的作业队列，具有断路器模式、死信队列和全面监控。"
+			}
+		},
+		"screenshots": {
+			"badge": "平台概述",
+			"title": "查看XRM实际应用",
+			"subtitle": "体验我们为所有设备上的管理员和用户设计的直观界面的强大功能。"
+		},
+		"benefits": {
+			"badge": "为什么选择XRM？",
+			"title": "平台优势",
+			"subtitle": "通过Omniflow XRM的卓越功能转型您的关系管理。",
+			"security": {
+				"title": "企业安全",
+				"description": "多层安全，包括2FA、基于角色的访问控制和全面的审计跟踪。"
+			},
+			"scalable": {
+				"title": "高度可扩展",
+				"description": "专为增长而设计，具有Redis缓存和高效的数据库连接池。"
+			},
+			"performance": {
+				"title": "优化性能",
+				"description": "Redis缓存、作业队列处理和自动回退确保亚毫秒级响应时间。"
+			},
+			"flexible": {
+				"title": "灵活权限",
+				"description": "用户特定的权限覆盖允许为您的组织定制细粒度访问控制。"
+			}
+		},
+		"testimonials": {
+			"badge": "我们的客户",
+			"title": "他们怎么说",
+			"subtitle": "知名企业选择Omniflow XRM来管理他们的关系运营。加入他们，看看我们的平台如何帮助您的业务转型。",
+			"joinSuccess": {
+				"title": "准备开始？",
+				"description": "加入数千家已通过Omniflow转型其XRM运营的公司。安排演示，看看我们的平台如何帮助您的业务。"
+			},
+			"scheduleDemo": "安排演示"
+		},
+		"cta": {
+			"title": "准备开始？",
+			"subtitle": "今天迁移到Omniflow XRM，体验差异。我们的平台与Omniflow ERP系统无缝集成，实现卓越的业务管理。",
+			"getStarted": "免费开始",
+			"scheduleDemo": "安排演示"
+		}
+	},
+	"accounting": {
+		"hero": {
+			"badge": "会计系统",
+			"title": "完整会计与财务管理",
+			"subtitle": "通过综合会计软件简化您的财务运营。在一个集成平台中管理总账、应付/应收账款、开票和财务报告。"
+		},
+		"features": {
+			"title": "全面的会计功能",
+			"subtitle": "企业级财务管理，完全控制您的会计运营。",
+			"generalLedger": {
+				"title": "总账",
+				"description": "完整的总账管理，包括日记账分录、账户对账和多币种支持。"
+			},
+			"chartOfAccounts": {
+				"title": "科目表",
+				"description": "灵活的科目表，具有层次结构、账户类型和自动账户代码生成。"
+			},
+			"accountsPayable": {
+				"title": "应付账款",
+				"description": "供应商管理、采购订单、付款处理和账龄报告。"
+			},
+			"accountsReceivable": {
+				"title": "应收账款",
+				"description": "客户管理、开票、付款跟踪和催收管理。"
+			},
+			"invoicing": {
+				"title": "开票与账单",
+				"description": "使用模板、循环开票和自动付款提醒创建专业发票。"
+			},
+			"reports": {
+				"title": "财务报告",
+				"description": "资产负债表、损益表、现金流量表、试算平衡表和自定义财务报告。"
+			}
+		},
+		"screenshots": {
+			"badge": "平台概述",
+			"title": "查看会计实际应用",
+			"subtitle": "体验我们为财务专业人士设计的直观会计界面的强大功能。"
+		},
+		"benefits": {
+			"badge": "为什么选择会计？",
+			"title": "平台优势",
+			"subtitle": "通过Omniflow会计的卓越功能转型您的财务管理。",
+			"accuracy": {
+				"title": "财务准确性",
+				"description": "自动计算和对账确保无错误的财务记录。"
+			},
+			"compliance": {
+				"title": "法规合规",
+				"description": "内置控制和审计跟踪，确保符合会计标准。"
+			},
+			"automation": {
+				"title": "流程自动化",
+				"description": "自动化循环分录、开票和对账以节省时间。"
+			},
+			"insights": {
+				"title": "实时洞察",
+				"description": "即时访问财务数据和可定制的报告，以支持更好的决策。"
+			}
+		},
+		"testimonials": {
+			"badge": "我们的客户",
+			"title": "他们怎么说",
+			"subtitle": "知名企业选择Omniflow会计来管理他们的财务运营。",
+			"joinSuccess": {
+				"title": "准备开始？",
+				"description": "加入数千家已通过Omniflow转型其会计运营的公司。安排演示，看看我们的平台如何帮助您的业务。"
+			},
+			"scheduleDemo": "安排演示"
+		},
+		"cta": {
+			"title": "准备开始？",
+			"subtitle": "今天迁移到Omniflow会计，体验差异。我们的平台与Omniflow ERP系统无缝集成，实现卓越的业务管理。",
 			"getStarted": "免费开始",
 			"scheduleDemo": "安排演示"
 		}

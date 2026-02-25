@@ -30,6 +30,8 @@
 		"modules": "Modules",
 		"hris": "HRIS",
 		"ecommerce": "E-Commerce",
+		"xrm": "XRM",
+		"accounting": "Accounting",
 		"insights": "Insights",
 		"resources": "Resources",
 		"support": "Support",
@@ -574,6 +576,164 @@
 		"cta": {
 			"title": "Ready to Start?",
 			"subtitle": "Migrate to Omniflow E-Commerce today and experience the difference. Our platform integrates seamlessly with Omniflow ERP system for superior business management.",
+			"getStarted": "Start Free",
+			"scheduleDemo": "Schedule Demo"
+		}
+	},
+	"xrm": {
+		"hero": {
+			"badge": "Extended Relationship Management",
+			"title": "XRM - Extended Relationship Management",
+			"subtitle": "Advanced CRM++ solution with comprehensive user management, role-based access control, activity logging, and enterprise-grade security features for modern business operations."
+		},
+		"features": {
+			"title": "Comprehensive XRM Features",
+			"subtitle": "Enterprise-grade relationship management with advanced security, performance optimization, and flexible access control.",
+			"mobileApp": {
+				"title": "Mobile App",
+				"description": "Native Flutter mobile application for iOS and Android. Access your XRM anywhere, anytime with full feature support on mobile devices."
+			},
+			"users": {
+				"title": "User Management",
+				"description": "Complete user account management with role-based access control, account status control, and bulk user operations."
+			},
+			"rbac": {
+				"title": "Role-Based Access Control",
+				"description": "Flexible RBAC system with granular permissions, user-specific overrides, and dynamic menu visibility."
+			},
+			"activityLogs": {
+				"title": "Activity Logging",
+				"description": "Comprehensive audit trail with data change tracking, device fingerprinting, and sensitive data masking."
+			},
+			"twofa": {
+				"title": "Two-Factor Authentication",
+				"description": "Enterprise-grade 2FA with email OTP, sliding session timeout, and automatic session management."
+			},
+			"caching": {
+				"title": "Redis Caching",
+				"description": "High-performance caching with automatic fallback, smart invalidation, and real-time performance metrics."
+			},
+			"queue": {
+				"title": "Job Queue System",
+				"description": "RabbitMQ-powered job queue with circuit breaker pattern, dead letter queue, and comprehensive monitoring."
+			}
+		},
+		"screenshots": {
+			"badge": "Platform Overview",
+			"title": "See XRM in Action",
+			"subtitle": "Experience the power of our intuitive interface designed for administrators and users across all devices."
+		},
+		"benefits": {
+			"badge": "Why XRM?",
+			"title": "Platform Advantages",
+			"subtitle": "Transform your relationship management with superior features of Omniflow XRM.",
+			"security": {
+				"title": "Enterprise Security",
+				"description": "Multi-layer security with 2FA, role-based access control, and comprehensive audit trails."
+			},
+			"scalable": {
+				"title": "Highly Scalable",
+				"description": "Designed for growth with Redis caching and efficient database connection pooling."
+			},
+			"performance": {
+				"title": "Optimized Performance",
+				"description": "Redis caching, job queue processing, and automatic fallback ensure sub-millisecond response times."
+			},
+			"flexible": {
+				"title": "Flexible Permissions",
+				"description": "User-specific permission overrides allow granular access control tailored to your organization."
+			}
+		},
+		"testimonials": {
+			"badge": "Our Clients",
+			"title": "What They Say",
+			"subtitle": "Trusted businesses have chosen Omniflow XRM to manage their relationship operations. Join them and see how our platform can help transform your business.",
+			"joinSuccess": {
+				"title": "Ready to Start?",
+				"description": "Join thousands of companies that have transformed their XRM operations with Omniflow. Schedule a demo to see how our platform can help your business."
+			},
+			"scheduleDemo": "Schedule Demo"
+		},
+		"cta": {
+			"title": "Ready to Start?",
+			"subtitle": "Migrate to Omniflow XRM today and experience the difference. Our platform integrates seamlessly with Omniflow ERP system for superior business management.",
+			"getStarted": "Start Free",
+			"scheduleDemo": "Schedule Demo"
+		}
+	},
+	"accounting": {
+		"hero": {
+			"badge": "Accounting System",
+			"title": "Complete Accounting & Financial Management",
+			"subtitle": "Streamline your financial operations with comprehensive accounting software. Manage general ledger, accounts payable/receivable, invoicing, and financial reporting in one integrated platform."
+		},
+		"features": {
+			"title": "Comprehensive Accounting Features",
+			"subtitle": "Enterprise-grade financial management with complete control over your accounting operations.",
+			"generalLedger": {
+				"title": "General Ledger",
+				"description": "Complete ledger management with journal entries, account reconciliation, and multi-currency support."
+			},
+			"chartOfAccounts": {
+				"title": "Chart of Accounts",
+				"description": "Flexible chart of accounts with hierarchy, account types, and automatic account code generation."
+			},
+			"accountsPayable": {
+				"title": "Accounts Payable",
+				"description": "Vendor management, purchase orders, payment processing, and aging reports."
+			},
+			"accountsReceivable": {
+				"title": "Accounts Receivable",
+				"description": "Customer management, invoicing, payment tracking, and collection management."
+			},
+			"invoicing": {
+				"title": "Invoicing & Billing",
+				"description": "Professional invoice creation with templates, recurring invoices, and automatic payment reminders."
+			},
+			"reports": {
+				"title": "Financial Reports",
+				"description": "Balance sheet, income statement, cash flow, trial balance, and custom financial reports."
+			}
+		},
+		"screenshots": {
+			"badge": "Platform Overview",
+			"title": "See Accounting in Action",
+			"subtitle": "Experience the power of our intuitive accounting interface designed for finance professionals."
+		},
+		"benefits": {
+			"badge": "Why Accounting?",
+			"title": "Platform Advantages",
+			"subtitle": "Transform your financial management with superior features of Omniflow Accounting.",
+			"accuracy": {
+				"title": "Financial Accuracy",
+				"description": "Automated calculations and reconciliation ensure error-free financial records."
+			},
+			"compliance": {
+				"title": "Regulatory Compliance",
+				"description": "Built-in controls and audit trails to ensure compliance with accounting standards."
+			},
+			"automation": {
+				"title": "Process Automation",
+				"description": "Automate recurring entries, invoicing, and reconciliation to save time."
+			},
+			"insights": {
+				"title": "Real-time Insights",
+				"description": "Instant access to financial data and customizable reports for better decision-making."
+			}
+		},
+		"testimonials": {
+			"badge": "Our Clients",
+			"title": "What They Say",
+			"subtitle": "Trusted businesses have chosen Omniflow Accounting to manage their financial operations. Join them and see how our platform can help transform your business.",
+			"joinSuccess": {
+				"title": "Ready to Start?",
+				"description": "Join thousands of companies that have transformed their accounting operations with Omniflow. Schedule a demo to see how our platform can help your business."
+			},
+			"scheduleDemo": "Schedule Demo"
+		},
+		"cta": {
+			"title": "Ready to Start?",
+			"subtitle": "Migrate to Omniflow Accounting today and experience the difference. Our platform integrates seamlessly with Omniflow ERP system for superior business management.",
 			"getStarted": "Start Free",
 			"scheduleDemo": "Schedule Demo"
 		}

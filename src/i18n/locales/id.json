@@ -30,6 +30,8 @@
 		"modules": "Modul",
 		"hris": "HRIS",
 		"ecommerce": "E-Commerce",
+		"xrm": "XRM",
+		"accounting": "Akuntansi",
 		"insights": "Wawasan",
 		"resources": "Sumber Daya",
 		"support": "Dukungan",
@@ -566,6 +568,164 @@
 		"cta": {
 			"title": "Siap untuk Memulai?",
 			"subtitle": "Migrasikan ke Omniflow E-Commerce hari ini dan rasakan perbedaannya. Platform kami terintegrasi dengan sistem ERP Omniflow untuk manajemen bisnis yang lebih baik.",
+			"getStarted": "Mulai Gratis",
+			"scheduleDemo": "Jadwalkan Demo"
+		}
+	},
+	"xrm": {
+		"hero": {
+			"badge": "Extended Relationship Management",
+			"title": "XRM - Extended Relationship Management",
+			"subtitle": "Solusi CRM++ canggih dengan manajemen pengguna komprehensif, kontrol akses berbasis peran, pencatatan aktivitas, dan fitur keamanan tingkat enterprise untuk operasi bisnis modern."
+		},
+		"features": {
+			"title": "Fitur XRM Komprehensif",
+			"subtitle": "Manajemen hubungan tingkat enterprise dengan keamanan canggih, optimasi performa, dan kontrol akses fleksibel.",
+			"mobileApp": {
+				"title": "Aplikasi Mobile",
+				"description": "Aplikasi mobile native Flutter untuk iOS dan Android. Akses XRM Anda di mana saja, kapan saja dengan dukungan fitur lengkap di perangkat mobile."
+			},
+			"users": {
+				"title": "Manajemen Pengguna",
+				"description": "Manajemen akun pengguna lengkap dengan kontrol akses berbasis peran, kontrol status akun, dan operasi pengguna massal."
+			},
+			"rbac": {
+				"title": "Role-Based Access Control",
+				"description": "Sistem RBAC fleksibel dengan izin granular, override spesifik pengguna, dan visibilitas menu dinamis."
+			},
+			"activityLogs": {
+				"title": "Pencatatan Aktivitas",
+				"description": "Jejak audit komprehensif dengan pelacakan perubahan data, fingerprinting perangkat, dan masking data sensitif."
+			},
+			"twofa": {
+				"title": "Two-Factor Authentication",
+				"description": "2FA tingkat enterprise dengan OTP email, timeout sesi geser, dan manajemen sesi otomatis."
+			},
+			"caching": {
+				"title": "Redis Caching",
+				"description": "Caching performa tinggi dengan fallback otomatis, invalidasi cerdas, dan metrik performa real-time."
+			},
+			"queue": {
+				"title": "Job Queue System",
+				"description": "Job queue bertenaga RabbitMQ dengan pola circuit breaker, dead letter queue, dan pemantauan komprehensif."
+			}
+		},
+		"screenshots": {
+			"badge": "Tinjauan Platform",
+			"title": "Lihat XRM Beraksi",
+			"subtitle": "Rasakan kekuatan antarmuka intuitif kami yang dirancang untuk administrator dan pengguna di semua perangkat."
+		},
+		"benefits": {
+			"badge": "Kenapa XRM?",
+			"title": "Keunggulan Platform",
+			"subtitle": "Transformasi manajemen hubungan Anda dengan fitur-fitur unggulan dari Omniflow XRM.",
+			"security": {
+				"title": "Keamanan Enterprise",
+				"description": "Keamanan berlapis dengan 2FA, kontrol akses berbasis peran, dan jejak audit komprehensif."
+			},
+			"scalable": {
+				"title": "Sangat Skalabel",
+				"description": "Dirancang untuk pertumbuhan dengan Redis caching dan pooling koneksi database yang efisien."
+			},
+			"performance": {
+				"title": "Performa Teroptimasi",
+				"description": "Redis caching, pemrosesan job queue, dan fallback otomatis memastikan waktu respons sub-milidetik."
+			},
+			"flexible": {
+				"title": "Izin Fleksibel",
+				"description": "Override izin spesifik pengguna memungkinkan kontrol akses granular yang disesuaikan dengan organisasi Anda."
+			}
+		},
+		"testimonials": {
+			"badge": "Klien Kami",
+			"title": "Apa Kata Mereka",
+			"subtitle": "Ribuan bisnis terkemuka telah mempercayai Omniflow XRM untuk mengelola operasi hubungan mereka.",
+			"joinSuccess": {
+				"title": "Siap Memulai?",
+				"description": "Bergabunglah dengan ribuan perusahaan yang telah mentransformasi operasi XRM mereka dengan Omniflow. Jadwalkan demo untuk melihat bagaimana platform kami dapat membantu bisnis Anda."
+			},
+			"scheduleDemo": "Jadwalkan Demo"
+		},
+		"cta": {
+			"title": "Siap untuk Memulai?",
+			"subtitle": "Migrasikan ke Omniflow XRM hari ini dan rasakan perbedaannya. Platform kami terintegrasi dengan sistem ERP Omniflow untuk manajemen bisnis yang lebih baik.",
+			"getStarted": "Mulai Gratis",
+			"scheduleDemo": "Jadwalkan Demo"
+		}
+	},
+	"accounting": {
+		"hero": {
+			"badge": "Sistem Akuntansi",
+			"title": "Akuntansi & Manajemen Keuangan Lengkap",
+			"subtitle": "Sederhanakan operasi keuangan Anda dengan perangkat lunak akuntansi komprehensif. Kelola buku besar, akun hutang/piutang, penagihan, dan pelaporan keuangan dalam satu platform terintegrasi."
+		},
+		"features": {
+			"title": "Fitur Akuntansi Komprehensif",
+			"subtitle": "Manajemen keuangan tingkat enterprise dengan kontrol penuh atas operasi akuntansi Anda.",
+			"generalLedger": {
+				"title": "Buku Besar",
+				"description": "Manajemen buku besar lengkap dengan jurnal, rekonsiliasi akun, dan dukungan multi-mata uang."
+			},
+			"chartOfAccounts": {
+				"title": "Bagan Akun",
+				"description": "Bagan akun fleksibel dengan hierarki, tipe akun, dan pembuatan kode akun otomatis."
+			},
+			"accountsPayable": {
+				"title": "Akun Hutang",
+				"description": "Manajemen vendor, purchase order, pemrosesan pembayaran, dan laporan umur piutang."
+			},
+			"accountsReceivable": {
+				"title": "Akun Piutang",
+				"description": "Manajemen pelanggan, penagihan, pelacakan pembayaran, dan manajemen penagihan."
+			},
+			"invoicing": {
+				"title": "Penagihan & Billing",
+				"description": "Pembuatan invoice profesional dengan template, invoice berulang, dan pengingat pembayaran otomatis."
+			},
+			"reports": {
+				"title": "Laporan Keuangan",
+				"description": "Neraca, laporan laba rugi, arus kas, neraca saldo, dan laporan keuangan kustom."
+			}
+		},
+		"screenshots": {
+			"badge": "Tinjauan Platform",
+			"title": "Lihat Akuntansi Beraksi",
+			"subtitle": "Rasakan kekuatan antarmuka akuntansi intuitif kami yang dirancang untuk profesional keuangan."
+		},
+		"benefits": {
+			"badge": "Kenapa Akuntansi?",
+			"title": "Keunggulan Platform",
+			"subtitle": "Transformasi manajemen keuangan Anda dengan fitur-fitur unggulan dari Omniflow Akuntansi.",
+			"accuracy": {
+				"title": "Akurasi Keuangan",
+				"description": "Perhitungan dan rekonsiliasi otomatis memastikan catatan keuangan tanpa kesalahan."
+			},
+			"compliance": {
+				"title": "Kepatuhan Regulasi",
+				"description": "Kontrol bawaan dan jejak audit untuk memastikan kepatuhan dengan standar akuntansi."
+			},
+			"automation": {
+				"title": "Otomasi Proses",
+				"description": "Otomatiskan entri berulang, penagihan, dan rekonsiliasi untuk menghemat waktu."
+			},
+			"insights": {
+				"title": "Wawasan Real-time",
+				"description": "Akses instan ke data keuangan dan laporan yang dapat disesuaikan untuk pengambilan keputusan yang lebih baik."
+			}
+		},
+		"testimonials": {
+			"badge": "Klien Kami",
+			"title": "Apa Kata Mereka",
+			"subtitle": "Ribuan bisnis terkemuka telah mempercayai Omniflow Akuntansi untuk mengelola operasi keuangan mereka.",
+			"joinSuccess": {
+				"title": "Siap Memulai?",
+				"description": "Bergabunglah dengan ribuan perusahaan yang telah mentransformasi operasi akuntansi mereka dengan Omniflow. Jadwalkan demo untuk melihat bagaimana platform kami dapat membantu bisnis Anda."
+			},
+			"scheduleDemo": "Jadwalkan Demo"
+		},
+		"cta": {
+			"title": "Siap untuk Memulai?",
+			"subtitle": "Migrasikan ke Omniflow Akuntansi hari ini dan rasakan perbedaannya. Platform kami terintegrasi dengan sistem ERP Omniflow untuk manajemen bisnis yang lebih baik.",
 			"getStarted": "Mulai Gratis",
 			"scheduleDemo": "Jadwalkan Demo"
 		}

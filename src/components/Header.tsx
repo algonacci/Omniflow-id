@@ -56,6 +56,18 @@ export default function Header() {
 									>
 										{t("navigation.ecommerce")}
 									</Link>
+									<Link
+										to={`${langPrefix}/modules/xrm`}
+										className="block px-4 py-2 text-slate-700 hover:bg-blue-50 hover:text-blue-700 transition-colors"
+									>
+										{t("navigation.xrm")}
+									</Link>
+									<Link
+										to={`${langPrefix}/modules/accounting`}
+										className="block px-4 py-2 text-slate-700 hover:bg-blue-50 hover:text-blue-700 transition-colors"
+									>
+										{t("navigation.accounting")}
+									</Link>
 								</div>
 							</div>
 						</div>
@@ -105,6 +117,18 @@ export default function Header() {
 										className="block nav-link text-lg"
 									>
 										{t("navigation.ecommerce")}
+									</Link>
+									<Link
+										to={`${langPrefix}/modules/xrm`}
+										className="block nav-link text-lg"
+									>
+										{t("navigation.xrm")}
+									</Link>
+									<Link
+										to={`${langPrefix}/modules/accounting`}
+										className="block nav-link text-lg"
+									>
+										{t("navigation.accounting")}
 									</Link>
 								</div>
 							</div>

@@ -15,6 +15,8 @@ import ContactPage from "./pages/Contact";
 import HomePage from "./pages/Home";
 import HRISPage from "./pages/modules/HRIS";
 import CommercePage from "./pages/modules/Commerce/index.tsx";
+import XRMPage from "./pages/modules/XRM/index.tsx";
+import AccountingPage from "./pages/modules/Accounting/index.tsx";
 
 function App() {
 	const { i18n } = useTranslation();
@@ -44,6 +46,8 @@ function App() {
 							path="/en/modules/commerce"
 							element={<Navigate to="/en/modules/ecommerce" replace />}
 						/>
+						<Route path="/en/modules/xrm" element={<XRMPage />} />
+						<Route path="/en/modules/accounting" element={<AccountingPage />} />
 						<Route path="/en/blog" element={<BlogPage />} />
 						<Route path="/en/blog/:slug" element={<BlogDetailPage />} />
 						<Route path="/en/contact" element={<ContactPage />} />
@@ -59,6 +63,8 @@ function App() {
 							path="/id/modules/commerce"
 							element={<Navigate to="/id/modules/ecommerce" replace />}
 						/>
+						<Route path="/id/modules/xrm" element={<XRMPage />} />
+						<Route path="/id/modules/accounting" element={<AccountingPage />} />
 						<Route path="/id/blog" element={<BlogPage />} />
 						<Route path="/id/blog/:slug" element={<BlogDetailPage />} />
 						<Route path="/id/contact" element={<ContactPage />} />
@@ -74,6 +80,8 @@ function App() {
 							path="/zh/modules/commerce"
 							element={<Navigate to="/zh/modules/ecommerce" replace />}
 						/>
+						<Route path="/zh/modules/xrm" element={<XRMPage />} />
+						<Route path="/zh/modules/accounting" element={<AccountingPage />} />
 						<Route path="/zh/blog" element={<BlogPage />} />
 						<Route path="/zh/blog/:slug" element={<BlogDetailPage />} />
 						<Route path="/zh/contact" element={<ContactPage />} />
