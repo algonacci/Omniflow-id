@@ -1,4 +1,4 @@
-import { ShoppingCart, Package, CreditCard, TrendingUp, Shield, Users } from "lucide-react";
+import { ShoppingCart } from "lucide-react";
 import { useTranslation } from "react-i18next";
 
 export default function HeroSection() {

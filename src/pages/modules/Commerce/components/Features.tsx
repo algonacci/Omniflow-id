@@ -1,4 +1,4 @@
-import { ShoppingCart, BarChart3, CreditCard, Lock, Zap } from "lucide-react";
+import { ShoppingCart, BarChart3, CreditCard, Lock, Zap, Package } from "lucide-react";
 import { useTranslation } from "react-i18next";
 
 export default function Features() {

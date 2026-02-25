@@ -92,7 +92,6 @@ export default function Footer() {
 								</a>
 							</li>
 						</ul>
-						</ul>
 					</div>
 
 					<div>
@@ -145,54 +144,53 @@ export default function Footer() {
 				</div>
 
 				<div className="border-t border-blue-800 mt-12 pt-8">
-					<div className="flex flex-col md:flex-row items-center justify-between">
-						<div className="flex items-center space-x-6 mb-4 md:mb-0">
-							<a
-								href="#"
-								className="text-blue-100 hover:text-white transition-colors"
-							>
-								<Facebook className="h-6 w-6" />
-							</a>
-							<a
-								href="#"
-								className="text-blue-100 hover:text-white transition-colors"
-							>
-								<Twitter className="h-6 w-6" />
-							</a>
-							<a
-								href="#"
-								className="text-blue-100 hover:text-white transition-colors"
-							>
-								<Linkedin className="h-6 w-6" />
-							</a>
-							<a
-								href="#"
-								className="text-blue-100 hover:text-white transition-colors"
-							>
-								<Instagram className="h-6 w-6" />
-							</a>
+						<div className="flex flex-col md:flex-row items-center justify-between">
+							<div className="flex items-center space-x-6 mb-4 md:mb-0">
+								<a
+									href="#"
+									className="text-blue-100 hover:text-white transition-colors"
+								>
+									<Facebook className="h-6 w-6" />
+								</a>
+								<a
+									href="#"
+									className="text-blue-100 hover:text-white transition-colors"
+								>
+									<Twitter className="h-6 w-6" />
+								</a>
+								<a
+									href="#"
+									className="text-blue-100 hover:text-white transition-colors"
+								>
+									<Linkedin className="h-6 w-6" />
+								</a>
+								<a
+									href="#"
+									className="text-blue-100 hover:text-white transition-colors"
+								>
+									<Instagram className="h-6 w-6" />
+								</a>
+							</div>
+
+							<div className="flex items-center space-x-6 text-sm text-blue-100">
+								<a href="/privacy" className="hover:text-white transition-colors">
+									{t("footer.privacy")}
+								</a>
+								<a href="/terms" className="hover:text-white transition-colors">
+									{t("footer.terms")}
+								</a>
+								<a href="/cookies" className="hover:text-white transition-colors">
+									{t("footer.cookies")}
+								</a>
+							</div>
 						</div>
 
-						<div className="flex items-center space-x-6 text-sm text-blue-100">
-							<a href="/privacy" className="hover:text-white transition-colors">
-								{t("footer.privacy")}
-							</a>
-							<a href="/terms" className="hover:text-white transition-colors">
-								{t("footer.terms")}
-							</a>
-							<a href="/cookies" className="hover:text-white transition-colors">
-								{t("footer.cookies")}
-							</a>
+						<div className="text-center mt-8 pt-8 border-t border-blue-800">
+							<p className="text-blue-100">
+								{new Date().getFullYear()} Omniflow.id. {t("footer.copyright")}
+							</p>
 						</div>
 					</div>
-
-					<div className="text-center mt-8 pt-8 border-t border-blue-800">
-						<p className="text-blue-100">
-							{new Date().getFullYear()} Omniflow.id.{" "}
-							{t("footer.copyright")}
-						</p>
-					</div>
-				</div>
 			</div>
 		</footer>
 	);

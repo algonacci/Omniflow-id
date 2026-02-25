@@ -1,4 +1,4 @@
-import { Monitor, Smartphone } from "lucide-react";
+import { Monitor } from "lucide-react";
 
 export default function Screenshots() {
 	const screenshots = [
