@@ -1,4 +1,16 @@
 {
+	"redirects": [
+		{
+			"source": "/modules/commerce",
+			"destination": "/modules/ecommerce",
+			"permanent": true
+		},
+		{
+			"source": "/:lang/modules/commerce",
+			"destination": "/:lang/modules/ecommerce",
+			"permanent": true
+		}
+	],
 	"rewrites": [
 		{
 			"source": "/(.*)",

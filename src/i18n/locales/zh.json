@@ -29,6 +29,7 @@
 		"solutions": "解决方案",
 		"modules": "模块",
 		"hris": "人力资源",
+		"ecommerce": "E-Commerce",
 		"insights": "洞察",
 		"resources": "资源",
 		"support": "支持",
@@ -507,7 +508,23 @@
 		"benefits": {
 			"badge": "为什么选择Omniflow电子商务？",
 			"title": "平台优势",
-			"subtitle": "通过Omniflow电子商务平台的卓越功能提升您的在线商店运营。"
+			"subtitle": "通过Omniflow电子商务平台的卓越功能提升您的在线商店运营。",
+			"easy": {
+				"title": "操作简单",
+				"description": "在一个直观的仪表板中管理商品、订单和客户。"
+			},
+			"secure": {
+				"title": "安全可靠",
+				"description": "企业级安全与支付防护，保障每一笔交易。"
+			},
+			"fast": {
+				"title": "高速性能",
+				"description": "优化的店铺与结账流程，提升速度和转化率。"
+			},
+			"automated": {
+				"title": "自动化流程",
+				"description": "自动更新库存、订单状态和客户通知。"
+			}
 		},
 		"testimonials": {
 			"badge": "我们的客户",

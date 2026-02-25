@@ -19,8 +19,8 @@ export default function CommercePage() {
 	return (
 		<>
 			<SEOHead
-				title={t("commerce.title")}
-				description={t("commerce.subtitle")}
+				title={t("commerce.hero.title")}
+				description={t("commerce.hero.subtitle")}
 				keywords="E-Commerce, Online Store, Shopping Cart, Product Management, Inventory, Payment Gateway, Indonesia E-Commerce, Omniflow"
 				type="website"
 			/>
@@ -28,14 +28,14 @@ export default function CommercePage() {
 				type="SoftwareApplication"
 				data={{
 					name: "Omniflow E-Commerce",
-					description: t("commerce.subtitle"),
+					description: t("commerce.hero.subtitle"),
 					applicationCategory: "BusinessApplication",
 					operatingSystem: "Web Browser",
 					offers: {
 						"@type": "Offer",
 						price: "0",
 						priceCurrency: "USD",
-						description: t("commerce.cta.features.trial"),
+						description: t("commerce.cta.subtitle"),
 					},
 					featureList: [
 						t("commerce.features.products.title"),
@@ -50,7 +50,7 @@ export default function CommercePage() {
 				type="Service"
 				data={{
 					name: "E-Commerce Implementation Services",
-					description: t("commerce.subtitle"),
+					description: t("commerce.hero.subtitle"),
 					serviceType: "Online Store Management",
 				}}
 			/>

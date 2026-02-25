@@ -29,6 +29,7 @@
 		"solutions": "Solutions",
 		"modules": "Modules",
 		"hris": "HRIS",
+		"ecommerce": "E-Commerce",
 		"insights": "Insights",
 		"resources": "Resources",
 		"support": "Support",
@@ -542,7 +543,23 @@
 		"benefits": {
 			"badge": "Why Omniflow E-Commerce?",
 			"title": "Platform Advantages",
-			"subtitle": "Elevate your online store operations with superior features of Omniflow E-Commerce platform."
+			"subtitle": "Elevate your online store operations with superior features of Omniflow E-Commerce platform.",
+			"easy": {
+				"title": "Easy to Use",
+				"description": "Manage products, orders, and customers from one intuitive dashboard."
+			},
+			"secure": {
+				"title": "Secure by Default",
+				"description": "Enterprise-grade security and payment protection keep every transaction safe."
+			},
+			"fast": {
+				"title": "Fast Performance",
+				"description": "Optimized storefront and checkout flow improve speed and conversion rates."
+			},
+			"automated": {
+				"title": "Automated Workflows",
+				"description": "Automate stock updates, order statuses, and customer notifications."
+			}
 		},
 		"testimonials": {
 			"badge": "Our Clients",

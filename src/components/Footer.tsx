@@ -69,10 +69,10 @@ export default function Footer() {
 							</li>
 							<li>
 								<a
-									href={`${langPrefix}/modules/commerce`}
+									href={`${langPrefix}/modules/ecommerce`}
 									className="text-blue-100 hover:text-white transition-colors"
 								>
-									{t("navigation.modules")}
+									{t("navigation.ecommerce")}
 								</a>
 							</li>
 							<li>

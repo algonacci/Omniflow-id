@@ -29,6 +29,7 @@
 		"solutions": "Solusi",
 		"modules": "Modul",
 		"hris": "HRIS",
+		"ecommerce": "E-Commerce",
 		"insights": "Wawasan",
 		"resources": "Sumber Daya",
 		"support": "Dukungan",
@@ -534,7 +535,23 @@
 		"benefits": {
 			"badge": "Kenapa Omniflow E-Commerce?",
 			"title": "Keunggulan Platform",
-			"subtitle": "Tingkatkan operasi toko online Anda dengan fitur-fitur unggulan dari Omniflow E-Commerce."
+			"subtitle": "Tingkatkan operasi toko online Anda dengan fitur-fitur unggulan dari Omniflow E-Commerce.",
+			"easy": {
+				"title": "Mudah Digunakan",
+				"description": "Kelola produk, pesanan, dan pelanggan dari satu dashboard yang intuitif."
+			},
+			"secure": {
+				"title": "Aman Secara Default",
+				"description": "Keamanan setingkat enterprise dan perlindungan pembayaran menjaga setiap transaksi tetap aman."
+			},
+			"fast": {
+				"title": "Performa Cepat",
+				"description": "Storefront dan alur checkout yang dioptimalkan meningkatkan kecepatan dan konversi."
+			},
+			"automated": {
+				"title": "Workflow Otomatis",
+				"description": "Otomatiskan update stok, status pesanan, dan notifikasi pelanggan."
+			}
 		},
 		"testimonials": {
 			"badge": "Klien Kami",
