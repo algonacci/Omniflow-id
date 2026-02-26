@@ -45,6 +45,7 @@
       "/en/modules/xrm",
       "/en/modules/accounting",
       "/en/modules/pos",
+      "/en/modules/lms",
       "/en/blog",
       "/en/contact",
       "/id/modules/hris",
@@ -52,6 +53,7 @@
       "/id/modules/xrm",
       "/id/modules/accounting",
       "/id/modules/pos",
+      "/id/modules/lms",
       "/id/blog",
       "/id/contact",
       "/zh/modules/hris",
@@ -59,6 +61,7 @@
       "/zh/modules/xrm",
       "/zh/modules/accounting",
       "/zh/modules/pos",
+      "/zh/modules/lms",
       "/zh/blog",
       "/zh/contact"
     ],

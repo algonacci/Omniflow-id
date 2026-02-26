@@ -33,6 +33,7 @@
 		"xrm": "XRM",
 		"accounting": "Akuntansi",
 		"pos": "Point of Sale",
+		"lms": "LMS",
 		"insights": "Wawasan",
 		"resources": "Sumber Daya",
 		"support": "Dukungan",
@@ -805,6 +806,115 @@
 			"title": "Siap untuk Memulai?",
 			"subtitle": "Migrasikan ke Omniflow PoS hari ini dan rasakan perbedaannya. Platform kami terintegrasi dengan sistem ERP Omniflow untuk manajemen ritel yang lebih baik.",
 			"getStarted": "Mulai Gratis",
+			"scheduleDemo": "Jadwalkan Demo"
+		}
+	},
+	"lmsModule": {
+		"hero": {
+			"badge": "Learning Management System",
+			"title": "Omniflow LMS - Platform Pembelajaran Lengkap",
+			"subtitle": "Transformasikan program pelatihan dan asesmen Anda dengan LMS komprehensif kami. Buat kuis, kelola bank soal, lacak kemajuan peserta, dan berikan pengalaman pembelajaran yang menarik."
+		},
+		"features": {
+			"title": "Fitur LMS Komprehensif",
+			"subtitle": "Manajemen pembelajaran tingkat enterprise dengan alat asesmen yang kuat dan pengiriman konten yang fleksibel.",
+			"assessments": {
+				"title": "Manajemen Asesmen & Kuis",
+				"description": "Buat berbagai jenis asesmen dengan pengaturan yang dapat dikonfigurasi, batas waktu, dan opsi percobaan berkali."
+			},
+			"questionBank": {
+				"title": "Bank Soal",
+				"description": "Repositori soal terpusat dengan kategori, tingkat kesulitan, dan kontrol versi untuk digunakan kembali di berbagai asesmen."
+			},
+			"questionTypes": {
+				"title": "Berbagai Tipe Soal",
+				"description": "Dukungan untuk pilihan ganda, benar/salah, jawaban pendek, esai, mencocokkan, dan format soal kustom."
+			},
+			"tracking": {
+				"title": "Pelacakan Kemajuan",
+				"description": "Pantau kemajuan peserta dengan analitik terperinci, tingkat penyelesaian, dan wawasan kinerja."
+			},
+			"bulkUpload": {
+				"title": "Unggah Massal",
+				"description": "Impor soal dan konten secara massal menggunakan file Excel atau CSV untuk menghemat waktu dan memastikan konsistensi."
+			},
+			"multiTenant": {
+				"title": "Multi-Tenant",
+				"description": "Dukungan untuk beberapa organisasi dengan data yang terisolasi, branding yang dikustomisasi, dan akses berbasis peran."
+			},
+			"grading": {
+				"title": "Penilaian Otomatis",
+				"description": "Penilaian otomatis untuk soal objektif dengan opsi tinjauan manual untuk asesmen subjektif."
+			},
+			"categories": {
+				"title": "Kategori Konten",
+				"description": "Organisir konten pembelajaran ke dalam kategori dan subkategori untuk navigasi dan manajemen yang mudah."
+			}
+		},
+		"screenshots": {
+			"title": "Lihat LMS Beraksi",
+			"subtitle": "Rasakan kekuatan platform pembelajaran intuitif kami yang dirancang untuk pendidik dan peserta.",
+			"dashboard": {
+				"title": "Dashboard Pembelajaran",
+				"description": "Dashboard komprehensif yang menampilkan kemajuan peserta, asesmen yang akan datang, dan materi kursus."
+			},
+			"assessments": {
+				"title": "Antarmuka Asesmen",
+				"description": "Antarmuka asesmen yang ramah pengguna dengan timer, pelacakan kemajuan, dan navigasi soal."
+			},
+			"questionBank": {
+				"title": "Manajer Bank Soal",
+				"description": "Antarmuka manajemen soal yang kuat dengan pencarian, filter, dan operasi massal."
+			}
+		},
+		"benefits": {
+			"title": "Keunggulan Platform",
+			"subtitle": "Transformasikan program pembelajaran Anda dengan fitur-fitur unggulan dari Omniflow LMS.",
+			"efficiency": {
+				"title": "Efisiensi Meningkat",
+				"description": "Otomatisasi pembuatan asesmen, penilaian, dan pelaporan untuk menghemat waktu dan sumber daya."
+			},
+			"scalable": {
+				"title": "Sangat Skalabel",
+				"description": "Dukung ribuan peserta secara bersamaan dengan infrastruktur cloud yang skalabel."
+			},
+			"insights": {
+				"title": "Wawasan Pembelajaran",
+				"description": "Dapatkan wawasan berharga tentang kinerja peserta dengan analitik dan laporan terperinci."
+			},
+			"flexible": {
+				"title": "Pengiriman Fleksibel",
+				"description": "Berikan konten pembelajaran kapan saja, di mana saja dengan desain yang responsif di perangkat mobile."
+			}
+		},
+		"testimonials": {
+			"title": "Apa Kata Klien Kami",
+			"subtitle": "Organisasi terpercaya telah memilih Omniflow LMS untuk menggerakkan program pembelajaran mereka.",
+			"items": [
+				{
+					"quote": "Omniflow LMS telah mentransformasi pelatihan korporat kami. Alat asesmen yang kuat dan analitik membantu kami melacak kemajuan karyawan secara efektif.",
+					"author": "Sarah Johnson",
+					"role": "Training Manager",
+					"company": "TechCorp Inc."
+				},
+				{
+					"quote": "Fitur unggah massal menghemat waktu kami yang tak terhitung. Kami sekarang dapat membuat asesmen komprehensif dalam hitungan menit, bukan hari.",
+					"author": "Michael Chen",
+					"role": "Education Director",
+					"company": "Global Learning Academy"
+				},
+				{
+					"quote": "LMS terbaik yang pernah kami gunakan. Arsitektur multi-tenant memungkinkan kami mengelola pelatihan untuk beberapa klien dari satu platform.",
+					"author": "Lisa Wong",
+					"role": "CEO",
+					"company": "EduTech Solutions"
+				}
+			]
+		},
+		"cta": {
+			"title": "Siap Mentransformasi Pembelajaran Anda?",
+			"subtitle": "Bergabunglah dengan ribuan organisasi yang telah memodernisasi pelatihan mereka dengan Omniflow LMS.",
+			"getStarted": "Mulai Sekarang",
 			"scheduleDemo": "Jadwalkan Demo"
 		}
 	},

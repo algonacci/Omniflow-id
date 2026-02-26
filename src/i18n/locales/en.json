@@ -33,6 +33,7 @@
 		"xrm": "XRM",
 		"accounting": "Accounting",
 		"pos": "Point of Sale",
+		"lms": "LMS",
 		"insights": "Insights",
 		"resources": "Resources",
 		"support": "Support",
@@ -813,6 +814,115 @@
 			"title": "Ready to Start?",
 			"subtitle": "Migrate to Omniflow PoS today and experience the difference. Our platform integrates seamlessly with Omniflow ERP system for superior retail management.",
 			"getStarted": "Start Free",
+			"scheduleDemo": "Schedule Demo"
+		}
+	},
+	"lmsModule": {
+		"hero": {
+			"badge": "Learning Management System",
+			"title": "Omniflow LMS - Complete Learning Platform",
+			"subtitle": "Transform your training and assessment programs with our comprehensive LMS. Create quizzes, manage question banks, track learner progress, and deliver engaging learning experiences."
+		},
+		"features": {
+			"title": "Comprehensive LMS Features",
+			"subtitle": "Enterprise-grade learning management with powerful assessment tools and flexible content delivery.",
+			"assessments": {
+				"title": "Assessment & Quiz Management",
+				"description": "Create various types of assessments with configurable settings, time limits, and multiple attempt options."
+			},
+			"questionBank": {
+				"title": "Question Bank",
+				"description": "Centralized repository of questions with categories, difficulty levels, and version control for reuse across assessments."
+			},
+			"questionTypes": {
+				"title": "Multiple Question Types",
+				"description": "Support for multiple choice, true/false, short answer, essay, matching, and custom question formats."
+			},
+			"tracking": {
+				"title": "Progress Tracking",
+				"description": "Monitor learner progress with detailed analytics, completion rates, and performance insights."
+			},
+			"bulkUpload": {
+				"title": "Bulk Upload",
+				"description": "Import questions and content in bulk using Excel or CSV files to save time and ensure consistency."
+			},
+			"multiTenant": {
+				"title": "Multi-Tenant",
+				"description": "Support for multiple organizations with isolated data, customized branding, and role-based access."
+			},
+			"grading": {
+				"title": "Automated Grading",
+				"description": "Automatic grading for objective questions with manual review options for subjective assessments."
+			},
+			"categories": {
+				"title": "Content Categories",
+				"description": "Organize learning content into categories and subcategories for easy navigation and management."
+			}
+		},
+		"screenshots": {
+			"title": "See LMS in Action",
+			"subtitle": "Experience the power of our intuitive learning platform designed for educators and learners.",
+			"dashboard": {
+				"title": "Learning Dashboard",
+				"description": "Comprehensive dashboard showing learner progress, upcoming assessments, and course materials."
+			},
+			"assessments": {
+				"title": "Assessment Interface",
+				"description": "User-friendly assessment interface with timer, progress tracking, and question navigation."
+			},
+			"questionBank": {
+				"title": "Question Bank Manager",
+				"description": "Powerful question management interface with search, filter, and bulk operations."
+			}
+		},
+		"benefits": {
+			"title": "Platform Advantages",
+			"subtitle": "Transform your learning programs with superior features of Omniflow LMS.",
+			"efficiency": {
+				"title": "Improved Efficiency",
+				"description": "Automate assessment creation, grading, and reporting to save time and resources."
+			},
+			"scalable": {
+				"title": "Highly Scalable",
+				"description": "Support thousands of learners simultaneously with our scalable cloud infrastructure."
+			},
+			"insights": {
+				"title": "Learning Insights",
+				"description": "Gain valuable insights into learner performance with detailed analytics and reports."
+			},
+			"flexible": {
+				"title": "Flexible Delivery",
+				"description": "Deliver learning content anytime, anywhere with mobile-responsive design."
+			}
+		},
+		"testimonials": {
+			"title": "What Our Clients Say",
+			"subtitle": "Trusted organizations have chosen Omniflow LMS to power their learning programs.",
+			"items": [
+				{
+					"quote": "Omniflow LMS has transformed our corporate training. The assessment tools are powerful and the analytics help us track employee progress effectively.",
+					"author": "Sarah Johnson",
+					"role": "Training Manager",
+					"company": "TechCorp Inc."
+				},
+				{
+					"quote": "The bulk upload feature saved us countless hours. We can now create comprehensive assessments in minutes instead of days.",
+					"author": "Michael Chen",
+					"role": "Education Director",
+					"company": "Global Learning Academy"
+				},
+				{
+					"quote": "Best LMS we've used. The multi-tenant architecture allows us to manage training for multiple clients from a single platform.",
+					"author": "Lisa Wong",
+					"role": "CEO",
+					"company": "EduTech Solutions"
+				}
+			]
+		},
+		"cta": {
+			"title": "Ready to Transform Your Learning?",
+			"subtitle": "Join thousands of organizations that have modernized their training with Omniflow LMS.",
+			"getStarted": "Get Started",
 			"scheduleDemo": "Schedule Demo"
 		}
 	},

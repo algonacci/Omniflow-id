@@ -74,6 +74,12 @@ export default function Header() {
 									>
 										{t("navigation.pos")}
 									</Link>
+									<Link
+										to={`${langPrefix}/modules/lms`}
+										className="block px-4 py-2 text-slate-700 hover:bg-blue-50 hover:text-blue-700 transition-colors"
+									>
+										{t("navigation.lms")}
+									</Link>
 								</div>
 							</div>
 						</div>
@@ -141,6 +147,12 @@ export default function Header() {
 										className="block nav-link text-lg"
 									>
 										{t("navigation.pos")}
+									</Link>
+									<Link
+										to={`${langPrefix}/modules/lms`}
+										className="block nav-link text-lg"
+									>
+										{t("navigation.lms")}
 									</Link>
 								</div>
 							</div>

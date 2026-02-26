@@ -33,6 +33,7 @@
 		"xrm": "XRM",
 		"accounting": "会计",
 		"pos": "销售终端",
+		"lms": "学习管理",
 		"insights": "洞察",
 		"resources": "资源",
 		"support": "支持",
@@ -778,6 +779,115 @@
 			"title": "准备开始？",
 			"subtitle": "今天迁移到Omniflow POS，体验差异。我们的平台与Omniflow ERP系统无缝集成，实现卓越的零售管理。",
 			"getStarted": "免费开始",
+			"scheduleDemo": "安排演示"
+		}
+	},
+	"lmsModule": {
+		"hero": {
+			"badge": "学习管理系统",
+			"title": "Omniflow LMS - 完整学习平台",
+			"subtitle": "通过我们全面的LMS转变您的培训和评估计划。创建测验、管理题库、跟踪学习者进度，并提供引人入胜的学习体验。"
+		},
+		"features": {
+			"title": "全面的LMS功能",
+			"subtitle": "企业级学习管理，具有强大的评估工具和灵活的内容交付。",
+			"assessments": {
+				"title": "评估与测验管理",
+				"description": "创建各种类型的评估，具有可配置的设置、时间限制和多次尝试选项。"
+			},
+			"questionBank": {
+				"title": "题库",
+				"description": "集中式题目库，具有分类、难度级别和版本控制，可在多个评估中重复使用。"
+			},
+			"questionTypes": {
+				"title": "多种题型",
+				"description": "支持选择题、判断题、简答题、论述题、匹配题和自定义题目格式。"
+			},
+			"tracking": {
+				"title": "进度跟踪",
+				"description": "通过详细的分析、完成率和绩效洞察监控学习者进度。"
+			},
+			"bulkUpload": {
+				"title": "批量上传",
+				"description": "使用Excel或CSV文件批量导入题目和内容，节省时间并确保一致性。"
+			},
+			"multiTenant": {
+				"title": "多租户",
+				"description": "支持多个组织，具有隔离数据、自定义品牌和基于角色的访问权限。"
+			},
+			"grading": {
+				"title": "自动评分",
+				"description": "客观题自动评分，主观题可手动审查选项。"
+			},
+			"categories": {
+				"title": "内容分类",
+				"description": "将学习内容组织成类别和子类别，便于导航和管理。"
+			}
+		},
+		"screenshots": {
+			"title": "查看LMS实际应用",
+			"subtitle": "体验我们为教育工作者和学习者设计的直观学习平台的强大功能。",
+			"dashboard": {
+				"title": "学习仪表板",
+				"description": "全面的仪表板显示学习者进度、即将到来的评估和课程材料。"
+			},
+			"assessments": {
+				"title": "评估界面",
+				"description": "用户友好的评估界面，具有计时器、进度跟踪和题目导航。"
+			},
+			"questionBank": {
+				"title": "题库管理器",
+				"description": "强大的题目管理界面，具有搜索、筛选和批量操作功能。"
+			}
+		},
+		"benefits": {
+			"title": "平台优势",
+			"subtitle": "通过Omniflow LMS的卓越功能转变您的学习计划。",
+			"efficiency": {
+				"title": "提高效率",
+				"description": "自动创建评估、评分和报告，节省时间和资源。"
+			},
+			"scalable": {
+				"title": "高度可扩展",
+				"description": "通过我们可扩展的云基础设施同时支持数千名学习者。"
+			},
+			"insights": {
+				"title": "学习洞察",
+				"description": "通过详细的分析和报告获得学习者绩效的宝贵洞察。"
+			},
+			"flexible": {
+				"title": "灵活交付",
+				"description": "通过移动响应式设计随时随地交付学习内容。"
+			}
+		},
+		"testimonials": {
+			"title": "我们的客户怎么说",
+			"subtitle": "值得信赖的组织选择Omniflow LMS来推动他们的学习计划。",
+			"items": [
+				{
+					"quote": "Omniflow LMS改变了我们的企业培训。评估工具非常强大，分析帮助我们有效跟踪员工进度。",
+					"author": "Sarah Johnson",
+					"role": "培训经理",
+					"company": "TechCorp Inc."
+				},
+				{
+					"quote": "批量上传功能为我们节省了无数时间。我们现在可以在几分钟而不是几天内创建全面的评估。",
+					"author": "Michael Chen",
+					"role": "教育总监",
+					"company": "Global Learning Academy"
+				},
+				{
+					"quote": "我们用过的最好的LMS。多租户架构允许我们从单一平台管理多个客户的培训。",
+					"author": "Lisa Wong",
+					"role": "首席执行官",
+					"company": "EduTech Solutions"
+				}
+			]
+		},
+		"cta": {
+			"title": "准备转变您的学习？",
+			"subtitle": "加入数千个已通过Omniflow LMS现代化培训的机构。",
+			"getStarted": "立即开始",
 			"scheduleDemo": "安排演示"
 		}
 	},
