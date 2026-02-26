@@ -32,6 +32,7 @@
 		"ecommerce": "E-Commerce",
 		"xrm": "XRM",
 		"accounting": "Akuntansi",
+		"pos": "Point of Sale",
 		"insights": "Wawasan",
 		"resources": "Sumber Daya",
 		"support": "Dukungan",
@@ -726,6 +727,83 @@
 		"cta": {
 			"title": "Siap untuk Memulai?",
 			"subtitle": "Migrasikan ke Omniflow Akuntansi hari ini dan rasakan perbedaannya. Platform kami terintegrasi dengan sistem ERP Omniflow untuk manajemen bisnis yang lebih baik.",
+			"getStarted": "Mulai Gratis",
+			"scheduleDemo": "Jadwalkan Demo"
+		}
+	},
+	"pos": {
+		"hero": {
+			"badge": "Sistem Point of Sale",
+			"title": "Solusi Point of Sale Lengkap",
+			"subtitle": "Sederhanakan operasi ritel Anda dengan sistem PoS komprehensif kami. Checkout cepat, sinkronisasi inventaris real-time, opsi pembayaran beragam, dan dukungan mode offline."
+		},
+		"features": {
+			"title": "Fitur PoS Komprehensif",
+			"subtitle": "Sistem point of sale tingkat enterprise yang dirancang untuk bisnis ritel modern.",
+			"posSystem": {
+				"title": "Sistem PoS",
+				"description": "Antarmuka checkout intuitif dengan pencarian produk, pemindaian barcode, dan seleksi produk cepat."
+			},
+			"inventory": {
+				"title": "Integrasi Inventaris",
+				"description": "Sinkronisasi inventaris real-time dengan update stok otomatis dan peringatan stok rendah."
+			},
+			"payment": {
+				"title": "Pemrosesan Pembayaran",
+				"description": "Berbagai metode pembayaran termasuk tunai, kartu, e-wallet, dan gateway pembayaran terintegrasi."
+			},
+			"receipts": {
+				"title": "Pencetakan Resi",
+				"description": "Dukungan printer thermal dengan template resi yang dapat dikustomisasi dan opsi resi digital."
+			},
+			"offline": {
+				"title": "Mode Offline",
+				"description": "Lanjutkan pemrosesan penjualan tanpa internet. Data disinkronkan secara otomatis saat koneksi pulih."
+			},
+			"multiStore": {
+				"title": "Dukungan Multi-Toko",
+				"description": "Kelola beberapa lokasi dari satu dashboard dengan pelaporan terpusat dan inventaris."
+			}
+		},
+		"screenshots": {
+			"badge": "Tinjauan Platform",
+			"title": "Lihat PoS Beraksi",
+			"subtitle": "Rasakan kekuatan antarmuka PoS intuitif kami yang dirancang untuk profesional ritel."
+		},
+		"benefits": {
+			"badge": "Kenapa PoS?",
+			"title": "Keunggulan Platform",
+			"subtitle": "Transformasi operasi ritel Anda dengan fitur-fitur unggulan dari Omniflow Point of Sale.",
+			"fast": {
+				"title": "Checkout Cepat",
+				"description": "Proses transaksi dalam hitungan detik dengan alur kerja yang dioptimalkan dan pemindaian barcode."
+			},
+			"reliable": {
+				"title": "Keandalan Offline",
+				"description": "Jangan pernah kehilangan penjualan bahkan saat internet mati. Data disinkronkan secara otomatis."
+			},
+			"integrated": {
+				"title": "Terintegrasi Penuh",
+				"description": "Integrasi yang mulus dengan inventaris, akuntansi, dan manajemen pelanggan."
+			},
+			"flexible": {
+				"title": "Pembayaran Fleksibel",
+				"description": "Terima semua metode pembayaran termasuk tunai, kartu, e-wallet, dan lainnya."
+			}
+		},
+		"testimonials": {
+			"badge": "Klien Kami",
+			"title": "Apa Kata Mereka",
+			"subtitle": "Penjual ritel terpercaya telah memilih Omniflow PoS untuk mengelola operasi mereka.",
+			"joinSuccess": {
+				"title": "Siap Memulai?",
+				"description": "Bergabunglah dengan ribuan penjual ritel yang telah mentransformasi operasi PoS mereka dengan Omniflow. Jadwalkan demo untuk melihat bagaimana platform kami dapat membantu bisnis Anda."
+			},
+			"scheduleDemo": "Jadwalkan Demo"
+		},
+		"cta": {
+			"title": "Siap untuk Memulai?",
+			"subtitle": "Migrasikan ke Omniflow PoS hari ini dan rasakan perbedaannya. Platform kami terintegrasi dengan sistem ERP Omniflow untuk manajemen ritel yang lebih baik.",
 			"getStarted": "Mulai Gratis",
 			"scheduleDemo": "Jadwalkan Demo"
 		}

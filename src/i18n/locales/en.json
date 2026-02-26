@@ -32,6 +32,7 @@
 		"ecommerce": "E-Commerce",
 		"xrm": "XRM",
 		"accounting": "Accounting",
+		"pos": "Point of Sale",
 		"insights": "Insights",
 		"resources": "Resources",
 		"support": "Support",
@@ -734,6 +735,83 @@
 		"cta": {
 			"title": "Ready to Start?",
 			"subtitle": "Migrate to Omniflow Accounting today and experience the difference. Our platform integrates seamlessly with Omniflow ERP system for superior business management.",
+			"getStarted": "Start Free",
+			"scheduleDemo": "Schedule Demo"
+		}
+	},
+	"pos": {
+		"hero": {
+			"badge": "Point of Sale System",
+			"title": "Complete Point of Sale Solution",
+			"subtitle": "Streamline your retail operations with our comprehensive POS system. Fast checkout, real-time inventory sync, multiple payment options, and offline mode support."
+		},
+		"features": {
+			"title": "Comprehensive PoS Features",
+			"subtitle": "Enterprise-grade point of sale system designed for modern retail businesses.",
+			"posSystem": {
+				"title": "POS System",
+				"description": "Intuitive checkout interface with product search, barcode scanning, and quick product selection."
+			},
+			"inventory": {
+				"title": "Inventory Integration",
+				"description": "Real-time inventory sync with automatic stock updates and low stock alerts."
+			},
+			"payment": {
+				"title": "Payment Processing",
+				"description": "Multiple payment methods including cash, cards, e-wallets, and integrated payment gateways."
+			},
+			"receipts": {
+				"title": "Receipt Printing",
+				"description": "Thermal printer support with customizable receipt templates and digital receipt options."
+			},
+			"offline": {
+				"title": "Offline Mode",
+				"description": "Continue processing sales without internet. Data syncs automatically when connection is restored."
+			},
+			"multiStore": {
+				"title": "Multi-Store Support",
+				"description": "Manage multiple locations from one dashboard with centralized reporting and inventory."
+			}
+		},
+		"screenshots": {
+			"badge": "Platform Overview",
+			"title": "See PoS in Action",
+			"subtitle": "Experience the power of our intuitive POS interface designed for retail professionals."
+		},
+		"benefits": {
+			"badge": "Why PoS?",
+			"title": "Platform Advantages",
+			"subtitle": "Transform your retail operations with superior features of Omniflow Point of Sale.",
+			"fast": {
+				"title": "Fast Checkout",
+				"description": "Process transactions in seconds with optimized workflow and barcode scanning."
+			},
+			"reliable": {
+				"title": "Offline Reliability",
+				"description": "Never miss a sale even when internet is down. Data syncs automatically."
+			},
+			"integrated": {
+				"title": "Fully Integrated",
+				"description": "Seamless integration with inventory, accounting, and customer management."
+			},
+			"flexible": {
+				"title": "Flexible Payments",
+				"description": "Accept all payment methods including cash, cards, e-wallets, and more."
+			}
+		},
+		"testimonials": {
+			"badge": "Our Clients",
+			"title": "What They Say",
+			"subtitle": "Trusted retailers have chosen Omniflow PoS to manage their operations. Join them and see how our platform can help transform your business.",
+			"joinSuccess": {
+				"title": "Ready to Start?",
+				"description": "Join thousands of retailers that have transformed their POS operations with Omniflow. Schedule a demo to see how our platform can help your business."
+			},
+			"scheduleDemo": "Schedule Demo"
+		},
+		"cta": {
+			"title": "Ready to Start?",
+			"subtitle": "Migrate to Omniflow PoS today and experience the difference. Our platform integrates seamlessly with Omniflow ERP system for superior retail management.",
 			"getStarted": "Start Free",
 			"scheduleDemo": "Schedule Demo"
 		}

@@ -32,6 +32,7 @@
 		"ecommerce": "E-Commerce",
 		"xrm": "XRM",
 		"accounting": "会计",
+		"pos": "销售终端",
 		"insights": "洞察",
 		"resources": "资源",
 		"support": "支持",
@@ -699,6 +700,83 @@
 		"cta": {
 			"title": "准备开始？",
 			"subtitle": "今天迁移到Omniflow会计，体验差异。我们的平台与Omniflow ERP系统无缝集成，实现卓越的业务管理。",
+			"getStarted": "免费开始",
+			"scheduleDemo": "安排演示"
+		}
+	},
+	"pos": {
+		"hero": {
+			"badge": "销售终端系统",
+			"title": "完整的销售终端解决方案",
+			"subtitle": "通过我们综合的POS系统简化您的零售运营。快速结账、实时库存同步、多种支付选项和离线模式支持。"
+		},
+		"features": {
+			"title": "全面的POS功能",
+			"subtitle": "企业级销售终端系统，专为现代零售业务设计。",
+			"posSystem": {
+				"title": "POS系统",
+				"description": "直观的结账界面，具有产品搜索、条形码扫描和快速产品选择。"
+			},
+			"inventory": {
+				"title": "库存集成",
+				"description": "实时库存同步，具有自动库存更新和低库存警报。"
+			},
+			"payment": {
+				"title": "支付处理",
+				"description": "多种支付方式，包括现金、卡、电子钱包和集成支付网关。"
+			},
+			"receipts": {
+				"title": "收据打印",
+				"description": "热敏打印机支持，具有可自定义的收据模板和数字收据选项。"
+			},
+			"offline": {
+				"title": "离线模式",
+				"description": "在没有互联网的情况下继续处理销售。连接恢复时数据自动同步。"
+			},
+			"multiStore": {
+				"title": "多店支持",
+				"description": "从一个仪表板管理多个位置，具有集中报告和库存。"
+			}
+		},
+		"screenshots": {
+			"badge": "平台概述",
+			"title": "查看POS实际应用",
+			"subtitle": "体验我们为零售专业人士设计的直观POS界面的强大功能。"
+		},
+		"benefits": {
+			"badge": "为什么选择POS？",
+			"title": "平台优势",
+			"subtitle": "通过Omniflow销售终端的卓越功能转型您的零售运营。",
+			"fast": {
+				"title": "快速结账",
+				"description": "通过优化的工作流程和条形码扫描，在几秒钟内处理交易。"
+			},
+			"reliable": {
+				"title": "离线可靠性",
+				"description": "即使互联网中断也不会错过销售。数据自动同步。"
+			},
+			"integrated": {
+				"title": "完全集成",
+				"description": "与库存、会计和客户管理无缝集成。"
+			},
+			"flexible": {
+				"title": "灵活支付",
+				"description": "接受所有支付方式，包括现金、卡、电子钱包等。"
+			}
+		},
+		"testimonials": {
+			"badge": "我们的客户",
+			"title": "他们怎么说",
+			"subtitle": "知名零售商选择Omniflow POS来管理他们的运营。",
+			"joinSuccess": {
+				"title": "准备开始？",
+				"description": "加入数千家已通过Omniflow转型其POS运营的零售商。安排演示，看看我们的平台如何帮助您的业务。"
+			},
+			"scheduleDemo": "安排演示"
+		},
+		"cta": {
+			"title": "准备开始？",
+			"subtitle": "今天迁移到Omniflow POS，体验差异。我们的平台与Omniflow ERP系统无缝集成，实现卓越的零售管理。",
 			"getStarted": "免费开始",
 			"scheduleDemo": "安排演示"
 		}
