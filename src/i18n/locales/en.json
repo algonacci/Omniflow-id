@@ -1340,10 +1340,7 @@
 				"title": "Regulation & Compliance",
 				"description": "Meets PCI DSS security standards and Bank Indonesia regulations for safe and legal transactions."
 			},
-			"support": {
-				"title": "24/7 Support",
-				"description": "Our support team is ready to help with integration and troubleshooting anytime. Responsive technical assistance."
-			},
+			"support": "24/7 Support",
 			"costEffective": {
 				"title": "Affordable Pricing",
 				"description": "Transparent fee structure with no hidden setup costs. Save money with competitive rates for your business."
