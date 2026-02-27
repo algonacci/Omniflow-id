@@ -596,7 +596,8 @@
 			"subtitle": "Ribuan bisnis terkemuka telah mempercayai Omniflow E-Commerce untuk mengelola operasi toko online mereka.",
 			"joinSuccess": {
 				"title": "Siap Memulai?",
-				"description": "Bergabunglah dengan ribuan perusahaan yang telah mentransformasi operasi E-Commerce mereka dengan Omniflow. Jadwalkan demo untuk melihat bagaimana platform kami dapat membantu bisnis Anda."
+				"description": "Bergabunglah dengan ribuan perusahaan yang telah mentransformasi operasi E-Commerce mereka dengan Omniflow. Jadwalkan demo untuk melihat bagaimana platform kami dapat membantu bisnis Anda.",
+				"scheduleDemo": "Jadwalkan Demo Anda"
 			},
 			"scheduleDemo": "Jadwalkan Demo"
 		},
@@ -623,11 +624,19 @@
 		"hero": {
 			"badge": "Extended Relationship Management",
 			"title": "XRM - Extended Relationship Management",
-			"subtitle": "Solusi CRM++ canggih dengan manajemen pengguna komprehensif, kontrol akses berbasis peran, pencatatan aktivitas, dan fitur keamanan tingkat enterprise untuk operasi bisnis modern."
+			"subtitle": "Solusi CRM++ canggih dengan manajemen pengguna komprehensif, kontrol akses berbasis peran, pencatatan aktivitas, dan fitur keamanan tingkat enterprise untuk operasi bisnis modern.",
+			"productivityBoost": "Peningkatan Efisiensi",
+			"stats": {
+				"users": "Pengguna Aktif",
+				"uptime": "SLA Uptime",
+				"saved": "Jam Hemat",
+				"reduction": "Pengurangan Biaya"
+			}
 		},
 		"features": {
 			"title": "Fitur XRM Komprehensif",
 			"subtitle": "Manajemen hubungan tingkat enterprise dengan keamanan canggih, optimasi performa, dan kontrol akses fleksibel.",
+			"badge": "Fitur Keamanan Enterprise",
 			"mobileApp": {
 				"title": "Aplikasi Mobile",
 				"description": "Aplikasi mobile native Flutter untuk iOS dan Android. Akses XRM Anda di mana saja, kapan saja dengan dukungan fitur lengkap di perangkat mobile."
@@ -672,16 +681,41 @@
 			},
 			"scalable": {
 				"title": "Sangat Skalabel",
-				"description": "Dirancang untuk pertumbuhan dengan Redis caching dan pooling koneksi database yang efisien."
+				"description": "Dirancang untuk pertumbuhan dengan Redis caching dan pooling koneksi database yang efisien.",
+				"stat": "100K+"
 			},
 			"performance": {
 				"title": "Performa Teroptimasi",
-				"description": "Redis caching, pemrosesan job queue, dan fallback otomatis memastikan waktu respons sub-milidetik."
+				"description": "Redis caching, pemrosesan job queue, dan fallback otomatis memastikan waktu respons sub-milidetik.",
+				"stat": "99.9%"
 			},
 			"flexible": {
 				"title": "Izin Fleksibel",
 				"description": "Override izin spesifik pengguna memungkinkan kontrol akses granular yang disesuaikan dengan organisasi Anda."
-			}
+			},
+			"conversion": {
+				"title": "Tingkatkan Konversi",
+				"description": "Berbagai pilihan metode pembayaran meningkatkan kemungkinan customer menyelesaikan transaksi hingga 40%.",
+				"stat": "+40%"
+			},
+			"fastSettlement": {
+				"title": "Settlement Cepat",
+				"description": "Dana masuk ke rekening Anda dalam 1-2 hari kerja. Cashflow lebih lancar untuk operasional bisnis.",
+				"stat": "1-2 Hari"
+			},
+			"fraudProtection": {
+				"title": "Proteksi Fraud",
+				"description": "Sistem deteksi fraud canggih dengan machine learning untuk melindungi bisnis dari transaksi mencurigakan.",
+				"stat": "99.9%"
+			},
+			"compliance": {
+				"title": "Regulasi & Compliance",
+				"description": "Memenuhi standar keamanan PCI DSS dan regulasi Bank Indonesia untuk transaksi yang aman dan legal.",
+				"stat": "ISO 27001"
+			},
+			"customers": "Pelanggan Puas",
+			"uptime": "Jaminan Uptime",
+			"support": "Dukungan Ahli"
 		},
 		"testimonials": {
 			"badge": "Klien Kami",
@@ -689,15 +723,22 @@
 			"subtitle": "Ribuan bisnis terkemuka telah mempercayai Omniflow XRM untuk mengelola operasi hubungan mereka.",
 			"joinSuccess": {
 				"title": "Siap Memulai?",
-				"description": "Bergabunglah dengan ribuan perusahaan yang telah mentransformasi operasi XRM mereka dengan Omniflow. Jadwalkan demo untuk melihat bagaimana platform kami dapat membantu bisnis Anda."
+				"description": "Bergabunglah dengan ribuan perusahaan yang telah mentransformasi operasi XRM mereka dengan Omniflow. Jadwalkan demo untuk melihat bagaimana platform kami dapat membantu bisnis Anda.",
+				"scheduleDemo": "Jadwalkan Demo Anda"
 			},
 			"scheduleDemo": "Jadwalkan Demo"
 		},
 		"cta": {
+			"badge": "Mulai Transformasi",
 			"title": "Siap untuk Memulai?",
 			"subtitle": "Migrasikan ke Omniflow XRM hari ini dan rasakan perbedaannya. Platform kami terintegrasi dengan sistem ERP Omniflow untuk manajemen bisnis yang lebih baik.",
 			"getStarted": "Mulai Gratis",
-			"scheduleDemo": "Jadwalkan Demo"
+			"scheduleDemo": "Jadwalkan Demo",
+			"stats": {
+				"users": "99.9%",
+				"uptime": "15hrs",
+				"security": "ISO 27001"
+			}
 		}
 	},
 	"accounting": {
@@ -776,15 +817,23 @@
 			"support": "Dukungan Ahli",
 			"accuracy": {
 				"title": "Akurasi Keuangan",
-				"description": "Perhitungan dan rekonsiliasi otomatis memastikan catatan keuangan tanpa kesalahan."
+				"description": "Perhitungan dan rekonsiliasi otomatis memastikan catatan keuangan tanpa kesalahan.",
+				"stat": "Akurasi Keuangan"
 			},
 			"automation": {
 				"title": "Otomasi Proses",
-				"description": "Otomatiskan entri berulang, penagihan, dan rekonsiliasi untuk menghemat waktu."
+				"description": "Otomatiskan entri berulang, penagihan, dan rekonsiliasi untuk menghemat waktu.",
+				"stat": "Otomatisasi Proses"
 			},
 			"insights": {
 				"title": "Wawasan Real-time",
-				"description": "Akses instan ke data keuangan dan laporan yang dapat disesuaikan untuk pengambilan keputusan yang lebih baik."
+				"description": "Akses instan ke data keuangan dan laporan yang dapat disesuaikan untuk pengambilan keputusan yang lebih baik.",
+				"stat": "Wawasan"
+			},
+			"compliance": {
+				"title": "Kepatuhan Regulasi",
+				"description": "Kontrol bawaan dan jejak audit untuk memastikan kepatuhan dengan standar akuntansi.",
+				"stat": "Kepatuhan Regulasi"
 			}
 		},
 		"testimonials": {
@@ -793,7 +842,8 @@
 			"subtitle": "Ribuan bisnis terkemuka telah mempercayai Omniflow Akuntansi untuk mengelola operasi keuangan mereka.",
 			"joinSuccess": {
 				"title": "Siap Memulai?",
-				"description": "Bergabunglah dengan ribuan perusahaan yang telah mentransformasi operasi akuntansi mereka dengan Omniflow. Jadwalkan demo untuk melihat bagaimana platform kami dapat membantu bisnis Anda."
+				"description": "Bergabunglah dengan ribuan perusahaan yang telah mentransformasi operasi akuntansi mereka dengan Omniflow. Jadwalkan demo untuk melihat bagaimana platform kami dapat membantu bisnis Anda.",
+				"scheduleDemo": "Jadwalkan Demo"
 			},
 			"scheduleDemo": "Jadwalkan Demo"
 		},
@@ -892,19 +942,23 @@
 			"support": "Dukungan Ahli",
 			"fast": {
 				"title": "Checkout Cepat",
-				"description": "Proses transaksi dalam hitungan detik dengan alur kerja yang dioptimalkan dan pemindaian barcode."
+				"description": "Proses transaksi dalam hitungan detik dengan alur kerja yang dioptimalkan dan pemindaian barcode.",
+				"stat": "Checkout Cepat"
 			},
 			"reliable": {
 				"title": "Keandalan Offline",
-				"description": "Jangan pernah kehilangan penjualan bahkan saat internet mati. Data disinkronkan secara otomatis."
+				"description": "Jangan pernah kehilangan penjualan bahkan saat internet mati. Data disinkronkan secara otomatis.",
+				"stat": "Keandalan Offline"
 			},
 			"integrated": {
 				"title": "Terintegrasi Penuh",
-				"description": "Integrasi yang mulus dengan inventaris, akuntansi, dan manajemen pelanggan."
+				"description": "Integrasi yang mulus dengan inventaris, akuntansi, dan manajemen pelanggan.",
+				"stat": "Terintegrasi Penuh"
 			},
 			"flexible": {
 				"title": "Pembayaran Fleksibel",
-				"description": "Terima semua metode pembayaran termasuk tunai, kartu, e-wallet, dan lainnya."
+				"description": "Terima semua metode pembayaran termasuk tunai, kartu, e-wallet, dan lainnya.",
+				"stat": "Pembayaran Fleksibel"
 			}
 		},
 		"testimonials": {
@@ -913,7 +967,8 @@
 			"subtitle": "Penjual ritel terpercaya telah memilih Omniflow PoS untuk mengelola operasi mereka.",
 			"joinSuccess": {
 				"title": "Siap Memulai?",
-				"description": "Bergabunglah dengan ribuan penjual ritel yang telah mentransformasi operasi PoS mereka dengan Omniflow. Jadwalkan demo untuk melihat bagaimana platform kami dapat membantu bisnis Anda."
+				"description": "Bergabunglah dengan ribuan penjual ritel yang telah mentransformasi operasi PoS mereka dengan Omniflow. Jadwalkan demo untuk melihat bagaimana platform kami dapat membantu bisnis Anda.",
+				"scheduleDemo": "Jadwalkan Demo"
 			},
 			"scheduleDemo": "Jadwalkan Demo"
 		},
@@ -1030,19 +1085,23 @@
 			"support": "Dukungan Ahli",
 			"efficiency": {
 				"title": "Efisiensi Meningkat",
-				"description": "Otomatisasi pembuatan asesmen, penilaian, dan pelaporan untuk menghemat waktu dan sumber daya."
+				"description": "Otomatisasi pembuatan asesmen, penilaian, dan pelaporan untuk menghemat waktu dan sumber daya.",
+				"stat": "Efisiensi Meningkat"
 			},
 			"scalable": {
 				"title": "Sangat Skalabel",
-				"description": "Dukung ribuan peserta secara bersamaan dengan infrastruktur cloud yang skalabel."
+				"description": "Dukung ribuan peserta secara bersamaan dengan infrastruktur cloud yang skalabel.",
+				"stat": "Skalabilitas"
 			},
 			"insights": {
 				"title": "Wawasan Pembelajaran",
-				"description": "Dapatkan wawasan berharga tentang kinerja peserta dengan analitik dan laporan terperinci."
+				"description": "Dapatkan wawasan berharga tentang kinerja peserta dengan analitik dan laporan terperinci.",
+				"stat": "Wawasan"
 			},
 			"flexible": {
 				"title": "Pengiriman Fleksibel",
-				"description": "Berikan konten pembelajaran kapan saja, di mana saja dengan desain yang responsif di perangkat mobile."
+				"description": "Berikan konten pembelajaran kapan saja, di mana saja dengan desain yang responsif di perangkat mobile.",
+				"stat": "Fleksibel"
 			}
 		},
 		"testimonials": {
@@ -1170,7 +1229,8 @@
 			},
 			"reach": {
 				"title": "Jangkauan Lebih Luas",
-				"description": "Jangkau ribuan kontak dalam waktu singkat dengan sistem autodial yang handal. Integrasi dengan jaringan telekomunikasi global."
+				"description": "Jangkau ribuan kontak dalam waktu singkat dengan sistem autodial yang handal. Integrasi dengan jaringan telekomunikasi global.",
+				"stat": "Jangkauan Lebih Luas"
 			},
 			"automation": {
 				"title": "Otomatisasi Penuh",
@@ -1253,6 +1313,9 @@
 		"benefits": {
 			"title": "Keunggulan Payment Gateway Kami",
 			"subtitle": "Tingkatkan konversi dan kelola pembayaran dengan mudah menggunakan solusi payment gateway terintegrasi kami.",
+			"badge": {
+				"title": "Metode Pembayaran Lengkap"
+			},
 			"conversion": {
 				"title": "Tingkatkan Konversi",
 				"description": "Berbagai pilihan metode pembayaran meningkatkan kemungkinan customer menyelesaikan transaksi hingga 40%."
@@ -1266,7 +1329,7 @@
 				"description": "Sistem deteksi fraud canggih dengan machine learning untuk melindungi bisnis dari transaksi mencurigakan."
 			},
 			"compliance": {
-				"title": "Regulasi \u0026 Compliance",
+				"title": "Regulasi & Compliance",
 				"description": "Memenuhi standar keamanan PCI DSS dan regulasi Bank Indonesia untuk transaksi yang aman dan legal."
 			},
 			"support": {
@@ -1276,7 +1339,9 @@
 			"costEffective": {
 				"title": "Biaya Terjangkau",
 				"description": "Struktur biaya transparan tanpa biaya setup tersembunyi. Hemat biaya dengan rate kompetitif untuk bisnis Anda."
-			}
+			},
+			"customers": "99.9%",
+			"uptime": "24/7"
 		},
 		"cta": {
 			"badge": "Siap Menerima Pembayaran Online?",

@@ -43,10 +43,7 @@ export default function Benefits() {
 								>
 									<Icon className="h-8 w-8 text-white" />
 								</div>
-								<div className="text-3xl font-bold text-blue-600 mb-2">
-									{t(`pos.benefits.${benefitKey}.stat`)}
-								</div>
-								<h3 className="text-xl font-bold text-enterprise-primary mb-3">
+								<h3 className="text-3xl font-bold text-enterprise-primary mb-3">
 									{t(`pos.benefits.${benefitKey}.title`)}
 								</h3>
 								<p className="text-enterprise-secondary leading-relaxed">

@@ -604,7 +604,8 @@
 			"subtitle": "Trusted businesses have chosen Omniflow E-Commerce to manage their online store operations. Join them and see how our platform can help transform your business.",
 			"joinSuccess": {
 				"title": "Ready to Start?",
-				"description": "Join thousands of companies that have transformed their E-Commerce operations with Omniflow. Schedule a demo to see how our platform can help your business."
+				"description": "Join thousands of companies that have transformed their E-Commerce operations with Omniflow. Schedule a demo to see how our platform can help your business.",
+				"scheduleDemo": "Schedule Your Demo"
 			},
 			"scheduleDemo": "Schedule Demo"
 		},
@@ -631,11 +632,19 @@
 		"hero": {
 			"badge": "Extended Relationship Management",
 			"title": "XRM - Extended Relationship Management",
-			"subtitle": "Advanced CRM++ solution with comprehensive user management, role-based access control, activity logging, and enterprise-grade security features for modern business operations."
+			"subtitle": "Advanced CRM++ solution with comprehensive user management, role-based access control, activity logging, and enterprise-grade security features for modern business operations.",
+			"productivityBoost": "Performance Boost",
+			"stats": {
+				"users": "Active Users",
+				"uptime": "SLA Uptime",
+				"saved": "Hours Saved",
+				"reduction": "Cost Reduction"
+			}
 		},
 		"features": {
 			"title": "Comprehensive XRM Features",
 			"subtitle": "Enterprise-grade relationship management with advanced security, performance optimization, and flexible access control.",
+			"badge": "Enterprise Security Features",
 			"mobileApp": {
 				"title": "Mobile App",
 				"description": "Native Flutter mobile application for iOS and Android. Access your XRM anywhere, anytime with full feature support on mobile devices."
@@ -680,16 +689,41 @@
 			},
 			"scalable": {
 				"title": "Highly Scalable",
-				"description": "Designed for growth with Redis caching and efficient database connection pooling."
+				"description": "Designed for growth with Redis caching and efficient database connection pooling.",
+				"stat": "100K+"
 			},
 			"performance": {
 				"title": "Optimized Performance",
-				"description": "Redis caching, job queue processing, and automatic fallback ensure sub-millisecond response times."
+				"description": "Redis caching, job queue processing, and automatic fallback ensure sub-millisecond response times.",
+				"stat": "99.9%"
 			},
 			"flexible": {
 				"title": "Flexible Permissions",
 				"description": "User-specific permission overrides allow granular access control tailored to your organization."
-			}
+			},
+			"conversion": {
+				"title": "Increase Conversion",
+				"description": "Various payment method options increase the likelihood of customers completing transactions by up to 40%.",
+				"stat": "+40%"
+			},
+			"fastSettlement": {
+				"title": "Fast Settlement",
+				"description": "Funds deposited to your account within 1-2 business days. Smoother cashflow for business operations.",
+				"stat": "1-2 Days"
+			},
+			"fraudProtection": {
+				"title": "Fraud Protection",
+				"description": "Advanced fraud detection system with machine learning to protect your business from suspicious transactions.",
+				"stat": "99.9%"
+			},
+			"compliance": {
+				"title": "Regulation & Compliance",
+				"description": "Meets PCI DSS security standards and Bank Indonesia regulations for safe and legal transactions.",
+				"stat": "ISO 27001"
+			},
+			"customers": "Happy Customers",
+			"uptime": "Uptime Guarantee",
+			"support": "Expert Support"
 		},
 		"testimonials": {
 			"badge": "Our Clients",
@@ -697,15 +731,22 @@
 			"subtitle": "Trusted businesses have chosen Omniflow XRM to manage their relationship operations. Join them and see how our platform can help transform your business.",
 			"joinSuccess": {
 				"title": "Ready to Start?",
-				"description": "Join thousands of companies that have transformed their XRM operations with Omniflow. Schedule a demo to see how our platform can help your business."
+				"description": "Join thousands of companies that have transformed their XRM operations with Omniflow. Schedule a demo to see how our platform can help your business.",
+				"scheduleDemo": "Schedule Your Demo"
 			},
 			"scheduleDemo": "Schedule Demo"
 		},
 		"cta": {
+			"badge": "Start Transformation",
 			"title": "Ready to Start?",
 			"subtitle": "Migrate to Omniflow XRM today and experience the difference. Our platform integrates seamlessly with Omniflow ERP system for superior business management.",
 			"getStarted": "Start Free",
-			"scheduleDemo": "Schedule Demo"
+			"scheduleDemo": "Schedule Demo",
+			"stats": {
+				"users": "99.9%",
+				"uptime": "15hrs",
+				"security": "ISO 27001"
+			}
 		}
 	},
 	"accounting": {
@@ -784,15 +825,23 @@
 			"support": "Expert Support",
 			"accuracy": {
 				"title": "Financial Accuracy",
-				"description": "Automated calculations and reconciliation ensure error-free financial records."
+				"description": "Automated calculations and reconciliation ensure error-free financial records.",
+				"stat": "Financial Accuracy"
 			},
 			"automation": {
 				"title": "Process Automation",
-				"description": "Automate recurring entries, invoicing, and reconciliation to save time."
+				"description": "Automate recurring entries, invoicing, and reconciliation to save time.",
+				"stat": "Process Automation"
 			},
 			"insights": {
 				"title": "Real-time Insights",
-				"description": "Instant access to financial data and customizable reports for better decision-making."
+				"description": "Instant access to financial data and customizable reports for better decision-making.",
+				"stat": "Insights"
+			},
+			"compliance": {
+				"title": "Regulatory Compliance",
+				"description": "Built-in controls and audit trails to ensure compliance with accounting standards.",
+				"stat": "Regulatory Compliance"
 			}
 		},
 		"testimonials": {
@@ -801,7 +850,8 @@
 			"subtitle": "Trusted businesses have chosen Omniflow Accounting to manage their financial operations. Join them and see how our platform can help transform your business.",
 			"joinSuccess": {
 				"title": "Ready to Start?",
-				"description": "Join thousands of companies that have transformed their accounting operations with Omniflow. Schedule a demo to see how our platform can help your business."
+				"description": "Join thousands of companies that have transformed their accounting operations with Omniflow. Schedule a demo to see how our platform can help your business.",
+				"scheduleDemo": "Jadwalkan Demo"
 			},
 			"scheduleDemo": "Schedule Demo"
 		},
@@ -900,19 +950,23 @@
 			"support": "Expert Support",
 			"fast": {
 				"title": "Fast Checkout",
-				"description": "Process transactions in seconds with optimized workflow and barcode scanning."
+				"description": "Process transactions in seconds with optimized workflow and barcode scanning.",
+				"stat": "Fast Checkout"
 			},
 			"reliable": {
 				"title": "Offline Reliability",
-				"description": "Never miss a sale even when internet is down. Data syncs automatically."
+				"description": "Never miss a sale even when internet is down. Data syncs automatically.",
+				"stat": "Offline Reliability"
 			},
 			"integrated": {
 				"title": "Fully Integrated",
-				"description": "Seamless integration with inventory, accounting, and customer management."
+				"description": "Seamless integration with inventory, accounting, and customer management.",
+				"stat": "Fully Integrated"
 			},
 			"flexible": {
 				"title": "Flexible Payments",
-				"description": "Accept all payment methods including cash, cards, e-wallets, and more."
+				"description": "Accept all payment methods including cash, cards, e-wallets, and more.",
+				"stat": "Flexible Payment"
 			}
 		},
 		"testimonials": {
@@ -921,7 +975,8 @@
 			"subtitle": "Trusted retailers have chosen Omniflow PoS to manage their operations. Join them and see how our platform can help transform your business.",
 			"joinSuccess": {
 				"title": "Ready to Start?",
-				"description": "Join thousands of retailers that have transformed their POS operations with Omniflow. Schedule a demo to see how our platform can help your business."
+				"description": "Join thousands of retailers that have transformed their POS operations with Omniflow. Schedule a demo to see how our platform can help your business.",
+				"scheduleDemo": "Jadwalkan Demo"
 			},
 			"scheduleDemo": "Schedule Demo"
 		},
@@ -1038,19 +1093,23 @@
 			"support": "Expert Support",
 			"efficiency": {
 				"title": "Improved Efficiency",
-				"description": "Automate assessment creation, grading, and reporting to save time and resources."
+				"description": "Automate assessment creation, grading, and reporting to save time and resources.",
+				"stat": "Increased Efficiency"
 			},
 			"scalable": {
 				"title": "Highly Scalable",
-				"description": "Support thousands of learners simultaneously with our scalable cloud infrastructure."
+				"description": "Support thousands of learners simultaneously with our scalable cloud infrastructure.",
+				"stat": "Scalability"
 			},
 			"insights": {
 				"title": "Learning Insights",
-				"description": "Gain valuable insights into learner performance with detailed analytics and reports."
+				"description": "Gain valuable insights into learner performance with detailed analytics and reports.",
+				"stat": "Insights"
 			},
 			"flexible": {
 				"title": "Flexible Delivery",
-				"description": "Deliver learning content anytime, anywhere with mobile-responsive design."
+				"description": "Deliver learning content anytime, anywhere with mobile-responsive design.",
+				"stat": "Flexible"
 			}
 		},
 		"testimonials": {
@@ -1178,7 +1237,8 @@
 			},
 			"reach": {
 				"title": "Wider Reach",
-				"description": "Reach thousands of contacts in a short time with a reliable autodial system. Integration with global telecommunications networks."
+				"description": "Reach thousands of contacts in a short time with a reliable autodial system. Integration with global telecommunications networks.",
+				"stat": "Wider Reach"
 			},
 			"automation": {
 				"title": "Full Automation",
@@ -1260,10 +1320,13 @@
 		},
 		"benefits": {
 			"title": "Payment Gateway Advantages",
-			"subtitle": "Increase conversions and manage payments easily with our integrated payment gateway solution.",
+			"subtitle": "Increase conversion rates and manage payments easily with our integrated payment gateway solution.",
+			"badge": {
+				"title": "Complete Payment Methods"
+			},
 			"conversion": {
 				"title": "Increase Conversion",
-				"description": "Various payment method options increase the likelihood of customers completing transactions by up to 40%."
+				"description": "Various payment method options can increase the likelihood of customers completing transactions by up to 40%."
 			},
 			"fastSettlement": {
 				"title": "Fast Settlement",
@@ -1284,7 +1347,9 @@
 			"costEffective": {
 				"title": "Affordable Pricing",
 				"description": "Transparent fee structure with no hidden setup costs. Save money with competitive rates for your business."
-			}
+			},
+			"customers": "99.9%",
+			"uptime": "24/7"
 		},
 		"cta": {
 			"badge": "Ready to Accept Online Payments?",
