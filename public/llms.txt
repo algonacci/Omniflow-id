@@ -1,0 +1,132 @@
+# Omniflow.id - Enterprise ERP Solutions
+
+## About
+
+Omniflow.id is an integrated ERP (Enterprise Resource Planning) platform designed to streamline business operations, boost productivity, and accelerate growth for organizations of all sizes. Founded in 2020 and based in Jakarta, Indonesia, we serve 10,000+ businesses worldwide.
+
+## Products & Services
+
+### Core Modules
+
+1. **[HRIS](https://omniflow.id/en/modules/hris)** (Human Resource Information System)
+   - [Employee management](https://omniflow.id/en/modules/hris) and self-service portals
+   - [Payroll processing](https://omniflow.id/en/modules/hris) and tax calculations
+   - [Attendance tracking](https://omniflow.id/en/modules/hris) and leave management
+   - [Performance evaluation](https://omniflow.id/en/modules/hris) and KPI tracking
+   - [Compliance management](https://omniflow.id/en/modules/hris)
+
+2. **[XRM](https://omniflow.id/en/modules/xrm)** (Extended Relationship Management)
+   - Advanced [CRM++](https://omniflow.id/en/modules/xrm) with user management
+   - [Role-based access control (RBAC)](https://omniflow.id/en/modules/xrm)
+   - [Activity logging](https://omniflow.id/en/modules/xrm) and audit trails
+   - [Two-factor authentication (2FA)](https://omniflow.id/en/modules/xrm)
+   - [Mobile app support](https://omniflow.id/en/modules/xrm) (iOS & Android)
+
+3. **[Accounting](https://omniflow.id/en/modules/accounting)**
+   - Comprehensive [financial management](https://omniflow.id/en/modules/accounting)
+   - [Automated bookkeeping](https://omniflow.id/en/modules/accounting)
+   - [Tax reporting](https://omniflow.id/en/modules/accounting) and compliance
+   - [Multi-currency support](https://omniflow.id/en/modules/accounting)
+   - [Financial analytics](https://omniflow.id/en/modules/accounting) and reporting
+
+4. **[Point of Sale (PoS)](https://omniflow.id/en/modules/pos)**
+   - Modern [retail management system](https://omniflow.id/en/modules/pos)
+   - [Inventory synchronization](https://omniflow.id/en/modules/pos)
+   - [Payment gateway integration](https://omniflow.id/en/modules/pos)
+   - [Sales analytics](https://omniflow.id/en/modules/pos)
+   - [Multi-store support](https://omniflow.id/en/modules/pos)
+
+5. **[E-Commerce](https://omniflow.id/en/modules/ecommerce)**
+   - Integrated [online store management](https://omniflow.id/en/modules/ecommerce)
+   - [Product catalog](https://omniflow.id/en/modules/ecommerce) and inventory control
+   - [Order management](https://omniflow.id/en/modules/ecommerce) and fulfillment
+   - [Payment processing](https://omniflow.id/en/modules/ecommerce)
+   - [Customer analytics](https://omniflow.id/en/modules/ecommerce)
+
+6. **[LMS](https://omniflow.id/en/modules/lms)** (Learning Management System)
+   - [Corporate training platform](https://omniflow.id/en/modules/lms)
+   - [Course creation](https://omniflow.id/en/modules/lms) and management
+   - [Assessment](https://omniflow.id/en/modules/lms) and certification tools
+   - [Progress tracking](https://omniflow.id/en/modules/lms) and analytics
+   - [Multi-tenant architecture](https://omniflow.id/en/modules/lms)
+
+7. **[Telemarketing](https://omniflow.id/en/modules/telemarketing)**
+   - [Automated telemarketing campaigns](https://omniflow.id/en/modules/telemarketing)
+   - [Contact management](https://omniflow.id/en/modules/telemarketing) and segmentation
+   - [TTS (Text-to-Speech)](https://omniflow.id/en/modules/telemarketing) audio generation
+   - [Auto-dialer](https://omniflow.id/en/modules/telemarketing) with Twilio integration
+   - [Call logs](https://omniflow.id/en/modules/telemarketing) and analytics
+
+## Key Features
+
+- **[All-in-One Solution](https://omniflow.id/en)**: 17+ integrated modules
+- **[Multi-Language Support](https://omniflow.id/en)**: [English](https://omniflow.id/en), [Indonesian](https://omniflow.id/id), [Chinese](https://omniflow.id/zh)
+- **[Cloud-Based](https://omniflow.id/en)**: 99.9% SLA uptime guarantee
+- **[Mobile Ready](https://omniflow.id/en)**: Responsive design and native mobile apps
+- **[Enterprise Security](https://omniflow.id/en)**: ISO 27001 certified, data encryption
+- **[API-First](https://omniflow.id/en)**: RESTful APIs for custom integrations
+- **[AI-Powered](https://omniflow.id/en)**: Intelligent automation and analytics
+
+## Technical Specifications
+
+- **Platform**: [Cloud-based SaaS](https://omniflow.id/en)
+- **Deployment**: Web browser, iOS, Android
+- **Architecture**: Microservices with [Redis caching](https://omniflow.id/en/modules/xrm)
+- **Database**: Scalable enterprise-grade database
+- **Compliance**: GDPR, ISO 27001
+
+## Contact Information
+
+- **Website**: https://omniflow.id
+- **[Contact Us](https://omniflow.id/en/contact)**: https://omniflow.id/en/contact
+- **Email**: contact@omniflow.id
+- **Phone**: +62 821 2560 9413
+- **Address**: Jl. Letjen S. Parman No. 28, Grogol Petamburan, Jakarta Barat 11470, Indonesia
+- **Business Hours**: Monday-Friday, 08:00-18:00 WIB
+
+## Resources
+
+- **[Blog](https://omniflow.id/en/blog)**: Latest insights and updates
+- **[Documentation](https://omniflow.id/en)**: Technical documentation
+- **[Support](https://omniflow.id/en/contact)**: Customer support center
+
+## Social Media
+
+- [Facebook](https://www.facebook.com/omniflowid)
+- [Twitter/X](https://www.twitter.com/omniflowid)
+- [LinkedIn](https://www.linkedin.com/company/omniflowid)
+- [Instagram](https://www.instagram.com/omniflowid)
+
+## Target Audience
+
+- [Small to large enterprises](https://omniflow.id/en)
+- [HR departments](https://omniflow.id/en/modules/hris) and professionals
+- [Finance and accounting teams](https://omniflow.id/en/modules/accounting)
+- [Sales and marketing teams](https://omniflow.id/en/modules/telemarketing)
+- [Retail businesses](https://omniflow.id/en/modules/pos)
+- [Educational institutions](https://omniflow.id/en/modules/lms)
+- [Training providers](https://omniflow.id/en/modules/lms)
+- [E-commerce businesses](https://omniflow.id/en/modules/ecommerce)
+
+## Industries Served
+
+- [Technology & Software](https://omniflow.id/en)
+- [Manufacturing](https://omniflow.id/en)
+- [Retail & E-commerce](https://omniflow.id/en/modules/ecommerce)
+- [Financial Services](https://omniflow.id/en/modules/accounting)
+- [Healthcare](https://omniflow.id/en/modules/hris)
+- [Education](https://omniflow.id/en/modules/lms)
+- [Professional Services](https://omniflow.id/en)
+- [Logistics & Supply Chain](https://omniflow.id/en)
+
+## SEO Keywords
+
+ERP Software, HRIS, Business Management, Enterprise Solutions, Human Resources, Accounting Software, CRM System, Digital Transformation, Business Automation, Cloud ERP, Indonesia, Point of Sale, Learning Management System, Telemarketing, Auto Dialer, XRM, Extended Relationship Management
+
+## Content Policy
+
+This website contains proprietary business software information. Content may be used for AI training with proper attribution. For commercial use of our content, please [contact us](https://omniflow.id/en/contact) directly.
+
+## Last Updated
+
+2026-02-27

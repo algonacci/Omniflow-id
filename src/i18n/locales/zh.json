@@ -474,7 +474,7 @@
 				"security": "认证安全"
 			}
 		}
-		},
+	},
 	"commerce": {
 		"hero": {
 			"badge": "电商平台",
@@ -889,6 +889,84 @@
 			"subtitle": "加入数千个已通过Omniflow LMS现代化培训的机构。",
 			"getStarted": "立即开始",
 			"scheduleDemo": "安排演示"
+		}
+	},
+	"telemarketing": {
+		"hero": {
+			"badge": "电话营销与自动拨号器",
+			"title": "集成自动化电话营销系统",
+			"subtitle": "Omniflow电话营销提供完整的解决方案来管理您的电话营销活动。管理联系人、创建TTS音频脚本、运行自动呼叫，并在与Omniflow ERP系统集成的单一平台中监控结果。"
+		},
+		"features": {
+			"title": "完整的电话营销功能",
+			"subtitle": "我们的电话营销平台提供全面的功能来优化您的外呼活动。",
+			"contacts": {
+				"title": "联系人管理",
+				"description": "轻松管理联系人数据库。批量导入联系人，根据标准进行细分，并跟踪与每个联系人的互动状态。"
+			},
+			"audio": {
+				"title": "TTS音频与脚本",
+				"description": "使用文本转语音创建专业的音频消息。管理电话营销脚本，自动生成音频，并保存在音频库中。"
+			},
+			"autodial": {
+				"title": "自动拨号器",
+				"description": "与Twilio集成的智能自动拨号系统。使用选定的音频脚本对联系人列表运行自动呼叫。"
+			},
+			"analytics": {
+				"title": "分析与报告",
+				"description": "实时监控电话营销活动表现的分析仪表板。通话记录报告、转化率以及完整统计数据。"
+			},
+			"scripts": {
+				"title": "电话营销脚本",
+				"description": "创建和管理专业的电话营销脚本。适用于各种行业和通话目的的即用型模板。"
+			},
+			"templates": {
+				"title": "消息模板",
+				"description": "可定制的消息模板库。使用动态变量个性化消息以提高参与度。"
+			},
+			"scheduling": {
+				"title": "活动调度",
+				"description": "安排电话营销活动在最佳时间自动运行。根据目标时区设置呼叫时间表。"
+			},
+			"logs": {
+				"title": "通话记录与历史",
+				"description": "每次通话的完整历史记录，包括状态详情、时长和回拨。与CRM系统集成以跟踪跟进。"
+			}
+		},
+		"benefits": {
+			"title": "电话营销系统优势",
+			"subtitle": "通过Omniflow电话营销的卓越功能提高您的电话营销团队效率。",
+			"conversion": {
+				"title": "更高的转化率",
+				"description": "通过专业脚本和优化的自动拨号，将您的电话营销活动转化率提高多达40%。"
+			},
+			"efficiency": {
+				"title": "运营效率",
+				"description": "呼叫自动化节省您团队的时间。专注于优质线索和有效的跟进。"
+			},
+			"compliance": {
+				"title": "法规合规",
+				"description": "系统设计时考虑电话营销法规。集成的DNC（请勿致电）和选择退出管理功能。"
+			},
+			"reach": {
+				"title": "更广泛的覆盖",
+				"description": "通过可靠的自动拨号系统在短时间內联系数千个联系人。与全球电信网络集成。"
+			},
+			"automation": {
+				"title": "完全自动化",
+				"description": "从TTS音频创建到结果报告，所有流程都实现自动化以达到最高效率。"
+			},
+			"team": {
+				"title": "团队管理",
+				"description": "将线索分配给电话营销代理，监控团队表现，并从一个仪表板轻松设置KPI目标。"
+			}
+		},
+		"cta": {
+			"badge": "准备提升销售？",
+			"title": "今天开始您的电话营销活动",
+			"subtitle": "加入数千家已通过Omniflow优化电话营销运营的公司。安排演示以了解我们的平台如何帮助您的业务。",
+			"scheduleDemo": "安排演示",
+			"contactSales": "联系销售"
 		}
 	},
 	"footer": {

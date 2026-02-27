@@ -509,7 +509,7 @@
 				"security": "Certified Security"
 			}
 		}
-		},
+	},
 	"commerce": {
 		"hero": {
 			"badge": "E-Commerce Platform",
@@ -924,6 +924,84 @@
 			"subtitle": "Join thousands of organizations that have modernized their training with Omniflow LMS.",
 			"getStarted": "Get Started",
 			"scheduleDemo": "Schedule Demo"
+		}
+	},
+	"telemarketing": {
+		"hero": {
+			"badge": "Telemarketing & Auto Dialer",
+			"title": "Integrated Automated Telemarketing System",
+			"subtitle": "Omniflow Telemarketing provides a complete solution for managing your telemarketing campaigns. Manage contacts, create TTS audio scripts, run automated calls, and monitor results in one platform integrated with Omniflow ERP system."
+		},
+		"features": {
+			"title": "Complete Telemarketing Features",
+			"subtitle": "Our Telemarketing platform offers comprehensive features to optimize your outbound calling campaigns.",
+			"contacts": {
+				"title": "Contact Management",
+				"description": "Easily manage contact databases. Import contacts in bulk, segment based on criteria, and track interaction status with each contact."
+			},
+			"audio": {
+				"title": "TTS Audio & Scripts",
+				"description": "Create professional audio messages with Text-to-Speech. Manage telemarketing scripts, generate audio automatically, and save in audio library."
+			},
+			"autodial": {
+				"title": "Auto Dialer",
+				"description": "Smart autodial system integrated with Twilio. Run automated calls to contact lists with selected audio scripts."
+			},
+			"analytics": {
+				"title": "Analytics & Reports",
+				"description": "Real-time analytics dashboard to monitor telemarketing campaign performance. Call logs reports, conversion rates, and complete statistics."
+			},
+			"scripts": {
+				"title": "Telemarketing Scripts",
+				"description": "Create and manage professional telemarketing scripts. Ready-to-use templates for various industries and call purposes."
+			},
+			"templates": {
+				"title": "Message Templates",
+				"description": "Customizable message template library. Personalize messages with dynamic variables to increase engagement."
+			},
+			"scheduling": {
+				"title": "Campaign Scheduling",
+				"description": "Schedule telemarketing campaigns to run automatically at optimal times. Set call schedules based on target time zones."
+			},
+			"logs": {
+				"title": "Call Logs & History",
+				"description": "Complete history of every call with status details, duration, and callbacks. Integration with CRM system for follow-up tracking."
+			}
+		},
+		"benefits": {
+			"title": "Telemarketing System Advantages",
+			"subtitle": "Increase your telemarketing team's efficiency with Omniflow Telemarketing's superior features.",
+			"conversion": {
+				"title": "Higher Conversion Rates",
+				"description": "With professional scripts and optimized autodial, increase your telemarketing campaign conversion rates by up to 40%."
+			},
+			"efficiency": {
+				"title": "Operational Efficiency",
+				"description": "Call automation saves your team's time. Focus on quality leads and effective follow-ups."
+			},
+			"compliance": {
+				"title": "Regulatory Compliance",
+				"description": "System designed with telemarketing regulations in mind. Integrated DNC (Do Not Call) and opt-out management features."
+			},
+			"reach": {
+				"title": "Wider Reach",
+				"description": "Reach thousands of contacts in a short time with a reliable autodial system. Integration with global telecommunications networks."
+			},
+			"automation": {
+				"title": "Full Automation",
+				"description": "From TTS audio creation to result reporting, all processes are automated for maximum efficiency."
+			},
+			"team": {
+				"title": "Team Management",
+				"description": "Allocate leads to telemarketing agents, monitor team performance, and set KPI targets easily from one dashboard."
+			}
+		},
+		"cta": {
+			"badge": "Ready to Boost Sales?",
+			"title": "Start Your Telemarketing Campaign Today",
+			"subtitle": "Join thousands of companies that have optimized their telemarketing operations with Omniflow. Schedule a demo to see how our platform can help your business.",
+			"scheduleDemo": "Schedule Demo",
+			"contactSales": "Contact Sales"
 		}
 	},
 	"footer": {

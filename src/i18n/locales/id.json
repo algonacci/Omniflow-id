@@ -34,6 +34,7 @@
 		"accounting": "Akuntansi",
 		"pos": "Point of Sale",
 		"lms": "LMS",
+		"telemarketing": "Telemarketing",
 		"insights": "Wawasan",
 		"resources": "Sumber Daya",
 		"support": "Dukungan",
@@ -501,7 +502,7 @@
 				"security": "Keamanan Bersertifikat"
 			}
 		}
-		},
+	},
 	"commerce": {
 		"hero": {
 			"badge": "E-Commerce Platform",
@@ -916,6 +917,84 @@
 			"subtitle": "Bergabunglah dengan ribuan organisasi yang telah memodernisasi pelatihan mereka dengan Omniflow LMS.",
 			"getStarted": "Mulai Sekarang",
 			"scheduleDemo": "Jadwalkan Demo"
+		}
+	},
+	"telemarketing": {
+		"hero": {
+			"badge": "Telemarketing & Auto Dialer",
+			"title": "Sistem Telemarketing Otomatis Terintegrasi",
+			"subtitle": "Omniflow Telemarketing menyediakan solusi lengkap untuk mengelola kampanye telemarketing Anda. Kelola kontak, buat script audio TTS, jalankan panggilan otomatis, dan pantau hasil dalam satu platform yang terintegrasi dengan sistem ERP Omniflow."
+		},
+		"features": {
+			"title": "Fitur Telemarketing Lengkap",
+			"subtitle": "Platform Telemarketing kami menawarkan fitur-fitur komprehensif untuk mengoptimalkan kampanye outbound calling Anda.",
+			"contacts": {
+				"title": "Manajemen Kontak",
+				"description": "Kelola database kontak dengan mudah. Import kontak massal, segmentasi berdasarkan kriteria, dan pantau status interaksi dengan setiap kontak."
+			},
+			"audio": {
+				"title": "Audio TTS & Script",
+				"description": "Buat pesan audio profesional dengan Text-to-Speech. Kelola script telemarketing, generate audio otomatis, dan simpan dalam library audio."
+			},
+			"autodial": {
+				"title": "Auto Dialer",
+				"description": "Sistem autodial cerdas yang terintegrasi dengan Twilio. Jalankan panggilan otomatis ke daftar kontak dengan script audio yang dipilih."
+			},
+			"analytics": {
+				"title": "Analitik & Laporan",
+				"description": "Dashboard analitik real-time untuk memantau performa kampanye telemarketing. Laporan call logs, conversion rate, dan statistik lengkap."
+			},
+			"scripts": {
+				"title": "Script Telemarketing",
+				"description": "Buat dan kelola script telemarketing profesional. Template siap pakai untuk berbagai industri dan tujuan panggilan."
+			},
+			"templates": {
+				"title": "Template Pesan",
+				"description": "Library template pesan yang dapat disesuaikan. Personalisasi pesan dengan variabel dinamis untuk meningkatkan engagement."
+			},
+			"scheduling": {
+				"title": "Penjadwalan Kampanye",
+				"description": "Jadwalkan kampanye telemarketing untuk berjalan otomatis pada waktu optimal. Atur jadwal panggilan berdasarkan zona waktu target."
+			},
+			"logs": {
+				"title": "Call Logs & History",
+				"description": "Riwayat lengkap setiap panggilan dengan detail status, durasi, dan callback. Integrasi dengan sistem CRM untuk tracking follow-up."
+			}
+		},
+		"benefits": {
+			"title": "Keunggulan Sistem Telemarketing",
+			"subtitle": "Tingkatkan efisiensi tim telemarketing Anda dengan fitur-fitur unggulan dari Omniflow Telemarketing.",
+			"conversion": {
+				"title": "Conversion Rate Lebih Tinggi",
+				"description": "Dengan script profesional dan autodial yang teroptimasi, tingkatkan conversion rate kampanye telemarketing Anda hingga 40%."
+			},
+			"efficiency": {
+				"title": "Efisiensi Operasional",
+				"description": "Otomatisasi panggilan menghemat waktu tim Anda. Fokus pada leads yang berkualitas dan follow-up yang efektif."
+			},
+			"compliance": {
+				"title": "Kepatuhan Regulasi",
+				"description": "Sistem yang dirancang dengan memperhatikan regulasi telemarketing. Fitur DNC (Do Not Call) dan opt-out management terintegrasi."
+			},
+			"reach": {
+				"title": "Jangkauan Lebih Luas",
+				"description": "Jangkau ribuan kontak dalam waktu singkat dengan sistem autodial yang handal. Integrasi dengan jaringan telekomunikasi global."
+			},
+			"automation": {
+				"title": "Otomatisasi Penuh",
+				"description": "Dari pembuatan audio TTS hingga pelaporan hasil, semua proses diotomatisasi untuk efisiensi maksimal."
+			},
+			"team": {
+				"title": "Manajemen Tim",
+				"description": "Alokasikan leads ke agen telemarketing, pantau performa tim, dan atur target KPI dengan mudah dari satu dashboard."
+			}
+		},
+		"cta": {
+			"badge": "Siap Meningkatkan Penjualan?",
+			"title": "Mulai Kampanye Telemarketing Anda Hari Ini",
+			"subtitle": "Bergabunglah dengan ribuan perusahaan yang telah mengoptimalkan operasi telemarketing mereka dengan Omniflow. Jadwalkan demo untuk melihat bagaimana platform kami dapat membantu bisnis Anda.",
+			"scheduleDemo": "Jadwalkan Demo",
+			"contactSales": "Hubungi Sales"
 		}
 	},
 	"footer": {
