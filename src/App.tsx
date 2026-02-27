@@ -17,6 +17,7 @@ import AccountingPage from "./pages/modules/Accounting/index.tsx";
 import CommercePage from "./pages/modules/Commerce/index.tsx";
 import HRISPage from "./pages/modules/HRIS";
 import LMSPage from "./pages/modules/LMS/index.tsx";
+import PaymentGatewayPage from "./pages/modules/PaymentGateway/index.tsx";
 import PoSPage from "./pages/modules/PoS/index.tsx";
 import TelemarketingPage from "./pages/modules/Telemarketing/index.tsx";
 import XRMPage from "./pages/modules/XRM/index.tsx";
@@ -54,6 +55,10 @@ function App() {
 							path="/en/modules/telemarketing"
 							element={<TelemarketingPage />}
 						/>
+						<Route
+							path="/en/modules/payment-gateway"
+							element={<PaymentGatewayPage />}
+						/>
 						<Route path="/en/blog" element={<BlogPage />} />
 						<Route path="/en/blog/:slug" element={<BlogDetailPage />} />
 						<Route path="/en/contact" element={<ContactPage />} />
@@ -74,6 +79,10 @@ function App() {
 							path="/id/modules/telemarketing"
 							element={<TelemarketingPage />}
 						/>
+						<Route
+							path="/id/modules/payment-gateway"
+							element={<PaymentGatewayPage />}
+						/>
 						<Route path="/id/blog" element={<BlogPage />} />
 						<Route path="/id/blog/:slug" element={<BlogDetailPage />} />
 						<Route path="/id/contact" element={<ContactPage />} />
@@ -93,6 +102,10 @@ function App() {
 						<Route
 							path="/zh/modules/telemarketing"
 							element={<TelemarketingPage />}
+						/>
+						<Route
+							path="/zh/modules/payment-gateway"
+							element={<PaymentGatewayPage />}
 						/>
 						<Route path="/zh/blog" element={<BlogPage />} />
 						<Route path="/zh/blog/:slug" element={<BlogDetailPage />} />

@@ -57,6 +57,14 @@ Omniflow.id is an integrated ERP (Enterprise Resource Planning) platform designe
    - [Auto-dialer](https://omniflow.id/en/modules/telemarketing) with Twilio integration
    - [Call logs](https://omniflow.id/en/modules/telemarketing) and analytics
 
+8. **[Payment Gateway](https://omniflow.id/en/modules/payment-gateway)**
+   - [Multi payment gateway integration](https://omniflow.id/en/modules/payment-gateway) with Midtrans
+   - [Various payment methods](https://omniflow.id/en/modules/payment-gateway): Virtual Account, QRIS, Credit Card, E-Wallet
+   - [Real-time transaction notifications](https://omniflow.id/en/modules/payment-gateway) via webhook
+   - [Secure payment processing](https://omniflow.id/en/modules/payment-gateway) with PCI DSS compliance
+   - [Payment analytics](https://omniflow.id/en/modules/payment-gateway) and reporting
+   - [Ready for e-commerce](https://omniflow.id/en/modules/payment-gateway) and online selling
+
 ## Key Features
 
 - **[All-in-One Solution](https://omniflow.id/en)**: 17+ integrated modules
@@ -121,7 +129,7 @@ Omniflow.id is an integrated ERP (Enterprise Resource Planning) platform designe
 
 ## SEO Keywords
 
-ERP Software, HRIS, Business Management, Enterprise Solutions, Human Resources, Accounting Software, CRM System, Digital Transformation, Business Automation, Cloud ERP, Indonesia, Point of Sale, Learning Management System, Telemarketing, Auto Dialer, XRM, Extended Relationship Management
+ERP Software, HRIS, Business Management, Enterprise Solutions, Human Resources, Accounting Software, CRM System, Digital Transformation, Business Automation, Cloud ERP, Indonesia, Point of Sale, Learning Management System, Telemarketing, Auto Dialer, XRM, Extended Relationship Management, Payment Gateway, Payment Gateway Indonesia, Payment Processor, Online Payment, E-commerce Payment, Midtrans, Virtual Account, QRIS, E-Wallet, Credit Card Payment, Payment Integration, Payment API
 
 ## Content Policy
 

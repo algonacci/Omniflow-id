@@ -34,6 +34,8 @@
 		"accounting": "会计",
 		"pos": "销售终端",
 		"lms": "学习管理",
+		"telemarketing": "电话营销",
+		"paymentGateway": "支付网关",
 		"insights": "洞察",
 		"resources": "资源",
 		"support": "支持",
@@ -965,6 +967,84 @@
 			"badge": "准备提升销售？",
 			"title": "今天开始您的电话营销活动",
 			"subtitle": "加入数千家已通过Omniflow优化电话营销运营的公司。安排演示以了解我们的平台如何帮助您的业务。",
+			"scheduleDemo": "安排演示",
+			"contactSales": "联系销售"
+		}
+	},
+	"paymentGateway": {
+		"hero": {
+			"badge": "集成支付网关",
+			"title": "印度尼西亚最佳在线业务支付网关",
+			"subtitle": "轻松接受来自多种支付方式的付款。与Midtrans、虚拟账户、QRIS和电子钱包集成在一个与Omniflow ERP系统连接的平台中。"
+		},
+		"features": {
+			"title": "完整的支付网关功能",
+			"subtitle": "为电子商务和在线业务提供全面的支付解决方案，支持印度尼西亚各种流行的支付方式。",
+			"multipleGateways": {
+				"title": "多渠道支付网关",
+				"description": "与Midtrans和各种其他支付网关集成。根据您的业务需求选择最佳提供商。"
+			},
+			"paymentMethods": {
+				"title": "多种支付方式",
+				"description": "通过虚拟账户、QRIS、信用卡、电子钱包（GoPay、OVO、DANA、LinkAja）、银行转账和现金零售接受付款。"
+			},
+			"security": {
+				"title": "保证安全",
+				"description": "敏感数据加密、自动欺诈检测和PCI DSS合规性，确保交易安全。"
+			},
+			"instantNotification": {
+				"title": "实时通知",
+				"description": "通过webhook、电子邮件或推送通知获取每笔交易的即时通知。24/7支付状态监控。"
+			},
+			"transactionManagement": {
+				"title": "交易管理",
+				"description": "在一个仪表板中监控所有交易。跟踪支付状态、退款、拒付和完整的交易历史。"
+			},
+			"analytics": {
+				"title": "分析与报告",
+				"description": "综合分析仪表板，监控支付表现。交易报告、热门支付方式和销售趋势。"
+			},
+			"mobileReady": {
+				"title": "移动优化",
+				"description": "在所有设备上提供无缝的支付体验。移动响应式支付页面，提高转化率。"
+			},
+			"multiCurrency": {
+				"title": "多币种支持",
+				"description": "以多种货币接受付款，自动转换。将您的业务扩展到国际市场。"
+			}
+		},
+		"benefits": {
+			"title": "支付网关优势",
+			"subtitle": "通过我们集成的支付网关解决方案提高转化率并轻松管理付款。",
+			"conversion": {
+				"title": "提高转化率",
+				"description": "多种支付方式选项可将客户完成交易的可能性提高多达40%。"
+			},
+			"fastSettlement": {
+				"title": "快速结算",
+				"description": "资金在1-2个工作日内存入您的账户。业务运营现金流更顺畅。"
+			},
+			"fraudProtection": {
+				"title": "欺诈保护",
+				"description": "先进的欺诈检测系统，使用机器学习保护您的业务免受可疑交易侵害。"
+			},
+			"compliance": {
+				"title": "法规与合规",
+				"description": "符合PCI DSS安全标准和印度尼西亚银行法规，确保交易安全合法。"
+			},
+			"support": {
+				"title": "24/7支持",
+				"description": "我们的支持团队随时准备帮助集成和故障排除。响应迅速的技术协助。"
+			},
+			"costEffective": {
+				"title": "价格实惠",
+				"description": "透明的费用结构，无隐藏设置费用。通过为您的业务提供具有竞争力的费率来节省资金。"
+			}
+		},
+		"cta": {
+			"badge": "准备接受在线付款？",
+			"title": "今天开始接受付款",
+			"subtitle": "加入使用Omniflow支付网关的数千商家。集成简单，数小时内即可准备就绪。",
 			"scheduleDemo": "安排演示",
 			"contactSales": "联系销售"
 		}

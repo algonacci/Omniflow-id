@@ -34,6 +34,8 @@
 		"accounting": "Accounting",
 		"pos": "Point of Sale",
 		"lms": "LMS",
+		"telemarketing": "Telemarketing",
+		"paymentGateway": "Payment Gateway",
 		"insights": "Insights",
 		"resources": "Resources",
 		"support": "Support",
@@ -1000,6 +1002,84 @@
 			"badge": "Ready to Boost Sales?",
 			"title": "Start Your Telemarketing Campaign Today",
 			"subtitle": "Join thousands of companies that have optimized their telemarketing operations with Omniflow. Schedule a demo to see how our platform can help your business.",
+			"scheduleDemo": "Schedule Demo",
+			"contactSales": "Contact Sales"
+		}
+	},
+	"paymentGateway": {
+		"hero": {
+			"badge": "Integrated Payment Gateway",
+			"title": "Best Payment Gateway for Online Business",
+			"subtitle": "Accept payments from multiple methods with ease. Integrated with Midtrans, Virtual Account, QRIS, and E-Wallets in one platform connected to Omniflow ERP system."
+		},
+		"features": {
+			"title": "Complete Payment Gateway Features",
+			"subtitle": "Comprehensive payment solutions for e-commerce and online businesses with various popular payment methods in Indonesia.",
+			"multipleGateways": {
+				"title": "Multi Payment Gateway",
+				"description": "Integration with Midtrans and various other payment gateways. Choose the best provider according to your business needs."
+			},
+			"paymentMethods": {
+				"title": "Various Payment Methods",
+				"description": "Accept payments via Virtual Account, QRIS, Credit Card, E-Wallet (GoPay, OVO, DANA, LinkAja), Bank Transfer, and Cash Retail."
+			},
+			"security": {
+				"title": "Guaranteed Security",
+				"description": "Sensitive data encryption, automatic fraud detection, and PCI DSS compliance for secure transactions."
+			},
+			"instantNotification": {
+				"title": "Real-time Notifications",
+				"description": "Get instant notifications for every transaction via webhook, email, or push notification. 24/7 payment status monitoring."
+			},
+			"transactionManagement": {
+				"title": "Transaction Management",
+				"description": "Monitor all transactions in one dashboard. Track payment status, refunds, chargebacks, and complete transaction history."
+			},
+			"analytics": {
+				"title": "Analytics & Reports",
+				"description": "Comprehensive analytics dashboard to monitor payment performance. Transaction reports, popular payment methods, and sales trends."
+			},
+			"mobileReady": {
+				"title": "Mobile-Optimized",
+				"description": "Seamless payment experience across all devices. Mobile-responsive payment page to increase conversion."
+			},
+			"multiCurrency": {
+				"title": "Multi-Currency Support",
+				"description": "Accept payments in multiple currencies with automatic conversion. Expand your business to international markets."
+			}
+		},
+		"benefits": {
+			"title": "Payment Gateway Advantages",
+			"subtitle": "Increase conversions and manage payments easily with our integrated payment gateway solution.",
+			"conversion": {
+				"title": "Increase Conversion",
+				"description": "Various payment method options increase the likelihood of customers completing transactions by up to 40%."
+			},
+			"fastSettlement": {
+				"title": "Fast Settlement",
+				"description": "Funds deposited to your account within 1-2 business days. Smoother cashflow for business operations."
+			},
+			"fraudProtection": {
+				"title": "Fraud Protection",
+				"description": "Advanced fraud detection system with machine learning to protect your business from suspicious transactions."
+			},
+			"compliance": {
+				"title": "Regulation & Compliance",
+				"description": "Meets PCI DSS security standards and Bank Indonesia regulations for safe and legal transactions."
+			},
+			"support": {
+				"title": "24/7 Support",
+				"description": "Our support team is ready to help with integration and troubleshooting anytime. Responsive technical assistance."
+			},
+			"costEffective": {
+				"title": "Affordable Pricing",
+				"description": "Transparent fee structure with no hidden setup costs. Save money with competitive rates for your business."
+			}
+		},
+		"cta": {
+			"badge": "Ready to Accept Online Payments?",
+			"title": "Start Accepting Payments Today",
+			"subtitle": "Join thousands of merchants using Omniflow Payment Gateway. Easy integration, ready in hours.",
 			"scheduleDemo": "Schedule Demo",
 			"contactSales": "Contact Sales"
 		}

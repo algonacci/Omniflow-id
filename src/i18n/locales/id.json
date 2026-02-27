@@ -35,6 +35,7 @@
 		"pos": "Point of Sale",
 		"lms": "LMS",
 		"telemarketing": "Telemarketing",
+		"paymentGateway": "Payment Gateway",
 		"insights": "Wawasan",
 		"resources": "Sumber Daya",
 		"support": "Dukungan",
@@ -993,6 +994,84 @@
 			"badge": "Siap Meningkatkan Penjualan?",
 			"title": "Mulai Kampanye Telemarketing Anda Hari Ini",
 			"subtitle": "Bergabunglah dengan ribuan perusahaan yang telah mengoptimalkan operasi telemarketing mereka dengan Omniflow. Jadwalkan demo untuk melihat bagaimana platform kami dapat membantu bisnis Anda.",
+			"scheduleDemo": "Jadwalkan Demo",
+			"contactSales": "Hubungi Sales"
+		}
+	},
+	"paymentGateway": {
+		"hero": {
+			"badge": "Payment Gateway Terintegrasi",
+			"title": "Payment Gateway Indonesia Terbaik untuk Bisnis Online",
+			"subtitle": "Terima pembayaran dari berbagai metode dengan mudah. Integrasi Midtrans, Virtual Account, QRIS, dan E-Wallet dalam satu platform yang terhubung dengan sistem ERP Omniflow."
+		},
+		"features": {
+			"title": "Fitur Payment Gateway Lengkap",
+			"subtitle": "Solusi pembayaran komprehensif untuk e-commerce dan bisnis online Anda dengan berbagai metode pembayaran populer di Indonesia.",
+			"multipleGateways": {
+				"title": "Multi Payment Gateway",
+				"description": "Integrasi dengan Midtrans dan berbagai payment gateway lainnya. Pilih provider terbaik sesuai kebutuhan bisnis Anda."
+			},
+			"paymentMethods": {
+				"title": "Berbagai Metode Pembayaran",
+				"description": "Terima pembayaran via Virtual Account, QRIS, Credit Card, E-Wallet (GoPay, OVO, DANA, LinkAja), Transfer Bank, dan Cash Retail."
+			},
+			"security": {
+				"title": "Keamanan Terjamin",
+				"description": "Enkripsi data sensitif, fraud detection otomatis, dan compliance dengan standar keamanan PCI DSS untuk transaksi yang aman."
+			},
+			"instantNotification": {
+				"title": "Notifikasi Real-time",
+				"description": "Dapatkan notifikasi instan untuk setiap transaksi via webhook, email, atau push notification. Monitoring status pembayaran 24/7."
+			},
+			"transactionManagement": {
+				"title": "Manajemen Transaksi",
+				"description": "Pantau semua transaksi dalam satu dashboard. Lacak status pembayaran, refund, chargeback, dan history transaksi lengkap."
+			},
+			"analytics": {
+				"title": "Analitik \u0026 Laporan",
+				"description": "Dashboard analitik komprehensif untuk memantau performa pembayaran. Laporan transaksi, metode pembayaran populer, dan trend penjualan."
+			},
+			"mobileReady": {
+				"title": "Mobile-Optimized",
+				"description": "Pengalaman pembayaran yang seamless di semua perangkat. Mobile-responsive payment page untuk meningkatkan konversi."
+			},
+			"multiCurrency": {
+				"title": "Multi-Currency Support",
+				"description": "Terima pembayaran dalam berbagai mata uang dengan konversi otomatis. Expand bisnis Anda ke pasar internasional."
+			}
+		},
+		"benefits": {
+			"title": "Keunggulan Payment Gateway Kami",
+			"subtitle": "Tingkatkan konversi dan kelola pembayaran dengan mudah menggunakan solusi payment gateway terintegrasi kami.",
+			"conversion": {
+				"title": "Tingkatkan Konversi",
+				"description": "Berbagai pilihan metode pembayaran meningkatkan kemungkinan customer menyelesaikan transaksi hingga 40%."
+			},
+			"fastSettlement": {
+				"title": "Settlement Cepat",
+				"description": "Dana masuk ke rekening Anda dalam 1-2 hari kerja. Cashflow lebih lancar untuk operasional bisnis."
+			},
+			"fraudProtection": {
+				"title": "Proteksi Fraud",
+				"description": "Sistem deteksi fraud canggih dengan machine learning untuk melindungi bisnis dari transaksi mencurigakan."
+			},
+			"compliance": {
+				"title": "Regulasi \u0026 Compliance",
+				"description": "Memenuhi standar keamanan PCI DSS dan regulasi Bank Indonesia untuk transaksi yang aman dan legal."
+			},
+			"support": {
+				"title": "Dukungan 24/7",
+				"description": "Tim support kami siap membantu integrasi dan troubleshooting kapan saja. Bantuan teknis responsif."
+			},
+			"costEffective": {
+				"title": "Biaya Terjangkau",
+				"description": "Struktur biaya transparan tanpa biaya setup tersembunyi. Hemat biaya dengan rate kompetitif untuk bisnis Anda."
+			}
+		},
+		"cta": {
+			"badge": "Siap Menerima Pembayaran Online?",
+			"title": "Mulai Terima Pembayaran Hari Ini",
+			"subtitle": "Bergabunglah dengan ribuan merchant yang telah menggunakan Omniflow Payment Gateway. Integrasi mudah, siap dalam hitungan jam.",
 			"scheduleDemo": "Jadwalkan Demo",
 			"contactSales": "Hubungi Sales"
 		}
