@@ -1,42 +1,96 @@
-import { ArrowRight, GraduationCap } from "lucide-react";
+import { ArrowRight, Award, CheckCircle, Shield, Users } from "lucide-react";
 import { useTranslation } from "react-i18next";
-import { Link, useLocation } from "react-router-dom";
 
 export default function CTASection() {
 	const { t } = useTranslation();
-	const location = useLocation();
-
-	const getCurrentLang = () => {
-		const match = location.pathname.match(/^\/(en|id|zh)/);
-		return match ? match[1] : "en";
-	};
-
-	const currentLang = getCurrentLang();
 
 	return (
-		<section className="section-enterprise bg-gradient-to-br from-teal-600 to-teal-800">
-			<div className="container-enterprise text-center">
-				<GraduationCap className="h-16 w-16 text-white/80 mx-auto mb-6" />
-				<h2 className="text-3xl md:text-4xl font-bold text-white mb-6">
-					{t("lmsModule.cta.title")}
-				</h2>
-				<p className="text-xl text-white/90 max-w-2xl mx-auto mb-8">
-					{t("lmsModule.cta.subtitle")}
-				</p>
-				<div className="flex flex-col sm:flex-row gap-4 justify-center">
-					<Link
-						to={`/${currentLang}/contact`}
-						className="btn-enterprise btn-white inline-flex items-center justify-center gap-2"
-					>
-						{t("lmsModule.cta.getStarted")}
-						<ArrowRight className="h-5 w-5" />
-					</Link>
-					<Link
-						to={`/${currentLang}/contact`}
-						className="btn-enterprise btn-outline-white inline-flex items-center justify-center"
-					>
-						{t("lmsModule.cta.scheduleDemo")}
-					</Link>
+		<section className="section-enterprise gradient-dark text-white">
+			<div className="container-enterprise">
+				<div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
+					<div>
+						<div className="inline-flex items-center px-4 py-2 bg-blue-800 text-blue-100 rounded-full text-sm font-semibold mb-6">
+							<CheckCircle className="h-4 w-4 mr-2" />
+							{t("lmsModule.cta.badge")}
+						</div>
+						<h2 className="text-white mb-6">{t("lmsModule.cta.title")}</h2>
+						<p className="text-blue-100 mb-8 text-xl leading-relaxed">
+							{t("lmsModule.cta.subtitle")}
+						</p>
+						<div className="flex flex-col sm:flex-row gap-4 mb-8">
+							<button className="btn-cta-light group">
+								{t("lmsModule.cta.getStarted")}
+								<ArrowRight className="ml-2 h-5 w-5 group-hover:translate-x-1 transition-transform" />
+							</button>
+							<button className="btn-cta-outline">
+								{t("lmsModule.cta.scheduleDemo")}
+							</button>
+						</div>
+						<div className="flex items-center space-x-6 text-blue-100">
+							<div className="flex items-center">
+								<CheckCircle className="h-4 w-4 mr-2" />
+								<span className="text-sm">
+									{t("lmsModule.cta.features.trial")}
+								</span>
+							</div>
+							<div className="flex items-center">
+								<CheckCircle className="h-4 w-4 mr-2" />
+								<span className="text-sm">
+									{t("lmsModule.cta.features.setup")}
+								</span>
+							</div>
+							<div className="flex items-center">
+								<CheckCircle className="h-4 w-4 mr-2" />
+								<span className="text-sm">
+									{t("lmsModule.cta.features.support")}
+								</span>
+							</div>
+						</div>
+					</div>
+
+					<div className="space-y-6">
+						<div className="card-enterprise p-6 bg-white/10 backdrop-blur-sm border border-white/20">
+							<div className="flex items-center space-x-4">
+								<div className="w-12 h-12 bg-blue-500 rounded-xl flex items-center justify-center">
+									<Users className="h-6 w-6 text-white" />
+								</div>
+								<div>
+									<div className="text-2xl font-bold text-white">10,000+</div>
+									<div className="text-blue-100">
+										{t("lmsModule.cta.stats.users")}
+									</div>
+								</div>
+							</div>
+						</div>
+
+						<div className="card-enterprise p-6 bg-white/10 backdrop-blur-sm border border-white/20">
+							<div className="flex items-center space-x-4">
+								<div className="w-12 h-12 bg-emerald-500 rounded-xl flex items-center justify-center">
+									<Award className="h-6 w-6 text-white" />
+								</div>
+								<div>
+									<div className="text-2xl font-bold text-white">99.9%</div>
+									<div className="text-blue-100">
+										{t("lmsModule.cta.stats.uptime")}
+									</div>
+								</div>
+							</div>
+						</div>
+
+						<div className="card-enterprise p-6 bg-white/10 backdrop-blur-sm border border-white/20">
+							<div className="flex items-center space-x-4">
+								<div className="w-12 h-12 bg-purple-500 rounded-xl flex items-center justify-center">
+									<Shield className="h-6 w-6 text-white" />
+								</div>
+								<div>
+									<div className="text-2xl font-bold text-white">ISO 27001</div>
+									<div className="text-blue-100">
+										{t("lmsModule.cta.stats.security")}
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
 				</div>
 			</div>
 		</section>
