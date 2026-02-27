@@ -1,5 +1,5 @@
-import { useTranslation } from "react-i18next";
 import { useEffect } from "react";
+import { useTranslation } from "react-i18next";
 import SEOHead from "../../../components/SEOHead";
 import StructuredData from "../../../components/StructuredData";
 import Benefits from "./components/Benefits";
@@ -21,7 +21,7 @@ export default function AccountingPage() {
 			<SEOHead
 				title={t("accounting.hero.title")}
 				description={t("accounting.hero.subtitle")}
-				keywords="Accounting Software, General Ledger, Accounts Payable, Accounts Receivable, Financial Reporting, Chart of Accounts, Invoicing, Financial Management, Omniflow"
+				keywords="Accounting Software, General Ledger, Accounts Payable, Accounts Receivable, Financial Reporting, Chart of Accounts, Invoicing, Financial Management, sistem akuntansi online, software akuntansi Indonesia, aplikasi pembukuan perusahaan, software pembukuan online, sistem keuangan perusahaan, aplikasi akuntansi UMKM, software laporan keuangan, akuntansi cloud Indonesia"
 				type="website"
 			/>
 			<StructuredData

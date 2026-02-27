@@ -1,5 +1,5 @@
-import { useTranslation } from "react-i18next";
 import { useEffect } from "react";
+import { useTranslation } from "react-i18next";
 import SEOHead from "../../../components/SEOHead";
 import StructuredData from "../../../components/StructuredData";
 import Benefits from "./components/Benefits";
@@ -21,7 +21,7 @@ export default function HRISPage() {
 			<SEOHead
 				title={t("hris.title")}
 				description={t("hris.subtitle")}
-				keywords="HRIS Software, Human Resources Management, Employee Management, HR Automation, Payroll System, Leave Management, Performance Management, Indonesia HRIS"
+				keywords="HRIS Software, Human Resources Management, Employee Management, HR Automation, Payroll System, Leave Management, Performance Management, Indonesia HRIS, sistem HR payroll, software HR Indonesia, aplikasi penggajian, sistem absensi karyawan, manajemen sumber daya manusia, software payroll perusahaan, HRIS terbaik, aplikasi HR mobile"
 				type="website"
 			/>
 			<StructuredData

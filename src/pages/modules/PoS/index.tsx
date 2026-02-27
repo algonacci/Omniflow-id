@@ -1,5 +1,5 @@
-import { useTranslation } from "react-i18next";
 import { useEffect } from "react";
+import { useTranslation } from "react-i18next";
 import SEOHead from "../../../components/SEOHead";
 import StructuredData from "../../../components/StructuredData";
 import Benefits from "./components/Benefits";
@@ -21,7 +21,7 @@ export default function PoSPage() {
 			<SEOHead
 				title={t("pos.hero.title")}
 				description={t("pos.hero.subtitle")}
-				keywords="POS, Point of Sale, Retail Management, Inventory Integration, Payment Processing, Receipt Printing, Offline Mode, Multi-Store, Omniflow"
+				keywords="POS, Point of Sale, Retail Management, Inventory Integration, Payment Processing, Receipt Printing, Offline Mode, Multi-Store, software stok barang, aplikasi inventory gudang, sistem kasir online, software retail Indonesia, aplikasi POS terbaik, sistem integrasi penjualan dan gudang, software multi cabang, ERP retail, aplikasi kasir UMKM"
 				type="website"
 			/>
 			<StructuredData

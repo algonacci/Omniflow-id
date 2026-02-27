@@ -1,5 +1,5 @@
-import { useTranslation } from "react-i18next";
 import { useEffect } from "react";
+import { useTranslation } from "react-i18next";
 import SEOHead from "../../../components/SEOHead";
 import StructuredData from "../../../components/StructuredData";
 import Benefits from "./components/Benefits";
@@ -21,7 +21,7 @@ export default function XRMPage() {
 			<SEOHead
 				title={t("xrm.hero.title")}
 				description={t("xrm.hero.subtitle")}
-				keywords="XRM, Extended Relationship Management, CRM++, User Management, RBAC, Activity Logging, Two-Factor Authentication, Job Queue, Redis Caching, Mobile App, Flutter, iOS, Android, Omniflow"
+				keywords="XRM, Extended Relationship Management, CRM++, User Management, RBAC, Activity Logging, Two-Factor Authentication, Job Queue, Redis Caching, Mobile App, Flutter, iOS, Android, software manajemen pengguna, sistem CRM Indonesia, aplikasi manajemen relasi pelanggan, software kontrol akses, sistem audit trail, aplikasi CRM multi cabang"
 				type="website"
 			/>
 			<StructuredData

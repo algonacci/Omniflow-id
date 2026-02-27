@@ -1,5 +1,5 @@
-import { useTranslation } from "react-i18next";
 import { useEffect } from "react";
+import { useTranslation } from "react-i18next";
 import Advantages from "../components/Advantages";
 import Contact from "../components/Contact";
 import FAQ from "../components/FAQ";
@@ -20,7 +20,7 @@ export default function HomePage() {
 			<SEOHead
 				title={t("hero.title")}
 				description={t("hero.subtitle")}
-				keywords="ERP Software, HRIS, Business Management, Enterprise Solutions, Omniflow, Indonesia, Sistem Manajemen Bisnis, Human Resources, Accounting Software, CRM System"
+				keywords="software ERP terbaik, ERP Indonesia, sistem ERP perusahaan, aplikasi ERP, ERP untuk perusahaan, software stok barang, aplikasi inventory gudang, sistem akuntansi online, software pembukuan perusahaan, aplikasi manufaktur, sistem HR payroll, software multi cabang, sistem integrasi penjualan dan gudang, ERP manufaktur, ERP distributor, ERP retail, ERP kontraktor, ERP F\u0026B, ERP rumah sakit, ERP sekolah, ERP lokal terbaik, harga ERP, biaya implementasi ERP, ERP murah, ERP untuk UMKM, ERP gratis, software bisnis murah, aplikasi manajemen usaha kecil"
 				type="website"
 			/>
 			<StructuredData type="WebSite" />

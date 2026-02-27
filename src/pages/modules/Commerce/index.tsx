@@ -1,5 +1,5 @@
-import { useTranslation } from "react-i18next";
 import { useEffect } from "react";
+import { useTranslation } from "react-i18next";
 import SEOHead from "../../../components/SEOHead";
 import StructuredData from "../../../components/StructuredData";
 import Benefits from "./components/Benefits";
@@ -21,7 +21,7 @@ export default function CommercePage() {
 			<SEOHead
 				title={t("commerce.hero.title")}
 				description={t("commerce.hero.subtitle")}
-				keywords="E-Commerce, Online Store, Shopping Cart, Product Management, Inventory, Payment Gateway, Indonesia E-Commerce, Omniflow"
+				keywords="E-Commerce, Online Store, Shopping Cart, Product Management, Inventory, Payment Gateway, Indonesia E-Commerce, aplikasi toko online, software e-commerce Indonesia, platform jualan online, sistem manajemen toko, aplikasi multi cabang, software retail online, e-commerce terintegrasi ERP"
 				type="website"
 			/>
 			<StructuredData

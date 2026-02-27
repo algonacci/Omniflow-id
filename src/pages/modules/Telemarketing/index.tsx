@@ -19,7 +19,7 @@ export default function TelemarketingPage() {
 			<SEOHead
 				title={t("telemarketing.hero.title")}
 				description={t("telemarketing.hero.subtitle")}
-				keywords="Telemarketing, Auto Dialer, Call Center Software, Outbound Calling, Customer Contact, Voice Broadcasting, Sales Automation, Omniflow"
+				keywords="Telemarketing, Auto Dialer, Call Center Software, Outbound Calling, Customer Contact, Voice Broadcasting, Sales Automation, software telemarketing Indonesia, aplikasi call center, sistem auto dialer, software telemarketing otomatis, aplikasi telepon massal, sistem kontak pelanggan, software sales call"
 				type="website"
 			/>
 			<StructuredData

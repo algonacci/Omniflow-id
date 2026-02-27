@@ -1,5 +1,5 @@
-import { useTranslation } from "react-i18next";
 import { useEffect } from "react";
+import { useTranslation } from "react-i18next";
 import SEOHead from "../../../components/SEOHead";
 import StructuredData from "../../../components/StructuredData";
 import Benefits from "./components/Benefits";
@@ -21,7 +21,7 @@ export default function LMSPage() {
 			<SEOHead
 				title={t("lmsModule.hero.title")}
 				description={t("lmsModule.hero.subtitle")}
-				keywords="LMS, Learning Management System, Assessment, Quiz, Question Bank, Online Learning, Education Platform, Training, Corporate Learning, E-Learning, Omniflow"
+				keywords="LMS, Learning Management System, Assessment, Quiz, Question Bank, Online Learning, Education Platform, Training, Corporate Learning, E-Learning, aplikasi pembelajaran online, software e-learning Indonesia, sistem training karyawan, aplikasi ujian online, platform pelatihan perusahaan, ERP sekolah, software pembelajaran digital"
 				type="website"
 			/>
 			<StructuredData
