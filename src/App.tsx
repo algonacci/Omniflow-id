@@ -14,12 +14,14 @@ import BlogDetailPage from "./pages/blog/[slug]";
 import ContactPage from "./pages/Contact";
 import HomePage from "./pages/Home";
 import AccountingPage from "./pages/modules/Accounting/index.tsx";
+import BizzcardPage from "./pages/modules/Bizzcard/index.tsx";
 import CommercePage from "./pages/modules/Commerce/index.tsx";
 import HRISPage from "./pages/modules/HRIS";
 import LMSPage from "./pages/modules/LMS/index.tsx";
 import PaymentGatewayPage from "./pages/modules/PaymentGateway/index.tsx";
 import PoSPage from "./pages/modules/PoS/index.tsx";
 import TelemarketingPage from "./pages/modules/Telemarketing/index.tsx";
+import URLsPage from "./pages/modules/URLs/index.tsx";
 import XRMPage from "./pages/modules/XRM/index.tsx";
 import NotFoundPage from "./pages/NotFound";
 
@@ -50,6 +52,8 @@ function App() {
 						/>
 						<Route path="/en/modules/xrm" element={<XRMPage />} />
 						<Route path="/en/modules/accounting" element={<AccountingPage />} />
+						<Route path="/en/modules/urls" element={<URLsPage />} />
+						<Route path="/en/modules/bizzcard" element={<BizzcardPage />} />
 						<Route path="/en/modules/pos" element={<PoSPage />} />
 						<Route path="/en/modules/lms" element={<LMSPage />} />
 						<Route
@@ -74,6 +78,8 @@ function App() {
 						/>
 						<Route path="/id/modules/xrm" element={<XRMPage />} />
 						<Route path="/id/modules/accounting" element={<AccountingPage />} />
+						<Route path="/id/modules/urls" element={<URLsPage />} />
+						<Route path="/id/modules/bizzcard" element={<BizzcardPage />} />
 						<Route path="/id/modules/pos" element={<PoSPage />} />
 						<Route path="/id/modules/lms" element={<LMSPage />} />
 						<Route
@@ -98,6 +104,8 @@ function App() {
 						/>
 						<Route path="/zh/modules/xrm" element={<XRMPage />} />
 						<Route path="/zh/modules/accounting" element={<AccountingPage />} />
+						<Route path="/zh/modules/urls" element={<URLsPage />} />
+						<Route path="/zh/modules/bizzcard" element={<BizzcardPage />} />
 						<Route path="/zh/modules/pos" element={<PoSPage />} />
 						<Route path="/zh/modules/lms" element={<LMSPage />} />
 						<Route

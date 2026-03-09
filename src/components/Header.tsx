@@ -69,6 +69,18 @@ export default function Header() {
 										{t("navigation.accounting")}
 									</Link>
 									<Link
+										to={`${langPrefix}/modules/urls`}
+										className="block px-4 py-2 text-slate-700 hover:bg-blue-50 hover:text-blue-700 transition-colors"
+									>
+										{t("navigation.urls")}
+									</Link>
+									<Link
+										to={`${langPrefix}/modules/bizzcard`}
+										className="block px-4 py-2 text-slate-700 hover:bg-blue-50 hover:text-blue-700 transition-colors"
+									>
+										{t("navigation.bizzcard")}
+									</Link>
+									<Link
 										to={`${langPrefix}/modules/pos`}
 										className="block px-4 py-2 text-slate-700 hover:bg-blue-50 hover:text-blue-700 transition-colors"
 									>
@@ -153,6 +165,18 @@ export default function Header() {
 										className="block nav-link text-lg"
 									>
 										{t("navigation.accounting")}
+									</Link>
+									<Link
+										to={`${langPrefix}/modules/urls`}
+										className="block nav-link text-lg"
+									>
+										{t("navigation.urls")}
+									</Link>
+									<Link
+										to={`${langPrefix}/modules/bizzcard`}
+										className="block nav-link text-lg"
+									>
+										{t("navigation.bizzcard")}
 									</Link>
 									<Link
 										to={`${langPrefix}/modules/pos`}

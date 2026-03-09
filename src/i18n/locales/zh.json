@@ -32,6 +32,8 @@
 		"ecommerce": "E-Commerce",
 		"xrm": "XRM",
 		"accounting": "会计",
+		"urls": "URLs",
+		"bizzcard": "Bizzcard",
 		"pos": "销售终端",
 		"lms": "学习管理",
 		"telemarketing": "电话营销",
@@ -72,6 +74,14 @@
 		"accounting": {
 			"name": "会计",
 			"description": "全面的财务管理"
+		},
+		"urls": {
+			"name": "URLs",
+			"description": "URL缩短器和重定向管理器"
+		},
+		"bizzcard": {
+			"name": "Bizzcard",
+			"description": "数字名片解决方案"
 		},
 		"pos": {
 			"name": "销售点",
@@ -837,6 +847,200 @@
 				"uptime": "正常运行时间SLA",
 				"security": "认证安全"
 			}
+		}
+	},
+	"urls": {
+		"hero": {
+			"badge": "URL缩短器和重定向",
+			"title": "智能URL缩短器和重定向管理器",
+			"subtitle": "使用Omniflow URLs缩短您的链接、跟踪点击和管理重定向。功能包括二维码生成、自定义域名、分析和团队协作。",
+			"stats": {
+				"linksCreated": "已创建链接",
+				"uptime": "正常运行SLA",
+				"redirectSpeed": "重定向速度",
+				"clicks": "总点击量"
+			},
+			"linkCreated": "链接已创建"
+		},
+		"features": {
+			"title": "强大的URL管理功能",
+			"subtitle": "创建、管理和有效跟踪链接所需的一切。",
+			"badge": "强大功能",
+			"shortener": {
+				"title": "URL缩短器",
+				"description": "从长URL创建简短、易于记忆的链接。支持自定义别名、自动缩短和批量创建。"
+			},
+			"analytics": {
+				"title": "高级分析",
+				"description": "跟踪点击量、来源、设备和位置。带有详细报告和导出选项的实时仪表板。"
+			},
+			"qrcode": {
+				"title": "二维码生成器",
+				"description": "为任何链接生成二维码。自定义颜色、徽标和样式。高分辨率打印就绪下载。"
+			},
+			"customDomain": {
+				"title": "自定义域名",
+				"description": "使用您自己的域名创建品牌短链接。非常适合企业和营销活动。"
+			},
+			"expiration": {
+				"title": "链接过期",
+				"description": "为时效性链接设置过期日期。指定时间段后自动停用。"
+			},
+			"password": {
+				"title": "密码保护",
+				"description": "用密码保护敏感链接。为您的重定向添加额外的安全层。"
+			},
+			"team": {
+				"title": "团队协作",
+				"description": "邀请团队成员、分配角色并共同管理链接。活动日志和访问控制。"
+			},
+			"security": {
+				"title": "企业级安全",
+				"description": "SSL加密、速率限制和欺诈检测。符合SOC 2标准的基础设施。"
+			}
+		},
+		"benefits": {
+			"badge": "为什么选择Omniflow URLs？",
+			"title": "平台优势",
+			"subtitle": "适用于各种规模的快速、可靠和安全的URL管理。",
+			"fast": {
+				"title": "闪电般快速",
+				"description": "低于50ms的重定向速度确保您的链接即时加载。全球CDN提供卓越性能。"
+			},
+			"analytics": {
+				"title": "深度分析",
+				"description": "全面的点击跟踪，包含地理位置、设备信息和来源数据。做出数据驱动的决策。"
+			},
+			"mobile": {
+				"title": "移动友好",
+				"description": "完全响应的仪表板可在任何设备上运行。移动支持让您随时随地创建和管理链接。"
+			},
+			"secure": {
+				"title": "安全可靠",
+				"description": "企业级安全，含SSL、速率限制和99.9%正常运行时间SLA。您的数据在我们这里是安全的。"
+			},
+			"custom": {
+				"title": "自定义品牌",
+				"description": "使用自定义域名、品牌二维码和个性化链接别名。加强您的品牌标识。"
+			},
+			"reliability": {
+				"title": "99.9%正常运行时间",
+				"description": "冗余基础设施确保您的链接始终可用。企业SLA保证可靠性。"
+			},
+			"stats": {
+				"fast": "50ms",
+				"fastLabel": "平均重定向",
+				"secure": "256位",
+				"secureLabel": "SSL加密",
+				"sla": "99.9%",
+				"slaLabel": "正常运行SLA",
+				"support": "24/7",
+				"supportLabel": "专家支持"
+			}
+		},
+		"cta": {
+			"title": "立即开始缩短链接",
+			"subtitle": "加入数百万信任Omniflow URLs进行链接管理的用户。",
+			"getStarted": "免费开始",
+			"contactSales": "联系销售",
+			"tryDemo": "试用演示"
+		}
+	},
+	"bizzcard": {
+		"hero": {
+			"badge": "数字名片",
+			"title": "智能数字名片",
+			"subtitle": "创建精美的数字名片，带二维码和NFC。通过扫描即时分享您的联系信息。专业、环保、始终保持最新。",
+			"stats": {
+				"cardsCreated": "已创建名片",
+				"scans": "总扫描次数",
+				"countries": "国家",
+				"satisfaction": "满意度"
+			},
+			"qrCode": "二维码已准备"
+		},
+		"features": {
+			"title": "强大的数字名片功能",
+			"subtitle": "创建和分享专业数字名片所需的一切。",
+			"badge": "强大功能",
+			"digitalCard": {
+				"title": "数字名片",
+				"description": "创建美观、交互式的数字名片。多种模板、自定义颜色和丰富的媒体支持。"
+			},
+			"qrCode": {
+				"title": "二维码集成",
+				"description": "每张名片都有独特的二维码。扫描即可直接将联系信息保存到手机通讯录。"
+			},
+			"nfc": {
+				"title": "NFC触碰分享",
+				"description": "使用NFC技术轻触即可分享您的名片。兼容所有支持NFC的设备。"
+			},
+			"analytics": {
+				"title": "扫描分析",
+				"description": "跟踪谁查看了您的名片。获取参与度和跟进机会的洞察。"
+			},
+			"vcard": {
+				"title": "vCard导出",
+				"description": "将您的名片导出为vCard/VCF文件。兼容所有联系人应用和设备。"
+			},
+			"team": {
+				"title": "团队管理",
+				"description": "为整个团队创建和管理名片。批量创建和组织功能。"
+			},
+			"customDomain": {
+				"title": "自定义域名",
+				"description": "使用您自己的域名创建个性化名片URL。加强您的品牌标识。"
+			},
+			"responsive": {
+				"title": "移动优化",
+				"description": "名片在任何设备上都看起来很棒。响应式设计确保在任何地方都能完美显示。"
+			}
+		},
+		"benefits": {
+			"badge": "为什么选择Omniflow Bizzcard？",
+			"title": "平台优势",
+			"subtitle": "面向专业人士和企业的现代社交解决方案。",
+			"instant": {
+				"title": "即时分享",
+				"description": "在几秒钟内分享您的联系信息。接收者无需下载应用程序。"
+			},
+			"analytics": {
+				"title": "跟踪参与度",
+				"description": "了解谁对您的业务感兴趣。当有人查看您的名片时获得通知。"
+			},
+			"mobile": {
+				"title": "始终最新",
+				"description": "一次更新，处处同步。详细信息更改时无需重新打印名片。"
+			},
+			"secure": {
+				"title": "安全私密",
+				"description": "控制谁可以查看您的信息。添加密码保护和隐私设置。"
+			},
+			"saveCost": {
+				"title": "节省成本",
+				"description": "无打印成本。无纸张浪费。一张数字名片可替代数千张印刷名片。"
+			},
+			"professional": {
+				"title": "专业形象",
+				"description": "通过现代、交互式的数字名片留下持久印象。"
+			},
+			"stats": {
+				"scans": "100万+",
+				"scansLabel": "总扫描",
+				"saved": "200万美元+",
+				"savedLabel": "节省打印",
+				"time": "5万+",
+				"timeLabel": "节省时间",
+				"support": "24/7",
+				"supportLabel": "专家支持"
+			}
+		},
+		"cta": {
+			"title": "立即创建您的数字名片",
+			"subtitle": "加入数千位通过Omniflow Bizzcard提升社交能力的专业人士。",
+			"getStarted": "免费开始",
+			"contactSales": "联系销售",
+			"tryDemo": "试用演示"
 		}
 	},
 	"pos": {

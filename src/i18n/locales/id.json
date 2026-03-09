@@ -32,6 +32,8 @@
 		"ecommerce": "E-Commerce",
 		"xrm": "XRM",
 		"accounting": "Akuntansi",
+		"urls": "URLs",
+		"bizzcard": "Bizzcard",
 		"pos": "Point of Sale",
 		"lms": "LMS",
 		"telemarketing": "Telemarketing",
@@ -72,6 +74,14 @@
 		"accounting": {
 			"name": "Akuntansi",
 			"description": "Manajemen keuangan komprehensif"
+		},
+		"urls": {
+			"name": "URLs",
+			"description": "URL Shortener & Pengelola Redirect"
+		},
+		"bizzcard": {
+			"name": "Bizzcard",
+			"description": "Solusi Kartu Nama Digital"
 		},
 		"pos": {
 			"name": "PoS",
@@ -864,6 +874,200 @@
 				"uptime": "SLA Uptime",
 				"security": "Keamanan Bersertifikat"
 			}
+		}
+	},
+	"urls": {
+		"hero": {
+			"badge": "URL Shortener & Redirect",
+			"title": "URL Shortener & Redirect Manager Cerdas",
+			"subtitle": "Persingkat tautan Anda, lacak klik, dan kelola redirect dengan Omniflow URLs. Fitur генерация QR code, domain kustom, analitik, dan kolaborasi tim.",
+			"stats": {
+				"linksCreated": "Tautan Dibuat",
+				"uptime": "SLA Uptime",
+				"redirectSpeed": "Kecepatan Redirect",
+				"clicks": "Total Klik"
+			},
+			"linkCreated": "Tautan Dibuat"
+		},
+		"features": {
+			"title": "Fitur Pengelola URL yang Powerful",
+			"subtitle": "Semua yang Anda butuhkan untuk membuat, mengelola, dan melacak tautan secara efisien.",
+			"badge": "Fitur Powerful",
+			"shortener": {
+				"title": "URL Shortener",
+				"description": "Buat tautan pendek dan mudah diingat dari URL panjang. Alias kustom, shortening otomatis, dan dukungan pembuatan massal."
+			},
+			"analytics": {
+				"title": "Analitik Lanjutan",
+				"description": "Lacak klik, referrer, perangkat, dan lokasi. Dashboard real-time dengan laporan detail dan opsi ekspor."
+			},
+			"qrcode": {
+				"title": "Generator QR Code",
+				"description": "Buat QR code untuk tautan apa pun. Warna kustom, logo, dan gaya. Unduhan resolusi tinggi siap cetak."
+			},
+			"customDomain": {
+				"title": "Domain Kustom",
+				"description": "Gunakan domain Anda sendiri untuk tautan pendek bermerek. Sempurna untuk bisnis dan kampanye pemasaran."
+			},
+			"expiration": {
+				"title": "Kedaluwarsa Tautan",
+				"description": "Tetapkan tanggal kedaluwarsa untuk tautan sensitif waktu. Nonaktif otomatis setelah periode tertentu."
+			},
+			"password": {
+				"title": "Proteksi Password",
+				"description": "Lindungi tautan sensitif dengan password. Tambahkan lapisan keamanan ekstra untuk redirect Anda."
+			},
+			"team": {
+				"title": "Kolaborasi Tim",
+				"description": "Undang anggota tim, tetapkan peran, dan kelola tautan bersama. Log aktivitas dan kontrol akses."
+			},
+			"security": {
+				"title": "Keamanan Enterprise",
+				"description": "Enkripsi SSL, rate limiting, dan deteksi penipuan. Infrastruktur sesuai standar SOC 2."
+			}
+		},
+		"benefits": {
+			"badge": "Mengapa Omniflow URLs?",
+			"title": "Keunggulan Platform",
+			"subtitle": "Manajemen URL yang cepat, andal, dan aman untuk bisnis dari semua ukuran.",
+			"fast": {
+				"title": "Super Cepat",
+				"description": "Kecepatan redirect di bawah 50ms memastikan tautan Anda dimuat secara instan. CDN global untuk kinerja worldwide."
+			},
+			"analytics": {
+				"title": "Analitik Mendalam",
+				"description": "Pelacakan klik komprehensif dengan geolokasi, info perangkat, dan data referrer. Buat keputusan berbasis data."
+			},
+			"responsive": {
+				"title": "Mobile Friendly",
+				"description": "Dashboard responsif penuh berfungsi di perangkat apa pun. Buat dan kelola tautan saat bepergian dengan dukungan mobile."
+			},
+			"secure": {
+				"title": "Aman & Andal",
+				"description": "Keamanan tingkat enterprise dengan SSL, rate limiting, dan SLA uptime 99.9%. Data Anda aman bersama kami."
+			},
+			"custom": {
+				"title": "Branding Kustom",
+				"description": "Gunakan domain kustom, QR code bermerek, dan alias tautan yang dipersonalisasi. Perkuat identitas merek Anda."
+			},
+			"reliability": {
+				"title": "Uptime 99.9%",
+				"description": "Infrastruktur redundan memastikan tautan Anda selalu tersedia. SLA Enterprise menjamin keandalan."
+			},
+			"stats": {
+				"fast": "50ms",
+				"fastLabel": "Rata-rata Redirect",
+				"secure": "256-bit",
+				"secureLabel": "Enkripsi SSL",
+				"sla": "99.9%",
+				"slaLabel": "SLA Uptime",
+				"support": "24/7",
+				"supportLabel": "Dukungan Ahli"
+			}
+		},
+		"cta": {
+			"title": "Mulai Persingkat Tautan Hari Ini",
+			"subtitle": "Bergabunglah dengan jutaan pengguna yang mempercayakan Omniflow URLs untuk kebutuhan manajemen tautan mereka.",
+			"getStarted": "Mulai Gratis",
+			"contactSales": "Hubungi Sales",
+			"tryDemo": "Coba Demo"
+		}
+	},
+	"bizzcard": {
+		"hero": {
+			"badge": "Kartu Nama Digital",
+			"title": "Kartu Nama Digital Cerdas",
+			"subtitle": "Buat kartu nama digital yang menakjubkan dengan QR code dan NFC. Bagikan info kontak Anda secara instan dengan pemindaian. Profesional, ramah lingkungan, dan selalu terkini.",
+			"stats": {
+				"cardsCreated": "Kartu Dibuat",
+				"scans": "Total Pemindaian",
+				"countries": "Negara",
+				"satisfaction": "Kepuasan"
+			},
+			"qrCode": "QR Code Siap"
+		},
+		"features": {
+			"title": "Fitur Kartu Digital yang Powerful",
+			"subtitle": "Semua yang Anda butuhkan untuk membuat dan membagikan kartu nama digital profesional.",
+			"badge": "Fitur Powerful",
+			"digitalCard": {
+				"title": "Kartu Nama Digital",
+				"description": "Buat kartu nama digital yang indah dan interaktif. Banyak template, warna kustom, dan dukungan media kaya."
+			},
+			"qrCode": {
+				"title": "Integrasi QR Code",
+				"description": "Setiap kartu dilengkapi QR code unik. Pindai untuk menyimpan info kontak langsung ke kontak telepon."
+			},
+			"nfc": {
+				"title": "Bagikan via NFC",
+				"description": "Bagikan kartu Anda dengan satu ketukan menggunakan teknologi NFC. Kompatibel dengan semua perangkat berkemampuan NFC."
+			},
+			"analytics": {
+				"title": "Analitik Pemindaian",
+				"description": "Lacak siapa yang melihat dan memindai kartu Anda. Dapatkan wawasan tentang keterlibatan dan peluang follow-up."
+			},
+			"vcard": {
+				"title": "Ekspor vCard",
+				"description": "Ekspor kartu Anda sebagai file vCard/VCF. Kompatibel dengan semua aplikasi dan perangkat kontak."
+			},
+			"team": {
+				"title": "Manajemen Tim",
+				"description": "Buat dan kelola kartu untuk seluruh tim Anda. Fitur pembuatan massal dan pengorganisasian."
+			},
+			"customDomain": {
+				"title": "Domain Kustom",
+				"description": "Gunakan domain Anda sendiri untuk URL kartu yang dipersonalisasi. Perkuat identitas merek Anda."
+			},
+			"responsive": {
+				"title": "Optimal Mobile",
+				"description": "Kartu terlihat bagus di perangkat apa pun. Desain responsif memastikan tampilan sempurna di mana saja."
+			}
+		},
+		"benefits": {
+			"badge": "Mengapa Omniflow Bizzcard?",
+			"title": "Keunggulan Platform",
+			"subtitle": "Solusi jaringan modern untuk profesional dan bisnis.",
+			"instant": {
+				"title": "Berbagi Instan",
+				"description": "Bagikan info kontak Anda dalam hitungan detik. Tidak perlu unduh aplikasi untuk penerima."
+			},
+			"analytics": {
+				"title": "Lacak Keterlibatan",
+				"description": "Ketahui siapa yang tertarik dengan bisnis Anda. Dapatkan notifikasi saat seseorang melihat kartu Anda."
+			},
+			"mobile": {
+				"title": "Selalu Terkini",
+				"description": "Perbarui info Anda sekali, di mana saja. Tidak perlu cetak ulang kartu saat detail berubah."
+			},
+			"secure": {
+				"title": "Aman & Privasi",
+				"description": "Kontrol siapa yang melihat informasi Anda. Tambahkan proteksi password dan pengaturan privasi."
+			},
+			"saveCost": {
+				"title": "Hemat Biaya",
+				"description": "Tidak ada biaya cetak. Tidak ada limbah kertas. Satu kartu digital menggantikan ribuan kartu cetak."
+			},
+			"professional": {
+				"title": "Tampilan Profesional",
+				"description": "Buat kesan abadi dengan kartu nama digital modern dan interaktif."
+			},
+			"stats": {
+				"scans": "1Juta+",
+				"scansLabel": "Total Pemindaian",
+				"saved": "$2M+",
+				"savedLabel": "Cetakan Hemat",
+				"time": "50rb+",
+				"timeLabel": "Jam Hemat",
+				"support": "24/7",
+				"supportLabel": "Dukungan Ahli"
+			}
+		},
+		"cta": {
+			"title": "Buat Kartu Digital Anda Hari Ini",
+			"subtitle": "Bergabunglah dengan ribuan profesional yang telah meningkatkan jaringan mereka dengan Omniflow Bizzcard.",
+			"getStarted": "Mulai Gratis",
+			"contactSales": "Hubungi Sales",
+			"tryDemo": "Coba Demo"
 		}
 	},
 	"pos": {

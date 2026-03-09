@@ -32,6 +32,8 @@
 		"ecommerce": "E-Commerce",
 		"xrm": "XRM",
 		"accounting": "Accounting",
+		"urls": "URLs",
+		"bizzcard": "Bizzcard",
 		"pos": "Point of Sale",
 		"lms": "LMS",
 		"telemarketing": "Telemarketing",
@@ -72,6 +74,14 @@
 		"accounting": {
 			"name": "Accounting",
 			"description": "Comprehensive financial management"
+		},
+		"urls": {
+			"name": "URLs",
+			"description": "URL Shortener & Redirect Manager"
+		},
+		"bizzcard": {
+			"name": "Bizzcard",
+			"description": "Digital Business Card Solution"
 		},
 		"pos": {
 			"name": "PoS",
@@ -872,6 +882,200 @@
 				"uptime": "Uptime SLA",
 				"security": "Certified Security"
 			}
+		}
+	},
+	"urls": {
+		"hero": {
+			"badge": "URL Shortener & Redirect",
+			"title": "Smart URL Shortener & Redirect Manager",
+			"subtitle": "Shorten your links, track clicks, and manage redirects with Omniflow URLs. Features QR code generation, custom domains, analytics, and team collaboration.",
+			"stats": {
+				"linksCreated": "Links Created",
+				"uptime": "Uptime SLA",
+				"redirectSpeed": "Redirect Speed",
+				"clicks": "Total Clicks"
+			},
+			"linkCreated": "Link Created"
+		},
+		"features": {
+			"title": "Powerful URL Management Features",
+			"subtitle": "Everything you need to create, manage, and track your links efficiently.",
+			"badge": "Powerful Features",
+			"shortener": {
+				"title": "URL Shortener",
+				"description": "Create short, memorable links from long URLs. Custom aliases, automatic shortening, and bulk creation support."
+			},
+			"analytics": {
+				"title": "Advanced Analytics",
+				"description": "Track clicks, referrers, devices, and locations. Real-time dashboard with detailed reports and export options."
+			},
+			"qrcode": {
+				"title": "QR Code Generator",
+				"description": "Generate QR codes for any link. Custom colors, logos, and styles. Print-ready high resolution downloads."
+			},
+			"customDomain": {
+				"title": "Custom Domains",
+				"description": "Use your own domain for branded short links. Perfect for businesses and marketing campaigns."
+			},
+			"expiration": {
+				"title": "Link Expiration",
+				"description": "Set expiration dates for time-sensitive links. Automatic deactivation after specified period."
+			},
+			"password": {
+				"title": "Password Protection",
+				"description": "Protect sensitive links with passwords. Add an extra layer of security to your redirects."
+			},
+			"team": {
+				"title": "Team Collaboration",
+				"description": "Invite team members, assign roles, and manage links together. Activity logs and access controls."
+			},
+			"security": {
+				"title": "Enterprise Security",
+				"description": "SSL encryption, rate limiting, and fraud detection. SOC 2 compliant infrastructure."
+			}
+		},
+		"benefits": {
+			"badge": "Why Omniflow URLs?",
+			"title": "Platform Advantages",
+			"subtitle": "Fast, reliable, and secure URL management for businesses of all sizes.",
+			"fast": {
+				"title": "Lightning Fast",
+				"description": "Sub-50ms redirect speeds ensure your links load instantly. Global CDN for worldwide performance."
+			},
+			"analytics": {
+				"title": "Deep Analytics",
+				"description": "Comprehensive click tracking with geolocation, device info, and referrer data. Make data-driven decisions."
+			},
+			"responsive": {
+				"title": "Mobile Friendly",
+				"description": "Fully responsive dashboard works on any device. Create and manage links on the go with mobile support."
+			},
+			"secure": {
+				"title": "Secure & Reliable",
+				"description": "Enterprise-grade security with SSL, rate limiting, and 99.9% uptime SLA. Your data is safe with us."
+			},
+			"custom": {
+				"title": "Custom Branding",
+				"description": "Use custom domains, branded QR codes, and personalized link aliases. Strengthen your brand identity."
+			},
+			"reliability": {
+				"title": "99.9% Uptime",
+				"description": "Redundant infrastructure ensures your links are always available. Enterprise SLA guarantees reliability."
+			},
+			"stats": {
+				"fast": "50ms",
+				"fastLabel": "Avg Redirect",
+				"secure": "256-bit",
+				"secureLabel": "SSL Encryption",
+				"sla": "99.9%",
+				"slaLabel": "Uptime SLA",
+				"support": "24/7",
+				"supportLabel": "Expert Support"
+			}
+		},
+		"cta": {
+			"title": "Start Shortening Links Today",
+			"subtitle": "Join millions of users who trust Omniflow URLs for their link management needs.",
+			"getStarted": "Get Started Free",
+			"contactSales": "Contact Sales",
+			"tryDemo": "Try Demo"
+		}
+	},
+	"bizzcard": {
+		"hero": {
+			"badge": "Digital Business Card",
+			"title": "Smart Digital Business Cards",
+			"subtitle": "Create stunning digital business cards with QR code and NFC. Share your contact info instantly with a scan. Professional, eco-friendly, and always up-to-date.",
+			"stats": {
+				"cardsCreated": "Cards Created",
+				"scans": "Total Scans",
+				"countries": "Countries",
+				"satisfaction": "Satisfaction"
+			},
+			"qrCode": "QR Code Ready"
+		},
+		"features": {
+			"title": "Powerful Digital Card Features",
+			"subtitle": "Everything you need to create and share professional digital business cards.",
+			"badge": "Powerful Features",
+			"digitalCard": {
+				"title": "Digital Business Card",
+				"description": "Create beautiful, interactive digital business cards. Multiple templates, custom colors, and rich media support."
+			},
+			"qrCode": {
+				"title": "QR Code Integration",
+				"description": "Every card comes with a unique QR code. Scan to save contact info directly to phone contacts."
+			},
+			"nfc": {
+				"title": "NFC Tap Sharing",
+				"description": "Share your card with a simple tap using NFC technology. Works with all NFC-enabled devices."
+			},
+			"analytics": {
+				"title": "Scan Analytics",
+				"description": "Track who viewed and scanned your card. Get insights on engagement and follow-up opportunities."
+			},
+			"vcard": {
+				"title": "vCard Export",
+				"description": "Export your card as vCard/VCF file. Compatible with all contact apps and devices."
+			},
+			"team": {
+				"title": "Team Management",
+				"description": "Create and manage cards for your entire team. Bulk creation and organization features."
+			},
+			"customDomain": {
+				"title": "Custom Domain",
+				"description": "Use your own domain for personalized card URLs. Strengthen your brand identity."
+			},
+			"responsive": {
+				"title": "Mobile Optimized",
+				"description": "Cards look great on any device. Responsive design ensures perfect display everywhere."
+			}
+		},
+		"benefits": {
+			"badge": "Why Omniflow Bizzcard?",
+			"title": "Platform Advantages",
+			"subtitle": "Modern networking solution for professionals and businesses.",
+			"instant": {
+				"title": "Instant Sharing",
+				"description": "Share your contact info in seconds. No app download required for recipients."
+			},
+			"analytics": {
+				"title": "Track Engagement",
+				"description": "Know who's interested in your business. Get notified when someone views your card."
+			},
+			"mobile": {
+				"title": "Always Updated",
+				"description": "Update your info once, everywhere. No need to reprint cards when details change."
+			},
+			"secure": {
+				"title": "Secure & Private",
+				"description": "Control who sees your information. Add password protection and privacy settings."
+			},
+			"saveCost": {
+				"title": "Save Money",
+				"description": "No printing costs. No paper waste. One digital card replaces thousands of printed cards."
+			},
+			"professional": {
+				"title": "Professional Look",
+				"description": "Make a lasting impression with modern, interactive digital business cards."
+			},
+			"stats": {
+				"scans": "1M+",
+				"scansLabel": "Total Scans",
+				"saved": "$2M+",
+				"savedLabel": "Printing Saved",
+				"time": "50K+",
+				"timeLabel": "Hours Saved",
+				"support": "24/7",
+				"supportLabel": "Expert Support"
+			}
+		},
+		"cta": {
+			"title": "Create Your Digital Card Today",
+			"subtitle": "Join thousands of professionals who have upgraded their networking with Omniflow Bizzcard.",
+			"getStarted": "Get Started Free",
+			"contactSales": "Contact Sales",
+			"tryDemo": "Try Demo"
 		}
 	},
 	"pos": {
