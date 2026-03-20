@@ -13,6 +13,8 @@ import BlogPage from "./pages/blog";
 import BlogDetailPage from "./pages/blog/[slug]";
 import ContactPage from "./pages/Contact";
 import HomePage from "./pages/Home";
+import IntegrationsPage from "./pages/integrations";
+import ModulesPage from "./pages/modules";
 import AccountingPage from "./pages/modules/Accounting/index.tsx";
 import BizzcardPage from "./pages/modules/Bizzcard/index.tsx";
 import CommercePage from "./pages/modules/Commerce/index.tsx";
@@ -44,6 +46,8 @@ function App() {
 
 						{/* English routes */}
 						<Route path="/en" element={<HomePage />} />
+						<Route path="/en/modules" element={<ModulesPage />} />
+						<Route path="/en/integrations" element={<IntegrationsPage />} />
 						<Route path="/en/modules/hris" element={<HRISPage />} />
 						<Route path="/en/modules/ecommerce" element={<CommercePage />} />
 						<Route
@@ -70,6 +74,8 @@ function App() {
 
 						{/* Indonesian routes */}
 						<Route path="/id" element={<HomePage />} />
+						<Route path="/id/modules" element={<ModulesPage />} />
+						<Route path="/id/integrations" element={<IntegrationsPage />} />
 						<Route path="/id/modules/hris" element={<HRISPage />} />
 						<Route path="/id/modules/ecommerce" element={<CommercePage />} />
 						<Route
@@ -96,6 +102,8 @@ function App() {
 
 						{/* Chinese routes */}
 						<Route path="/zh" element={<HomePage />} />
+						<Route path="/zh/modules" element={<ModulesPage />} />
+						<Route path="/zh/integrations" element={<IntegrationsPage />} />
 						<Route path="/zh/modules/hris" element={<HRISPage />} />
 						<Route path="/zh/modules/ecommerce" element={<CommercePage />} />
 						<Route
@@ -122,6 +130,8 @@ function App() {
 
 						{/* Legacy routes (redirect to language-specific) */}
 						<Route path="/" element={<HomePage />} />
+						<Route path="/modules" element={<ModulesPage />} />
+						<Route path="/integrations" element={<IntegrationsPage />} />
 						<Route path="/modules/hris" element={<HRISPage />} />
 						<Route path="/modules/ecommerce" element={<CommercePage />} />
 						<Route

@@ -28,6 +28,9 @@
 	"navigation": {
 		"solutions": "解决方案",
 		"modules": "模块",
+		"modulesDropdown": "所有模块",
+		"allModules": "所有模块",
+		"integrations": "集成",
 		"hris": "人力资源",
 		"ecommerce": "E-Commerce",
 		"xrm": "XRM",
@@ -53,6 +56,71 @@
 			"uptime": "正常运行时间SLA",
 			"users": "活跃用户",
 			"support": "支持"
+		}
+	},
+	"modulesPage": {
+		"title": "Omniflow 模块",
+		"subtitle": "探索我们全面的业务管理模块套件，简化您的运营。",
+		"badge": "10个可用模块",
+		"getStarted": "开始使用",
+		"modules": {
+			"hris": "完整的人力资源管理系统，包含工资单、考勤和绩效跟踪。",
+			"ecommerce": "功能齐全的在线商店，包含库存、支付和订单管理。",
+			"xrm": "扩展CRM，用于管理客户关系和销售管道。",
+			"accounting": "全面的财务管理，包含发票、报告和税务合规。",
+			"urls": "专业的URL缩短器和重定向管理器，用于营销活动。",
+			"bizzcard": "数字名片解决方案，支持二维码和NFC。",
+			"pos": "现代销售终端系统，适用于零售和餐饮业务。",
+			"lms": "学习管理系统，适用于企业培训和教育。",
+			"telemarketing": "外呼管理和潜在客户跟踪解决方案。",
+			"payment-gateway": "安全的支付处理，支持多种支付方式。"
+		}
+	},
+	"integrationsPage": {
+		"title": "Omniflow 集成",
+		"subtitle": "将Omniflow与您喜爱的业务工具连接，实现无缝数据流和提升生产力。",
+		"badge": "50+ 集成",
+		"getStarted": "开始使用",
+		"cta": {
+			"title": "需要定制集成？",
+			"description": "我们可以构建定制集成，将Omniflow与您使用的任何系统连接。",
+			"button": "联系销售"
+		},
+		"odoo": {
+			"description": "与Odoo ERP无缝同步数据，实现统一业务管理。"
+		},
+		"sap": {
+			"description": "与SAP系统的企业级集成，适用于大型组织。"
+		},
+		"salesforce": {
+			"description": "将您的CRM数据与Omniflow连接，简化销售流程。"
+		},
+		"shopify": {
+			"description": "与Shopify商店实时同步，用于库存和订单管理。"
+		},
+		"woocommerce": {
+			"description": "与WooCommerce集成，实现无缝电商运营。"
+		},
+		"magento": {
+			"description": "与Magento连接，用于企业电商管理。"
+		},
+		"dynamics": {
+			"description": "与Microsoft Dynamics集成，实现统一业务解决方案。"
+		},
+		"quickbooks": {
+			"description": "与QuickBooks同步会计数据，简化财务管理。"
+		},
+		"xero": {
+			"description": "与Xero连接，用于云计算会计集成。"
+		},
+		"slack": {
+			"description": "直接在Slack频道获取通知和更新。"
+		},
+		"zoom": {
+			"description": "集成视频会议，用于远程会议和演示。"
+		},
+		"zapier": {
+			"description": "使用自动化工作流程连接5,000+个应用程序。"
 		}
 	},
 	"modules": {

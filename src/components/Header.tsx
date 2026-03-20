@@ -17,6 +17,9 @@ export default function Header() {
 
 	const currentLang = getCurrentLang();
 	const langPrefix = `/${currentLang}`;
+	const currentPath = location.pathname;
+	const getModuleLinkClass = (path: string, isMobile = false) =>
+		`block px-4 py-2 transition-colors ${isMobile ? "text-lg " : ""}${currentPath === path ? "bg-blue-50 text-blue-700 font-semibold" : "text-slate-700 hover:bg-blue-50 hover:text-blue-700"}`;
 
 	return (
 		<header className="fixed w-full backdrop-enterprise shadow-enterprise z-50">
@@ -34,73 +37,93 @@ export default function Header() {
 						<Link to={langPrefix} className="nav-link">
 							{t("common.home")}
 						</Link>
+						<Link to={`${langPrefix}/integrations`} className="nav-link">
+							{t("navigation.integrations")}
+						</Link>
 						<div className="relative group">
 							<button
 								type="button"
 								className="nav-link inline-flex items-center gap-1"
 							>
-								{t("navigation.modules")}
+								{t("navigation.modulesDropdown")}
 								<ChevronDown className="h-4 w-4 transition-transform duration-200 group-hover:rotate-180 group-focus-within:rotate-180" />
 							</button>
 							<div className="absolute left-0 top-full pt-3 opacity-0 invisible group-hover:opacity-100 group-hover:visible group-focus-within:opacity-100 group-focus-within:visible transition-all duration-200">
 								<div className="w-56 rounded-xl border border-gray-100 bg-white shadow-enterprise-lg py-2">
 									<Link
+										to={`${langPrefix}/modules`}
+										className={getModuleLinkClass(`${langPrefix}/modules`)}
+									>
+										{t("navigation.allModules")}
+									</Link>
+									<div className="border-t border-gray-100 my-1"></div>
+									<Link
 										to={`${langPrefix}/modules/hris`}
-										className="block px-4 py-2 text-slate-700 hover:bg-blue-50 hover:text-blue-700 transition-colors"
+										className={getModuleLinkClass(`${langPrefix}/modules/hris`)}
 									>
 										{t("navigation.hris")}
 									</Link>
 									<Link
 										to={`${langPrefix}/modules/ecommerce`}
-										className="block px-4 py-2 text-slate-700 hover:bg-blue-50 hover:text-blue-700 transition-colors"
+										className={getModuleLinkClass(
+											`${langPrefix}/modules/ecommerce`
+										)}
 									>
 										{t("navigation.ecommerce")}
 									</Link>
 									<Link
 										to={`${langPrefix}/modules/xrm`}
-										className="block px-4 py-2 text-slate-700 hover:bg-blue-50 hover:text-blue-700 transition-colors"
+										className={getModuleLinkClass(`${langPrefix}/modules/xrm`)}
 									>
 										{t("navigation.xrm")}
 									</Link>
 									<Link
 										to={`${langPrefix}/modules/accounting`}
-										className="block px-4 py-2 text-slate-700 hover:bg-blue-50 hover:text-blue-700 transition-colors"
+										className={getModuleLinkClass(
+											`${langPrefix}/modules/accounting`
+										)}
 									>
 										{t("navigation.accounting")}
 									</Link>
 									<Link
 										to={`${langPrefix}/modules/urls`}
-										className="block px-4 py-2 text-slate-700 hover:bg-blue-50 hover:text-blue-700 transition-colors"
+										className={getModuleLinkClass(`${langPrefix}/modules/urls`)}
 									>
 										{t("navigation.urls")}
 									</Link>
 									<Link
 										to={`${langPrefix}/modules/bizzcard`}
-										className="block px-4 py-2 text-slate-700 hover:bg-blue-50 hover:text-blue-700 transition-colors"
+										className={getModuleLinkClass(
+											`${langPrefix}/modules/bizzcard`
+										)}
 									>
 										{t("navigation.bizzcard")}
 									</Link>
 									<Link
 										to={`${langPrefix}/modules/pos`}
-										className="block px-4 py-2 text-slate-700 hover:bg-blue-50 hover:text-blue-700 transition-colors"
+										className={getModuleLinkClass(`${langPrefix}/modules/pos`)}
 									>
 										{t("navigation.pos")}
 									</Link>
 									<Link
 										to={`${langPrefix}/modules/lms`}
-										className="block px-4 py-2 text-slate-700 hover:bg-blue-50 hover:text-blue-700 transition-colors"
+										className={getModuleLinkClass(`${langPrefix}/modules/lms`)}
 									>
 										{t("navigation.lms")}
 									</Link>
 									<Link
 										to={`${langPrefix}/modules/telemarketing`}
-										className="block px-4 py-2 text-slate-700 hover:bg-blue-50 hover:text-blue-700 transition-colors"
+										className={getModuleLinkClass(
+											`${langPrefix}/modules/telemarketing`
+										)}
 									>
 										{t("navigation.telemarketing")}
 									</Link>
 									<Link
 										to={`${langPrefix}/modules/payment-gateway`}
-										className="block px-4 py-2 text-slate-700 hover:bg-blue-50 hover:text-blue-700 transition-colors"
+										className={getModuleLinkClass(
+											`${langPrefix}/modules/payment-gateway`
+										)}
 									>
 										{t("navigation.paymentGateway")}
 									</Link>
@@ -137,68 +160,113 @@ export default function Header() {
 							<Link to={langPrefix} className="block nav-link text-lg">
 								{t("common.home")}
 							</Link>
+							<Link
+								to={`${langPrefix}/integrations`}
+								className="block nav-link text-lg"
+							>
+								{t("navigation.integrations")}
+							</Link>
 							<div className="pt-2">
 								<p className="text-sm font-semibold text-slate-500 uppercase tracking-wide">
-									{t("navigation.modules")}
+									{t("navigation.modulesDropdown")}
 								</p>
 								<div className="mt-2 ml-3 pl-4 border-l border-gray-200 space-y-3">
 									<Link
+										to={`${langPrefix}/modules`}
+										className={getModuleLinkClass(
+											`${langPrefix}/modules`,
+											true
+										)}
+									>
+										{t("navigation.allModules")}
+									</Link>
+									<Link
 										to={`${langPrefix}/modules/hris`}
-										className="block nav-link text-lg"
+										className={getModuleLinkClass(
+											`${langPrefix}/modules/hris`,
+											true
+										)}
 									>
 										{t("navigation.hris")}
 									</Link>
 									<Link
 										to={`${langPrefix}/modules/ecommerce`}
-										className="block nav-link text-lg"
+										className={getModuleLinkClass(
+											`${langPrefix}/modules/ecommerce`,
+											true
+										)}
 									>
 										{t("navigation.ecommerce")}
 									</Link>
 									<Link
 										to={`${langPrefix}/modules/xrm`}
-										className="block nav-link text-lg"
+										className={getModuleLinkClass(
+											`${langPrefix}/modules/xrm`,
+											true
+										)}
 									>
 										{t("navigation.xrm")}
 									</Link>
 									<Link
 										to={`${langPrefix}/modules/accounting`}
-										className="block nav-link text-lg"
+										className={getModuleLinkClass(
+											`${langPrefix}/modules/accounting`,
+											true
+										)}
 									>
 										{t("navigation.accounting")}
 									</Link>
 									<Link
 										to={`${langPrefix}/modules/urls`}
-										className="block nav-link text-lg"
+										className={getModuleLinkClass(
+											`${langPrefix}/modules/urls`,
+											true
+										)}
 									>
 										{t("navigation.urls")}
 									</Link>
 									<Link
 										to={`${langPrefix}/modules/bizzcard`}
-										className="block nav-link text-lg"
+										className={getModuleLinkClass(
+											`${langPrefix}/modules/bizzcard`,
+											true
+										)}
 									>
 										{t("navigation.bizzcard")}
 									</Link>
 									<Link
 										to={`${langPrefix}/modules/pos`}
-										className="block nav-link text-lg"
+										className={getModuleLinkClass(
+											`${langPrefix}/modules/pos`,
+											true
+										)}
 									>
 										{t("navigation.pos")}
 									</Link>
 									<Link
 										to={`${langPrefix}/modules/lms`}
-										className="block nav-link text-lg"
+										className={getModuleLinkClass(
+											`${langPrefix}/modules/lms`,
+											true
+										)}
 									>
 										{t("navigation.lms")}
 									</Link>
 									<Link
 										to={`${langPrefix}/modules/telemarketing`}
-										className="block nav-link text-lg"
+										className={getModuleLinkClass(
+											`${langPrefix}/modules/telemarketing`,
+											true
+										)}
 									>
 										{t("navigation.telemarketing")}
 									</Link>
 									<Link
 										to={`${langPrefix}/modules/payment-gateway`}
-										className="block nav-link text-lg"
+										className={getModuleLinkClass(
+											`${langPrefix}/modules/payment-gateway`,
+											true
+										)}
 									>
 										{t("navigation.paymentGateway")}
 									</Link>

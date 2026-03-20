@@ -28,6 +28,9 @@
 	"navigation": {
 		"solutions": "Solusi",
 		"modules": "Modul",
+		"modulesDropdown": "Semua Modul",
+		"allModules": "Semua Modul",
+		"integrations": "Integrasi",
 		"hris": "HRIS",
 		"ecommerce": "E-Commerce",
 		"xrm": "XRM",
@@ -53,6 +56,71 @@
 			"uptime": "SLA Uptime",
 			"users": "Pengguna Aktif",
 			"support": "Dukungan"
+		}
+	},
+	"modulesPage": {
+		"title": "Modul Omniflow",
+		"subtitle": "Jelajahi suite lengkap modul manajemen bisnis kami yang dirancang untuk menyederhanakan operasi Anda.",
+		"badge": "10 Modul Tersedia",
+		"getStarted": "Mulai Sekarang",
+		"modules": {
+			"hris": "Sistem manajemen sumber daya manusia lengkap dengan payroll, kehadiran, dan pelacakan kinerja.",
+			"ecommerce": "Toko online lengkap dengan inventaris, pembayaran, dan manajemen pesanan.",
+			"xrm": "CRM extended untuk mengelola hubungan pelanggan dan pipeline penjualan.",
+			"accounting": "Manajemen keuangan komprehensif dengan fakturasi, pelaporan, dan kepatuhan pajak.",
+			"urls": "Pemendekan URL profesional dan manajer redirect untuk kampanye pemasaran.",
+			"bizzcard": "Solusi kartu bisnis digital dengan kode QR dan dukungan NFC.",
+			"pos": "Sistem point of sale modern untuk bisnis retail dan restoran.",
+			"lms": "Sistem manajemen pembelajaran untuk pelatihan dan pendidikan perusahaan.",
+			"telemarketing": "Solusi manajemen panggilan outbound dan pelacakan prospek.",
+			"payment-gateway": "Pemrosesan pembayaran aman dengan berbagai metode pembayaran."
+		}
+	},
+	"integrationsPage": {
+		"title": "Integrasi Omniflow",
+		"subtitle": "Hubungkan Omniflow dengan alat bisnis favorit Anda untuk aliran data yang lancar dan produktivitas yang ditingkatkan.",
+		"badge": "50+ Integrasi",
+		"getStarted": "Mulai Sekarang",
+		"cta": {
+			"title": "Butuh Integrasi Kustom?",
+			"description": "Kami dapat membangun integrasi kustom untuk menghubungkan Omniflow dengan sistem apa pun yang Anda gunakan.",
+			"button": "Hubungi Sales"
+		},
+		"odoo": {
+			"description": "Sinkronkan data dengan Odoo ERP untuk manajemen bisnis terpadu."
+		},
+		"sap": {
+			"description": "Integrasi tingkat enterprise dengan sistem SAP untuk organisasi besar."
+		},
+		"salesforce": {
+			"description": "Hubungkan data CRM Anda dengan Omniflow untuk proses penjualan yang lebih efisien."
+		},
+		"shopify": {
+			"description": "Sinkronisasi real-time dengan toko Shopify untuk manajemen inventaris dan pesanan."
+		},
+		"woocommerce": {
+			"description": "Integrasi dengan WooCommerce untuk operasi e-commerce yang lancar."
+		},
+		"magento": {
+			"description": "Hubungkan dengan Magento untuk manajemen e-commerce tingkat enterprise."
+		},
+		"dynamics": {
+			"description": "Integrasi dengan Microsoft Dynamics untuk solusi bisnis terpadu."
+		},
+		"quickbooks": {
+			"description": "Sinkronkan data akuntansi dengan QuickBooks untuk keuangan yang lebih sederhana."
+		},
+		"xero": {
+			"description": "Hubungkan dengan Xero untuk integrasi akuntansi cloud."
+		},
+		"slack": {
+			"description": "Dapatkan notifikasi dan pembaruan langsung di saluran Slack."
+		},
+		"zoom": {
+			"description": "Integrasi video conferencing untuk rapat dan demo jarak jauh."
+		},
+		"zapier": {
+			"description": "Hubungkan dengan 5.000+ aplikasi menggunakan alur kerja otomatis."
 		}
 	},
 	"modules": {

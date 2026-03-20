@@ -28,6 +28,9 @@
 	"navigation": {
 		"solutions": "Solutions",
 		"modules": "Modules",
+		"modulesDropdown": "All Modules",
+		"allModules": "All Modules",
+		"integrations": "Integrations",
 		"hris": "HRIS",
 		"ecommerce": "E-Commerce",
 		"xrm": "XRM",
@@ -53,6 +56,71 @@
 			"uptime": "Uptime SLA",
 			"users": "Active Users",
 			"support": "Support"
+		}
+	},
+	"modulesPage": {
+		"title": "Omniflow Modules",
+		"subtitle": "Explore our comprehensive suite of business management modules designed to streamline your operations.",
+		"badge": "10 Modules Available",
+		"getStarted": "Get Started",
+		"modules": {
+			"hris": "Complete human resource management system with payroll, attendance, and performance tracking.",
+			"ecommerce": "Full-featured online store with inventory, payments, and order management.",
+			"xrm": "Extended CRM for managing customer relationships and sales pipelines.",
+			"accounting": "Comprehensive financial management with invoicing, reporting, and tax compliance.",
+			"urls": "Professional URL shortener and redirect manager for marketing campaigns.",
+			"bizzcard": "Digital business card solution with QR codes and NFC support.",
+			"pos": "Modern point of sale system for retail and restaurant businesses.",
+			"lms": "Learning management system for corporate training and education.",
+			"telemarketing": "Outbound call management and lead tracking solution.",
+			"payment-gateway": "Secure payment processing with multiple payment methods."
+		}
+	},
+	"integrationsPage": {
+		"title": "Omniflow Integrations",
+		"subtitle": "Connect Omniflow with your favorite business tools for seamless data flow and enhanced productivity.",
+		"badge": "50+ Integrations",
+		"getStarted": "Get Started",
+		"cta": {
+			"title": "Need a Custom Integration?",
+			"description": "We can build custom integrations to connect Omniflow with any system you use.",
+			"button": "Contact Sales"
+		},
+		"odoo": {
+			"description": "Sync data seamlessly with Odoo ERP for unified business management."
+		},
+		"sap": {
+			"description": "Enterprise-grade integration with SAP systems for large organizations."
+		},
+		"salesforce": {
+			"description": "Connect your CRM data with Omniflow for streamlined sales processes."
+		},
+		"shopify": {
+			"description": "Real-time sync with your Shopify store for inventory and order management."
+		},
+		"woocommerce": {
+			"description": "Integrate with WooCommerce for seamless e-commerce operations."
+		},
+		"magento": {
+			"description": "Connect with Magento for enterprise e-commerce management."
+		},
+		"dynamics": {
+			"description": "Integrate with Microsoft Dynamics for unified business solutions."
+		},
+		"quickbooks": {
+			"description": "Sync accounting data with QuickBooks for simplified finances."
+		},
+		"xero": {
+			"description": "Connect with Xero for cloud accounting integration."
+		},
+		"slack": {
+			"description": "Get notifications and updates directly in Slack channels."
+		},
+		"zoom": {
+			"description": "Integrate video conferencing for remote meetings and demos."
+		},
+		"zapier": {
+			"description": "Connect with 5,000+ apps using automated workflows."
 		}
 	},
 	"modules": {
