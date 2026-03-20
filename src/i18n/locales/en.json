@@ -47,8 +47,8 @@
 		"pricing": "Pricing"
 	},
 	"hero": {
-		"title": "Transform Your Business with Integrated ERP Solutions",
-		"subtitle": "Omniflow.id delivers enterprise-grade business management tools designed to streamline operations, boost productivity, and accelerate growth across your entire organization.",
+		"title": "Integrated ERP Solutions for Business Transformation",
+		"subtitle": "Streamline operations and accelerate growth with Omniflow's smart ERP ecosystem designed for your organization.",
 		"trustedBy": "Trusted by 10,000+ Businesses",
 		"startJourney": "Start Your Journey",
 		"watchDemo": "Watch Demo",
@@ -59,8 +59,8 @@
 		}
 	},
 	"modulesPage": {
-		"title": "Omniflow Modules",
-		"subtitle": "Explore our comprehensive suite of business management modules designed to streamline your operations.",
+		"title": "Unified Business Solutions",
+		"subtitle": "Scale your enterprise with our comprehensive suite of integrated ERP modules. Tailored to meet unique operational challenges across every department.",
 		"badge": "10 Modules Available",
 		"getStarted": "Get Started",
 		"modules": {
@@ -77,8 +77,8 @@
 		}
 	},
 	"integrationsPage": {
-		"title": "Omniflow Integrations",
-		"subtitle": "Connect Omniflow with your favorite business tools for seamless data flow and enhanced productivity.",
+		"title": "Seamless Ecosystem Integration",
+		"subtitle": "Power your business by connecting Omniflow to your favorite global platforms. Enjoy real-time data synchronization for smarter, more efficient workflows.",
 		"badge": "50+ Integrations",
 		"getStarted": "Get Started",
 		"cta": {
@@ -125,8 +125,8 @@
 	},
 	"modules": {
 		"title": "Comprehensive Business Solutions",
-		"subtitle": "From HR management to AI-powered analytics, our integrated modules work seamlessly together to power your entire business ecosystem.",
-		"badge": "17 Integrated Modules",
+		"subtitle": "From HR and Document management to AI-powered analytics, our 18 integrated modules work seamlessly together to power your entire business ecosystem.",
+		"badge": "18 Integrated Modules",
 		"hris": {
 			"name": "HRIS",
 			"description": "Complete human resource management system"
@@ -202,6 +202,10 @@
 		"procurement": {
 			"name": "Procurement",
 			"description": "Streamlined procurement process"
+		},
+		"dms": {
+			"name": "DMS",
+			"description": "Unified document management system"
 		}
 	},
 	"advantages": {
@@ -323,6 +327,7 @@
 			}
 		},
 		"info": {
+			"title": "Contact Information",
 			"email": {
 				"title": "Email Us",
 				"details": "contact@omniflow.id",
@@ -890,10 +895,7 @@
 				"title": "Fraud Protection",
 				"description": "Advanced fraud detection system with machine learning to protect your business from suspicious transactions."
 			},
-			"compliance": {
-				"title": "Regulatory Compliance",
-				"description": "Built-in controls and audit trails to ensure compliance with accounting standards."
-			},
+
 			"costEffective": {
 				"title": "Affordable Pricing",
 				"description": "Transparent fee structure with no hidden setup costs. Save money with competitive rates for your business."

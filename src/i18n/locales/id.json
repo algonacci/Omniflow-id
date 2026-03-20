@@ -47,8 +47,8 @@
 		"pricing": "Harga"
 	},
 	"hero": {
-		"title": "Software ERP Terbaik di Indonesia - Sistem ERP Perusahaan Terintegrasi",
-		"subtitle": "Omniflow.id adalah aplikasi ERP terbaik untuk perusahaan di Indonesia. Solusi ERP lengkap yang dirancang untuk menyederhanakan operasi bisnis, meningkatkan produktivitas, dan mempercepat pertumbuhan perusahaan Anda.",
+		"title": "Solusi ERP Terintegrasi untuk Transformasi Bisnis Anda",
+		"subtitle": "Optimalkan operasional dan percepat pertumbuhan perusahaan dengan ekosistem ERP cerdas dari Omniflow.id.",
 		"trustedBy": "Dipercaya oleh 10.000+ Bisnis",
 		"startJourney": "Mulai Perjalanan Anda",
 		"watchDemo": "Tonton Demo",
@@ -59,8 +59,8 @@
 		}
 	},
 	"modulesPage": {
-		"title": "Modul Omniflow",
-		"subtitle": "Jelajahi suite lengkap modul manajemen bisnis kami yang dirancang untuk menyederhanakan operasi Anda.",
+		"title": "Transformasi Bisnis dengan Modul Terpadu",
+		"subtitle": "Akselerasi pertumbuhan perusahaan dengan rangkaian modul ERP terlengkap yang saling terintegrasi. Dirancang secara modular untuk menjawab tantangan operasional unik di setiap lini bisnis Anda.",
 		"badge": "10 Modul Tersedia",
 		"getStarted": "Mulai Sekarang",
 		"modules": {
@@ -77,8 +77,8 @@
 		}
 	},
 	"integrationsPage": {
-		"title": "Integrasi Omniflow",
-		"subtitle": "Hubungkan Omniflow dengan alat bisnis favorit Anda untuk aliran data yang lancar dan produktivitas yang ditingkatkan.",
+		"title": "Konektivitas Tanpa Batas",
+		"subtitle": "Perluas kapabilitas bisnis Anda dengan menghubungkan Omniflow ke berbagai platform global favorit Anda. Nikmati sinkronisasi data real-time untuk alur kerja yang lebih cerdas dan efisien.",
 		"badge": "50+ Integrasi",
 		"getStarted": "Mulai Sekarang",
 		"cta": {
@@ -125,8 +125,8 @@
 	},
 	"modules": {
 		"title": "Modul Aplikasi ERP untuk Perusahaan",
-		"subtitle": "Software ERP terbaik di Indonesia dengan 17+ modul terintegrasi. Sistem ERP perusahaan lengkap dari manajemen HR, akuntansi, hingga analitik bertenaga AI untuk mengoptimalkan seluruh operasi bisnis Anda.",
-		"badge": "17 Modul Terintegrasi",
+		"subtitle": "Software ERP terbaik di Indonesia dengan 18+ modul terintegrasi. Sistem ERP perusahaan lengkap dari manajemen HR, akuntansi, manajemen dokumen, hingga analitik bertenaga AI untuk mengoptimalkan seluruh operasi bisnis Anda.",
+		"badge": "18 Modul Terintegrasi",
 		"hris": {
 			"name": "HRIS",
 			"description": "Sistem manajemen sumber daya manusia lengkap"
@@ -202,6 +202,10 @@
 		"procurement": {
 			"name": "Pengadaan",
 			"description": "Proses pengadaan yang efisien"
+		},
+		"dms": {
+			"name": "DMS",
+			"description": "Sistem manajemen dokumen terpadu"
 		}
 	},
 	"advantages": {
@@ -323,6 +327,7 @@
 			}
 		},
 		"info": {
+			"title": "Informasi Kontak",
 			"email": {
 				"title": "Email Kami",
 				"details": "contact@omniflow.id",
@@ -882,10 +887,7 @@
 				"title": "Proteksi Fraud",
 				"description": "Sistem deteksi fraud canggih dengan machine learning untuk melindungi bisnis dari transaksi mencurigakan."
 			},
-			"compliance": {
-				"title": "Kepatuhan Regulasi",
-				"description": "Kontrol bawaan dan jejak audit untuk memastikan kepatuhan dengan standar akuntansi."
-			},
+
 			"costEffective": {
 				"title": "Biaya Terjangkau",
 				"description": "Struktur biaya transparan tanpa biaya setup tersembunyi. Hemat biaya dengan rate kompetitif untuk bisnis Anda."

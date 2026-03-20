@@ -159,18 +159,23 @@ export default function ContactPage() {
 			/>
 
 			<div className="min-h-screen bg-white">
-				{/* Hero Section */}
-				<section className="section-hero">
-					<div className="container-enterprise">
+				<section className="section-hero relative overflow-hidden">
+					{/* Background Decoration */}
+					<div className="absolute top-0 left-0 w-full h-full overflow-hidden pointer-events-none">
+						<div className="absolute top-[-10%] right-[-5%] w-96 h-96 bg-blue-500/10 rounded-full blur-3xl animate-orb-float"></div>
+						<div className="absolute bottom-[-5%] left-[-5%] w-80 h-80 bg-indigo-500/10 rounded-full blur-3xl animate-orb-float" style={{ animationDelay: "-8s" }}></div>
+					</div>
+
+					<div className="container-enterprise relative z-10">
 						<div className="text-center max-w-4xl mx-auto">
-							<div className="inline-flex items-center px-4 py-2 bg-blue-100 text-blue-800 rounded-full text-sm font-semibold mb-6">
-								<CheckCircle className="h-4 w-4 mr-2" />
+							<div className="inline-flex items-center px-4 py-2 bg-blue-100/80 backdrop-blur-sm text-blue-800 rounded-full text-sm font-bold shadow-sm border border-blue-200 mb-8">
+								<CheckCircle className="h-4 w-4 mr-2 text-blue-600" />
 								{t("contact.badge")}
 							</div>
-							<h1 className="text-enterprise-primary mb-6">
+							<h1 className="text-enterprise-primary mb-8 leading-tight">
 								{t("contact.title")}
 							</h1>
-							<p className="text-xl text-enterprise-secondary mb-12">
+							<p className="text-xl text-enterprise-secondary mb-16 max-w-2xl mx-auto leading-relaxed">
 								{t("contact.subtitle")}
 							</p>
 
@@ -178,10 +183,12 @@ export default function ContactPage() {
 								{features.map((feature, index) => (
 									<div
 										key={index}
-										className="flex flex-col items-center p-4 bg-white rounded-2xl shadow-lg"
+										className="flex flex-col items-center p-6 bg-white/60 backdrop-blur-md rounded-2xl shadow-lg border border-white/40 hover:shadow-xl hover:-translate-y-1 transition-all duration-300"
 									>
-										<feature.icon className="h-8 w-8 text-blue-600 mb-2" />
-										<span className="text-sm font-medium text-center text-enterprise-secondary">
+										<div className="p-3 bg-blue-50 rounded-xl mb-4 text-blue-600">
+											<feature.icon className="h-6 w-6" />
+										</div>
+										<span className="text-sm font-bold text-center text-slate-800">
 											{feature.text}
 										</span>
 									</div>
@@ -191,27 +198,28 @@ export default function ContactPage() {
 					</div>
 				</section>
 
-				{/* Contact Info Cards */}
-				<section className="section-enterprise bg-white">
+				<section className="py-20 bg-white">
 					<div className="container-enterprise">
-						<div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 mb-16">
+						<div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 mb-24">
 							{contactInfo.map((info, index) => (
 								<div
 									key={index}
-									className="card-enterprise p-8 text-center group"
+									className="group p-8 bg-white rounded-3xl shadow-xl hover:shadow-2xl border border-gray-100 transition-all duration-500 hover:-translate-y-2 relative overflow-hidden text-center"
 								>
+									<div className={`absolute -right-6 -top-6 w-16 h-16 bg-gradient-to-br ${info.color} opacity-5 group-hover:opacity-10 transition-opacity rounded-full`}></div>
+									
 									<div
-										className={`inline-flex p-4 rounded-2xl bg-gradient-to-r ${info.color} mb-6 group-hover:scale-110 transition-transform duration-300`}
+										className={`inline-flex p-4 rounded-2xl bg-gradient-to-br ${info.color} shadow-lg mb-6 group-hover:scale-110 transition-transform duration-500`}
 									>
-										<info.icon className="h-8 w-8 text-white" />
+										<info.icon className="h-7 w-7 text-white" />
 									</div>
-									<h3 className="text-xl font-bold text-enterprise-primary mb-2">
+									<h3 className="text-xl font-bold text-slate-900 mb-2">
 										{info.title}
 									</h3>
-									<p className="text-blue-600 font-semibold mb-2">
+									<p className="text-blue-600 font-bold mb-3">
 										{info.details}
 									</p>
-									<p className="text-enterprise-muted">{info.description}</p>
+									<p className="text-slate-500 text-sm leading-relaxed">{info.description}</p>
 								</div>
 							))}
 						</div>
@@ -420,45 +428,46 @@ export default function ContactPage() {
 							{/* Sidebar */}
 							<div className="space-y-8">
 								{/* Office Info */}
-								<div className="card-enterprise p-8">
-									<h3 className="text-xl font-bold text-enterprise-primary mb-6">
+								<div className="bg-white p-8 rounded-3xl shadow-xl border border-gray-100 overflow-hidden">
+									<h3 className="text-xl font-bold text-slate-900 mb-6">
 										{t("contact.office.title")}
 									</h3>
-									<div className="aspect-video bg-gradient-to-br from-blue-100 to-indigo-100 rounded-2xl flex items-center justify-center mb-6">
-										<div className="text-center">
-											<MapPin className="h-12 w-12 text-blue-600 mx-auto mb-3" />
-											<p className="font-semibold text-enterprise-primary">
-												{t("contact.office.name")}
-											</p>
-											<p className="text-enterprise-muted">
-												{t("contact.office.country")}
-											</p>
-										</div>
+									<div className="aspect-video relative rounded-2xl overflow-hidden mb-8 border border-gray-100 group shadow-lg">
+										<iframe
+											src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1983.329!2d106.789298!3d-6.176359!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e69f65f73d4c9cb%3A0x144ec1e5914e9cc3!2sAPL%20Tower%2C%20RT.3%2FRW.5%2C%20Tj.%20Duren%20Sel.%2C%20Kec.%20Grogol%20petamburan%2C%20Kota%20Jakarta%20Barat%2C%20Daerah%20Khusus%20Ibukota%20Jakarta%2011470!5e0!3m2!1sid!2sid!4v1640794746998!5m2!1sid!2sid"
+											frameBorder="0"
+											style={{ border: "0", width: "100%", height: "100%" }}
+											allowFullScreen
+											loading="lazy"
+											title="Office Location Mapping"
+										/>
 									</div>
-									<div className="space-y-4 text-sm">
-										<div>
-											<span className="font-semibold text-enterprise-primary">
-												{t("contact.office.address")}
-											</span>
-											<p className="text-enterprise-secondary">
-												{t("contact.office.addressDetails")}
-											</p>
+									<div className="space-y-6">
+										<div className="flex gap-4">
+											<div className="p-2 bg-blue-50 text-blue-600 h-fit rounded-lg">
+												<MapPin className="h-5 w-5" />
+											</div>
+											<div>
+												<span className="font-bold text-slate-900 block mb-1">
+													{t("contact.office.address")}
+												</span>
+												<p className="text-slate-600 text-sm leading-relaxed">
+													{t("contact.office.addressDetails")}
+												</p>
+											</div>
 										</div>
-										<div>
-											<span className="font-semibold text-enterprise-primary">
-												{t("contact.office.hours")}
-											</span>
-											<p className="text-enterprise-secondary">
-												{t("contact.office.hoursDetails")}
-											</p>
-										</div>
-										<div>
-											<span className="font-semibold text-enterprise-primary">
-												{t("contact.office.station")}
-											</span>
-											<p className="text-enterprise-secondary">
-												{t("contact.office.stationDetails")}
-											</p>
+										<div className="flex gap-4">
+											<div className="p-2 bg-emerald-50 text-emerald-600 h-fit rounded-lg">
+												<Clock className="h-5 w-5" />
+											</div>
+											<div>
+												<span className="font-bold text-slate-900 block mb-1">
+													{t("contact.office.hours")}
+												</span>
+												<p className="text-slate-600 text-sm">
+													{t("contact.office.hoursDetails")}
+												</p>
+											</div>
 										</div>
 									</div>
 								</div>

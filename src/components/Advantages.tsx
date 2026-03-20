@@ -17,36 +17,42 @@ export default function Advantages() {
 			titleKey: "advantages.allInOne.title",
 			descriptionKey: "advantages.allInOne.description",
 			statKey: "advantages.allInOne.stat",
+			color: "from-blue-500 to-indigo-600",
 		},
 		{
 			icon: TrendingUp,
 			titleKey: "advantages.analytics.title",
 			descriptionKey: "advantages.analytics.description",
 			statKey: "advantages.analytics.stat",
+			color: "from-purple-500 to-indigo-600",
 		},
 		{
 			icon: Zap,
 			titleKey: "advantages.scalable.title",
 			descriptionKey: "advantages.scalable.description",
 			statKey: "advantages.scalable.stat",
+			color: "from-orange-500 to-red-600",
 		},
 		{
 			icon: Award,
 			titleKey: "advantages.costEffective.title",
 			descriptionKey: "advantages.costEffective.description",
 			statKey: "advantages.costEffective.stat",
+			color: "from-emerald-500 to-teal-600",
 		},
 		{
 			icon: Globe,
 			titleKey: "advantages.productivity.title",
 			descriptionKey: "advantages.productivity.description",
 			statKey: "advantages.productivity.stat",
+			color: "from-cyan-500 to-blue-600",
 		},
 		{
 			icon: Shield,
 			titleKey: "advantages.security.title",
 			descriptionKey: "advantages.security.description",
 			statKey: "advantages.security.stat",
+			color: "from-red-500 to-rose-600",
 		},
 	];
 
@@ -64,21 +70,32 @@ export default function Advantages() {
 
 				<div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
 					{advantages.map((advantage) => (
-						<div key={advantage.titleKey} className="card-enterprise p-8 group">
-							<div className="flex items-start space-x-4">
-								<div className="flex-shrink-0 p-3 bg-gradient-to-r from-blue-500 to-blue-600 rounded-2xl group-hover:scale-110 transition-transform duration-300">
-									<advantage.icon className="h-6 w-6 text-white" />
+						<div
+							key={advantage.titleKey}
+							className="group p-8 bg-white/50 backdrop-blur-sm border border-gray-100 rounded-3xl shadow-xl hover:shadow-2xl transition-all duration-500 hover:-translate-y-2 relative overflow-hidden"
+						>
+							<div
+								className={`absolute -right-8 -top-8 w-24 h-24 bg-gradient-to-br ${advantage.color} opacity-5 group-hover:opacity-10 transition-opacity duration-500 rounded-full`}
+							></div>
+
+							<div className="relative z-10">
+								<div
+									className={`inline-flex p-4 bg-gradient-to-br ${advantage.color} rounded-2xl shadow-lg mb-8 group-hover:scale-110 transition-transform duration-500`}
+								>
+									<advantage.icon className="h-7 w-7 text-white" />
 								</div>
-								<div className="flex-1">
-									<h3 className="text-xl font-bold text-enterprise-primary mb-3">
-										{t(advantage.titleKey)}
-									</h3>
-									<p className="text-enterprise-secondary mb-4 leading-relaxed">
-										{t(advantage.descriptionKey)}
-									</p>
-									<div className="inline-flex items-center px-3 py-1 bg-blue-100 text-blue-800 rounded-full text-sm font-semibold">
-										{t(advantage.statKey)}
-									</div>
+
+								<h3 className="text-2xl font-bold text-slate-900 mb-4 group-hover:text-blue-700 transition-colors duration-300">
+									{t(advantage.titleKey)}
+								</h3>
+
+								<p className="text-slate-600 leading-relaxed mb-8 flex-grow">
+									{t(advantage.descriptionKey)}
+								</p>
+
+								<div className="inline-flex items-center gap-2 px-4 py-2 bg-blue-50/50 text-blue-700 rounded-xl text-sm font-bold border border-blue-100 group-hover:bg-blue-600 group-hover:text-white transition-all duration-500 shadow-sm">
+									<TrendingUp className="h-4 w-4" />
+									{t(advantage.statKey)}
 								</div>
 							</div>
 						</div>

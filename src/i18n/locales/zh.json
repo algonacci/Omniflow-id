@@ -47,8 +47,8 @@
 		"pricing": "定价"
 	},
 	"hero": {
-		"title": "通过集成ERP解决方案转型您的业务",
-		"subtitle": "Omniflow.id提供企业级业务管理工具，旨在简化运营、提高生产力，并加速整个组织的增长。",
+		"title": "通过全方位 ERP 解决方案实现业务转型",
+		"subtitle": "Omniflow.id 是印尼领先的企业管理系统。为简化运营、提高效率并加速组织成长而设计的完整 ERP 解决方案。",
 		"trustedBy": "受到10,000+企业信赖",
 		"startJourney": "开始您的旅程",
 		"watchDemo": "观看演示",
@@ -59,8 +59,8 @@
 		}
 	},
 	"modulesPage": {
-		"title": "Omniflow 模块",
-		"subtitle": "探索我们全面的业务管理模块套件，简化您的运营。",
+		"title": "业务转型的核心驱动力",
+		"subtitle": "通过我们最全面的集成 ERP 模块组合，加速企业增长。专为解决每个业务条线的独特运营挑战而设计。",
 		"badge": "10个可用模块",
 		"getStarted": "开始使用",
 		"modules": {
@@ -77,8 +77,8 @@
 		}
 	},
 	"integrationsPage": {
-		"title": "Omniflow 集成",
-		"subtitle": "将Omniflow与您喜爱的业务工具连接，实现无缝数据流和提升生产力。",
+		"title": "无缝生态系统连接",
+		"subtitle": "通过将 Omniflow 连接到您喜爱的全球业务工具，扩展您的业务能力。享受实时数据同步，实现更智能、更高效的工作流程。",
 		"badge": "50+ 集成",
 		"getStarted": "开始使用",
 		"cta": {
@@ -125,8 +125,8 @@
 	},
 	"modules": {
 		"title": "全面的业务解决方案",
-		"subtitle": "从人力资源管理到AI驱动的分析，我们的集成模块无缝协作，为您的整个业务生态系统提供动力。",
-		"badge": "17个集成模块",
+		"subtitle": "从人力资源管理、会计到 AI 驱动的分析和文档管理系统 (DMS)，我们的集成模块无缝协作，为您的整个业务生态系统提供动力。",
+		"badge": "18 个集成模块",
 		"hris": {
 			"name": "人力资源",
 			"description": "完整的人力资源管理系统"
@@ -202,6 +202,10 @@
 		"procurement": {
 			"name": "采购",
 			"description": "简化的采购流程"
+		},
+		"dms": {
+			"name": "文档管理",
+			"description": "企业级文档管理系统 (DMS)"
 		}
 	},
 	"advantages": {
@@ -323,6 +327,7 @@
 			}
 		},
 		"info": {
+			"title": "联系信息",
 			"email": {
 				"title": "邮件联系",
 				"details": "contact@omniflow.id",
@@ -880,11 +885,6 @@
 				"title": "实时洞察",
 				"description": "即时访问财务数据和可定制的报告，以支持更好的决策。",
 				"stat": "洞察"
-			},
-			"compliance": {
-				"title": "法规合规",
-				"description": "内置控制和审计跟踪，确保符合会计标准。",
-				"stat": "法规合规"
 			}
 		},
 		"testimonials": {
@@ -894,7 +894,7 @@
 			"joinSuccess": {
 				"title": "准备开始？",
 				"description": "加入数千家已通过Omniflow转型其会计运营的公司。安排演示，看看我们的平台如何帮助您的业务。",
-				"scheduleDemo": "Jadwalkan Demo"
+				"scheduleDemo": "预约演示"
 			},
 			"scheduleDemo": "安排演示"
 		},

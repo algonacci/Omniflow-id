@@ -16,6 +16,7 @@ import {
 	Truck,
 	UserCheck,
 	Users,
+	FileText,
 } from "lucide-react";
 import { useTranslation } from "react-i18next";
 
@@ -37,6 +38,7 @@ const moduleKeys = [
 	"manufacturing",
 	"supply",
 	"procurement",
+	"dms",
 ];
 
 const moduleIcons = [
@@ -57,6 +59,7 @@ const moduleIcons = [
 	Factory,
 	Truck,
 	ShoppingCart,
+	FileText,
 ];
 
 const moduleColors = [
@@ -77,6 +80,7 @@ const moduleColors = [
 	"from-amber-500 to-amber-600",
 	"from-green-500 to-green-600",
 	"from-blue-500 to-indigo-600",
+	"from-sky-500 to-blue-700",
 ];
 
 export default function Modules() {

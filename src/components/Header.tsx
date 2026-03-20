@@ -18,6 +18,19 @@ export default function Header() {
 	const currentLang = getCurrentLang();
 	const langPrefix = `/${currentLang}`;
 	const currentPath = location.pathname;
+
+	const isLinkActive = (path: string, exact = false) => {
+		if (exact) {
+			return currentPath === path || currentPath === path + "/";
+		}
+		return currentPath === path || currentPath.startsWith(path + "/");
+	};
+
+	const getNavLinkClass = (path: string, exact = false, isMobile = false) => {
+		const baseClass = isMobile ? "block nav-link text-lg" : "nav-link";
+		return `${baseClass} ${isLinkActive(path, exact) ? "active" : ""}`;
+	};
+
 	const getModuleLinkClass = (path: string, isMobile = false) =>
 		`block px-4 py-2 transition-colors ${isMobile ? "text-lg " : ""}${currentPath === path ? "bg-blue-50 text-blue-700 font-semibold" : "text-slate-700 hover:bg-blue-50 hover:text-blue-700"}`;
 
@@ -34,16 +47,16 @@ export default function Header() {
 					</Link>
 
 					<div className="hidden md:flex items-center space-x-8">
-						<Link to={langPrefix} className="nav-link">
+						<Link to={langPrefix} className={getNavLinkClass(langPrefix, true)}>
 							{t("common.home")}
 						</Link>
-						<Link to={`${langPrefix}/integrations`} className="nav-link">
+						<Link to={`${langPrefix}/integrations`} className={getNavLinkClass(`${langPrefix}/integrations`)}>
 							{t("navigation.integrations")}
 						</Link>
 						<div className="relative group">
 							<button
 								type="button"
-								className="nav-link inline-flex items-center gap-1"
+								className={`nav-link inline-flex items-center gap-1 ${currentPath.startsWith(`${langPrefix}/modules`) ? "active" : ""}`}
 							>
 								{t("navigation.modulesDropdown")}
 								<ChevronDown className="h-4 w-4 transition-transform duration-200 group-hover:rotate-180 group-focus-within:rotate-180" />
@@ -130,10 +143,10 @@ export default function Header() {
 								</div>
 							</div>
 						</div>
-						<Link to={`${langPrefix}/blog`} className="nav-link">
+						<Link to={`${langPrefix}/blog`} className={getNavLinkClass(`${langPrefix}/blog`)}>
 							{t("common.blog")}
 						</Link>
-						<Link to={`${langPrefix}/contact`} className="nav-link">
+						<Link to={`${langPrefix}/contact`} className={getNavLinkClass(`${langPrefix}/contact`)}>
 							{t("common.contact")}
 						</Link>
 						<LanguageSwitcher />
@@ -157,12 +170,12 @@ export default function Header() {
 				{isMenuOpen && (
 					<div className="md:hidden mt-6 p-6 bg-white rounded-2xl shadow-enterprise-lg border border-gray-100">
 						<div className="space-y-4">
-							<Link to={langPrefix} className="block nav-link text-lg">
+							<Link to={langPrefix} className={getNavLinkClass(langPrefix, true, true)}>
 								{t("common.home")}
 							</Link>
 							<Link
 								to={`${langPrefix}/integrations`}
-								className="block nav-link text-lg"
+								className={getNavLinkClass(`${langPrefix}/integrations`, false, true)}
 							>
 								{t("navigation.integrations")}
 							</Link>
@@ -274,13 +287,13 @@ export default function Header() {
 							</div>
 							<Link
 								to={`${langPrefix}/blog`}
-								className="block nav-link text-lg"
+								className={getNavLinkClass(`${langPrefix}/blog`, false, true)}
 							>
 								{t("common.blog")}
 							</Link>
 							<Link
 								to={`${langPrefix}/contact`}
-								className="block nav-link text-lg"
+								className={getNavLinkClass(`${langPrefix}/contact`, false, true)}
 							>
 								{t("common.contact")}
 							</Link>

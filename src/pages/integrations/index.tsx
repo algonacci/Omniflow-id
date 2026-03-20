@@ -107,38 +107,72 @@ export default function IntegrationsPage() {
 				type="website"
 			/>
 
-			<section className="section-hero pt-32">
-				<div className="container-enterprise">
+			<section className="section-hero relative overflow-hidden">
+				{/* Background Decorations */}
+				<div className="absolute top-0 left-0 w-full h-full overflow-hidden pointer-events-none">
+					<div className="absolute top-[10%] left-[5%] w-72 h-72 bg-blue-400/10 rounded-full blur-3xl animate-orb-float"></div>
+					<div className="absolute bottom-[10%] right-[10%] w-96 h-96 bg-indigo-400/10 rounded-full blur-3xl animate-orb-float" style={{ animationDelay: "-5s" }}></div>
+					<div className="absolute top-[20%] right-[20%] w-64 h-64 bg-purple-400/10 rounded-full blur-3xl animate-orb-float" style={{ animationDelay: "-10s" }}></div>
+					
+					{/* Grid Pattern */}
+					<div className="absolute inset-0 bg-[url('https://www.transparenttextures.com/patterns/cubes.png')] opacity-[0.03]"></div>
+				</div>
+
+				<div className="container-enterprise relative z-10">
 					<div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
 						<div className="space-y-8 animate-fade-in-left">
-							<div className="inline-flex items-center px-4 py-2 bg-blue-100 text-blue-800 rounded-full text-sm font-semibold">
-								<Zap className="h-4 w-4 mr-2" />
+							<div className="inline-flex items-center px-4 py-2 bg-blue-100 text-blue-800 rounded-full text-sm font-bold shadow-sm">
+								<Zap className="h-4 w-4 mr-2 text-blue-600" />
 								{t("integrationsPage.badge")}
 							</div>
 
-							<h1 className="text-enterprise-primary">
+							<h1 className="text-enterprise-primary leading-tight">
 								{t("integrationsPage.title")}
 							</h1>
 
-							<p className="text-xl text-enterprise-secondary max-w-2xl">
+							<p className="text-xl text-enterprise-secondary max-w-2xl leading-relaxed">
 								{t("integrationsPage.subtitle")}
 							</p>
 
-							<div className="flex flex-col sm:flex-row gap-4">
-								<Link to="/en/contact" className="btn-primary group">
+							<div className="flex flex-col sm:flex-row gap-5">
+								<Link to="/en/contact" className="btn-primary group px-10">
 									{t("integrationsPage.getStarted")}
 									<ArrowRight className="ml-2 h-5 w-5 group-hover:translate-x-1 transition-transform" />
 								</Link>
 							</div>
 						</div>
 
-						<div className="relative animate-fade-in-right">
-							<div className="absolute inset-0 bg-gradient-to-r from-blue-600/20 to-indigo-700/20 rounded-3xl transform rotate-3"></div>
-							<img
-								src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?auto=format&fit=crop&q=80&w=800"
-								alt="Omniflow Integrations"
-								className="relative rounded-3xl shadow-enterprise-lg"
-							/>
+						<div className="relative h-[500px] flex items-center justify-center animate-fade-in-right">
+							{/* Central Dashboard Image with Glass Effect */}
+							<div className="relative group w-full max-w-md">
+								<div className="absolute -inset-4 bg-gradient-to-r from-blue-600/30 to-indigo-700/30 rounded-[2.5rem] blur-xl opacity-50 group-hover:opacity-100 transition duration-1000"></div>
+								<div className="relative glass-card border-white/20 p-2 rounded-[2rem] shadow-2xl overflow-hidden">
+									<img
+										src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?auto=format&fit=crop&q=80&w=800"
+										alt="Omniflow Integrations"
+										className="rounded-[1.5rem] w-full h-full object-cover"
+									/>
+								</div>
+							</div>
+
+							{/* Floating Integration Bubbles */}
+							<div className="absolute -top-4 -left-4 w-20 h-20 bg-white p-4 rounded-2xl shadow-xl border border-gray-100 animate-float flex items-center justify-center transition-transform hover:scale-110 cursor-pointer">
+								<span className="text-2xl font-black bg-gradient-to-br from-blue-600 to-blue-800 bg-clip-text text-transparent">SAP</span>
+							</div>
+							
+							<div className="absolute top-1/4 -right-10 w-16 h-16 bg-white p-3 rounded-2xl shadow-xl border border-gray-100 animate-float flex items-center justify-center" style={{ animationDelay: "-2s" }}>
+								<span className="text-lg font-black bg-gradient-to-br from-purple-500 to-purple-700 bg-clip-text text-transparent">O</span>
+							</div>
+
+							<div className="absolute -bottom-6 right-1/4 w-24 h-24 bg-white p-4 rounded-2xl shadow-2xl border border-gray-100 animate-float flex items-center justify-center" style={{ animationDelay: "-4s" }}>
+								<span className="text-xl font-black bg-gradient-to-br from-cyan-500 to-cyan-700 bg-clip-text text-transparent">SF</span>
+							</div>
+
+							<div className="absolute bottom-1/4 -left-8 w-14 h-14 bg-white p-3 rounded-2xl shadow-lg border border-gray-100 animate-float" style={{ animationDelay: "-1s" }}>
+								<div className="w-full h-full bg-green-100 rounded-lg flex items-center justify-center">
+									<span className="text-xs font-bold text-green-700">SHO</span>
+								</div>
+							</div>
 						</div>
 					</div>
 				</div>
