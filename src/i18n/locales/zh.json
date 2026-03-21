@@ -41,6 +41,7 @@
 		"lms": "学习管理",
 		"telemarketing": "电话营销",
 		"paymentGateway": "支付网关",
+		"analytics": "分析",
 		"insights": "洞察",
 		"resources": "资源",
 		"support": "支持",
@@ -73,7 +74,8 @@
 			"pos": "现代销售终端系统，适用于零售和餐饮业务。",
 			"lms": "学习管理系统，适用于企业培训和教育。",
 			"telemarketing": "外呼管理和潜在客户跟踪解决方案。",
-			"payment-gateway": "安全的支付处理，支持多种支付方式。"
+			"payment-gateway": "安全的支付处理，支持多种支付方式。",
+			"analytics": "集成 BCA、OrderOnline、Majoo 和 Moka 等服务的集中式分析平台。"
 		}
 	},
 	"integrationsPage": {
@@ -206,6 +208,10 @@
 		"dms": {
 			"name": "文档管理",
 			"description": "企业级文档管理系统 (DMS)"
+		},
+		"analytics": {
+			"name": "分析",
+			"description": "深入的业务集成和数据分析"
 		}
 	},
 	"advantages": {
@@ -455,32 +461,56 @@
 			"recruitment": {
 				"title": "招聘管理",
 				"description": "通过自动化职位发布、申请人跟踪和面试安排简化您的招聘流程。",
-				"benefits": ["自动化职位发布", "候选人跟踪", "面试安排"]
+				"benefits": [
+					"自动化职位发布",
+					"候选人跟踪",
+					"面试安排"
+				]
 			},
 			"records": {
 				"title": "员工记录",
 				"description": "员工信息、文档和历史记录的集中数据库，便于访问和更新。",
-				"benefits": ["数字文档存储", "员工档案", "历史跟踪"]
+				"benefits": [
+					"数字文档存储",
+					"员工档案",
+					"历史跟踪"
+				]
 			},
 			"leave": {
 				"title": "请假管理",
 				"description": "自动化请假申请、审批和余额跟踪，集成日历功能。",
-				"benefits": ["请假申请工作流", "余额跟踪", "日历同步"]
+				"benefits": [
+					"请假申请工作流",
+					"余额跟踪",
+					"日历同步"
+				]
 			},
 			"performance": {
 				"title": "绩效管理",
 				"description": "设置和跟踪KPI，进行评估，并管理员工发展计划。",
-				"benefits": ["KPI跟踪", "绩效评估", "发展计划"]
+				"benefits": [
+					"KPI跟踪",
+					"绩效评估",
+					"发展计划"
+				]
 			},
 			"attendance": {
 				"title": "时间与考勤",
 				"description": "通过自动化考勤监控跟踪工作时间、班次和加班。",
-				"benefits": ["时间跟踪", "班次管理", "加班计算"]
+				"benefits": [
+					"时间跟踪",
+					"班次管理",
+					"加班计算"
+				]
 			},
 			"compliance": {
 				"title": "合规管理",
 				"description": "通过内置合规工具保持符合劳动法律法规。",
-				"benefits": ["法规合规", "审计跟踪", "政策管理"]
+				"benefits": [
+					"法规合规",
+					"审计跟踪",
+					"政策管理"
+				]
 			}
 		},
 		"screenshots": {
@@ -490,17 +520,32 @@
 			"dashboard": {
 				"title": "员工仪表板",
 				"description": "直观的仪表板为员工提供快速访问个人信息、请假余额和重要公告的功能。",
-				"features": ["个人信息", "请假管理", "公司公告", "快速操作"]
+				"features": [
+					"个人信息",
+					"请假管理",
+					"公司公告",
+					"快速操作"
+				]
 			},
 			"analytics": {
 				"title": "绩效分析",
 				"description": "全面的绩效指标和分析可视化，用于跟踪员工进度和组织KPI。",
-				"features": ["绩效跟踪", "目标管理", "分析仪表板", "进度报告"]
+				"features": [
+					"绩效跟踪",
+					"目标管理",
+					"分析仪表板",
+					"进度报告"
+				]
 			},
 			"leave": {
 				"title": "请假管理",
 				"description": "简化的请假申请和审批流程，集成日历和自动余额计算。",
-				"features": ["请假申请", "审批工作流", "日历集成", "余额跟踪"]
+				"features": [
+					"请假申请",
+					"审批工作流",
+					"日历集成",
+					"余额跟踪"
+				]
 			},
 			"exploreFeature": "探索功能"
 		},
@@ -679,8 +724,8 @@
 	"xrm": {
 		"hero": {
 			"badge": "扩展关系管理",
-			"title": "XRM - 扩展关系管理",
-			"subtitle": "先进的CRM++解决方案，具有全面的用户管理、基于角色的访问控制、活动记录和企业级安全功能，适用于现代业务运营。",
+			"title": "高级 XRM 与客户关系",
+			"subtitle": "具有基于角色的访问控制、活动跟踪和企业安全性的下一代 CRM。",
 			"productivityBoost": "提升效率",
 			"stats": {
 				"users": "活跃用户",
@@ -800,8 +845,8 @@
 	"accounting": {
 		"hero": {
 			"badge": "会计系统",
-			"title": "完整会计与财务管理",
-			"subtitle": "通过综合会计软件简化您的财务运营。在一个集成平台中管理总账、应付/应收账款、开票和财务报告。",
+			"title": "统一会计软件",
+			"subtitle": "在一个可靠的平台上管理总账、交易和财务报告。",
 			"stats": {
 				"users": "活跃用户",
 				"uptime": "正常运行时间SLA",
@@ -920,8 +965,8 @@
 	"urls": {
 		"hero": {
 			"badge": "URL缩短器和重定向",
-			"title": "智能URL缩短器和重定向管理器",
-			"subtitle": "使用Omniflow URLs缩短您的链接、跟踪点击和管理重定向。功能包括二维码生成、自定义域名、分析和团队协作。",
+			"title": "智能链接管理",
+			"subtitle": "缩短 URL、跟踪点击、管理自定义域名并轻松监控营销表现。",
 			"stats": {
 				"linksCreated": "已创建链接",
 				"uptime": "正常运行SLA",
@@ -1017,8 +1062,8 @@
 	"bizzcard": {
 		"hero": {
 			"badge": "数字名片",
-			"title": "智能数字名片",
-			"subtitle": "创建精美的数字名片，带二维码和NFC。通过扫描即时分享您的联系信息。专业、环保、始终保持最新。",
+			"title": "现代数字名片",
+			"subtitle": "通过 NFC 或 QR 立即分享专业资料。实用、环保且随时更新。",
 			"stats": {
 				"cardsCreated": "已创建名片",
 				"scans": "总扫描次数",
@@ -1114,8 +1159,8 @@
 	"pos": {
 		"hero": {
 			"badge": "销售终端系统",
-			"title": "完整的销售终端解决方案",
-			"subtitle": "通过我们综合的POS系统简化您的零售运营。快速结账、实时库存同步、多种支付选项和离线模式支持。",
+			"title": "智能销售终端系统",
+			"subtitle": "利用进阶在线/离线 PoS 加速零售结账，支持实时同步和多种支付。",
 			"stats": {
 				"users": "活跃用户",
 				"uptime": "正常运行时间SLA",
@@ -1395,8 +1440,8 @@
 	"telemarketing": {
 		"hero": {
 			"badge": "电话营销与自动拨号器",
-			"title": "集成自动化电话营销系统",
-			"subtitle": "Omniflow电话营销提供完整的解决方案来管理您的电话营销活动。管理联系人、创建TTS音频脚本、运行自动呼叫，并在与Omniflow ERP系统集成的单一平台中监控结果。",
+			"title": "自动化电话营销平台",
+			"subtitle": "管理联系人、运行自动拨号活动，并使用直接集成在ERP中的TTS。",
 			"stats": {
 				"users": "活跃用户",
 				"uptime": "正常运行时间SLA",
@@ -1508,8 +1553,8 @@
 	"paymentGateway": {
 		"hero": {
 			"badge": "集成支付网关",
-			"title": "印度尼西亚最佳在线业务支付网关",
-			"subtitle": "轻松接受来自多种支付方式的付款。与Midtrans、虚拟账户、QRIS和电子钱包集成在一个与Omniflow ERP系统连接的平台中。",
+			"title": "全能支付网关",
+			"subtitle": "在您的 Omniflow 系统中自动接受 QRIS、虚拟账户和电子钱包付款。",
 			"stats": {
 				"users": "活跃用户",
 				"uptime": "正常运行时间SLA",

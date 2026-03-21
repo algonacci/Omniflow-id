@@ -3,7 +3,7 @@
   <!-- Homepage -->
   <url>
     <loc>https://omniflow.id/zh</loc>
-    <lastmod>2026-02-27</lastmod>
+    <lastmod>2026-03-21</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://omniflow.id/en"/>
@@ -15,7 +15,7 @@
   <!-- Modules - HRIS -->
   <url>
     <loc>https://omniflow.id/zh/modules/hris</loc>
-    <lastmod>2026-02-27</lastmod>
+    <lastmod>2026-03-21</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://omniflow.id/en/modules/hris"/>
@@ -26,7 +26,7 @@
   <!-- Modules - XRM -->
   <url>
     <loc>https://omniflow.id/zh/modules/xrm</loc>
-    <lastmod>2026-02-27</lastmod>
+    <lastmod>2026-03-21</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://omniflow.id/en/modules/xrm"/>
@@ -37,7 +37,7 @@
   <!-- Modules - Accounting -->
   <url>
     <loc>https://omniflow.id/zh/modules/accounting</loc>
-    <lastmod>2026-02-27</lastmod>
+    <lastmod>2026-03-21</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://omniflow.id/en/modules/accounting"/>
@@ -48,7 +48,7 @@
   <!-- Modules - Point of Sale -->
   <url>
     <loc>https://omniflow.id/zh/modules/pos</loc>
-    <lastmod>2026-02-27</lastmod>
+    <lastmod>2026-03-21</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://omniflow.id/en/modules/pos"/>
@@ -59,7 +59,7 @@
   <!-- Modules - E-Commerce -->
   <url>
     <loc>https://omniflow.id/zh/modules/ecommerce</loc>
-    <lastmod>2026-02-27</lastmod>
+    <lastmod>2026-03-21</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://omniflow.id/en/modules/ecommerce"/>
@@ -70,7 +70,7 @@
   <!-- Modules - LMS -->
   <url>
     <loc>https://omniflow.id/zh/modules/lms</loc>
-    <lastmod>2026-02-27</lastmod>
+    <lastmod>2026-03-21</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://omniflow.id/en/modules/lms"/>
@@ -81,7 +81,7 @@
   <!-- Modules - Telemarketing -->
   <url>
     <loc>https://omniflow.id/zh/modules/telemarketing</loc>
-    <lastmod>2026-02-27</lastmod>
+    <lastmod>2026-03-21</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://omniflow.id/en/modules/telemarketing"/>
@@ -92,7 +92,7 @@
   <!-- Modules - Payment Gateway -->
   <url>
     <loc>https://omniflow.id/zh/modules/payment-gateway</loc>
-    <lastmod>2026-02-27</lastmod>
+    <lastmod>2026-03-21</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://omniflow.id/en/modules/payment-gateway"/>
@@ -100,10 +100,21 @@
     <xhtml:link rel="alternate" hreflang="zh" href="https://omniflow.id/zh/modules/payment-gateway"/>
   </url>
 
+  <!-- Modules - Analytics -->
+  <url>
+    <loc>https://omniflow.id/zh/modules/analytics</loc>
+    <lastmod>2026-03-21</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://omniflow.id/en/modules/analytics"/>
+    <xhtml:link rel="alternate" hreflang="id" href="https://omniflow.id/id/modules/analytics"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://omniflow.id/zh/modules/analytics"/>
+  </url>
+
   <!-- Blog -->
   <url>
     <loc>https://omniflow.id/zh/blog</loc>
-    <lastmod>2026-02-27</lastmod>
+    <lastmod>2026-03-21</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.7</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://omniflow.id/en/blog"/>
@@ -114,7 +125,7 @@
   <!-- Contact -->
   <url>
     <loc>https://omniflow.id/zh/contact</loc>
-    <lastmod>2026-02-27</lastmod>
+    <lastmod>2026-03-21</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://omniflow.id/en/contact"/>

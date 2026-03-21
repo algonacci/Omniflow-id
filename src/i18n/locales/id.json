@@ -41,6 +41,7 @@
 		"lms": "LMS",
 		"telemarketing": "Telemarketing",
 		"paymentGateway": "Payment Gateway",
+		"analytics": "Analitik",
 		"insights": "Wawasan",
 		"resources": "Sumber Daya",
 		"support": "Dukungan",
@@ -73,7 +74,8 @@
 			"pos": "Sistem point of sale modern untuk bisnis retail dan restoran.",
 			"lms": "Sistem manajemen pembelajaran untuk pelatihan dan pendidikan perusahaan.",
 			"telemarketing": "Solusi manajemen panggilan outbound dan pelacakan prospek.",
-			"payment-gateway": "Pemrosesan pembayaran aman dengan berbagai metode pembayaran."
+			"payment-gateway": "Pemrosesan pembayaran aman dengan berbagai metode pembayaran.",
+			"analytics": "Platform analitik terpusat yang terintegrasi dengan berbagai layanan seperti BCA, OrderOnline, Majoo, dan Moka."
 		}
 	},
 	"integrationsPage": {
@@ -206,6 +208,10 @@
 		"dms": {
 			"name": "DMS",
 			"description": "Sistem manajemen dokumen terpadu"
+		},
+		"analytics": {
+			"name": "Analitik",
+			"description": "Analisis data dan integrasi bisnis yang mendalam"
 		}
 	},
 	"advantages": {
@@ -258,8 +264,8 @@
 				"answer": "Waktu implementasi bervariasi berdasarkan ukuran bisnis dan kebutuhan Anda. Pengaturan dasar membutuhkan 2-4 minggu untuk bisnis kecil, sementara implementasi enterprise biasanya membutuhkan 2-3 bulan. Kami menyediakan manajer proyek khusus dan dukungan 24/7 sepanjang proses untuk memastikan deployment yang lancar."
 			},
 			"customization": {
-				"question": "Bisakah software ERP ini digunakan untuk berbagai industri seperti manufaktur, retail, rumah sakit, sekolah, F\u0026B, dan kontraktor?",
-				"answer": "Tentu saja. Omniflow.id adalah software ERP terbaik di Indonesia yang dapat disesuaikan untuk berbagai industri. Kami menyediakan ERP manufaktur, ERP distributor, ERP retail, ERP kontraktor, ERP F\u0026B, ERP rumah sakit, dan ERP sekolah. Arsitektur modular kami memungkinkan konfigurasi fleksibel dengan fitur khusus industri seperti sistem integrasi penjualan dan gudang untuk retail, aplikasi manufaktur untuk pabrik, dan modul khusus untuk rumah sakit dan sekolah."
+				"question": "Bisakah software ERP ini digunakan untuk berbagai industri seperti manufaktur, retail, rumah sakit, sekolah, F&B, dan kontraktor?",
+				"answer": "Tentu saja. Omniflow.id adalah software ERP terbaik di Indonesia yang dapat disesuaikan untuk berbagai industri. Kami menyediakan ERP manufaktur, ERP distributor, ERP retail, ERP kontraktor, ERP F&B, ERP rumah sakit, dan ERP sekolah. Arsitektur modular kami memungkinkan konfigurasi fleksibel dengan fitur khusus industri seperti sistem integrasi penjualan dan gudang untuk retail, aplikasi manufaktur untuk pabrik, dan modul khusus untuk rumah sakit dan sekolah."
 			},
 			"support": {
 				"question": "Jenis dukungan dan pelatihan apa yang Anda berikan?",
@@ -434,8 +440,8 @@
 		}
 	},
 	"hris": {
-		"title": "Manajemen HR Modern untuk Kesuksesan Enterprise",
-		"subtitle": "Transformasi operasi HR Anda dengan solusi HRIS komprehensif kami. Sederhanakan rekrutmen, kelola data karyawan, dan otomatisasi proses HR dengan keamanan dan skalabilitas tingkat enterprise.",
+		"title": "Solusi Manajemen HR Terpadu",
+		"subtitle": "Sederhanakan rekrutmen, kelola data karyawan, dan otomatisasi seluruh operasional HR dalam satu platform yang aman.",
 		"badge": "Dipercaya oleh 10.000+ Profesional HR",
 		"hero": {
 			"scheduleDemo": "Jadwalkan Demo",
@@ -482,17 +488,29 @@
 			"performance": {
 				"title": "Manajemen Kinerja",
 				"description": "Tetapkan dan lacak KPI, lakukan review, dan kelola rencana pengembangan karyawan.",
-				"benefits": ["Pelacakan KPI", "Review kinerja", "Rencana pengembangan"]
+				"benefits": [
+					"Pelacakan KPI",
+					"Review kinerja",
+					"Rencana pengembangan"
+				]
 			},
 			"attendance": {
 				"title": "Waktu & Kehadiran",
 				"description": "Lacak jam kerja, shift, dan lembur dengan pemantauan kehadiran otomatis.",
-				"benefits": ["Pelacakan waktu", "Manajemen shift", "Perhitungan lembur"]
+				"benefits": [
+					"Pelacakan waktu",
+					"Manajemen shift",
+					"Perhitungan lembur"
+				]
 			},
 			"compliance": {
 				"title": "Manajemen Kepatuhan",
 				"description": "Tetap patuh dengan hukum ketenagakerjaan dan peraturan dengan alat kepatuhan bawaan.",
-				"benefits": ["Kepatuhan regulasi", "Jejak audit", "Manajemen kebijakan"]
+				"benefits": [
+					"Kepatuhan regulasi",
+					"Jejak audit",
+					"Manajemen kebijakan"
+				]
 			}
 		},
 		"screenshots": {
@@ -706,8 +724,8 @@
 	"xrm": {
 		"hero": {
 			"badge": "Extended Relationship Management",
-			"title": "XRM - Extended Relationship Management",
-			"subtitle": "Solusi CRM++ canggih dengan manajemen pengguna komprehensif, kontrol akses berbasis peran, pencatatan aktivitas, dan fitur keamanan tingkat enterprise untuk operasi bisnis modern.",
+			"title": "XRM & Manajemen Relasi Klien",
+			"subtitle": "Sistem CRM tingkat lanjut dengan fitur manajemen hak akses, tracking aktivitas, dan keamanan enterprise.",
 			"productivityBoost": "Peningkatan Efisiensi",
 			"stats": {
 				"users": "Pengguna Aktif",
@@ -827,8 +845,8 @@
 	"accounting": {
 		"hero": {
 			"badge": "Sistem Akuntansi",
-			"title": "Akuntansi & Manajemen Keuangan Lengkap",
-			"subtitle": "Sederhanakan operasi keuangan Anda dengan perangkat lunak akuntansi komprehensif. Kelola buku besar, akun hutang/piutang, penagihan, dan pelaporan keuangan dalam satu platform terintegrasi.",
+			"title": "Software Akuntansi Terpadu",
+			"subtitle": "Kelola buku besar, pencatatan transaksi, dan laporan keuangan dalam satu platform andal.",
 			"stats": {
 				"users": "Pengguna Aktif",
 				"uptime": "SLA Uptime",
@@ -887,7 +905,6 @@
 				"title": "Proteksi Fraud",
 				"description": "Sistem deteksi fraud canggih dengan machine learning untuk melindungi bisnis dari transaksi mencurigakan."
 			},
-
 			"costEffective": {
 				"title": "Biaya Terjangkau",
 				"description": "Struktur biaya transparan tanpa biaya setup tersembunyi. Hemat biaya dengan rate kompetitif untuk bisnis Anda."
@@ -949,8 +966,8 @@
 	"urls": {
 		"hero": {
 			"badge": "URL Shortener & Redirect",
-			"title": "URL Shortener & Redirect Manager Cerdas",
-			"subtitle": "Persingkat tautan Anda, lacak klik, dan kelola redirect dengan Omniflow URLs. Fitur генерация QR code, domain kustom, analitik, dan kolaborasi tim.",
+			"title": "Manajemen Tautan & Redirect",
+			"subtitle": "Pendekkan tautan, pantau klik, kelola domain kustom, dan lacak performa marketing dengan mudah.",
 			"stats": {
 				"linksCreated": "Tautan Dibuat",
 				"uptime": "SLA Uptime",
@@ -1046,8 +1063,8 @@
 	"bizzcard": {
 		"hero": {
 			"badge": "Kartu Nama Digital",
-			"title": "Kartu Nama Digital Cerdas",
-			"subtitle": "Buat kartu nama digital yang menakjubkan dengan QR code dan NFC. Bagikan info kontak Anda secara instan dengan pemindaian. Profesional, ramah lingkungan, dan selalu terkini.",
+			"title": "Kartu Nama Digital Modern",
+			"subtitle": "Bagikan profil profesional cepat lewat NFC atau QR. Praktis, up-to-date, & ramah lingkungan.",
 			"stats": {
 				"cardsCreated": "Kartu Dibuat",
 				"scans": "Total Pemindaian",
@@ -1143,8 +1160,8 @@
 	"pos": {
 		"hero": {
 			"badge": "Sistem Point of Sale",
-			"title": "Solusi Point of Sale Lengkap",
-			"subtitle": "Sederhanakan operasi ritel Anda dengan sistem PoS komprehensif kami. Checkout cepat, sinkronisasi inventaris real-time, opsi pembayaran beragam, dan dukungan mode offline.",
+			"title": "Sistem Kasir Pintar (PoS)",
+			"subtitle": "Percepat transaksi ritel Anda dengan PoS offline/online, stok real-time, dan ragam metode pembayaran.",
 			"stats": {
 				"users": "Pengguna Aktif",
 				"uptime": "SLA Uptime",
@@ -1424,8 +1441,8 @@
 	"telemarketing": {
 		"hero": {
 			"badge": "Telemarketing & Auto Dialer",
-			"title": "Sistem Telemarketing Otomatis Terintegrasi",
-			"subtitle": "Omniflow Telemarketing menyediakan solusi lengkap untuk mengelola kampanye telemarketing Anda. Kelola kontak, buat script audio TTS, jalankan panggilan otomatis, dan pantau hasil dalam satu platform yang terintegrasi dengan sistem ERP Omniflow.",
+			"title": "Platform Telemarketing Otomatis",
+			"subtitle": "Kelola jutaan kontak, jalankan Auto-Dial, dan konversi teks-ke-suara terintegrasi langsung dengan ERP.",
 			"stats": {
 				"users": "Pengguna Aktif",
 				"uptime": "SLA Uptime",
@@ -1537,8 +1554,8 @@
 	"paymentGateway": {
 		"hero": {
 			"badge": "Payment Gateway Terintegrasi",
-			"title": "Payment Gateway Indonesia Terbaik untuk Bisnis Online",
-			"subtitle": "Terima pembayaran dari berbagai metode dengan mudah. Integrasi Midtrans, Virtual Account, QRIS, dan E-Wallet dalam satu platform yang terhubung dengan sistem ERP Omniflow.",
+			"title": "Gerbang Pembayaran Lengkap",
+			"subtitle": "Terima pembayaran QRIS, Virtual Account, dan E-Wallet langsung terotomatisasi ke Omniflow Anda.",
 			"stats": {
 				"users": "Pengguna Aktif",
 				"uptime": "SLA Uptime",
@@ -1572,7 +1589,7 @@
 				"description": "Pantau semua transaksi dalam satu dashboard. Lacak status pembayaran, refund, chargeback, dan history transaksi lengkap."
 			},
 			"analytics": {
-				"title": "Analitik \u0026 Laporan",
+				"title": "Analitik & Laporan",
 				"description": "Dashboard analitik komprehensif untuk memantau performa pembayaran. Laporan transaksi, metode pembayaran populer, dan trend penjualan."
 			},
 			"mobileReady": {
@@ -1649,5 +1666,115 @@
 		"terms": "Syarat Layanan",
 		"cookies": "Kebijakan Cookie",
 		"copyright": "Semua hak dilindungi. Dibangun dengan keunggulan untuk kesuksesan enterprise."
+	},
+	"analytics": {
+		"title": "Analitik & Integrasi - Omniflow",
+		"subtitle": "Solusi Analisis Terintegrasi",
+		"badge": "Platform Analitik Lanjutan",
+		"hero": {
+			"title": "Analitik Cerdas & Terpusat",
+			"subtitle": "Hubungkan seluruh aplikasi bisnis Anda untuk pantau data real-time, jadikan keputusan operasional makin cepat dan tajam.",
+			"stats": {
+				"integrations": "Koneksi",
+				"latency": "Waktu Sinkron",
+				"growth": "Analisis Berjalan",
+				"accuracy": "Akurasi"
+			},
+			"productivityBoost": "Angka Pendapatan"
+		},
+		"features": {
+			"badge": "Integrasi Mendalam",
+			"title": "Integrasi Tanpa Batas",
+			"subtitle": "Pusatkan seluruh data pesanan dan kasir Anda di satu dashboard ringkas."
+		},
+		"integrations": {
+			"bca": {
+				"desc": "Integrasi data mutasi bank otomatis dan rekonsiliasi seketika.",
+				"b1": "Rekonsiliasi otomatis",
+				"b2": "Notifikasi instan",
+				"b3": "Aman & terenkripsi"
+			},
+			"orderonline": {
+				"desc": "Penyelarasan semua pesanan OrderOnline Anda dan analitik corong.",
+				"b1": "Lacak pesanan live",
+				"b2": "Metrik penjualan",
+				"b3": "Analitik pelanggan"
+			},
+			"majoo": {
+				"desc": "Tarik otomatis data transaksi PoS harian untuk semua cabang Anda.",
+				"b1": "Sinkronisasi PoS harian",
+				"b2": "Manajemen multi-cabang",
+				"b3": "Analisis stok"
+			},
+			"moka": {
+				"desc": "Integrasi Moka untuk melacak tren pendapatan, performa staf, dan penjualan.",
+				"b1": "Integrasi kasir",
+				"b2": "Performa staf",
+				"b3": "Prediksi tren"
+			},
+			"shopee": {
+				"desc": "Tarik data penjualan harian Shopee langsung ke dalam Omniflow.",
+				"b1": "Analisis penjualan harian",
+				"b2": "Kelola pesanan tertunda",
+				"b3": "Optimasi promosi"
+			},
+			"custom": {
+				"desc": "Sistem API terbuka Omniflow memungkinkan integrasi tanpa batas. Koneksikan apa saja.",
+				"b1": "Dokumentasi API lengkap",
+				"b2": "Webhook real-time",
+				"b3": "Developer-friendly"
+			}
+		},
+		"screenshots": {
+			"title": "Visualisasi Data Interaktif",
+			"subtitle": "Grafik performa POS dan funnel kasir tersaji jelas & mudah dipahami.",
+			"f1": {
+				"title": "Konversi OrderOnline",
+				"desc": "Lihat secara pasti corong mana yang menghasilkan penjualan final."
+			},
+			"f2": {
+				"title": "Distribusi Majoo & Moka",
+				"desc": "Pecahkan pendapatan setiap cabang untuk menemukan yang terbaik."
+			}
+		},
+		"benefits": {
+			"badge": "Hasil Terbukti",
+			"title": "Manfaat Utama",
+			"subtitle": "Raih efisiensi maksimal dengan otomatisasi aliran data.",
+			"b1": {
+				"title": "Pertumbuhan Pendapatan",
+				"desc": "Identifikasi produk profit tinggi dan skala saluran sukses Anda dengan mulus."
+			},
+			"b2": {
+				"title": "Hemat Waktu",
+				"desc": "Tidak ada lagi entry data manual. Semuanya tersinkron secara otomatis."
+			},
+			"b3": {
+				"title": "Efisiensi Biaya",
+				"desc": "Kurangi overhead operasional dengan mengetahui persis ke mana uang Anda pergi."
+			},
+			"b4": {
+				"title": "Reliabilitas Data",
+				"desc": "Akurasi data dijamin dengan protokol keamanan bersertifikasi ISO."
+			}
+		},
+		"testimonials": {
+			"title": "Dipercaya oleh Merek Terkemuka",
+			"subtitle": "Lihat bagaimana bisnis memanfaatkan Analitik Omniflow.",
+			"t1": {
+				"quote": "Integrasi langsung dengan BCA menghemat tim keuangan kami berjam-jam rekonsiliasi."
+			},
+			"t2": {
+				"quote": "Data OrderOnline yang mengalir secara otomatis sangat membantu pengambilan keputusan pemasaran."
+			},
+			"t3": {
+				"quote": "Sinkronisasi Majoo sangat fenomenal. Kami mengontrol 12 cabang utuh."
+			}
+		},
+		"cta": {
+			"badge": "Buka Potensi Data",
+			"title": "Siap Sinkronisasi Data Otomatis?",
+			"subtitle": "Tinggalkan rekap manual dan mulai integrasikan alat Anda ke Omniflow hari ini."
+		}
 	}
 }

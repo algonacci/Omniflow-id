@@ -41,6 +41,7 @@
 		"lms": "LMS",
 		"telemarketing": "Telemarketing",
 		"paymentGateway": "Payment Gateway",
+		"analytics": "Analytics",
 		"insights": "Insights",
 		"resources": "Resources",
 		"support": "Support",
@@ -73,7 +74,8 @@
 			"pos": "Modern point of sale system for retail and restaurant businesses.",
 			"lms": "Learning management system for corporate training and education.",
 			"telemarketing": "Outbound call management and lead tracking solution.",
-			"payment-gateway": "Secure payment processing with multiple payment methods."
+			"payment-gateway": "Secure payment processing with multiple payment methods.",
+			"analytics": "Centralized analytics platform integrating with services like BCA, OrderOnline, Majoo, and Moka."
 		}
 	},
 	"integrationsPage": {
@@ -206,6 +208,10 @@
 		"dms": {
 			"name": "DMS",
 			"description": "Unified document management system"
+		},
+		"analytics": {
+			"name": "Analytics",
+			"description": "Analytics and deep business integrations"
 		}
 	},
 	"advantages": {
@@ -434,8 +440,8 @@
 		}
 	},
 	"hris": {
-		"title": "Modern HR Management for Enterprise Success",
-		"subtitle": "Transform your HR operations with our comprehensive HRIS solution. Streamline recruitment, manage employee data, and automate HR processes with enterprise-grade security and scalability.",
+		"title": "Unified HR Management Solution",
+		"subtitle": "Streamline recruitment, manage data, and automate HR operations in one secure platform.",
 		"badge": "Trusted by 10,000+ HR Professionals",
 		"hero": {
 			"scheduleDemo": "Schedule Demo",
@@ -482,7 +488,11 @@
 			"performance": {
 				"title": "Performance Management",
 				"description": "Set and track KPIs, conduct reviews, and manage employee development plans.",
-				"benefits": ["KPI tracking", "Performance reviews", "Development plans"]
+				"benefits": [
+					"KPI tracking",
+					"Performance reviews",
+					"Development plans"
+				]
 			},
 			"attendance": {
 				"title": "Time & Attendance",
@@ -714,8 +724,8 @@
 	"xrm": {
 		"hero": {
 			"badge": "Extended Relationship Management",
-			"title": "XRM - Extended Relationship Management",
-			"subtitle": "Advanced CRM++ solution with comprehensive user management, role-based access control, activity logging, and enterprise-grade security features for modern business operations.",
+			"title": "Advanced XRM & Client Relations",
+			"subtitle": "Next-level CRM with role-based access control, activity tracking, and enterprise security.",
 			"productivityBoost": "Performance Boost",
 			"stats": {
 				"users": "Active Users",
@@ -835,8 +845,8 @@
 	"accounting": {
 		"hero": {
 			"badge": "Accounting System",
-			"title": "Complete Accounting & Financial Management",
-			"subtitle": "Streamline your financial operations with comprehensive accounting software. Manage general ledger, accounts payable/receivable, invoicing, and financial reporting in one integrated platform.",
+			"title": "Unified Accounting Software",
+			"subtitle": "Manage general ledger, transactions, and financial reports in one reliable platform.",
 			"stats": {
 				"users": "Active Users",
 				"uptime": "Uptime SLA",
@@ -895,7 +905,6 @@
 				"title": "Fraud Protection",
 				"description": "Advanced fraud detection system with machine learning to protect your business from suspicious transactions."
 			},
-
 			"costEffective": {
 				"title": "Affordable Pricing",
 				"description": "Transparent fee structure with no hidden setup costs. Save money with competitive rates for your business."
@@ -957,8 +966,8 @@
 	"urls": {
 		"hero": {
 			"badge": "URL Shortener & Redirect",
-			"title": "Smart URL Shortener & Redirect Manager",
-			"subtitle": "Shorten your links, track clicks, and manage redirects with Omniflow URLs. Features QR code generation, custom domains, analytics, and team collaboration.",
+			"title": "Smart Link Manager",
+			"subtitle": "Shorten URLs, track clicks, manage custom domains, and monitor marketing performance easily.",
 			"stats": {
 				"linksCreated": "Links Created",
 				"uptime": "Uptime SLA",
@@ -1054,8 +1063,8 @@
 	"bizzcard": {
 		"hero": {
 			"badge": "Digital Business Card",
-			"title": "Smart Digital Business Cards",
-			"subtitle": "Create stunning digital business cards with QR code and NFC. Share your contact info instantly with a scan. Professional, eco-friendly, and always up-to-date.",
+			"title": "Modern Digital Business Cards",
+			"subtitle": "Share professional profiles instantly via NFC or QR. Practical, always up-to-date, and eco-friendly.",
 			"stats": {
 				"cardsCreated": "Cards Created",
 				"scans": "Total Scans",
@@ -1151,8 +1160,8 @@
 	"pos": {
 		"hero": {
 			"badge": "Point of Sale System",
-			"title": "Complete Point of Sale Solution",
-			"subtitle": "Streamline your retail operations with our comprehensive POS system. Fast checkout, real-time inventory sync, multiple payment options, and offline mode support.",
+			"title": "Smart Point of Sale System",
+			"subtitle": "Accelerate retail checkouts with online/offline PoS, real-time sync, and multi-payment support.",
 			"stats": {
 				"users": "Active Users",
 				"uptime": "Uptime SLA",
@@ -1432,8 +1441,8 @@
 	"telemarketing": {
 		"hero": {
 			"badge": "Telemarketing & Auto Dialer",
-			"title": "Integrated Automated Telemarketing System",
-			"subtitle": "Omniflow Telemarketing provides a complete solution for managing your telemarketing campaigns. Manage contacts, create TTS audio scripts, run automated calls, and monitor results in one platform integrated with Omniflow ERP system.",
+			"title": "Automated Telemarketing Platform",
+			"subtitle": "Manage contacts, run Auto-Dial campaigns, and use built-in TTS integrated directly with your ERP.",
 			"stats": {
 				"users": "Active Users",
 				"uptime": "Uptime SLA",
@@ -1545,8 +1554,8 @@
 	"paymentGateway": {
 		"hero": {
 			"badge": "Integrated Payment Gateway",
-			"title": "Best Payment Gateway for Online Business",
-			"subtitle": "Accept payments from multiple methods with ease. Integrated with Midtrans, Virtual Account, QRIS, and E-Wallets in one platform connected to Omniflow ERP system.",
+			"title": "Complete Payment Gateway",
+			"subtitle": "Accept QRIS, Virtual Accounts, and E-Wallets automatically within your Omniflow system.",
 			"stats": {
 				"users": "Active Users",
 				"uptime": "Uptime SLA",

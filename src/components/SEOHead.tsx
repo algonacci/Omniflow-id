@@ -49,7 +49,7 @@ export default function SEOHead({
 				title: t("hero.title"),
 				description: t("hero.subtitle"),
 				keywords:
-					"ERP Software, HRIS, Business Management, Enterprise Solutions, Omniflow, Indonesia, Human Resources, Accounting Software, CRM System, Digital Transformation, Business Automation",
+					"ERP Software, HRIS, Business Management, Enterprise Solutions, Omniflow, Indonesia, Human Resources, Accounting Software, CRM System, Digital Transformation, Business Automation, Inventory Management, Warehouse Software, Point of Sale, POS System, Payroll System, URL Shortener, Digital Business Card, Business Analytics, Payment Gateway Integration, Automated Telemarketing, Procurement Management, eCommerce Platform",
 				author: "Omniflow.id Team",
 				siteName: "Omniflow.id - Integrated ERP Solutions",
 				companyName: "Omniflow.id",
@@ -61,7 +61,7 @@ export default function SEOHead({
 				description:
 					"Omniflow.id menghadirkan alat manajemen bisnis tingkat enterprise yang dirancang untuk menyederhanakan operasi, meningkatkan produktivitas, dan mempercepat pertumbuhan di seluruh organisasi Anda.",
 				keywords:
-					"Software ERP, HRIS, Manajemen Bisnis, Solusi Enterprise, Omniflow, Indonesia, Sistem Manajemen Bisnis, Sumber Daya Manusia, Software Akuntansi, Sistem CRM, Transformasi Digital, Otomasi Bisnis",
+					"Software ERP, HRIS, Manajemen Bisnis, Solusi Enterprise, Omniflow, Indonesia, Sistem Manajemen Bisnis, Sumber Daya Manusia, Software Akuntansi, Sistem CRM, Transformasi Digital, Otomasi Bisnis, Software Stok Barang, Aplikasi Gudang, Aplikasi Kasir, Point of Sale, Manajemen Inventory, Sistem Payroll, URL Shortener, Kartu Nama Digital, Analitik Bisnis, Payment Gateway Indonesia, Telemarketing Otomatis, Manajemen Pengadaan, Platform eCommerce",
 				author: "Tim Omniflow.id",
 				siteName: "Omniflow.id - Solusi ERP Terintegrasi",
 				companyName: "Omniflow.id",
@@ -73,7 +73,7 @@ export default function SEOHead({
 				description:
 					"Omniflow.id提供企业级业务管理工具，旨在简化运营、提高生产力，并加速整个组织的增长。",
 				keywords:
-					"ERP软件, 人力资源信息系统, 业务管理, 企业解决方案, Omniflow, 印度尼西亚, 业务管理系统, 人力资源, 会计软件, 客户关系管理系统, 数字化转型, 业务自动化",
+					"ERP软件, 人力资源信息系统, 业务管理, 企业解决方案, Omniflow, 印度尼西亚, 业务管理系统, 人力资源, 会计软件, 客户关系管理系统, 数字化转型, 业务自动化, 进销存管理, 仓库软件, 收银系统, 销售终端, 薪资系统, 短链接生成器, 数字名片, 业务分析, 支付网关集成, 自动化电话营销, 采购管理, 电子商务平台",
 				author: "Omniflow.id 团队",
 				siteName: "Omniflow.id - 集成ERP解决方案",
 				companyName: "Omniflow.id",
@@ -93,7 +93,7 @@ export default function SEOHead({
 		? `${title} | ${langContent.siteName}`
 		: `${langContent.title} | ${langContent.siteName}`;
 	const finalDescription = description || langContent.description;
-	const finalKeywords = keywords || langContent.keywords;
+	const finalKeywords = keywords ? `${keywords}, ${langContent.keywords}` : langContent.keywords;
 	const finalAuthor = author || langContent.author;
 
 	// Get language-specific URLs

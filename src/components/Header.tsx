@@ -99,6 +99,12 @@ export default function Header() {
 										{t("navigation.accounting")}
 									</Link>
 									<Link
+										to={`${langPrefix}/modules/analytics`}
+										className={getModuleLinkClass(`${langPrefix}/modules/analytics`)}
+									>
+										{t("navigation.analytics")}
+									</Link>
+									<Link
 										to={`${langPrefix}/modules/urls`}
 										className={getModuleLinkClass(`${langPrefix}/modules/urls`)}
 									>
@@ -228,6 +234,15 @@ export default function Header() {
 										)}
 									>
 										{t("navigation.accounting")}
+									</Link>
+									<Link
+										to={`${langPrefix}/modules/analytics`}
+										className={getModuleLinkClass(
+											`${langPrefix}/modules/analytics`,
+											true
+										)}
+									>
+										{t("navigation.analytics")}
 									</Link>
 									<Link
 										to={`${langPrefix}/modules/urls`}

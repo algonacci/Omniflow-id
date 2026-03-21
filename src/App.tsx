@@ -25,6 +25,7 @@ import PoSPage from "./pages/modules/PoS/index.tsx";
 import TelemarketingPage from "./pages/modules/Telemarketing/index.tsx";
 import URLsPage from "./pages/modules/URLs/index.tsx";
 import XRMPage from "./pages/modules/XRM/index.tsx";
+import AnalyticsPage from "./pages/modules/Analytics/index.tsx";
 import NotFoundPage from "./pages/NotFound";
 
 function App() {
@@ -56,6 +57,7 @@ function App() {
 						/>
 						<Route path="/en/modules/xrm" element={<XRMPage />} />
 						<Route path="/en/modules/accounting" element={<AccountingPage />} />
+						<Route path="/en/modules/analytics" element={<AnalyticsPage />} />
 						<Route path="/en/modules/urls" element={<URLsPage />} />
 						<Route path="/en/modules/bizzcard" element={<BizzcardPage />} />
 						<Route path="/en/modules/pos" element={<PoSPage />} />
@@ -84,6 +86,7 @@ function App() {
 						/>
 						<Route path="/id/modules/xrm" element={<XRMPage />} />
 						<Route path="/id/modules/accounting" element={<AccountingPage />} />
+						<Route path="/id/modules/analytics" element={<AnalyticsPage />} />
 						<Route path="/id/modules/urls" element={<URLsPage />} />
 						<Route path="/id/modules/bizzcard" element={<BizzcardPage />} />
 						<Route path="/id/modules/pos" element={<PoSPage />} />
@@ -112,6 +115,7 @@ function App() {
 						/>
 						<Route path="/zh/modules/xrm" element={<XRMPage />} />
 						<Route path="/zh/modules/accounting" element={<AccountingPage />} />
+						<Route path="/zh/modules/analytics" element={<AnalyticsPage />} />
 						<Route path="/zh/modules/urls" element={<URLsPage />} />
 						<Route path="/zh/modules/bizzcard" element={<BizzcardPage />} />
 						<Route path="/zh/modules/pos" element={<PoSPage />} />
@@ -138,6 +142,7 @@ function App() {
 							path="/modules/commerce"
 							element={<Navigate to="/modules/ecommerce" replace />}
 						/>
+						<Route path="/modules/analytics" element={<AnalyticsPage />} />
 						<Route path="/blog" element={<BlogPage />} />
 						<Route path="/blog/:slug" element={<BlogDetailPage />} />
 						<Route path="/contact" element={<ContactPage />} />

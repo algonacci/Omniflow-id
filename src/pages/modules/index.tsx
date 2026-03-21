@@ -13,6 +13,7 @@ import {
 	Layout,
 	Database,
 	Server,
+	BarChart,
 } from "lucide-react";
 import { useEffect } from "react";
 import { useTranslation } from "react-i18next";
@@ -39,6 +40,11 @@ const modules = [
 		key: "accounting",
 		icon: Calculator,
 		color: "from-orange-500 to-orange-600",
+	},
+	{
+		key: "analytics",
+		icon: BarChart,
+		color: "from-fuchsia-500 to-fuchsia-600",
 	},
 	{
 		key: "urls",
