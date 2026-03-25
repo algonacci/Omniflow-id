@@ -79,7 +79,11 @@
 			"lms": "Learning management system for corporate training and education.",
 			"telemarketing": "Outbound call management and lead tracking solution.",
 			"payment-gateway": "Secure payment processing with multiple payment methods.",
-			"analytics": "Centralized analytics platform integrating with services like BCA, OrderOnline, Majoo, and Moka."
+			"analytics": "Centralized analytics platform integrating with services like BCA, OrderOnline, Majoo, and Moka.",
+			"sales": "Advanced sales management with pipeline visualization, deal tracking, and revenue forecasting.",
+			"purchasing": "Intelligent procurement management with vendor control, RFQ automation, and cost optimization.",
+			"assetManagement": "Enterprise asset management with tracking, depreciation, maintenance scheduling, and lifecycle management.",
+			"inventory": "Comprehensive inventory management with multi-location tracking, warehouse optimization, and demand forecasting."
 		}
 	},
 	"integrationsPage": {
@@ -1871,7 +1875,7 @@
 				"description": "Ensure compliance with regulations and internal policies.",
 				"stat": "100% compliant"
 			},
-			"cost": {
+			"visibility": {
 				"title": "Visibility",
 				"description": "Complete visibility into spending and supplier performance.",
 				"stat": "100% visible"
