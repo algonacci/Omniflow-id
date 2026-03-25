@@ -14,6 +14,9 @@ import {
 	Database,
 	Server,
 	BarChart,
+	TrendingUp,
+	Package,
+	Boxes,
 } from "lucide-react";
 import { useEffect } from "react";
 import { useTranslation } from "react-i18next";
@@ -75,6 +78,26 @@ const modules = [
 		key: "payment-gateway",
 		icon: CreditCard,
 		color: "from-teal-500 to-teal-600",
+	},
+	{
+		key: "sales",
+		icon: TrendingUp,
+		color: "from-blue-500 to-blue-600",
+	},
+	{
+		key: "purchasing",
+		icon: ShoppingCart,
+		color: "from-indigo-500 to-indigo-600",
+	},
+	{
+		key: "assetManagement",
+		icon: Package,
+		color: "from-cyan-500 to-cyan-600",
+	},
+	{
+		key: "inventory",
+		icon: Boxes,
+		color: "from-sky-500 to-sky-600",
 	},
 ];
 

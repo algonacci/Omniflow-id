@@ -26,6 +26,10 @@ import TelemarketingPage from "./pages/modules/Telemarketing/index.tsx";
 import URLsPage from "./pages/modules/URLs/index.tsx";
 import XRMPage from "./pages/modules/XRM/index.tsx";
 import AnalyticsPage from "./pages/modules/Analytics/index.tsx";
+import SalesPage from "./pages/modules/Sales/index.tsx";
+import PurchasingPage from "./pages/modules/Purchasing/index.tsx";
+import AssetManagementPage from "./pages/modules/AssetManagement/index.tsx";
+import InventoryPage from "./pages/modules/Inventory/index.tsx";
 import NotFoundPage from "./pages/NotFound";
 
 function App() {
@@ -70,6 +74,10 @@ function App() {
 							path="/en/modules/payment-gateway"
 							element={<PaymentGatewayPage />}
 						/>
+						<Route path="/en/modules/sales" element={<SalesPage />} />
+						<Route path="/en/modules/purchasing" element={<PurchasingPage />} />
+						<Route path="/en/modules/asset-management" element={<AssetManagementPage />} />
+						<Route path="/en/modules/inventory" element={<InventoryPage />} />
 						<Route path="/en/blog" element={<BlogPage />} />
 						<Route path="/en/blog/:slug" element={<BlogDetailPage />} />
 						<Route path="/en/contact" element={<ContactPage />} />
@@ -99,6 +107,10 @@ function App() {
 							path="/id/modules/payment-gateway"
 							element={<PaymentGatewayPage />}
 						/>
+						<Route path="/id/modules/sales" element={<SalesPage />} />
+						<Route path="/id/modules/purchasing" element={<PurchasingPage />} />
+						<Route path="/id/modules/asset-management" element={<AssetManagementPage />} />
+						<Route path="/id/modules/inventory" element={<InventoryPage />} />
 						<Route path="/id/blog" element={<BlogPage />} />
 						<Route path="/id/blog/:slug" element={<BlogDetailPage />} />
 						<Route path="/id/contact" element={<ContactPage />} />
@@ -128,6 +140,10 @@ function App() {
 							path="/zh/modules/payment-gateway"
 							element={<PaymentGatewayPage />}
 						/>
+						<Route path="/zh/modules/sales" element={<SalesPage />} />
+						<Route path="/zh/modules/purchasing" element={<PurchasingPage />} />
+						<Route path="/zh/modules/asset-management" element={<AssetManagementPage />} />
+						<Route path="/zh/modules/inventory" element={<InventoryPage />} />
 						<Route path="/zh/blog" element={<BlogPage />} />
 						<Route path="/zh/blog/:slug" element={<BlogDetailPage />} />
 						<Route path="/zh/contact" element={<ContactPage />} />

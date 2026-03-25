@@ -13,6 +13,10 @@ import {
 	Users,
 	WalletCards,
 	X,
+	TrendingUp,
+	ShoppingCart,
+	Package,
+	Boxes,
 } from "lucide-react";
 import React from "react";
 import { useTranslation } from "react-i18next";
@@ -112,6 +116,34 @@ export default function Header() {
 			icon: WalletCards,
 			title: t("navigation.paymentGateway"),
 			description: t("modulesPage.modules.payment-gateway"),
+		},
+		{
+			key: "sales",
+			href: `${langPrefix}/modules/sales`,
+			icon: TrendingUp,
+			title: t("navigation.sales"),
+			description: t("modules.sales.description"),
+		},
+		{
+			key: "purchasing",
+			href: `${langPrefix}/modules/purchasing`,
+			icon: ShoppingCart,
+			title: t("navigation.purchasing"),
+			description: t("modules.purchasing.description"),
+		},
+		{
+			key: "assetManagement",
+			href: `${langPrefix}/modules/asset-management`,
+			icon: Package,
+			title: t("navigation.assetManagement"),
+			description: t("modules.assetManagement.description"),
+		},
+		{
+			key: "inventory",
+			href: `${langPrefix}/modules/inventory`,
+			icon: Boxes,
+			title: t("navigation.inventory"),
+			description: t("modules.inventory.description"),
 		},
 	];
 

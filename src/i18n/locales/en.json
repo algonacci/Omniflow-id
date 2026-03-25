@@ -42,6 +42,10 @@
 		"telemarketing": "Telemarketing",
 		"paymentGateway": "Payment Gateway",
 		"analytics": "Analytics",
+		"sales": "Sales Management",
+		"purchasing": "Purchasing",
+		"assetManagement": "Asset Management",
+		"inventory": "Inventory Management",
 		"insights": "Insights",
 		"resources": "Resources",
 		"support": "Support",
@@ -1647,6 +1651,514 @@
 				"users": "Active Users",
 				"uptime": "Uptime SLA",
 				"security": "Certified Security"
+			}
+		}
+	},
+	"sales": {
+		"title": "Advanced Sales Management Platform",
+		"subtitle": "Streamline your sales pipeline, track deals, and accelerate revenue growth with powerful sales automation tools.",
+		"badge": "Trusted by 50,000+ Sales Professionals",
+		"hero": {
+			"scheduleDemo": "Schedule Demo",
+			"watchOverview": "Watch Overview",
+			"stats": {
+				"users": "Active Users",
+				"uptime": "Uptime SLA",
+				"increase": "Revenue Growth",
+				"implementation": "Time to Deploy"
+			},
+			"revenueGrowth": "Revenue Growth"
+		},
+		"features": {
+			"title": "Complete Sales Management Solution",
+			"subtitle": "Manage your entire sales process from lead to closed deal with advanced tools and automation.",
+			"badge": "Powerful Sales Features",
+			"pipeline": {
+				"title": "Sales Pipeline Management",
+				"description": "Visualize and manage your entire sales pipeline with customizable stages and forecasting.",
+				"benefits": ["Pipeline visualization", "Deal tracking", "Stage management"]
+			},
+			"leads": {
+				"title": "Lead Management",
+				"description": "Capture, qualify, and nurture leads with automated workflows and scoring.",
+				"benefits": ["Lead capture", "Qualification workflows", "Lead scoring"]
+			},
+			"deals": {
+				"title": "Deal Management",
+				"description": "Track deal progress, manage activities, and close more deals faster.",
+				"benefits": ["Deal tracking", "Activity management", "Close probability"]
+			},
+			"forecasting": {
+				"title": "Sales Forecasting",
+				"description": "Accurate revenue forecasting based on real-time pipeline data and historical trends.",
+				"benefits": ["Revenue forecasting", "Trend analysis", "Prediction models"]
+			},
+			"mobile": {
+				"title": "Mobile Sales App",
+				"description": "Stay connected with mobile app for iOS and Android with full functionality.",
+				"benefits": ["Offline access", "Push notifications", "Mobile forms"]
+			},
+			"integration": {
+				"title": "Third-party Integration",
+				"description": "Seamlessly integrate with your existing tools and workflows.",
+				"benefits": ["Email integration", "Calendar sync", "CRM integration"]
+			}
+		},
+		"screenshots": {
+			"title": "Experience Sales Excellence",
+			"subtitle": "Intuitive interface designed for sales teams to maximize productivity and close more deals.",
+			"badge": "Sales Platform Preview",
+			"pipeline": {
+				"title": "Pipeline Dashboard",
+				"description": "Complete view of your sales pipeline with real-time updates and forecasting.",
+				"features": ["Deal tracking", "Pipeline stages", "Win probability", "Revenue forecast"]
+			},
+			"analytics": {
+				"title": "Sales Analytics",
+				"description": "Comprehensive analytics to track performance and identify opportunities.",
+				"features": ["Performance metrics", "Conversion tracking", "Revenue analysis", "Team metrics"]
+			},
+			"mobile": {
+				"title": "Mobile Access",
+				"description": "Full sales functionality on iOS and Android with offline capabilities.",
+				"features": ["Mobile updates", "Offline mode", "Quick actions", "Real-time sync"]
+			},
+			"exploreFeature": "Explore Feature"
+		},
+		"benefits": {
+			"title": "Proven Sales Results",
+			"subtitle": "See measurable improvements in your sales performance with our platform.",
+			"badge": "Sales Success Stories",
+			"productivity": {
+				"title": "Increased Productivity",
+				"description": "Sales teams close deals 45% faster with streamlined processes.",
+				"stat": "+45%"
+			},
+			"speed": {
+				"title": "Faster Sales Cycles",
+				"description": "Reduce sales cycle by automating routine tasks and eliminating manual work.",
+				"stat": "30% faster"
+			},
+			"increase": {
+				"title": "Revenue Growth",
+				"description": "Increase revenue with better pipeline visibility and deal management.",
+				"stat": "+35%"
+			},
+			"visibility": {
+				"title": "Complete Visibility",
+				"description": "Real-time insights into your sales pipeline and team performance.",
+				"stat": "100% visibility"
+			},
+			"organizations": "Organizations Using",
+			"uptime": "Uptime Guarantee",
+			"support": "Expert Support"
+		},
+		"testimonials": {
+			"title": "Sales Leaders Trust Omniflow",
+			"subtitle": "See how top sales organizations accelerate growth with our platform.",
+			"badge": "Customer Success",
+			"joinSuccess": {
+				"title": "Ready to Accelerate Sales?",
+				"description": "Schedule a demo and discover how Omniflow can transform your sales organization.",
+				"scheduleDemo": "Schedule Your Demo"
+			}
+		},
+		"cta": {
+			"title": "Transform Your Sales Organization",
+			"subtitle": "Join leading sales teams that have accelerated growth with Omniflow Sales.",
+			"badge": "Start Closing More Deals",
+			"scheduleDemo": "Schedule Demo",
+			"contactSales": "Contact Sales",
+			"features": {
+				"trial": "Free 30-day trial",
+				"setup": "No setup fees",
+				"support": "24/7 support"
+			},
+			"stats": {
+				"users": "Active Users",
+				"uptime": "Uptime SLA",
+				"growth": "Average Growth"
+			}
+		}
+	},
+	"purchasing": {
+		"title": "Intelligent Procurement Management",
+		"subtitle": "Optimize your procurement process, manage suppliers, and reduce costs with intelligent purchasing automation.",
+		"badge": "Trusted by 30,000+ Procurement Professionals",
+		"hero": {
+			"scheduleDemo": "Schedule Demo",
+			"watchOverview": "Watch Overview",
+			"stats": {
+				"users": "Active Users",
+				"uptime": "Uptime SLA",
+				"savings": "Cost Savings",
+				"efficiency": "Process Efficiency"
+			},
+			"costReduction": "Cost Reduction"
+		},
+		"features": {
+			"title": "Complete Procurement Solution",
+			"subtitle": "Streamline the entire procurement workflow from requisition to invoice.",
+			"badge": "Comprehensive Features",
+			"requisition": {
+				"title": "Purchase Requisitions",
+				"description": "Streamlined requisition creation with automated approvals and routing.",
+				"benefits": ["Approval workflows", "Auto-routing", "Budget control"]
+			},
+			"rfq": {
+				"title": "RFQ & Bidding",
+				"description": "Create RFQs, send to suppliers, and compare quotes efficiently.",
+				"benefits": ["Quote comparison", "Bidding process", "Vendor scoring"]
+			},
+			"vendors": {
+				"title": "Vendor Management",
+				"description": "Manage supplier relationships, performance, and compliance.",
+				"benefits": ["Vendor database", "Performance tracking", "Compliance management"]
+			},
+			"approvals": {
+				"title": "Approval Workflows",
+				"description": "Customizable approval workflows with multi-level authorization.",
+				"benefits": ["Custom workflows", "Policy enforcement", "Audit trails"]
+			},
+			"reporting": {
+				"title": "Reporting & Analytics",
+				"description": "Comprehensive procurement analytics and spending analysis.",
+				"benefits": ["Spend analysis", "Vendor analytics", "Cost trends"]
+			},
+			"compliance": {
+				"title": "Compliance & Audit",
+				"description": "Ensure compliance with regulations and internal policies.",
+				"benefits": ["Audit trails", "Policy management", "Regulatory compliance"]
+			}
+		},
+		"screenshots": {
+			"title": "Procurement Excellence",
+			"subtitle": "Intuitive platform for managing your complete procurement process.",
+			"badge": "Platform Overview",
+			"orders": {
+				"title": "Purchase Orders",
+				"description": "Create and manage purchase orders with real-time tracking.",
+				"features": ["PO creation", "Order tracking", "Delivery management", "Invoice matching"]
+			},
+			"vendors": {
+				"title": "Vendor Portal",
+				"description": "Enable suppliers to collaborate and respond to requisitions.",
+				"features": ["Supplier collaboration", "Quote submission", "Performance metrics", "Compliance docs"]
+			},
+			"analytics": {
+				"title": "Procurement Analytics",
+				"description": "Detailed spending analysis and procurement metrics.",
+				"features": ["Spend analysis", "Vendor performance", "Category analysis", "Savings tracking"]
+			},
+			"exploreFeature": "Explore Feature"
+		},
+		"benefits": {
+			"title": "Procurement Impact",
+			"subtitle": "Achieve measurable improvements in procurement performance.",
+			"badge": "Proven Benefits",
+			"savings": {
+				"title": "Cost Savings",
+				"description": "Reduce procurement costs through better negotiations and automation.",
+				"stat": "-40%"
+			},
+			"speed": {
+				"title": "Faster Processing",
+				"description": "Reduce procurement cycle time and improve supplier response.",
+				"stat": "50% faster"
+			},
+			"compliance": {
+				"title": "Compliance",
+				"description": "Ensure compliance with regulations and internal policies.",
+				"stat": "100% compliant"
+			},
+			"cost": {
+				"title": "Visibility",
+				"description": "Complete visibility into spending and supplier performance.",
+				"stat": "100% visible"
+			},
+			"vendors": "Active Vendors",
+			"uptime": "Uptime Guarantee",
+			"support": "Expert Support"
+		},
+		"testimonials": {
+			"title": "Procurement Leaders Choose Omniflow",
+			"subtitle": "See how organizations reduce costs and improve efficiency with our platform.",
+			"badge": "Customer Success",
+			"joinSuccess": {
+				"title": "Ready to Optimize Procurement?",
+				"description": "Schedule a demo and see how we can reduce your procurement costs.",
+				"scheduleDemo": "Schedule Your Demo"
+			}
+		},
+		"cta": {
+			"title": "Optimize Your Procurement Process",
+			"subtitle": "Join organizations that have transformed their procurement operations and achieved significant cost savings.",
+			"badge": "Start Saving Today",
+			"scheduleDemo": "Schedule Demo",
+			"contactSales": "Contact Sales",
+			"features": {
+				"trial": "Free 30-day trial",
+				"setup": "No setup fees",
+				"support": "24/7 support"
+			},
+			"stats": {
+				"users": "Active Users",
+				"uptime": "Uptime SLA",
+				"savings": "Cost Savings"
+			}
+		}
+	},
+	"assetManagement": {
+		"title": "Enterprise Asset Management Platform",
+		"subtitle": "Track, manage, and optimize your assets throughout their complete lifecycle with intelligent asset management.",
+		"badge": "Trusted by 25,000+ Organizations",
+		"hero": {
+			"scheduleDemo": "Schedule Demo",
+			"watchOverview": "Watch Overview",
+			"stats": {
+				"users": "Active Users",
+				"uptime": "Uptime SLA",
+				"efficiency": "Efficiency Gain",
+				"accuracy": "Data Accuracy"
+			},
+			"accuracyImprovement": "Accuracy Improvement"
+		},
+		"features": {
+			"title": "Complete Asset Management",
+			"subtitle": "Manage fixed assets, track depreciation, and optimize asset utilization.",
+			"badge": "Asset Management Features",
+			"tracking": {
+				"title": "Asset Tracking",
+				"description": "Real-time tracking of all assets with location, condition, and status monitoring.",
+				"benefits": ["Location tracking", "Barcode scanning", "QR codes"]
+			},
+			"depreciation": {
+				"title": "Depreciation Management",
+				"description": "Automated depreciation calculations and financial reporting compliance.",
+				"benefits": ["Auto-calculation", "Multiple methods", "Financial reporting"]
+			},
+			"lifecycle": {
+				"title": "Asset Lifecycle",
+				"description": "Manage complete asset lifecycle from acquisition to disposal.",
+				"benefits": ["Acquisition tracking", "Maintenance logs", "Disposal management"]
+			},
+			"maintenance": {
+				"title": "Maintenance Scheduling",
+				"description": "Schedule and track preventive and corrective maintenance.",
+				"benefits": ["Maintenance scheduling", "Work orders", "Service tracking"]
+			},
+			"reports": {
+				"title": "Reporting & Analytics",
+				"description": "Comprehensive reports and analytics for asset portfolio analysis.",
+				"benefits": ["Asset reports", "Utilization analysis", "Value tracking"]
+			},
+			"integration": {
+				"title": "System Integration",
+				"description": "Integrate with accounting systems and other enterprise applications.",
+				"benefits": ["GL integration", "API access", "Data sync"]
+			}
+		},
+		"screenshots": {
+			"title": "Asset Management Mastery",
+			"subtitle": "Intuitive interface for complete asset visibility and control.",
+			"badge": "Platform Preview",
+			"tracking": {
+				"title": "Asset Register",
+				"description": "Comprehensive view of all assets with detailed information and status.",
+				"features": ["Asset register", "Detail view", "History tracking", "Status monitoring"]
+			},
+			"maintenance": {
+				"title": "Maintenance Management",
+				"description": "Schedule and track all maintenance activities.",
+				"features": ["Work orders", "Service history", "Scheduling", "Cost tracking"]
+			},
+			"reporting": {
+				"title": "Asset Reports",
+				"description": "Detailed reporting on asset portfolio and performance.",
+				"features": ["Asset register", "Depreciation reports", "Utilization analysis", "Value reports"]
+			},
+			"exploreFeature": "Explore Feature"
+		},
+		"benefits": {
+			"title": "Asset Management Value",
+			"subtitle": "Achieve significant improvements in asset visibility and operational efficiency.",
+			"badge": "Proven Results",
+			"efficiency": {
+				"title": "Increased Efficiency",
+				"description": "Streamline asset management and reduce administrative overhead.",
+				"stat": "+50%"
+			},
+			"accuracy": {
+				"title": "Accuracy Improvement",
+				"description": "Achieve 95% asset accuracy with automated tracking.",
+				"stat": "+95%"
+			},
+			"cost": {
+				"title": "Cost Reduction",
+				"description": "Optimize maintenance costs through preventive scheduling.",
+				"stat": "-30%"
+			},
+			"visibility": {
+				"title": "Real-time Visibility",
+				"description": "Complete visibility into asset portfolio and performance.",
+				"stat": "100% visible"
+			},
+			"organizations": "Organizations Using",
+			"uptime": "Uptime Guarantee",
+			"support": "Expert Support"
+		},
+		"testimonials": {
+			"title": "Asset Leaders Trust Omniflow",
+			"subtitle": "See how organizations improve asset utilization and reduce costs.",
+			"badge": "Customer Success",
+			"joinSuccess": {
+				"title": "Ready to Optimize Assets?",
+				"description": "Schedule a demo and discover asset management excellence.",
+				"scheduleDemo": "Schedule Your Demo"
+			}
+		},
+		"cta": {
+			"title": "Master Your Asset Management",
+			"subtitle": "Join organizations that have transformed asset management and achieved significant operational improvements.",
+			"badge": "Start Managing Assets",
+			"scheduleDemo": "Schedule Demo",
+			"contactSales": "Contact Sales",
+			"features": {
+				"trial": "Free 30-day trial",
+				"setup": "No setup fees",
+				"support": "24/7 support"
+			},
+			"stats": {
+				"users": "Active Users",
+				"uptime": "Uptime SLA",
+				"efficiency": "Efficiency Gain"
+			}
+		}
+	},
+	"inventory": {
+		"title": "Intelligent Inventory Management System",
+		"subtitle": "Optimize inventory levels, reduce stockouts, and improve warehouse operations with smart inventory management.",
+		"badge": "Trusted by 40,000+ Organizations",
+		"hero": {
+			"scheduleDemo": "Schedule Demo",
+			"watchOverview": "Watch Overview",
+			"stats": {
+				"users": "Active Users",
+				"uptime": "Uptime SLA",
+				"reduction": "Stock Reduction",
+				"accuracy": "Inventory Accuracy"
+			},
+			"accuracyBoost": "Accuracy Boost"
+		},
+		"features": {
+			"title": "Complete Inventory Solution",
+			"subtitle": "Manage inventory across multiple locations with real-time tracking and optimization.",
+			"badge": "Inventory Management Features",
+			"tracking": {
+				"title": "Real-time Tracking",
+				"description": "Track inventory levels across all warehouses and locations.",
+				"benefits": ["Live stock levels", "Multi-location", "Real-time updates"]
+			},
+			"warehouse": {
+				"title": "Warehouse Management",
+				"description": "Optimize warehouse operations with location management and picking.",
+				"benefits": ["Location management", "Pick optimization", "Zone management"]
+			},
+			"orders": {
+				"title": "Order Management",
+				"description": "Seamless order fulfillment with automated picking and packing.",
+				"benefits": ["Order picking", "Packing automation", "Shipment tracking"]
+			},
+			"forecasting": {
+				"title": "Demand Forecasting",
+				"description": "Intelligent forecasting to optimize inventory levels.",
+				"benefits": ["Demand prediction", "Seasonal trends", "Reorder automation"]
+			},
+			"reporting": {
+				"title": "Reporting & Analytics",
+				"description": "Comprehensive inventory analytics and performance metrics.",
+				"benefits": ["Inventory reports", "Turnover analysis", "SKU performance"]
+			},
+			"barcoding": {
+				"title": "Barcode & Scanning",
+				"description": "Streamlined barcode scanning and inventory counting.",
+				"benefits": ["Barcode scanning", "Mobile scanning", "Inventory counts"]
+			}
+		},
+		"screenshots": {
+			"title": "Inventory Excellence",
+			"subtitle": "Intuitive platform for managing your complete inventory operation.",
+			"badge": "Platform Overview",
+			"dashboard": {
+				"title": "Inventory Dashboard",
+				"description": "Real-time view of inventory levels and key metrics.",
+				"features": ["Stock levels", "Low stock alerts", "Movement trends", "Metrics"]
+			},
+			"warehouse": {
+				"title": "Warehouse Operations",
+				"description": "Manage warehouse operations with location-based inventory.",
+				"features": ["Location tracking", "Pick lists", "Receiving", "Put-away"]
+			},
+			"tracking": {
+				"title": "Real-time Tracking",
+				"description": "Track inventory movements and identify trends.",
+				"features": ["Movement tracking", "Trend analysis", "Forecasting", "Adjustments"]
+			},
+			"exploreFeature": "Explore Feature"
+		},
+		"benefits": {
+			"title": "Inventory Management Value",
+			"subtitle": "Achieve measurable improvements in inventory operations.",
+			"badge": "Proven Results",
+			"accuracy": {
+				"title": "Accuracy Improvement",
+				"description": "Achieve 85% inventory accuracy with barcode scanning.",
+				"stat": "+85%"
+			},
+			"efficiency": {
+				"title": "Operational Efficiency",
+				"description": "Streamline warehouse operations and reduce manual work.",
+				"stat": "40% faster"
+			},
+			"cost": {
+				"title": "Cost Reduction",
+				"description": "Reduce inventory carrying costs through optimization.",
+				"stat": "-30%"
+			},
+			"visibility": {
+				"title": "Complete Visibility",
+				"description": "Real-time visibility into inventory across all locations.",
+				"stat": "100% visible"
+			},
+			"organizations": "Organizations Using",
+			"uptime": "Uptime Guarantee",
+			"support": "Expert Support"
+		},
+		"testimonials": {
+			"title": "Inventory Leaders Choose Omniflow",
+			"subtitle": "See how organizations optimize inventory and improve warehouse operations.",
+			"badge": "Customer Success",
+			"joinSuccess": {
+				"title": "Ready to Optimize Inventory?",
+				"description": "Schedule a demo and discover inventory management excellence.",
+				"scheduleDemo": "Schedule Your Demo"
+			}
+		},
+		"cta": {
+			"title": "Transform Your Inventory Operations",
+			"subtitle": "Join organizations that have optimized inventory and improved warehouse efficiency with Omniflow.",
+			"badge": "Start Optimizing Today",
+			"scheduleDemo": "Schedule Demo",
+			"contactSales": "Contact Sales",
+			"features": {
+				"trial": "Free 30-day trial",
+				"setup": "No setup fees",
+				"support": "24/7 support"
+			},
+			"stats": {
+				"users": "Active Users",
+				"uptime": "Uptime SLA",
+				"reduction": "Cost Reduction"
 			}
 		}
 	},
