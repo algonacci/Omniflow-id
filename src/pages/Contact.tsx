@@ -163,7 +163,10 @@ export default function ContactPage() {
 					{/* Background Decoration */}
 					<div className="absolute top-0 left-0 w-full h-full overflow-hidden pointer-events-none">
 						<div className="absolute top-[-10%] right-[-5%] w-96 h-96 bg-blue-500/10 rounded-full blur-3xl animate-orb-float"></div>
-						<div className="absolute bottom-[-5%] left-[-5%] w-80 h-80 bg-indigo-500/10 rounded-full blur-3xl animate-orb-float" style={{ animationDelay: "-8s" }}></div>
+						<div
+							className="absolute bottom-[-5%] left-[-5%] w-80 h-80 bg-indigo-500/10 rounded-full blur-3xl animate-orb-float"
+							style={{ animationDelay: "-8s" }}
+						></div>
 					</div>
 
 					<div className="container-enterprise relative z-10">
@@ -206,8 +209,10 @@ export default function ContactPage() {
 									key={index}
 									className="group p-8 bg-white rounded-3xl shadow-xl hover:shadow-2xl border border-gray-100 transition-all duration-500 hover:-translate-y-2 relative overflow-hidden text-center"
 								>
-									<div className={`absolute -right-6 -top-6 w-16 h-16 bg-gradient-to-br ${info.color} opacity-5 group-hover:opacity-10 transition-opacity rounded-full`}></div>
-									
+									<div
+										className={`absolute -right-6 -top-6 w-16 h-16 bg-gradient-to-br ${info.color} opacity-5 group-hover:opacity-10 transition-opacity rounded-full`}
+									></div>
+
 									<div
 										className={`inline-flex p-4 rounded-2xl bg-gradient-to-br ${info.color} shadow-lg mb-6 group-hover:scale-110 transition-transform duration-500`}
 									>
@@ -216,10 +221,10 @@ export default function ContactPage() {
 									<h3 className="text-xl font-bold text-slate-900 mb-2">
 										{info.title}
 									</h3>
-									<p className="text-blue-600 font-bold mb-3">
-										{info.details}
+									<p className="text-blue-600 font-bold mb-3">{info.details}</p>
+									<p className="text-slate-500 text-sm leading-relaxed">
+										{info.description}
 									</p>
-									<p className="text-slate-500 text-sm leading-relaxed">{info.description}</p>
 								</div>
 							))}
 						</div>
@@ -270,7 +275,11 @@ export default function ContactPage() {
 										</div>
 									)}
 
-									<form onSubmit={handleSubmit} className="space-y-6">
+									<form
+										id="contact-form"
+										onSubmit={handleSubmit}
+										className="space-y-6"
+									>
 										<div className="grid grid-cols-1 md:grid-cols-2 gap-6">
 											<div>
 												<label className="block text-sm font-semibold text-enterprise-primary mb-3">

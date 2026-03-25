@@ -1,8 +1,33 @@
 import { ArrowRight, Award, CheckCircle, Shield, Users } from "lucide-react";
 import { useTranslation } from "react-i18next";
+import { Link, useLocation } from "react-router-dom";
+import {
+	getCurrentLocaleFromPath,
+	getLangPrefix,
+	trackCTAEvent,
+} from "../../../../lib/website";
 
 export default function CTASection() {
 	const { t } = useTranslation();
+	const location = useLocation();
+	const currentLang = getCurrentLocaleFromPath(location.pathname);
+	const langPrefix = getLangPrefix(currentLang);
+
+	const handlePrimaryCTA = () => {
+		void trackCTAEvent({
+			ctaKey: "hris_cta_schedule_demo",
+			locale: currentLang,
+			moduleKey: "hris",
+		}).catch(() => undefined);
+	};
+
+	const handleSecondaryCTA = () => {
+		void trackCTAEvent({
+			ctaKey: "hris_cta_contact_sales",
+			locale: currentLang,
+			moduleKey: "hris",
+		}).catch(() => undefined);
+	};
 
 	return (
 		<section className="section-enterprise gradient-dark text-white">
@@ -18,13 +43,21 @@ export default function CTASection() {
 							{t("hris.cta.subtitle")}
 						</p>
 						<div className="flex flex-col sm:flex-row gap-4 mb-8">
-							<button className="btn-cta-light group">
+							<Link
+								to={`${langPrefix}/contact`}
+								onClick={handlePrimaryCTA}
+								className="btn-cta-light group"
+							>
 								{t("hris.cta.scheduleDemo")}
 								<ArrowRight className="ml-2 h-5 w-5 group-hover:translate-x-1 transition-transform" />
-							</button>
-							<button className="btn-cta-outline">
+							</Link>
+							<Link
+								to={`${langPrefix}/contact`}
+								onClick={handleSecondaryCTA}
+								className="btn-cta-outline"
+							>
 								{t("hris.cta.contactSales")}
-							</button>
+							</Link>
 						</div>
 						<div className="flex items-center space-x-6 text-blue-100">
 							<div className="flex items-center">

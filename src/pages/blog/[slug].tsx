@@ -17,57 +17,46 @@ import { Link, useLocation, useParams } from "react-router-dom";
 import remarkGfm from "remark-gfm";
 import SEOHead from "../../components/SEOHead";
 import StructuredData from "../../components/StructuredData";
+import {
+	fetchWebsiteBlogDetail,
+	getCurrentLocaleFromPath,
+	getLangPrefix,
+	trackCTAEvent,
+} from "../../lib/website";
 import type { BlogDetailResponse, BlogPost } from "../../types/blog";
 
 export default function BlogDetailPage() {
 	const { t } = useTranslation();
 	const { slug } = useParams<{ slug: string }>();
 	const location = useLocation();
+	const currentLang = getCurrentLocaleFromPath(location.pathname);
+	const langPrefix = getLangPrefix(currentLang);
 	const [post, setPost] = useState<BlogPost | null>(null);
 	const [loading, setLoading] = useState(true);
 	const [error, setError] = useState<string | null>(null);
 
-	// Get current language from URL
-	const getCurrentLang = () => {
-		const match = location.pathname.match(/^\/(en|id|zh)/);
-		return match ? match[1] : "en";
-	};
-
-	const currentLang = getCurrentLang();
-	const langPrefix = `/${currentLang}`;
-
 	useEffect(() => {
 		const fetchBlogDetail = async () => {
-			if (!slug) return;
+			if (!slug) {
+				setLoading(false);
+				return;
+			}
 
 			try {
 				setLoading(true);
 				setError(null);
 
-				const response = await fetch(
-					`https://824f-103-163-240-34.ngrok-free.app/api/blogs/${slug}`,
-					{
-						method: "GET",
-						headers: {
-							Accept: "application/json",
-							"Content-Type": "application/json",
-							"ngrok-skip-browser-warning": "true",
-						},
-						mode: "cors",
-					}
-				);
-
-				if (!response.ok) {
-					throw new Error(`HTTP error! status: ${response.status}`);
-				}
-
-				const data: BlogDetailResponse = await response.json();
+				const data = (await fetchWebsiteBlogDetail(
+					currentLang,
+					slug
+				)) as BlogDetailResponse;
 
 				if (data.success && data.data && data.data.blog) {
 					setPost(data.data.blog);
-				} else {
-					throw new Error("Blog post not found");
+					return;
 				}
+
+				throw new Error("Blog post not found");
 			} catch (err) {
 				const errorMessage =
 					err instanceof Error
@@ -80,7 +69,7 @@ export default function BlogDetailPage() {
 		};
 
 		fetchBlogDetail();
-	}, [slug]);
+	}, [currentLang, slug]);
 
 	const formatDate = (dateString: string) => {
 		const [datePart] = dateString.split(", ");
@@ -115,6 +104,14 @@ export default function BlogDetailPage() {
 			"_blank",
 			"width=600,height=400"
 		);
+	};
+
+	const handleConsultationClick = () => {
+		void trackCTAEvent({
+			ctaKey: "blog_detail_consultation",
+			locale: currentLang,
+			moduleKey: "blog",
+		}).catch(() => undefined);
 	};
 
 	if (loading) {
@@ -200,11 +197,11 @@ export default function BlogDetailPage() {
 				title={post.title}
 				description={post.meta_description}
 				keywords={post.meta_keywords}
-				image={post.banner_url}
+				image={post.banner_url || undefined}
 				type="article"
 				publishedTime={formatDateISO(post.created_at)}
 				modifiedTime={formatDateISO(post.updated_at)}
-				author="Omniflow.id Team"
+				author={post.author_name || "Omniflow.id Team"}
 				section="Business Technology"
 				tags={post.meta_keywords.split(", ")}
 			/>
@@ -224,7 +221,6 @@ export default function BlogDetailPage() {
 			/>
 
 			<div className="min-h-screen bg-white">
-				{/* Hero Section */}
 				<section className="section-hero">
 					<div className="container-enterprise">
 						<div className="max-w-4xl mx-auto">
@@ -268,12 +264,14 @@ export default function BlogDetailPage() {
 					</div>
 				</section>
 
-				{/* Featured Image */}
 				<section className="section-enterprise bg-white">
 					<div className="container-enterprise">
 						<div className="max-w-4xl mx-auto">
 							<img
-								src={post.banner_url}
+								src={
+									post.banner_url ||
+									"https://images.unsplash.com/photo-1499750310107-5fef28a66643?auto=format&fit=crop&q=80&w=1200"
+								}
 								alt={post.title}
 								className="w-full h-96 object-cover rounded-2xl shadow-enterprise-lg"
 							/>
@@ -281,97 +279,22 @@ export default function BlogDetailPage() {
 					</div>
 				</section>
 
-				{/* Content Section */}
 				<section className="section-enterprise gradient-secondary">
 					<div className="container-enterprise">
 						<div className="max-w-4xl mx-auto">
 							<div className="grid grid-cols-1 lg:grid-cols-4 gap-12">
-								{/* Main Content */}
 								<article className="lg:col-span-3">
 									<div className="card-enterprise p-10">
 										<div className="prose prose-lg max-w-none">
-											<ReactMarkdown
-												remarkPlugins={[remarkGfm]}
-												components={{
-													h1: ({ children }) => (
-														<h1 className="text-3xl font-bold text-enterprise-primary mb-6 mt-8 first:mt-0">
-															{children}
-														</h1>
-													),
-													h2: ({ children }) => (
-														<h2 className="text-2xl font-bold text-enterprise-primary mb-4 mt-8">
-															{children}
-														</h2>
-													),
-													h3: ({ children }) => (
-														<h3 className="text-xl font-bold text-enterprise-primary mb-3 mt-6">
-															{children}
-														</h3>
-													),
-													p: ({ children }) => (
-														<p className="text-enterprise-secondary mb-4 leading-relaxed">
-															{children}
-														</p>
-													),
-													ul: ({ children }) => (
-														<ul className="list-disc list-inside mb-4 space-y-2 text-enterprise-secondary">
-															{children}
-														</ul>
-													),
-													ol: ({ children }) => (
-														<ol className="list-decimal list-inside mb-4 space-y-2 text-enterprise-secondary">
-															{children}
-														</ol>
-													),
-													li: ({ children }) => (
-														<li className="leading-relaxed">{children}</li>
-													),
-													blockquote: ({ children }) => (
-														<blockquote className="border-l-4 border-blue-500 pl-6 py-4 mb-6 bg-blue-50 italic text-enterprise-secondary rounded-r-lg">
-															{children}
-														</blockquote>
-													),
-													code: ({ children }) => (
-														<code className="bg-gray-100 px-2 py-1 rounded text-sm font-mono text-gray-800">
-															{children}
-														</code>
-													),
-													pre: ({ children }) => (
-														<pre className="bg-gray-900 text-gray-100 p-6 rounded-xl overflow-x-auto mb-6">
-															{children}
-														</pre>
-													),
-												}}
-											>
+											<ReactMarkdown remarkPlugins={[remarkGfm]}>
 												{post.content}
 											</ReactMarkdown>
-										</div>
-
-										{/* Tags */}
-										<div className="mt-12 pt-8 border-t border-gray-200">
-											<h4 className="text-lg font-bold text-enterprise-primary mb-4">
-												{t("blog.relatedTopics")}
-											</h4>
-											<div className="flex flex-wrap gap-3">
-												{post.meta_keywords
-													.split(", ")
-													.map((keyword, index) => (
-														<span
-															key={index}
-															className="inline-block bg-blue-100 text-blue-800 px-4 py-2 rounded-full text-sm font-medium hover:bg-blue-200 transition-colors cursor-pointer"
-														>
-															{keyword}
-														</span>
-													))}
-											</div>
 										</div>
 									</div>
 								</article>
 
-								{/* Sidebar */}
 								<aside className="lg:col-span-1">
 									<div className="sticky top-24 space-y-6">
-										{/* Share Section */}
 										<div className="card-enterprise p-6">
 											<h4 className="text-lg font-bold text-enterprise-primary mb-4 flex items-center">
 												<Share2 className="h-5 w-5 mr-2" />
@@ -401,49 +324,6 @@ export default function BlogDetailPage() {
 												</button>
 											</div>
 										</div>
-
-										{/* Article Info */}
-										<div className="card-enterprise p-6">
-											<h4 className="text-lg font-bold text-enterprise-primary mb-4">
-												{t("blog.articleDetails")}
-											</h4>
-											<div className="space-y-4 text-sm">
-												<div>
-													<span className="font-semibold text-enterprise-primary">
-														{t("blog.published")}
-													</span>
-													<p className="text-enterprise-secondary">
-														{formatDate(post.created_at)}
-													</p>
-												</div>
-												<div>
-													<span className="font-semibold text-enterprise-primary">
-														{t("blog.lastUpdated")}
-													</span>
-													<p className="text-enterprise-secondary">
-														{formatDate(post.updated_at)}
-													</p>
-												</div>
-												<div>
-													<span className="font-semibold text-enterprise-primary">
-														{t("blog.readingTimeLabel")}
-													</span>
-													<p className="text-enterprise-secondary">
-														{Math.ceil(post.content.split(" ").length / 200)}{" "}
-														{t("blog.minutes")}
-													</p>
-												</div>
-												<div>
-													<span className="font-semibold text-enterprise-primary">
-														{t("blog.wordCount")}
-													</span>
-													<p className="text-enterprise-secondary">
-														{post.content.split(" ").length.toLocaleString()}{" "}
-														{t("blog.words")}
-													</p>
-												</div>
-											</div>
-										</div>
 									</div>
 								</aside>
 							</div>
@@ -451,7 +331,6 @@ export default function BlogDetailPage() {
 					</div>
 				</section>
 
-				{/* CTA Section */}
 				<section className="section-enterprise gradient-dark text-white">
 					<div className="container-enterprise text-center">
 						<h2 className="text-white mb-6">{t("blog.cta.title")}</h2>
@@ -459,9 +338,13 @@ export default function BlogDetailPage() {
 							{t("blog.cta.subtitle")}
 						</p>
 						<div className="flex flex-col sm:flex-row gap-6 justify-center">
-							<button className="btn-cta-light">
+							<Link
+								to={`${langPrefix}/contact`}
+								onClick={handleConsultationClick}
+								className="btn-cta-light"
+							>
 								{t("blog.cta.consultation")}
-							</button>
+							</Link>
 							<Link to={`${langPrefix}/blog`} className="btn-cta-outline">
 								{t("blog.cta.readMore")}
 							</Link>

@@ -1,13 +1,23 @@
 import { Award, BookOpen, Loader2, TrendingUp, Users } from "lucide-react";
 import { useEffect, useState } from "react";
 import { useTranslation } from "react-i18next";
+import { Link, useLocation } from "react-router-dom";
 import SEOHead from "../../components/SEOHead";
 import StructuredData from "../../components/StructuredData";
+import {
+	fetchWebsiteBlogs,
+	getCurrentLocaleFromPath,
+	getLangPrefix,
+	trackCTAEvent,
+} from "../../lib/website";
 import type { BlogPost, BlogResponse } from "../../types/blog";
 import BlogCard from "./components/BlogCard";
 
 export default function BlogPage() {
 	const { t } = useTranslation();
+	const location = useLocation();
+	const currentLang = getCurrentLocaleFromPath(location.pathname);
+	const langPrefix = getLangPrefix(currentLang);
 	const [posts, setPosts] = useState<BlogPost[]>([]);
 	const [loading, setLoading] = useState(true);
 	const [error, setError] = useState<string | null>(null);
@@ -18,30 +28,18 @@ export default function BlogPage() {
 				setLoading(true);
 				setError(null);
 
-				const response = await fetch(
-					"https://824f-103-163-240-34.ngrok-free.app/api/blogs",
-					{
-						method: "GET",
-						headers: {
-							Accept: "application/json",
-							"Content-Type": "application/json",
-							"ngrok-skip-browser-warning": "true",
-						},
-						mode: "cors",
-					}
-				);
-
-				if (!response.ok) {
-					throw new Error(`HTTP error! status: ${response.status}`);
-				}
-
-				const data: BlogResponse = await response.json();
+				const data = (await fetchWebsiteBlogs(
+					currentLang,
+					1,
+					9
+				)) as BlogResponse;
 
 				if (data.success && data.data && data.data.blogs) {
 					setPosts(data.data.blogs);
-				} else {
-					throw new Error("Invalid API response structure");
+					return;
 				}
+
+				throw new Error("Invalid API response structure");
 			} catch (err) {
 				const errorMessage =
 					err instanceof Error
@@ -54,7 +52,28 @@ export default function BlogPage() {
 		};
 
 		fetchBlogs();
-	}, []);
+	}, [currentLang]);
+
+	const handleScheduleDemoClick = () => {
+		void trackCTAEvent({
+			ctaKey: "blog_listing_schedule_demo",
+			locale: currentLang,
+			moduleKey: "blog",
+		}).catch(() => undefined);
+	};
+
+	const handleReadMoreClick = () => {
+		void trackCTAEvent({
+			ctaKey: "blog_listing_read_more",
+			locale: currentLang,
+			moduleKey: "blog",
+		}).catch(() => undefined);
+
+		document.getElementById("latest-posts")?.scrollIntoView({
+			behavior: "smooth",
+			block: "start",
+		});
+	};
 
 	if (loading) {
 		return (
@@ -67,7 +86,6 @@ export default function BlogPage() {
 				/>
 
 				<div className="min-h-screen bg-white">
-					{/* Hero Section */}
 					<section className="section-hero">
 						<div className="container-enterprise">
 							<div className="text-center">
@@ -113,7 +131,6 @@ export default function BlogPage() {
 				/>
 
 				<div className="min-h-screen bg-white">
-					{/* Hero Section */}
 					<section className="section-hero">
 						<div className="container-enterprise">
 							<div className="text-center">
@@ -184,7 +201,6 @@ export default function BlogPage() {
 			/>
 
 			<div className="min-h-screen bg-white">
-				{/* Hero Section */}
 				<section className="section-hero">
 					<div className="container-enterprise">
 						<div className="text-center mb-16">
@@ -238,7 +254,6 @@ export default function BlogPage() {
 					</div>
 				</section>
 
-				{/* Blog Content */}
 				<section className="section-enterprise gradient-secondary">
 					<div className="container-enterprise">
 						{posts.length === 0 ? (
@@ -257,7 +272,7 @@ export default function BlogPage() {
 							</div>
 						) : (
 							<>
-								<div className="text-center mb-12">
+								<div className="text-center mb-12" id="latest-posts">
 									<h2 className="text-3xl font-bold text-enterprise-primary mb-4">
 										{t("blog.latest")}
 									</h2>
@@ -275,7 +290,6 @@ export default function BlogPage() {
 					</div>
 				</section>
 
-				{/* CTA Section */}
 				<section className="section-enterprise gradient-dark text-white">
 					<div className="container-enterprise text-center">
 						<h2 className="text-white mb-6">{t("blog.cta.title")}</h2>
@@ -283,10 +297,18 @@ export default function BlogPage() {
 							{t("blog.cta.subtitle")}
 						</p>
 						<div className="flex flex-col sm:flex-row gap-6 justify-center">
-							<button className="btn-cta-light">
+							<Link
+								to={`${langPrefix}/contact`}
+								onClick={handleScheduleDemoClick}
+								className="btn-cta-light"
+							>
 								{t("common.scheduleDemo")}
-							</button>
-							<button className="btn-cta-outline">
+							</Link>
+							<button
+								type="button"
+								className="btn-cta-outline"
+								onClick={handleReadMoreClick}
+							>
 								{t("blog.cta.readMore")}
 							</button>
 						</div>

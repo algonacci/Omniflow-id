@@ -1,5 +1,7 @@
 import { ArrowRight, Calendar, Clock } from "lucide-react";
+import { useTranslation } from "react-i18next";
 import { Link, useLocation } from "react-router-dom";
+import { getCurrentLocaleFromPath, getLangPrefix } from "../../../lib/website";
 import type { BlogPost } from "../../../types/blog";
 
 interface BlogCardProps {
@@ -7,19 +9,12 @@ interface BlogCardProps {
 }
 
 export default function BlogCard({ post }: BlogCardProps) {
+	const { t } = useTranslation();
 	const location = useLocation();
-
-	// Get current language from URL
-	const getCurrentLang = () => {
-		const match = location.pathname.match(/^\/(en|id|zh)/);
-		return match ? match[1] : "en";
-	};
-
-	const currentLang = getCurrentLang();
-	const langPrefix = `/${currentLang}`;
+	const currentLang = getCurrentLocaleFromPath(location.pathname);
+	const langPrefix = getLangPrefix(currentLang);
 
 	const formatDate = (dateString: string) => {
-		// Convert from "30/06/2025, 01.07" format to readable date
 		const [datePart] = dateString.split(", ");
 		const [day, month, year] = datePart.split("/");
 		const date = new Date(parseInt(year), parseInt(month) - 1, parseInt(day));
@@ -30,18 +25,17 @@ export default function BlogCard({ post }: BlogCardProps) {
 		});
 	};
 
-	const getExcerpt = (content: string, maxLength: number = 150) => {
-		// Remove markdown formatting and get plain text
+	const getExcerpt = (content: string, maxLength = 150) => {
 		const plainText = content
-			.replace(/#{1,6}\s+/g, "") // Remove headers
-			.replace(/\*\*(.*?)\*\*/g, "$1") // Remove bold
-			.replace(/\*(.*?)\*/g, "$1") // Remove italic
-			.replace(/\[(.*?)\]\(.*?\)/g, "$1") // Remove links
-			.replace(/\n/g, " ") // Replace newlines with spaces
+			.replace(/#{1,6}\s+/g, "")
+			.replace(/\*\*(.*?)\*\*/g, "$1")
+			.replace(/\*(.*?)\*/g, "$1")
+			.replace(/\[(.*?)\]\(.*?\)/g, "$1")
+			.replace(/\n/g, " ")
 			.trim();
 
 		return plainText.length > maxLength
-			? plainText.substring(0, maxLength) + "..."
+			? `${plainText.substring(0, maxLength)}...`
 			: plainText;
 	};
 
@@ -55,7 +49,10 @@ export default function BlogCard({ post }: BlogCardProps) {
 		<article className="card-enterprise group cursor-pointer overflow-hidden">
 			<div className="relative overflow-hidden">
 				<img
-					src={post.banner_url}
+					src={
+						post.banner_url ||
+						"https://images.unsplash.com/photo-1499750310107-5fef28a66643?auto=format&fit=crop&q=80&w=1200"
+					}
 					alt={post.title}
 					className="w-full h-48 object-cover group-hover:scale-105 transition-transform duration-500"
 				/>
@@ -70,7 +67,9 @@ export default function BlogCard({ post }: BlogCardProps) {
 					</div>
 					<div className="flex items-center">
 						<Clock className="h-4 w-4 mr-2" />
-						<span>{getReadingTime(post.content)} min read</span>
+						<span>
+							{getReadingTime(post.content)} {t("blog.minutes")}
+						</span>
 					</div>
 				</div>
 
@@ -87,7 +86,7 @@ export default function BlogCard({ post }: BlogCardProps) {
 						to={`${langPrefix}/blog/${post.slug}`}
 						className="inline-flex items-center text-blue-600 font-semibold hover:text-blue-700 transition-colors group"
 					>
-						Read More
+						{t("blog.cta.readMore")}
 						<ArrowRight className="ml-2 h-4 w-4 group-hover:translate-x-1 transition-transform" />
 					</Link>
 
