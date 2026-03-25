@@ -18,12 +18,12 @@ const featureKeys = [
 ];
 const featureIcons = [Boxes, Package, CheckCircle, BarChart, Zap, Barcode];
 const featureColors = [
-	"from-sky-500 to-sky-600",
-	"from-cyan-500 to-cyan-600",
 	"from-blue-500 to-blue-600",
 	"from-indigo-500 to-indigo-600",
-	"from-violet-500 to-violet-600",
-	"from-purple-500 to-purple-600",
+	"from-sky-500 to-sky-600",
+	"from-cyan-500 to-cyan-600",
+	"from-blue-400 to-indigo-500",
+	"from-indigo-400 to-sky-500",
 ];
 
 export default function Features() {
@@ -33,7 +33,7 @@ export default function Features() {
 		<section className="section-enterprise bg-white">
 			<div className="container-enterprise">
 				<div className="text-center mb-16">
-					<div className="inline-flex items-center px-4 py-2 bg-sky-100 text-sky-800 rounded-full text-sm font-semibold mb-6">
+					<div className="inline-flex items-center px-4 py-2 bg-blue-100 text-blue-800 rounded-full text-sm font-semibold mb-6">
 						<CheckCircle className="h-4 w-4 mr-2" />
 						{t("inventory.features.badge")}
 					</div>
@@ -61,7 +61,7 @@ export default function Features() {
 								>
 									<Icon className="h-8 w-8 text-white" />
 								</div>
-								<h3 className="text-xl font-bold text-enterprise-primary mb-3 group-hover:text-sky-600 transition-colors">
+								<h3 className="text-xl font-bold text-enterprise-primary mb-3 group-hover:text-blue-600 transition-colors">
 									{t(`inventory.features.${featureKey}.title`)}
 								</h3>
 								<p className="text-enterprise-secondary leading-relaxed mb-4">
@@ -73,12 +73,12 @@ export default function Features() {
 											key={idx}
 											className="flex items-center text-sm text-enterprise-muted"
 										>
-											<CheckCircle className="h-4 w-4 text-sky-500 mr-2 flex-shrink-0" />
+											<CheckCircle className="h-4 w-4 text-blue-500 mr-2 flex-shrink-0" />
 											{benefit}
 										</li>
 									))}
 								</ul>
-								<div className="mt-6 text-sky-600 font-semibold opacity-0 group-hover:opacity-100 transition-opacity">
+								<div className="mt-6 text-blue-600 font-semibold opacity-0 group-hover:opacity-100 transition-opacity">
 									{t("common.learnMore")} →
 								</div>
 							</div>

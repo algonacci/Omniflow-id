@@ -1,47 +1,24 @@
 import { Quote, Star } from "lucide-react";
 import { useTranslation } from "react-i18next";
 
-const testimonials = [
-	{
-		quote:
-			"Omniflow's Inventory module has been a game-changer for our warehouse operations. Real-time tracking and automated reordering have reduced stockouts significantly.",
-		author: "Michael Torres",
-		position: "Warehouse Manager",
-		company: "Distribution Hub Inc",
-		rating: 5,
-		image:
-			"https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&q=80&w=150",
-	},
-	{
-		quote:
-			"The multi-warehouse capabilities and inventory forecasting have transformed our supply chain. We now have complete visibility across all locations.",
-		author: "Christina Williams",
-		position: "Logistics Director",
-		company: "Global Supply Chain",
-		rating: 5,
-		image:
-			"https://images.unsplash.com/photo-1438761681033-6461ffad8d80?auto=format&fit=crop&q=80&w=150",
-	},
-	{
-		quote:
-			"The barcode scanning feature and mobile app have made inventory counts much faster and more accurate. Our team efficiency has improved dramatically.",
-		author: "Kevin Anderson",
-		position: "Operations Manager",
-		company: "Retail Solutions Group",
-		rating: 5,
-		image:
-			"https://images.unsplash.com/photo-1500648767791-00dcc994a43e?auto=format&fit=crop&q=80&w=150",
-	},
-];
-
 export default function Testimonials() {
 	const { t } = useTranslation();
+	const testimonials = t("inventory.testimonials.items", {
+		returnObjects: true,
+	}) as Array<{
+		quote: string;
+		author: string;
+		position: string;
+		company: string;
+		rating: number;
+		image: string;
+	}>;
 
 	return (
 		<section className="section-enterprise gradient-secondary">
 			<div className="container-enterprise">
 				<div className="text-center mb-16">
-					<div className="inline-flex items-center px-4 py-2 bg-sky-100 text-sky-800 rounded-full text-sm font-semibold mb-6">
+					<div className="inline-flex items-center px-4 py-2 bg-blue-100 text-blue-800 rounded-full text-sm font-semibold mb-6">
 						<Star className="h-4 w-4 mr-2" />
 						{t("inventory.testimonials.badge")}
 					</div>
@@ -56,7 +33,7 @@ export default function Testimonials() {
 				<div className="grid grid-cols-1 md:grid-cols-3 gap-8">
 					{testimonials.map((testimonial, index) => (
 						<div key={index} className="card-enterprise p-8 relative">
-							<div className="absolute top-6 right-6 text-sky-200">
+							<div className="absolute top-6 right-6 text-blue-200">
 								<Quote className="h-8 w-8" />
 							</div>
 
@@ -86,7 +63,7 @@ export default function Testimonials() {
 									<p className="text-sm text-enterprise-muted">
 										{testimonial.position}
 									</p>
-									<p className="text-sm text-sky-600 font-medium">
+									<p className="text-sm text-blue-600 font-medium">
 										{testimonial.company}
 									</p>
 								</div>

@@ -61,7 +61,7 @@ export default function Screenshots() {
 											<div className="flex space-x-2">
 												<Monitor className="h-5 w-5 text-blue-600" />
 												<Tablet className="h-5 w-5 text-indigo-600" />
-												<Smartphone className="h-5 w-5 text-cyan-600" />
+												<Smartphone className="h-5 w-5 text-sky-600" />
 											</div>
 										</div>
 									</div>

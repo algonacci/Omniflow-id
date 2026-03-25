@@ -20,8 +20,9 @@ import {
 } from "lucide-react";
 import { useEffect } from "react";
 import { useTranslation } from "react-i18next";
-import { Link } from "react-router-dom";
+import { Link, useLocation } from "react-router-dom";
 import SEOHead from "../../components/SEOHead";
+import { getCurrentLocaleFromPath, getLangPrefix } from "../../lib/website";
 
 const modules = [
 	{
@@ -87,22 +88,33 @@ const modules = [
 	{
 		key: "purchasing",
 		icon: ShoppingCart,
-		color: "from-indigo-500 to-indigo-600",
+		color: "from-blue-500 to-indigo-600",
 	},
 	{
 		key: "assetManagement",
 		icon: Package,
-		color: "from-cyan-500 to-cyan-600",
+		color: "from-indigo-500 to-sky-600",
 	},
 	{
 		key: "inventory",
 		icon: Boxes,
-		color: "from-sky-500 to-sky-600",
+		color: "from-sky-500 to-blue-600",
 	},
 ];
 
 export default function ModulesPage() {
 	const { t } = useTranslation();
+	const location = useLocation();
+	const currentLang = getCurrentLocaleFromPath(location.pathname);
+	const langPrefix = getLangPrefix(currentLang);
+
+	const getModulePath = (moduleKey: string) => {
+		if (moduleKey === "assetManagement") {
+			return `${langPrefix}/modules/asset-management`;
+		}
+
+		return `${langPrefix}/modules/${moduleKey}`;
+	};
 
 	useEffect(() => {
 		window.scrollTo(0, 0);
@@ -144,7 +156,7 @@ export default function ModulesPage() {
 							</p>
 
 							<div className="flex flex-col sm:flex-row gap-5">
-								<Link to="/en/contact" className="btn-primary group px-10">
+								<Link to={`${langPrefix}/contact`} className="btn-primary group px-10">
 									{t("modulesPage.getStarted")}
 									<ArrowRight className="ml-2 h-5 w-5 group-hover:translate-x-1 transition-transform" />
 								</Link>
@@ -193,7 +205,7 @@ export default function ModulesPage() {
 							return (
 								<Link
 									key={module.key}
-									to={`/en/modules/${module.key}`}
+									to={getModulePath(module.key)}
 									className="card-feature group cursor-pointer"
 								>
 									<div

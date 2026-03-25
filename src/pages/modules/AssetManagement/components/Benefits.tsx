@@ -4,10 +4,10 @@ import { useTranslation } from "react-i18next";
 const benefitKeys = ["efficiency", "accuracy", "cost", "visibility"];
 const benefitIcons = [TrendingUp, Award, DollarSign, Clock];
 const benefitColors = [
-	"from-violet-500 to-violet-600",
-	"from-purple-500 to-purple-600",
-	"from-fuchsia-500 to-fuchsia-600",
-	"from-pink-500 to-pink-600",
+	"from-blue-500 to-blue-600",
+	"from-indigo-500 to-indigo-600",
+	"from-sky-500 to-sky-600",
+	"from-cyan-500 to-cyan-600",
 ];
 
 export default function Benefits() {
@@ -17,7 +17,7 @@ export default function Benefits() {
 		<section className="section-enterprise gradient-secondary">
 			<div className="container-enterprise">
 				<div className="text-center mb-16">
-					<div className="inline-flex items-center px-4 py-2 bg-violet-100 text-violet-800 rounded-full text-sm font-semibold mb-6">
+					<div className="inline-flex items-center px-4 py-2 bg-blue-100 text-blue-800 rounded-full text-sm font-semibold mb-6">
 						<Award className="h-4 w-4 mr-2" />
 						{t("assetManagement.benefits.badge")}
 					</div>
@@ -43,7 +43,7 @@ export default function Benefits() {
 								>
 									<Icon className="h-8 w-8 text-white" />
 								</div>
-								<div className="text-3xl font-bold text-violet-600 mb-2">
+								<div className="text-3xl font-bold text-blue-600 mb-2">
 									{t(`assetManagement.benefits.${benefitKey}.stat`)}
 								</div>
 								<h3 className="text-xl font-bold text-enterprise-primary mb-3">
@@ -61,7 +61,7 @@ export default function Benefits() {
 					<div className="card-enterprise p-12 max-w-4xl mx-auto">
 						<div className="grid grid-cols-1 md:grid-cols-3 gap-8 items-center">
 							<div className="text-center">
-								<div className="text-4xl font-bold text-violet-600 mb-2">
+								<div className="text-4xl font-bold text-blue-600 mb-2">
 									25,000+
 								</div>
 								<p className="text-enterprise-muted">
@@ -69,7 +69,7 @@ export default function Benefits() {
 								</p>
 							</div>
 							<div className="text-center">
-								<div className="text-4xl font-bold text-purple-600 mb-2">
+								<div className="text-4xl font-bold text-indigo-600 mb-2">
 									99.9%
 								</div>
 								<p className="text-enterprise-muted">
@@ -77,7 +77,7 @@ export default function Benefits() {
 								</p>
 							</div>
 							<div className="text-center">
-								<div className="text-4xl font-bold text-fuchsia-600 mb-2">
+								<div className="text-4xl font-bold text-sky-600 mb-2">
 									24/7
 								</div>
 								<p className="text-enterprise-muted">

@@ -34,12 +34,12 @@ export default function CTASection() {
 			<div className="container-enterprise">
 				<div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
 					<div>
-						<div className="inline-flex items-center px-4 py-2 bg-amber-800 text-amber-100 rounded-full text-sm font-semibold mb-6">
+						<div className="inline-flex items-center px-4 py-2 bg-blue-800 text-blue-100 rounded-full text-sm font-semibold mb-6">
 							<CheckCircle className="h-4 w-4 mr-2" />
 							{t("purchasing.cta.badge")}
 						</div>
 						<h2 className="text-white mb-6">{t("purchasing.cta.title")}</h2>
-						<p className="text-amber-100 mb-8 text-xl leading-relaxed">
+						<p className="text-blue-100 mb-8 text-xl leading-relaxed">
 							{t("purchasing.cta.subtitle")}
 						</p>
 						<div className="flex flex-col sm:flex-row gap-4 mb-8">
@@ -59,7 +59,7 @@ export default function CTASection() {
 								{t("purchasing.cta.contactSales")}
 							</Link>
 						</div>
-						<div className="flex items-center space-x-6 text-amber-100">
+						<div className="flex items-center space-x-6 text-blue-100">
 							<div className="flex items-center">
 								<CheckCircle className="h-4 w-4 mr-2" />
 								<span className="text-sm">{t("purchasing.cta.features.trial")}</span>
@@ -80,12 +80,12 @@ export default function CTASection() {
 					<div className="space-y-6">
 						<div className="card-enterprise p-6 bg-white/10 backdrop-blur-sm border border-white/20">
 							<div className="flex items-center space-x-4">
-								<div className="w-12 h-12 bg-amber-500 rounded-xl flex items-center justify-center">
+								<div className="w-12 h-12 bg-blue-500 rounded-xl flex items-center justify-center">
 									<Users className="h-6 w-6 text-white" />
 								</div>
 								<div>
 									<div className="text-2xl font-bold text-white">30,000+</div>
-									<div className="text-amber-100">
+									<div className="text-blue-100">
 										{t("purchasing.cta.stats.users")}
 									</div>
 								</div>
@@ -94,12 +94,12 @@ export default function CTASection() {
 
 						<div className="card-enterprise p-6 bg-white/10 backdrop-blur-sm border border-white/20">
 							<div className="flex items-center space-x-4">
-								<div className="w-12 h-12 bg-yellow-500 rounded-xl flex items-center justify-center">
+								<div className="w-12 h-12 bg-indigo-500 rounded-xl flex items-center justify-center">
 									<Award className="h-6 w-6 text-white" />
 								</div>
 								<div>
 									<div className="text-2xl font-bold text-white">99.9%</div>
-									<div className="text-amber-100">
+									<div className="text-blue-100">
 										{t("purchasing.cta.stats.uptime")}
 									</div>
 								</div>
@@ -108,12 +108,12 @@ export default function CTASection() {
 
 						<div className="card-enterprise p-6 bg-white/10 backdrop-blur-sm border border-white/20">
 							<div className="flex items-center space-x-4">
-								<div className="w-12 h-12 bg-orange-500 rounded-xl flex items-center justify-center">
+								<div className="w-12 h-12 bg-sky-500 rounded-xl flex items-center justify-center">
 									<TrendingDown className="h-6 w-6 text-white" />
 								</div>
 								<div>
 									<div className="text-2xl font-bold text-white">-40%</div>
-									<div className="text-amber-100">
+									<div className="text-blue-100">
 										{t("purchasing.cta.stats.savings")}
 									</div>
 								</div>

@@ -42,6 +42,10 @@
 		"telemarketing": "Telemarketing",
 		"paymentGateway": "Payment Gateway",
 		"analytics": "Analitik",
+		"sales": "Manajemen Penjualan",
+		"purchasing": "Purchasing",
+		"assetManagement": "Manajemen Aset",
+		"inventory": "Manajemen Inventaris",
 		"insights": "Wawasan",
 		"resources": "Sumber Daya",
 		"support": "Dukungan",
@@ -62,7 +66,7 @@
 	"modulesPage": {
 		"title": "Transformasi Bisnis dengan Modul Terpadu",
 		"subtitle": "Akselerasi pertumbuhan perusahaan dengan rangkaian modul ERP terlengkap yang saling terintegrasi. Dirancang secara modular untuk menjawab tantangan operasional unik di setiap lini bisnis Anda.",
-		"badge": "10 Modul Tersedia",
+		"badge": "15 Modul Tersedia",
 		"getStarted": "Mulai Sekarang",
 		"modules": {
 			"hris": "Sistem manajemen sumber daya manusia lengkap dengan payroll, kehadiran, dan pelacakan kinerja.",
@@ -75,7 +79,11 @@
 			"lms": "Sistem manajemen pembelajaran untuk pelatihan dan pendidikan perusahaan.",
 			"telemarketing": "Solusi manajemen panggilan outbound dan pelacakan prospek.",
 			"payment-gateway": "Pemrosesan pembayaran aman dengan berbagai metode pembayaran.",
-			"analytics": "Platform analitik terpusat yang terintegrasi dengan berbagai layanan seperti BCA, OrderOnline, Majoo, dan Moka."
+			"analytics": "Platform analitik terpusat yang terintegrasi dengan berbagai layanan seperti BCA, OrderOnline, Majoo, dan Moka.",
+			"sales": "Manajemen penjualan modern dengan pipeline visual, pelacakan deal, dan forecasting pendapatan.",
+			"purchasing": "Pengelolaan procurement yang lebih cerdas dengan kontrol vendor, RFQ, dan optimasi biaya.",
+			"assetManagement": "Manajemen aset end-to-end dengan pelacakan, depresiasi, maintenance, dan kontrol siklus hidup.",
+			"inventory": "Manajemen inventaris multi-lokasi dengan tracking stok real-time dan optimasi gudang."
 		}
 	},
 	"integrationsPage": {
@@ -1647,6 +1655,778 @@
 				"users": "Pengguna Aktif",
 				"uptime": "SLA Uptime",
 				"security": "Keamanan Bersertifikat"
+			}
+		}
+	},
+	"sales": {
+		"title": "Platform Manajemen Penjualan Modern",
+		"subtitle": "Rapikan pipeline penjualan, lacak setiap deal, dan dorong pertumbuhan revenue dengan otomasi sales yang kuat.",
+		"badge": "Dipercaya 50.000+ Profesional Sales",
+		"hero": {
+			"scheduleDemo": "Jadwalkan Demo",
+			"watchOverview": "Lihat Overview",
+			"imageAlt": "Tampilan dashboard penjualan",
+			"stats": {
+				"users": "Pengguna Aktif",
+				"uptime": "SLA Uptime",
+				"increase": "Pertumbuhan Revenue",
+				"implementation": "Waktu Implementasi"
+			},
+			"revenueGrowth": "Pertumbuhan Revenue"
+		},
+		"features": {
+			"title": "Solusi Penjualan End-to-End",
+			"subtitle": "Kelola seluruh proses penjualan dari lead sampai deal closing dengan tools dan automasi yang terintegrasi.",
+			"badge": "Fitur Sales Andalan",
+			"pipeline": {
+				"title": "Manajemen Pipeline",
+				"description": "Visualisasikan dan kelola seluruh pipeline penjualan dengan stage yang fleksibel dan forecasting yang akurat.",
+				"benefits": [
+					"Visual pipeline",
+					"Pelacakan deal",
+					"Manajemen stage"
+				]
+			},
+			"leads": {
+				"title": "Lead Management",
+				"description": "Tangkap, kualifikasi, dan nurture lead lewat workflow otomatis dan scoring yang rapi.",
+				"benefits": [
+					"Capture lead",
+					"Workflow kualifikasi",
+					"Lead scoring"
+				]
+			},
+			"deals": {
+				"title": "Deal Management",
+				"description": "Pantau progres deal, aktivitas tim, dan percepat proses closing.",
+				"benefits": [
+					"Tracking deal",
+					"Manajemen aktivitas",
+					"Probabilitas closing"
+				]
+			},
+			"forecasting": {
+				"title": "Sales Forecasting",
+				"description": "Prediksi revenue secara akurat berdasarkan data pipeline real-time dan histori performa.",
+				"benefits": [
+					"Forecast revenue",
+					"Analisis tren",
+					"Model prediksi"
+				]
+			},
+			"mobile": {
+				"title": "Aplikasi Mobile Sales",
+				"description": "Tetap produktif di lapangan lewat aplikasi mobile iOS dan Android dengan fitur lengkap.",
+				"benefits": [
+					"Akses offline",
+					"Push notification",
+					"Form mobile"
+				]
+			},
+			"integration": {
+				"title": "Integrasi Pihak Ketiga",
+				"description": "Hubungkan Omniflow dengan tools dan workflow yang sudah dipakai tim Anda.",
+				"benefits": [
+					"Integrasi email",
+					"Sinkron kalender",
+					"Integrasi CRM"
+				]
+			}
+		},
+		"screenshots": {
+			"title": "Rasakan Operasi Sales yang Lebih Rapi",
+			"subtitle": "Antarmuka intuitif yang membantu tim sales bergerak lebih cepat dan menutup lebih banyak deal.",
+			"badge": "Preview Platform Sales",
+			"pipeline": {
+				"title": "Dashboard Pipeline",
+				"description": "Lihat kondisi pipeline secara menyeluruh dengan update real-time dan forecasting revenue.",
+				"features": [
+					"Tracking deal",
+					"Stage pipeline",
+					"Peluang menang",
+					"Forecast revenue"
+				]
+			},
+			"analytics": {
+				"title": "Analitik Penjualan",
+				"description": "Pantau performa tim dan identifikasi peluang baru lewat insight yang mudah dibaca.",
+				"features": [
+					"Metrik performa",
+					"Tracking konversi",
+					"Analisis revenue",
+					"Metrik tim"
+				]
+			},
+			"mobile": {
+				"title": "Akses Mobile",
+				"description": "Semua fungsi penting sales tetap tersedia di perangkat mobile, termasuk saat offline.",
+				"features": [
+					"Update mobile",
+					"Mode offline",
+					"Quick action",
+					"Sinkron real-time"
+				]
+			},
+			"exploreFeature": "Lihat Fitur"
+		},
+		"benefits": {
+			"title": "Dampak Nyata untuk Tim Sales",
+			"subtitle": "Lihat peningkatan terukur pada performa penjualan setelah memakai platform kami.",
+			"badge": "Hasil yang Terbukti",
+			"productivity": {
+				"title": "Produktivitas Naik",
+				"description": "Tim sales bisa menutup deal 45% lebih cepat berkat proses yang lebih rapi.",
+				"stat": "+45%"
+			},
+			"speed": {
+				"title": "Siklus Sales Lebih Singkat",
+				"description": "Kurangi durasi proses penjualan dengan automasi tugas rutin dan minim kerja manual.",
+				"stat": "30% lebih cepat"
+			},
+			"increase": {
+				"title": "Revenue Bertumbuh",
+				"description": "Dorong pertumbuhan revenue dengan visibilitas pipeline dan pengelolaan deal yang lebih baik.",
+				"stat": "+35%"
+			},
+			"visibility": {
+				"title": "Visibilitas Penuh",
+				"description": "Dapatkan insight real-time atas pipeline dan performa tiap anggota tim.",
+				"stat": "100% terlihat"
+			},
+			"organizations": "Organisasi Pengguna",
+			"uptime": "Jaminan Uptime",
+			"support": "Dukungan Ahli"
+		},
+		"testimonials": {
+			"title": "Dipercaya Para Leader Sales",
+			"subtitle": "Lihat bagaimana organisasi sales mempercepat pertumbuhan bersama Omniflow.",
+			"badge": "Cerita Sukses Pelanggan",
+			"items": [
+				{
+					"quote": "Modul Sales Omniflow benar-benar mengubah cara tim kami mengelola peluang. Rasio deal closed meningkat signifikan sejak implementasi.",
+					"author": "David Wilson",
+					"position": "Direktur Sales",
+					"company": "Enterprise Solutions",
+					"rating": 5,
+					"image": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&q=80&w=150"
+				},
+				{
+					"quote": "Visibilitas pipeline yang kami punya sekarang sangat membantu. Tim manajemen bisa mengambil keputusan lebih cepat lewat data real-time dan forecasting.",
+					"author": "Jessica Martinez",
+					"position": "VP Sales",
+					"company": "Growth Accelerators",
+					"rating": 5,
+					"image": "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?auto=format&fit=crop&q=80&w=150"
+				},
+				{
+					"quote": "Aplikasi mobile jadi game changer untuk tim sales lapangan kami. Mereka bisa update deal di mana saja dan integrasi email-nya mulus.",
+					"author": "Robert Thompson",
+					"position": "Manajer Sales",
+					"company": "Tech Innovations Ltd",
+					"rating": 5,
+					"image": "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?auto=format&fit=crop&q=80&w=150"
+				}
+			],
+			"joinSuccess": {
+				"title": "Siap Mempercepat Penjualan?",
+				"description": "Jadwalkan demo dan lihat bagaimana Omniflow bisa mentransformasi organisasi sales Anda.",
+				"scheduleDemo": "Jadwalkan Demo Anda"
+			}
+		},
+		"cta": {
+			"title": "Transformasi Organisasi Sales Anda",
+			"subtitle": "Bergabunglah dengan tim sales yang sudah mempercepat pertumbuhan bersama Omniflow Sales.",
+			"badge": "Mulai Tutup Deal Lebih Banyak",
+			"scheduleDemo": "Jadwalkan Demo",
+			"contactSales": "Hubungi Sales",
+			"features": {
+				"trial": "Free trial 30 hari",
+				"setup": "Tanpa biaya setup",
+				"support": "Support 24/7"
+			},
+			"stats": {
+				"users": "Pengguna Aktif",
+				"uptime": "SLA Uptime",
+				"growth": "Rata-rata Pertumbuhan"
+			}
+		}
+	},
+	"purchasing": {
+		"title": "Manajemen Procurement yang Lebih Cerdas",
+		"subtitle": "Optimalkan proses procurement, kelola vendor, dan tekan biaya lewat automasi purchasing yang rapi.",
+		"badge": "Dipercaya 30.000+ Profesional Procurement",
+		"hero": {
+			"scheduleDemo": "Jadwalkan Demo",
+			"watchOverview": "Lihat Overview",
+			"imageAlt": "Tampilan dashboard procurement",
+			"stats": {
+				"users": "Pengguna Aktif",
+				"uptime": "SLA Uptime",
+				"savings": "Penghematan Biaya",
+				"efficiency": "Efisiensi Proses"
+			},
+			"costReduction": "Pengurangan Biaya"
+		},
+		"features": {
+			"title": "Solusi Procurement Lengkap",
+			"subtitle": "Rapikan seluruh alur procurement dari requisition sampai invoice dalam satu platform.",
+			"badge": "Fitur Procurement Lengkap",
+			"requisition": {
+				"title": "Purchase Requisition",
+				"description": "Buat requisition lebih cepat dengan approval dan routing otomatis.",
+				"benefits": [
+					"Workflow approval",
+					"Auto-routing",
+					"Kontrol budget"
+				]
+			},
+			"rfq": {
+				"title": "RFQ & Bidding",
+				"description": "Buat RFQ, kirim ke vendor, dan bandingkan penawaran dengan lebih efisien.",
+				"benefits": [
+					"Perbandingan penawaran",
+					"Proses bidding",
+					"Skor vendor"
+				]
+			},
+			"vendors": {
+				"title": "Vendor Management",
+				"description": "Kelola hubungan vendor, performa, dan compliance dalam satu tempat.",
+				"benefits": [
+					"Database vendor",
+					"Tracking performa",
+					"Manajemen compliance"
+				]
+			},
+			"approvals": {
+				"title": "Approval Workflow",
+				"description": "Atur alur persetujuan multi-level yang fleksibel sesuai kebijakan perusahaan.",
+				"benefits": [
+					"Workflow kustom",
+					"Enforcement kebijakan",
+					"Audit trail"
+				]
+			},
+			"reporting": {
+				"title": "Reporting & Analytics",
+				"description": "Analitik procurement yang memberi gambaran lengkap tentang pengeluaran dan efisiensi.",
+				"benefits": [
+					"Analisis spending",
+					"Analitik vendor",
+					"Tren biaya"
+				]
+			},
+			"compliance": {
+				"title": "Compliance & Audit",
+				"description": "Pastikan seluruh proses tetap sesuai regulasi dan kebijakan internal.",
+				"benefits": [
+					"Audit trail",
+					"Manajemen kebijakan",
+					"Kepatuhan regulasi"
+				]
+			}
+		},
+		"screenshots": {
+			"title": "Procurement yang Lebih Terkendali",
+			"subtitle": "Platform intuitif untuk mengelola seluruh proses procurement secara menyeluruh.",
+			"badge": "Preview Platform",
+			"orders": {
+				"title": "Purchase Order",
+				"description": "Buat dan kelola purchase order dengan status yang bisa dipantau real-time.",
+				"features": [
+					"Pembuatan PO",
+					"Tracking order",
+					"Manajemen pengiriman",
+					"Matching invoice"
+				]
+			},
+			"vendors": {
+				"title": "Portal Vendor",
+				"description": "Ajak supplier berkolaborasi langsung saat merespons kebutuhan procurement.",
+				"features": [
+					"Kolaborasi supplier",
+					"Pengiriman quotation",
+					"Metrik performa",
+					"Dokumen compliance"
+				]
+			},
+			"analytics": {
+				"title": "Analitik Procurement",
+				"description": "Dapatkan insight detail soal spending, vendor, dan potensi efisiensi biaya.",
+				"features": [
+					"Analisis spending",
+					"Performa vendor",
+					"Analisis kategori",
+					"Tracking savings"
+				]
+			},
+			"exploreFeature": "Lihat Fitur"
+		},
+		"benefits": {
+			"title": "Dampak Langsung ke Procurement",
+			"subtitle": "Capai peningkatan terukur pada efisiensi procurement dan pengendalian biaya.",
+			"badge": "Benefit yang Terbukti",
+			"savings": {
+				"title": "Biaya Lebih Hemat",
+				"description": "Kurangi biaya procurement lewat negosiasi yang lebih baik dan proses otomatis.",
+				"stat": "-40%"
+			},
+			"speed": {
+				"title": "Proses Lebih Cepat",
+				"description": "Percepat siklus procurement dan respons supplier lewat workflow yang rapi.",
+				"stat": "50% lebih cepat"
+			},
+			"compliance": {
+				"title": "Compliance Terjaga",
+				"description": "Pastikan proses tetap sesuai regulasi dan kebijakan internal perusahaan.",
+				"stat": "100% compliant"
+			},
+			"visibility": {
+				"title": "Visibilitas Penuh",
+				"description": "Lihat seluruh pengeluaran dan performa supplier secara real-time.",
+				"stat": "100% terlihat"
+			},
+			"vendors": "Vendor Aktif",
+			"uptime": "Jaminan Uptime",
+			"support": "Dukungan Ahli"
+		},
+		"testimonials": {
+			"title": "Dipilih Para Procurement Leader",
+			"subtitle": "Lihat bagaimana organisasi menekan biaya dan meningkatkan efisiensi dengan Omniflow.",
+			"badge": "Cerita Sukses Pelanggan",
+			"items": [
+				{
+					"quote": "Modul Purchasing Omniflow sangat merapikan proses procurement kami. Siklus pembelian menurun drastis dan hubungan vendor jadi jauh lebih baik.",
+					"author": "Lisa Anderson",
+					"position": "Manajer Procurement",
+					"company": "Supply Chain Solutions",
+					"rating": 5,
+					"image": "https://images.unsplash.com/photo-1494790108377-be9c29b29330?auto=format&fit=crop&q=80&w=150"
+				},
+				{
+					"quote": "Fitur manajemen vendor dan compliance membantu kami menjaga standar kualitas sambil tetap menekan biaya. Proses RFQ sekarang sepenuhnya otomatis.",
+					"author": "James Mitchell",
+					"position": "Direktur Supply Chain",
+					"company": "Manufacturing Corp",
+					"rating": 5,
+					"image": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&q=80&w=150"
+				},
+				{
+					"quote": "Reporting dan analytics memberi kami visibilitas spending yang jauh lebih baik. Kami sekarang lebih mudah menemukan peluang penghematan biaya.",
+					"author": "Patricia Brown",
+					"position": "Direktur Procurement",
+					"company": "Industrial Enterprises",
+					"rating": 5,
+					"image": "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?auto=format&fit=crop&q=80&w=150"
+				}
+			],
+			"joinSuccess": {
+				"title": "Siap Optimalkan Procurement?",
+				"description": "Jadwalkan demo dan lihat bagaimana kami membantu menekan biaya procurement Anda.",
+				"scheduleDemo": "Jadwalkan Demo Anda"
+			}
+		},
+		"cta": {
+			"title": "Optimalkan Proses Procurement Anda",
+			"subtitle": "Bergabunglah dengan organisasi yang sudah mentransformasi procurement dan meraih penghematan biaya signifikan.",
+			"badge": "Mulai Hemat Hari Ini",
+			"scheduleDemo": "Jadwalkan Demo",
+			"contactSales": "Hubungi Sales",
+			"features": {
+				"trial": "Free trial 30 hari",
+				"setup": "Tanpa biaya setup",
+				"support": "Support 24/7"
+			},
+			"stats": {
+				"users": "Pengguna Aktif",
+				"uptime": "SLA Uptime",
+				"savings": "Penghematan Biaya"
+			}
+		}
+	},
+	"assetManagement": {
+		"title": "Platform Enterprise Asset Management",
+		"subtitle": "Lacak, kelola, dan optimalkan aset perusahaan sepanjang siklus hidupnya dengan manajemen aset yang cerdas.",
+		"badge": "Dipercaya 25.000+ Organisasi",
+		"hero": {
+			"scheduleDemo": "Jadwalkan Demo",
+			"watchOverview": "Lihat Overview",
+			"imageAlt": "Tampilan dashboard manajemen aset",
+			"stats": {
+				"users": "Pengguna Aktif",
+				"uptime": "SLA Uptime",
+				"efficiency": "Peningkatan Efisiensi",
+				"accuracy": "Akurasi Data"
+			},
+			"accuracyImprovement": "Peningkatan Akurasi"
+		},
+		"features": {
+			"title": "Solusi Asset Management Lengkap",
+			"subtitle": "Kelola aset tetap, hitung depresiasi, dan optimalkan utilisasi aset dalam satu platform.",
+			"badge": "Fitur Asset Management",
+			"tracking": {
+				"title": "Asset Tracking",
+				"description": "Pantau seluruh aset secara real-time lengkap dengan lokasi, kondisi, dan statusnya.",
+				"benefits": [
+					"Pelacakan lokasi",
+					"Barcode scanning",
+					"QR code"
+				]
+			},
+			"depreciation": {
+				"title": "Manajemen Depresiasi",
+				"description": "Hitung depresiasi otomatis dan penuhi kebutuhan pelaporan keuangan dengan lebih rapi.",
+				"benefits": [
+					"Hitung otomatis",
+					"Metode beragam",
+					"Laporan keuangan"
+				]
+			},
+			"lifecycle": {
+				"title": "Siklus Hidup Aset",
+				"description": "Kelola aset dari proses akuisisi sampai disposal dalam alur yang utuh.",
+				"benefits": [
+					"Tracking akuisisi",
+					"Log maintenance",
+					"Manajemen disposal"
+				]
+			},
+			"maintenance": {
+				"title": "Jadwal Maintenance",
+				"description": "Atur dan pantau preventive maupun corrective maintenance dengan lebih terkendali.",
+				"benefits": [
+					"Penjadwalan maintenance",
+					"Work order",
+					"Tracking service"
+				]
+			},
+			"reports": {
+				"title": "Reporting & Analytics",
+				"description": "Dapatkan laporan dan analitik lengkap untuk melihat kondisi portofolio aset.",
+				"benefits": [
+					"Laporan aset",
+					"Analisis utilisasi",
+					"Tracking nilai aset"
+				]
+			},
+			"integration": {
+				"title": "Integrasi Sistem",
+				"description": "Hubungkan asset management dengan sistem akuntansi dan aplikasi enterprise lainnya.",
+				"benefits": [
+					"Integrasi GL",
+					"Akses API",
+					"Sinkron data"
+				]
+			}
+		},
+		"screenshots": {
+			"title": "Kontrol Penuh atas Aset",
+			"subtitle": "Antarmuka intuitif untuk memberi visibilitas lengkap dan kontrol yang lebih baik atas aset perusahaan.",
+			"badge": "Preview Platform",
+			"tracking": {
+				"title": "Asset Register",
+				"description": "Lihat seluruh aset secara detail lengkap dengan status dan histori perubahannya.",
+				"features": [
+					"Register aset",
+					"Detail aset",
+					"Tracking histori",
+					"Monitoring status"
+				]
+			},
+			"maintenance": {
+				"title": "Maintenance Management",
+				"description": "Atur jadwal dan pantau semua aktivitas maintenance dengan mudah.",
+				"features": [
+					"Work order",
+					"Riwayat service",
+					"Penjadwalan",
+					"Tracking biaya"
+				]
+			},
+			"reporting": {
+				"title": "Laporan Aset",
+				"description": "Laporan detail untuk mengevaluasi portofolio dan performa aset perusahaan.",
+				"features": [
+					"Register aset",
+					"Laporan depresiasi",
+					"Analisis utilisasi",
+					"Laporan nilai aset"
+				]
+			},
+			"exploreFeature": "Lihat Fitur"
+		},
+		"benefits": {
+			"title": "Nilai Tambah Asset Management",
+			"subtitle": "Capai peningkatan signifikan pada visibilitas aset dan efisiensi operasional.",
+			"badge": "Hasil yang Terbukti",
+			"efficiency": {
+				"title": "Efisiensi Meningkat",
+				"description": "Rapikan pengelolaan aset dan kurangi beban administrasi manual.",
+				"stat": "+50%"
+			},
+			"accuracy": {
+				"title": "Akurasi Lebih Tinggi",
+				"description": "Capai akurasi aset hingga 95% dengan tracking otomatis.",
+				"stat": "+95%"
+			},
+			"cost": {
+				"title": "Biaya Menurun",
+				"description": "Optimalkan biaya maintenance lewat penjadwalan preventif yang lebih baik.",
+				"stat": "-30%"
+			},
+			"visibility": {
+				"title": "Visibilitas Real-time",
+				"description": "Pantau seluruh portofolio aset dan performanya secara langsung.",
+				"stat": "100% terlihat"
+			},
+			"organizations": "Organisasi Pengguna",
+			"uptime": "Jaminan Uptime",
+			"support": "Dukungan Ahli"
+		},
+		"testimonials": {
+			"title": "Dipercaya Para Pengelola Aset",
+			"subtitle": "Lihat bagaimana organisasi meningkatkan utilisasi aset dan menekan biaya bersama Omniflow.",
+			"badge": "Cerita Sukses Pelanggan",
+			"items": [
+				{
+					"quote": "Omniflow Asset Management mengubah cara kami melacak dan merawat aset perusahaan. Perhitungan depresiasi otomatis sangat menghemat waktu tim akuntansi.",
+					"author": "Thomas Wilson",
+					"position": "Manajer Keuangan",
+					"company": "Industrial Solutions",
+					"rating": 5,
+					"image": "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?auto=format&fit=crop&q=80&w=150"
+				},
+				{
+					"quote": "Fitur penjadwalan maintenance dan tracking sangat menurunkan downtime kami. Tim operasional sekarang punya visibilitas penuh atas kesehatan aset.",
+					"author": "Margaret Chen",
+					"position": "Direktur Operasional",
+					"company": "Manufacturing Excellence",
+					"rating": 5,
+					"image": "https://images.unsplash.com/photo-1494790108377-be9c29b29330?auto=format&fit=crop&q=80&w=150"
+				},
+				{
+					"quote": "Kemampuan reporting memberi insight yang kami butuhkan untuk perencanaan aset jangka panjang. ROI-nya terasa, dan implementasinya sangat mulus.",
+					"author": "Richard Thompson",
+					"position": "Manajer Aset",
+					"company": "Enterprise Corp",
+					"rating": 5,
+					"image": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&q=80&w=150"
+				}
+			],
+			"joinSuccess": {
+				"title": "Siap Optimalkan Aset?",
+				"description": "Jadwalkan demo dan rasakan manajemen aset yang lebih terkontrol.",
+				"scheduleDemo": "Jadwalkan Demo Anda"
+			}
+		},
+		"cta": {
+			"title": "Kuasai Pengelolaan Aset Anda",
+			"subtitle": "Bergabunglah dengan organisasi yang sudah mentransformasi asset management dan meningkatkan efisiensi operasional.",
+			"badge": "Mulai Kelola Aset",
+			"scheduleDemo": "Jadwalkan Demo",
+			"contactSales": "Hubungi Sales",
+			"features": {
+				"trial": "Free trial 30 hari",
+				"setup": "Tanpa biaya setup",
+				"support": "Support 24/7"
+			},
+			"stats": {
+				"users": "Pengguna Aktif",
+				"uptime": "SLA Uptime",
+				"efficiency": "Peningkatan Efisiensi"
+			}
+		}
+	},
+	"inventory": {
+		"title": "Sistem Manajemen Inventaris Cerdas",
+		"subtitle": "Optimalkan level stok, kurangi stockout, dan tingkatkan operasi gudang dengan inventory management yang lebih cerdas.",
+		"badge": "Dipercaya 40.000+ Organisasi",
+		"hero": {
+			"scheduleDemo": "Jadwalkan Demo",
+			"watchOverview": "Lihat Overview",
+			"imageAlt": "Tampilan dashboard inventory management",
+			"stats": {
+				"users": "Pengguna Aktif",
+				"uptime": "SLA Uptime",
+				"reduction": "Pengurangan Biaya",
+				"accuracy": "Akurasi Inventaris"
+			},
+			"accuracyBoost": "Peningkatan Akurasi"
+		},
+		"features": {
+			"title": "Solusi Inventory Lengkap",
+			"subtitle": "Kelola stok lintas lokasi dengan pelacakan real-time dan optimasi yang lebih akurat.",
+			"badge": "Fitur Inventory Management",
+			"tracking": {
+				"title": "Real-time Tracking",
+				"description": "Pantau level stok di seluruh gudang dan lokasi secara real-time.",
+				"benefits": [
+					"Stok real-time",
+					"Multi-lokasi",
+					"Update langsung"
+				]
+			},
+			"warehouse": {
+				"title": "Warehouse Management",
+				"description": "Optimalkan operasi gudang dengan pengelolaan lokasi dan picking yang lebih efisien.",
+				"benefits": [
+					"Manajemen lokasi",
+					"Optimasi picking",
+					"Manajemen zona"
+				]
+			},
+			"orders": {
+				"title": "Order Management",
+				"description": "Penuhi pesanan lebih mulus lewat proses picking dan packing yang terotomasi.",
+				"benefits": [
+					"Picking order",
+					"Packing otomatis",
+					"Tracking shipment"
+				]
+			},
+			"forecasting": {
+				"title": "Demand Forecasting",
+				"description": "Prediksi kebutuhan stok untuk menjaga level inventaris tetap sehat.",
+				"benefits": [
+					"Prediksi demand",
+					"Tren musiman",
+					"Reorder otomatis"
+				]
+			},
+			"reporting": {
+				"title": "Reporting & Analytics",
+				"description": "Pantau performa inventory dengan analitik dan laporan yang komprehensif.",
+				"benefits": [
+					"Laporan stok",
+					"Analisis turnover",
+					"Performa SKU"
+				]
+			},
+			"barcoding": {
+				"title": "Barcode & Scanning",
+				"description": "Permudah proses scan barcode dan stock opname dengan workflow yang lebih cepat.",
+				"benefits": [
+					"Scan barcode",
+					"Scan mobile",
+					"Perhitungan stok"
+				]
+			}
+		},
+		"screenshots": {
+			"title": "Operasi Inventory yang Lebih Presisi",
+			"subtitle": "Platform intuitif untuk mengelola seluruh operasi inventory Anda dalam satu tampilan.",
+			"badge": "Preview Platform",
+			"dashboard": {
+				"title": "Dashboard Inventory",
+				"description": "Lihat level stok dan metrik penting secara real-time dalam satu layar.",
+				"features": [
+					"Level stok",
+					"Alert stok menipis",
+					"Tren pergerakan",
+					"Metrik utama"
+				]
+			},
+			"warehouse": {
+				"title": "Operasi Gudang",
+				"description": "Kelola aktivitas gudang dengan inventory berbasis lokasi yang lebih rapi.",
+				"features": [
+					"Tracking lokasi",
+					"Pick list",
+					"Receiving",
+					"Put-away"
+				]
+			},
+			"tracking": {
+				"title": "Pelacakan Real-time",
+				"description": "Pantau perpindahan stok dan identifikasi pola pergerakan lebih cepat.",
+				"features": [
+					"Tracking movement",
+					"Analisis tren",
+					"Forecasting",
+					"Adjustment"
+				]
+			},
+			"exploreFeature": "Lihat Fitur"
+		},
+		"benefits": {
+			"title": "Nilai Tambah Inventory Management",
+			"subtitle": "Dapatkan peningkatan terukur dalam akurasi stok dan efisiensi operasional gudang.",
+			"badge": "Hasil yang Terbukti",
+			"accuracy": {
+				"title": "Akurasi Meningkat",
+				"description": "Capai akurasi inventaris hingga 85% dengan barcode scanning.",
+				"stat": "+85%"
+			},
+			"efficiency": {
+				"title": "Operasional Lebih Efisien",
+				"description": "Rapikan proses gudang dan kurangi pekerjaan manual yang berulang.",
+				"stat": "40% lebih cepat"
+			},
+			"cost": {
+				"title": "Biaya Berkurang",
+				"description": "Tekan biaya penyimpanan dan carrying cost lewat optimasi stok.",
+				"stat": "-30%"
+			},
+			"visibility": {
+				"title": "Visibilitas Menyeluruh",
+				"description": "Pantau kondisi inventaris di semua lokasi secara real-time.",
+				"stat": "100% terlihat"
+			},
+			"organizations": "Organisasi Pengguna",
+			"uptime": "Jaminan Uptime",
+			"support": "Dukungan Ahli"
+		},
+		"testimonials": {
+			"title": "Dipilih Para Leader Inventory",
+			"subtitle": "Lihat bagaimana organisasi mengoptimalkan inventory dan operasi gudang dengan Omniflow.",
+			"badge": "Cerita Sukses Pelanggan",
+			"items": [
+				{
+					"quote": "Modul Inventory Omniflow jadi game changer untuk operasi gudang kami. Tracking real-time dan reorder otomatis menurunkan stockout secara signifikan.",
+					"author": "Michael Torres",
+					"position": "Manajer Gudang",
+					"company": "Distribution Hub Inc",
+					"rating": 5,
+					"image": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&q=80&w=150"
+				},
+				{
+					"quote": "Kapabilitas multi-warehouse dan inventory forecasting benar-benar mengubah supply chain kami. Sekarang kami punya visibilitas penuh di semua lokasi.",
+					"author": "Christina Williams",
+					"position": "Direktur Logistik",
+					"company": "Global Supply Chain",
+					"rating": 5,
+					"image": "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?auto=format&fit=crop&q=80&w=150"
+				},
+				{
+					"quote": "Fitur barcode scanning dan aplikasi mobile membuat stock opname jauh lebih cepat dan akurat. Efisiensi tim kami meningkat drastis.",
+					"author": "Kevin Anderson",
+					"position": "Manajer Operasional",
+					"company": "Retail Solutions Group",
+					"rating": 5,
+					"image": "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?auto=format&fit=crop&q=80&w=150"
+				}
+			],
+			"joinSuccess": {
+				"title": "Siap Optimalkan Inventory?",
+				"description": "Jadwalkan demo dan lihat bagaimana Omniflow membuat operasi inventory lebih efisien.",
+				"scheduleDemo": "Jadwalkan Demo Anda"
+			}
+		},
+		"cta": {
+			"title": "Transformasi Operasi Inventory Anda",
+			"subtitle": "Bergabunglah dengan organisasi yang sudah mengoptimalkan inventory dan meningkatkan efisiensi gudang bersama Omniflow.",
+			"badge": "Mulai Optimalkan Hari Ini",
+			"scheduleDemo": "Jadwalkan Demo",
+			"contactSales": "Hubungi Sales",
+			"features": {
+				"trial": "Free trial 30 hari",
+				"setup": "Tanpa biaya setup",
+				"support": "Support 24/7"
+			},
+			"stats": {
+				"users": "Pengguna Aktif",
+				"uptime": "SLA Uptime",
+				"reduction": "Pengurangan Biaya"
 			}
 		}
 	},

@@ -159,6 +159,10 @@ function App() {
 							element={<Navigate to="/modules/ecommerce" replace />}
 						/>
 						<Route path="/modules/analytics" element={<AnalyticsPage />} />
+						<Route path="/modules/sales" element={<SalesPage />} />
+						<Route path="/modules/purchasing" element={<PurchasingPage />} />
+						<Route path="/modules/asset-management" element={<AssetManagementPage />} />
+						<Route path="/modules/inventory" element={<InventoryPage />} />
 						<Route path="/blog" element={<BlogPage />} />
 						<Route path="/blog/:slug" element={<BlogDetailPage />} />
 						<Route path="/contact" element={<ContactPage />} />

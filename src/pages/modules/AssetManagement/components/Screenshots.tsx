@@ -25,7 +25,7 @@ export default function Screenshots() {
 		<section className="section-enterprise bg-white">
 			<div className="container-enterprise">
 				<div className="text-center mb-16">
-					<div className="inline-flex items-center px-4 py-2 bg-violet-100 text-violet-800 rounded-full text-sm font-semibold mb-6">
+					<div className="inline-flex items-center px-4 py-2 bg-blue-100 text-blue-800 rounded-full text-sm font-semibold mb-6">
 						<Monitor className="h-4 w-4 mr-2" />
 						{t("assetManagement.screenshots.badge")}
 					</div>
@@ -51,7 +51,7 @@ export default function Screenshots() {
 							>
 								<div className={`${index % 2 === 1 ? "lg:col-start-2" : ""}`}>
 									<div className="relative">
-										<div className="absolute inset-0 bg-gradient-to-r from-violet-600/10 to-purple-700/10 rounded-3xl transform rotate-2"></div>
+										<div className="absolute inset-0 bg-gradient-to-r from-blue-600/10 to-indigo-700/10 rounded-3xl transform rotate-2"></div>
 										<img
 											src={screenshots[index].image}
 											alt={t(`assetManagement.screenshots.${screenshotKey}.title`)}
@@ -59,9 +59,9 @@ export default function Screenshots() {
 										/>
 										<div className="absolute -top-4 -right-4 bg-white p-3 rounded-2xl shadow-enterprise">
 											<div className="flex space-x-2">
-												<Monitor className="h-5 w-5 text-violet-600" />
-												<Tablet className="h-5 w-5 text-purple-600" />
-												<Smartphone className="h-5 w-5 text-fuchsia-600" />
+												<Monitor className="h-5 w-5 text-blue-600" />
+												<Tablet className="h-5 w-5 text-indigo-600" />
+												<Smartphone className="h-5 w-5 text-sky-600" />
 											</div>
 										</div>
 									</div>
@@ -80,7 +80,7 @@ export default function Screenshots() {
 									<div className="grid grid-cols-2 gap-4">
 										{featuresArray.map((feature: string, idx: number) => (
 											<div key={idx} className="flex items-center space-x-3">
-												<div className="w-2 h-2 bg-violet-600 rounded-full"></div>
+												<div className="w-2 h-2 bg-blue-600 rounded-full"></div>
 												<span className="text-enterprise-muted font-medium">
 													{feature}
 												</span>

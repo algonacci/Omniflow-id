@@ -129,14 +129,14 @@ export default function Header() {
 			href: `${langPrefix}/modules/purchasing`,
 			icon: ShoppingCart,
 			title: t("navigation.purchasing"),
-			description: t("modules.purchasing.description"),
+			description: t("modulesPage.modules.purchasing"),
 		},
 		{
 			key: "assetManagement",
 			href: `${langPrefix}/modules/asset-management`,
 			icon: Package,
 			title: t("navigation.assetManagement"),
-			description: t("modules.assetManagement.description"),
+			description: t("modulesPage.modules.assetManagement"),
 		},
 		{
 			key: "inventory",

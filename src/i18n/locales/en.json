@@ -66,7 +66,7 @@
 	"modulesPage": {
 		"title": "Unified Business Solutions",
 		"subtitle": "Scale your enterprise with our comprehensive suite of integrated ERP modules. Tailored to meet unique operational challenges across every department.",
-		"badge": "10 Modules Available",
+		"badge": "15 Modules Available",
 		"getStarted": "Get Started",
 		"modules": {
 			"hris": "Complete human resource management system with payroll, attendance, and performance tracking.",
@@ -1665,6 +1665,7 @@
 		"hero": {
 			"scheduleDemo": "Schedule Demo",
 			"watchOverview": "Watch Overview",
+			"imageAlt": "Sales dashboard interface",
 			"stats": {
 				"users": "Active Users",
 				"uptime": "Uptime SLA",
@@ -1680,32 +1681,56 @@
 			"pipeline": {
 				"title": "Sales Pipeline Management",
 				"description": "Visualize and manage your entire sales pipeline with customizable stages and forecasting.",
-				"benefits": ["Pipeline visualization", "Deal tracking", "Stage management"]
+				"benefits": [
+					"Pipeline visualization",
+					"Deal tracking",
+					"Stage management"
+				]
 			},
 			"leads": {
 				"title": "Lead Management",
 				"description": "Capture, qualify, and nurture leads with automated workflows and scoring.",
-				"benefits": ["Lead capture", "Qualification workflows", "Lead scoring"]
+				"benefits": [
+					"Lead capture",
+					"Qualification workflows",
+					"Lead scoring"
+				]
 			},
 			"deals": {
 				"title": "Deal Management",
 				"description": "Track deal progress, manage activities, and close more deals faster.",
-				"benefits": ["Deal tracking", "Activity management", "Close probability"]
+				"benefits": [
+					"Deal tracking",
+					"Activity management",
+					"Close probability"
+				]
 			},
 			"forecasting": {
 				"title": "Sales Forecasting",
 				"description": "Accurate revenue forecasting based on real-time pipeline data and historical trends.",
-				"benefits": ["Revenue forecasting", "Trend analysis", "Prediction models"]
+				"benefits": [
+					"Revenue forecasting",
+					"Trend analysis",
+					"Prediction models"
+				]
 			},
 			"mobile": {
 				"title": "Mobile Sales App",
 				"description": "Stay connected with mobile app for iOS and Android with full functionality.",
-				"benefits": ["Offline access", "Push notifications", "Mobile forms"]
+				"benefits": [
+					"Offline access",
+					"Push notifications",
+					"Mobile forms"
+				]
 			},
 			"integration": {
 				"title": "Third-party Integration",
 				"description": "Seamlessly integrate with your existing tools and workflows.",
-				"benefits": ["Email integration", "Calendar sync", "CRM integration"]
+				"benefits": [
+					"Email integration",
+					"Calendar sync",
+					"CRM integration"
+				]
 			}
 		},
 		"screenshots": {
@@ -1715,17 +1740,32 @@
 			"pipeline": {
 				"title": "Pipeline Dashboard",
 				"description": "Complete view of your sales pipeline with real-time updates and forecasting.",
-				"features": ["Deal tracking", "Pipeline stages", "Win probability", "Revenue forecast"]
+				"features": [
+					"Deal tracking",
+					"Pipeline stages",
+					"Win probability",
+					"Revenue forecast"
+				]
 			},
 			"analytics": {
 				"title": "Sales Analytics",
 				"description": "Comprehensive analytics to track performance and identify opportunities.",
-				"features": ["Performance metrics", "Conversion tracking", "Revenue analysis", "Team metrics"]
+				"features": [
+					"Performance metrics",
+					"Conversion tracking",
+					"Revenue analysis",
+					"Team metrics"
+				]
 			},
 			"mobile": {
 				"title": "Mobile Access",
 				"description": "Full sales functionality on iOS and Android with offline capabilities.",
-				"features": ["Mobile updates", "Offline mode", "Quick actions", "Real-time sync"]
+				"features": [
+					"Mobile updates",
+					"Offline mode",
+					"Quick actions",
+					"Real-time sync"
+				]
 			},
 			"exploreFeature": "Explore Feature"
 		},
@@ -1761,6 +1801,32 @@
 			"title": "Sales Leaders Trust Omniflow",
 			"subtitle": "See how top sales organizations accelerate growth with our platform.",
 			"badge": "Customer Success",
+			"items": [
+				{
+					"quote": "Omniflow's Sales module has completely transformed how our team manages opportunities. We've seen a significant increase in deal closure rates since implementation.",
+					"author": "David Wilson",
+					"position": "Sales Director",
+					"company": "Enterprise Solutions",
+					"rating": 5,
+					"image": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&q=80&w=150"
+				},
+				{
+					"quote": "The sales pipeline visibility we now have is invaluable. Our management team can make better decisions with real-time data and forecasting features.",
+					"author": "Jessica Martinez",
+					"position": "VP Sales",
+					"company": "Growth Accelerators",
+					"rating": 5,
+					"image": "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?auto=format&fit=crop&q=80&w=150"
+				},
+				{
+					"quote": "The mobile app is a game-changer for our field sales team. They can update deals on the go, and the integration with email is seamless.",
+					"author": "Robert Thompson",
+					"position": "Sales Manager",
+					"company": "Tech Innovations Ltd",
+					"rating": 5,
+					"image": "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?auto=format&fit=crop&q=80&w=150"
+				}
+			],
 			"joinSuccess": {
 				"title": "Ready to Accelerate Sales?",
 				"description": "Schedule a demo and discover how Omniflow can transform your sales organization.",
@@ -1792,6 +1858,7 @@
 		"hero": {
 			"scheduleDemo": "Schedule Demo",
 			"watchOverview": "Watch Overview",
+			"imageAlt": "Purchasing dashboard interface",
 			"stats": {
 				"users": "Active Users",
 				"uptime": "Uptime SLA",
@@ -1807,32 +1874,56 @@
 			"requisition": {
 				"title": "Purchase Requisitions",
 				"description": "Streamlined requisition creation with automated approvals and routing.",
-				"benefits": ["Approval workflows", "Auto-routing", "Budget control"]
+				"benefits": [
+					"Approval workflows",
+					"Auto-routing",
+					"Budget control"
+				]
 			},
 			"rfq": {
 				"title": "RFQ & Bidding",
 				"description": "Create RFQs, send to suppliers, and compare quotes efficiently.",
-				"benefits": ["Quote comparison", "Bidding process", "Vendor scoring"]
+				"benefits": [
+					"Quote comparison",
+					"Bidding process",
+					"Vendor scoring"
+				]
 			},
 			"vendors": {
 				"title": "Vendor Management",
 				"description": "Manage supplier relationships, performance, and compliance.",
-				"benefits": ["Vendor database", "Performance tracking", "Compliance management"]
+				"benefits": [
+					"Vendor database",
+					"Performance tracking",
+					"Compliance management"
+				]
 			},
 			"approvals": {
 				"title": "Approval Workflows",
 				"description": "Customizable approval workflows with multi-level authorization.",
-				"benefits": ["Custom workflows", "Policy enforcement", "Audit trails"]
+				"benefits": [
+					"Custom workflows",
+					"Policy enforcement",
+					"Audit trails"
+				]
 			},
 			"reporting": {
 				"title": "Reporting & Analytics",
 				"description": "Comprehensive procurement analytics and spending analysis.",
-				"benefits": ["Spend analysis", "Vendor analytics", "Cost trends"]
+				"benefits": [
+					"Spend analysis",
+					"Vendor analytics",
+					"Cost trends"
+				]
 			},
 			"compliance": {
 				"title": "Compliance & Audit",
 				"description": "Ensure compliance with regulations and internal policies.",
-				"benefits": ["Audit trails", "Policy management", "Regulatory compliance"]
+				"benefits": [
+					"Audit trails",
+					"Policy management",
+					"Regulatory compliance"
+				]
 			}
 		},
 		"screenshots": {
@@ -1842,17 +1933,32 @@
 			"orders": {
 				"title": "Purchase Orders",
 				"description": "Create and manage purchase orders with real-time tracking.",
-				"features": ["PO creation", "Order tracking", "Delivery management", "Invoice matching"]
+				"features": [
+					"PO creation",
+					"Order tracking",
+					"Delivery management",
+					"Invoice matching"
+				]
 			},
 			"vendors": {
 				"title": "Vendor Portal",
 				"description": "Enable suppliers to collaborate and respond to requisitions.",
-				"features": ["Supplier collaboration", "Quote submission", "Performance metrics", "Compliance docs"]
+				"features": [
+					"Supplier collaboration",
+					"Quote submission",
+					"Performance metrics",
+					"Compliance docs"
+				]
 			},
 			"analytics": {
 				"title": "Procurement Analytics",
 				"description": "Detailed spending analysis and procurement metrics.",
-				"features": ["Spend analysis", "Vendor performance", "Category analysis", "Savings tracking"]
+				"features": [
+					"Spend analysis",
+					"Vendor performance",
+					"Category analysis",
+					"Savings tracking"
+				]
 			},
 			"exploreFeature": "Explore Feature"
 		},
@@ -1888,6 +1994,32 @@
 			"title": "Procurement Leaders Choose Omniflow",
 			"subtitle": "See how organizations reduce costs and improve efficiency with our platform.",
 			"badge": "Customer Success",
+			"items": [
+				{
+					"quote": "Omniflow's Purchasing module has streamlined our procurement process significantly. We've reduced purchase cycle time and improved vendor relationships.",
+					"author": "Lisa Anderson",
+					"position": "Procurement Manager",
+					"company": "Supply Chain Solutions",
+					"rating": 5,
+					"image": "https://images.unsplash.com/photo-1494790108377-be9c29b29330?auto=format&fit=crop&q=80&w=150"
+				},
+				{
+					"quote": "The vendor management and compliance features help us maintain quality standards while reducing costs. The RFQ process is now fully automated.",
+					"author": "James Mitchell",
+					"position": "Supply Chain Director",
+					"company": "Manufacturing Corp",
+					"rating": 5,
+					"image": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&q=80&w=150"
+				},
+				{
+					"quote": "The reporting and analytics have given us better visibility into our spending. We can now identify cost-saving opportunities across the board.",
+					"author": "Patricia Brown",
+					"position": "Procurement Director",
+					"company": "Industrial Enterprises",
+					"rating": 5,
+					"image": "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?auto=format&fit=crop&q=80&w=150"
+				}
+			],
 			"joinSuccess": {
 				"title": "Ready to Optimize Procurement?",
 				"description": "Schedule a demo and see how we can reduce your procurement costs.",
@@ -1919,6 +2051,7 @@
 		"hero": {
 			"scheduleDemo": "Schedule Demo",
 			"watchOverview": "Watch Overview",
+			"imageAlt": "Asset management dashboard",
 			"stats": {
 				"users": "Active Users",
 				"uptime": "Uptime SLA",
@@ -1934,32 +2067,56 @@
 			"tracking": {
 				"title": "Asset Tracking",
 				"description": "Real-time tracking of all assets with location, condition, and status monitoring.",
-				"benefits": ["Location tracking", "Barcode scanning", "QR codes"]
+				"benefits": [
+					"Location tracking",
+					"Barcode scanning",
+					"QR codes"
+				]
 			},
 			"depreciation": {
 				"title": "Depreciation Management",
 				"description": "Automated depreciation calculations and financial reporting compliance.",
-				"benefits": ["Auto-calculation", "Multiple methods", "Financial reporting"]
+				"benefits": [
+					"Auto-calculation",
+					"Multiple methods",
+					"Financial reporting"
+				]
 			},
 			"lifecycle": {
 				"title": "Asset Lifecycle",
 				"description": "Manage complete asset lifecycle from acquisition to disposal.",
-				"benefits": ["Acquisition tracking", "Maintenance logs", "Disposal management"]
+				"benefits": [
+					"Acquisition tracking",
+					"Maintenance logs",
+					"Disposal management"
+				]
 			},
 			"maintenance": {
 				"title": "Maintenance Scheduling",
 				"description": "Schedule and track preventive and corrective maintenance.",
-				"benefits": ["Maintenance scheduling", "Work orders", "Service tracking"]
+				"benefits": [
+					"Maintenance scheduling",
+					"Work orders",
+					"Service tracking"
+				]
 			},
 			"reports": {
 				"title": "Reporting & Analytics",
 				"description": "Comprehensive reports and analytics for asset portfolio analysis.",
-				"benefits": ["Asset reports", "Utilization analysis", "Value tracking"]
+				"benefits": [
+					"Asset reports",
+					"Utilization analysis",
+					"Value tracking"
+				]
 			},
 			"integration": {
 				"title": "System Integration",
 				"description": "Integrate with accounting systems and other enterprise applications.",
-				"benefits": ["GL integration", "API access", "Data sync"]
+				"benefits": [
+					"GL integration",
+					"API access",
+					"Data sync"
+				]
 			}
 		},
 		"screenshots": {
@@ -1969,17 +2126,32 @@
 			"tracking": {
 				"title": "Asset Register",
 				"description": "Comprehensive view of all assets with detailed information and status.",
-				"features": ["Asset register", "Detail view", "History tracking", "Status monitoring"]
+				"features": [
+					"Asset register",
+					"Detail view",
+					"History tracking",
+					"Status monitoring"
+				]
 			},
 			"maintenance": {
 				"title": "Maintenance Management",
 				"description": "Schedule and track all maintenance activities.",
-				"features": ["Work orders", "Service history", "Scheduling", "Cost tracking"]
+				"features": [
+					"Work orders",
+					"Service history",
+					"Scheduling",
+					"Cost tracking"
+				]
 			},
 			"reporting": {
 				"title": "Asset Reports",
 				"description": "Detailed reporting on asset portfolio and performance.",
-				"features": ["Asset register", "Depreciation reports", "Utilization analysis", "Value reports"]
+				"features": [
+					"Asset register",
+					"Depreciation reports",
+					"Utilization analysis",
+					"Value reports"
+				]
 			},
 			"exploreFeature": "Explore Feature"
 		},
@@ -2015,6 +2187,32 @@
 			"title": "Asset Leaders Trust Omniflow",
 			"subtitle": "See how organizations improve asset utilization and reduce costs.",
 			"badge": "Customer Success",
+			"items": [
+				{
+					"quote": "Omniflow's Asset Management has transformed how we track and maintain our company assets. The automated depreciation calculations have saved our accounting team significant time.",
+					"author": "Thomas Wilson",
+					"position": "Finance Manager",
+					"company": "Industrial Solutions",
+					"rating": 5,
+					"image": "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?auto=format&fit=crop&q=80&w=150"
+				},
+				{
+					"quote": "The maintenance scheduling and tracking features have reduced our downtime significantly. Our operations team now has complete visibility into asset health.",
+					"author": "Margaret Chen",
+					"position": "Operations Director",
+					"company": "Manufacturing Excellence",
+					"rating": 5,
+					"image": "https://images.unsplash.com/photo-1494790108377-be9c29b29330?auto=format&fit=crop&q=80&w=150"
+				},
+				{
+					"quote": "The reporting capabilities give us the insights we need for strategic asset planning. The ROI has been significant, and implementation was incredibly smooth.",
+					"author": "Richard Thompson",
+					"position": "Asset Manager",
+					"company": "Enterprise Corp",
+					"rating": 5,
+					"image": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&q=80&w=150"
+				}
+			],
 			"joinSuccess": {
 				"title": "Ready to Optimize Assets?",
 				"description": "Schedule a demo and discover asset management excellence.",
@@ -2046,10 +2244,11 @@
 		"hero": {
 			"scheduleDemo": "Schedule Demo",
 			"watchOverview": "Watch Overview",
+			"imageAlt": "Inventory management dashboard",
 			"stats": {
 				"users": "Active Users",
 				"uptime": "Uptime SLA",
-				"reduction": "Stock Reduction",
+				"reduction": "Cost Reduction",
 				"accuracy": "Inventory Accuracy"
 			},
 			"accuracyBoost": "Accuracy Boost"
@@ -2061,32 +2260,56 @@
 			"tracking": {
 				"title": "Real-time Tracking",
 				"description": "Track inventory levels across all warehouses and locations.",
-				"benefits": ["Live stock levels", "Multi-location", "Real-time updates"]
+				"benefits": [
+					"Live stock levels",
+					"Multi-location",
+					"Real-time updates"
+				]
 			},
 			"warehouse": {
 				"title": "Warehouse Management",
 				"description": "Optimize warehouse operations with location management and picking.",
-				"benefits": ["Location management", "Pick optimization", "Zone management"]
+				"benefits": [
+					"Location management",
+					"Pick optimization",
+					"Zone management"
+				]
 			},
 			"orders": {
 				"title": "Order Management",
 				"description": "Seamless order fulfillment with automated picking and packing.",
-				"benefits": ["Order picking", "Packing automation", "Shipment tracking"]
+				"benefits": [
+					"Order picking",
+					"Packing automation",
+					"Shipment tracking"
+				]
 			},
 			"forecasting": {
 				"title": "Demand Forecasting",
 				"description": "Intelligent forecasting to optimize inventory levels.",
-				"benefits": ["Demand prediction", "Seasonal trends", "Reorder automation"]
+				"benefits": [
+					"Demand prediction",
+					"Seasonal trends",
+					"Reorder automation"
+				]
 			},
 			"reporting": {
 				"title": "Reporting & Analytics",
 				"description": "Comprehensive inventory analytics and performance metrics.",
-				"benefits": ["Inventory reports", "Turnover analysis", "SKU performance"]
+				"benefits": [
+					"Inventory reports",
+					"Turnover analysis",
+					"SKU performance"
+				]
 			},
 			"barcoding": {
 				"title": "Barcode & Scanning",
 				"description": "Streamlined barcode scanning and inventory counting.",
-				"benefits": ["Barcode scanning", "Mobile scanning", "Inventory counts"]
+				"benefits": [
+					"Barcode scanning",
+					"Mobile scanning",
+					"Inventory counts"
+				]
 			}
 		},
 		"screenshots": {
@@ -2096,17 +2319,32 @@
 			"dashboard": {
 				"title": "Inventory Dashboard",
 				"description": "Real-time view of inventory levels and key metrics.",
-				"features": ["Stock levels", "Low stock alerts", "Movement trends", "Metrics"]
+				"features": [
+					"Stock levels",
+					"Low stock alerts",
+					"Movement trends",
+					"Metrics"
+				]
 			},
 			"warehouse": {
 				"title": "Warehouse Operations",
 				"description": "Manage warehouse operations with location-based inventory.",
-				"features": ["Location tracking", "Pick lists", "Receiving", "Put-away"]
+				"features": [
+					"Location tracking",
+					"Pick lists",
+					"Receiving",
+					"Put-away"
+				]
 			},
 			"tracking": {
 				"title": "Real-time Tracking",
 				"description": "Track inventory movements and identify trends.",
-				"features": ["Movement tracking", "Trend analysis", "Forecasting", "Adjustments"]
+				"features": [
+					"Movement tracking",
+					"Trend analysis",
+					"Forecasting",
+					"Adjustments"
+				]
 			},
 			"exploreFeature": "Explore Feature"
 		},
@@ -2142,6 +2380,32 @@
 			"title": "Inventory Leaders Choose Omniflow",
 			"subtitle": "See how organizations optimize inventory and improve warehouse operations.",
 			"badge": "Customer Success",
+			"items": [
+				{
+					"quote": "Omniflow's Inventory module has been a game-changer for our warehouse operations. Real-time tracking and automated reordering have reduced stockouts significantly.",
+					"author": "Michael Torres",
+					"position": "Warehouse Manager",
+					"company": "Distribution Hub Inc",
+					"rating": 5,
+					"image": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&q=80&w=150"
+				},
+				{
+					"quote": "The multi-warehouse capabilities and inventory forecasting have transformed our supply chain. We now have complete visibility across all locations.",
+					"author": "Christina Williams",
+					"position": "Logistics Director",
+					"company": "Global Supply Chain",
+					"rating": 5,
+					"image": "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?auto=format&fit=crop&q=80&w=150"
+				},
+				{
+					"quote": "The barcode scanning feature and mobile app have made inventory counts much faster and more accurate. Our team efficiency has improved dramatically.",
+					"author": "Kevin Anderson",
+					"position": "Operations Manager",
+					"company": "Retail Solutions Group",
+					"rating": 5,
+					"image": "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?auto=format&fit=crop&q=80&w=150"
+				}
+			],
 			"joinSuccess": {
 				"title": "Ready to Optimize Inventory?",
 				"description": "Schedule a demo and discover inventory management excellence.",

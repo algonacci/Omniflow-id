@@ -1,41 +1,18 @@
 import { Quote, Star } from "lucide-react";
 import { useTranslation } from "react-i18next";
 
-const testimonials = [
-	{
-		quote:
-			"Omniflow's Sales module has completely transformed how our team manages opportunities. We've seen a significant increase in deal closure rates since implementation.",
-		author: "David Wilson",
-		position: "Sales Director",
-		company: "Enterprise Solutions",
-		rating: 5,
-		image:
-			"https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&q=80&w=150",
-	},
-	{
-		quote:
-			"The sales pipeline visibility we now have is invaluable. Our management team can make better decisions with real-time data and forecasting features.",
-		author: "Jessica Martinez",
-		position: "VP Sales",
-		company: "Growth Accelerators",
-		rating: 5,
-		image:
-			"https://images.unsplash.com/photo-1438761681033-6461ffad8d80?auto=format&fit=crop&q=80&w=150",
-	},
-	{
-		quote:
-			"The mobile app is a game-changer for our field sales team. They can update deals on the go, and the integration with email is seamless.",
-		author: "Robert Thompson",
-		position: "Sales Manager",
-		company: "Tech Innovations Ltd",
-		rating: 5,
-		image:
-			"https://images.unsplash.com/photo-1500648767791-00dcc994a43e?auto=format&fit=crop&q=80&w=150",
-	},
-];
-
 export default function Testimonials() {
 	const { t } = useTranslation();
+	const testimonials = t("sales.testimonials.items", {
+		returnObjects: true,
+	}) as Array<{
+		quote: string;
+		author: string;
+		position: string;
+		company: string;
+		rating: number;
+		image: string;
+	}>;
 
 	return (
 		<section className="section-enterprise gradient-secondary">

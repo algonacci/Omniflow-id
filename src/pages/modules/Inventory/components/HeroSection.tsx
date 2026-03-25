@@ -17,7 +17,7 @@ export default function HeroSection() {
 			<div className="container-enterprise">
 				<div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
 					<div className="space-y-8 animate-fade-in-left">
-						<div className="inline-flex items-center px-4 py-2 bg-sky-100 text-sky-800 rounded-full text-sm font-semibold">
+						<div className="inline-flex items-center px-4 py-2 bg-blue-100 text-blue-800 rounded-full text-sm font-semibold">
 							<CheckCircle className="h-4 w-4 mr-2" />
 							{t("inventory.badge")}
 						</div>
@@ -41,19 +41,19 @@ export default function HeroSection() {
 
 						<div className="grid grid-cols-2 md:grid-cols-4 gap-6 pt-8 border-t border-gray-200">
 							<div className="text-center">
-								<div className="w-12 h-12 bg-sky-100 rounded-xl flex items-center justify-center mx-auto mb-3">
-									<Users className="h-6 w-6 text-sky-600" />
+								<div className="w-12 h-12 bg-blue-100 rounded-xl flex items-center justify-center mx-auto mb-3">
+									<Users className="h-6 w-6 text-blue-600" />
 								</div>
-								<div className="text-2xl font-bold text-sky-600">40K+</div>
+								<div className="text-2xl font-bold text-blue-600">40K+</div>
 								<div className="text-sm text-enterprise-muted">
 									{t("inventory.hero.stats.users")}
 								</div>
 							</div>
 							<div className="text-center">
-								<div className="w-12 h-12 bg-cyan-100 rounded-xl flex items-center justify-center mx-auto mb-3">
-									<Award className="h-6 w-6 text-cyan-600" />
+								<div className="w-12 h-12 bg-indigo-100 rounded-xl flex items-center justify-center mx-auto mb-3">
+									<Award className="h-6 w-6 text-indigo-600" />
 								</div>
-								<div className="text-2xl font-bold text-cyan-600">99.9%</div>
+								<div className="text-2xl font-bold text-indigo-600">99.9%</div>
 								<div className="text-sm text-enterprise-muted">
 									{t("inventory.hero.stats.uptime")}
 								</div>
@@ -80,22 +80,22 @@ export default function HeroSection() {
 					</div>
 
 					<div className="relative animate-fade-in-right">
-						<div className="absolute inset-0 bg-gradient-to-r from-sky-600/20 to-blue-700/20 rounded-3xl transform rotate-3"></div>
+						<div className="absolute inset-0 bg-gradient-to-r from-blue-600/20 to-indigo-700/20 rounded-3xl transform rotate-3"></div>
 						<img
 							src="https://images.unsplash.com/photo-1553852521-ff0c65d71ca9?auto=format&fit=crop&q=80&w=800"
-							alt="Inventory Management Dashboard"
+							alt={t("inventory.hero.imageAlt")}
 							className="relative rounded-3xl shadow-enterprise-lg"
 						/>
 						<div className="absolute -bottom-6 -left-6 bg-white p-6 rounded-2xl shadow-enterprise">
 							<div className="flex items-center space-x-4">
-								<div className="w-12 h-12 bg-sky-100 rounded-xl flex items-center justify-center">
-									<CheckCircle className="h-6 w-6 text-sky-600" />
+								<div className="w-12 h-12 bg-blue-100 rounded-xl flex items-center justify-center">
+									<CheckCircle className="h-6 w-6 text-blue-600" />
 								</div>
 								<div>
 									<div className="font-semibold text-enterprise-primary">
 										{t("inventory.hero.accuracyBoost")}
 									</div>
-									<div className="text-2xl font-bold text-sky-600">+85%</div>
+									<div className="text-2xl font-bold text-blue-600">+85%</div>
 								</div>
 							</div>
 						</div>

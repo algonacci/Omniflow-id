@@ -59,19 +59,19 @@ export default function HeroSection() {
 								</div>
 							</div>
 							<div className="text-center">
-								<div className="w-12 h-12 bg-purple-100 rounded-xl flex items-center justify-center mx-auto mb-3">
-									<TrendingUp className="h-6 w-6 text-purple-600" />
+								<div className="w-12 h-12 bg-indigo-100 rounded-xl flex items-center justify-center mx-auto mb-3">
+									<TrendingUp className="h-6 w-6 text-indigo-600" />
 								</div>
-								<div className="text-2xl font-bold text-purple-600">35%</div>
+								<div className="text-2xl font-bold text-indigo-600">35%</div>
 								<div className="text-sm text-enterprise-muted">
 									{t("sales.hero.stats.increase")}
 								</div>
 							</div>
 							<div className="text-center">
-								<div className="w-12 h-12 bg-orange-100 rounded-xl flex items-center justify-center mx-auto mb-3">
-									<BarChart className="h-6 w-6 text-orange-600" />
+								<div className="w-12 h-12 bg-sky-100 rounded-xl flex items-center justify-center mx-auto mb-3">
+									<BarChart className="h-6 w-6 text-sky-600" />
 								</div>
-								<div className="text-2xl font-bold text-orange-600">48hrs</div>
+								<div className="text-2xl font-bold text-sky-600">48hrs</div>
 								<div className="text-sm text-enterprise-muted">
 									{t("sales.hero.stats.implementation")}
 								</div>
@@ -83,7 +83,7 @@ export default function HeroSection() {
 						<div className="absolute inset-0 bg-gradient-to-r from-blue-600/20 to-indigo-700/20 rounded-3xl transform rotate-3"></div>
 						<img
 							src="https://images.unsplash.com/photo-1552664730-d307ca884978?auto=format&fit=crop&q=80&w=800"
-							alt="Sales Dashboard Interface"
+							alt={t("sales.hero.imageAlt")}
 							className="relative rounded-3xl shadow-enterprise-lg"
 						/>
 						<div className="absolute -bottom-6 -left-6 bg-white p-6 rounded-2xl shadow-enterprise">

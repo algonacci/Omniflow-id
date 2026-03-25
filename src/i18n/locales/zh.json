@@ -42,6 +42,10 @@
 		"telemarketing": "电话营销",
 		"paymentGateway": "支付网关",
 		"analytics": "分析",
+		"sales": "Sales Management",
+		"purchasing": "Purchasing",
+		"assetManagement": "Asset Management",
+		"inventory": "Inventory Management",
 		"insights": "洞察",
 		"resources": "资源",
 		"support": "支持",
@@ -62,7 +66,7 @@
 	"modulesPage": {
 		"title": "业务转型的核心驱动力",
 		"subtitle": "通过我们最全面的集成 ERP 模块组合，加速企业增长。专为解决每个业务条线的独特运营挑战而设计。",
-		"badge": "10个可用模块",
+		"badge": "15个可用模块",
 		"getStarted": "开始使用",
 		"modules": {
 			"hris": "完整的人力资源管理系统，包含工资单、考勤和绩效跟踪。",
@@ -75,7 +79,11 @@
 			"lms": "学习管理系统，适用于企业培训和教育。",
 			"telemarketing": "外呼管理和潜在客户跟踪解决方案。",
 			"payment-gateway": "安全的支付处理，支持多种支付方式。",
-			"analytics": "集成 BCA、OrderOnline、Majoo 和 Moka 等服务的集中式分析平台。"
+			"analytics": "集成 BCA、OrderOnline、Majoo 和 Moka 等服务的集中式分析平台。",
+			"sales": "Modern sales management with visual pipeline, deal tracking, and revenue forecasting.",
+			"purchasing": "Smarter procurement management with vendor control, RFQ workflows, and cost optimization.",
+			"assetManagement": "End-to-end asset management with tracking, depreciation, maintenance, and lifecycle control.",
+			"inventory": "Multi-location inventory management with real-time stock visibility and warehouse optimization."
 		}
 	},
 	"integrationsPage": {
@@ -1649,6 +1657,778 @@
 				"users": "活跃用户",
 				"uptime": "正常运行时间SLA",
 				"security": "认证安全"
+			}
+		}
+	},
+	"sales": {
+		"title": "现代销售管理平台",
+		"subtitle": "通过强大的销售自动化工具梳理销售管道、跟进商机并加速收入增长。",
+		"badge": "受到 50,000+ 销售专业人士信赖",
+		"hero": {
+			"scheduleDemo": "预约演示",
+			"watchOverview": "查看概览",
+			"imageAlt": "销售仪表盘界面",
+			"stats": {
+				"users": "活跃用户",
+				"uptime": "正常运行 SLA",
+				"increase": "收入增长",
+				"implementation": "部署时间"
+			},
+			"revenueGrowth": "收入增长"
+		},
+		"features": {
+			"title": "完整的销售管理方案",
+			"subtitle": "从线索到成交，在一个平台中管理整个销售流程。",
+			"badge": "核心销售功能",
+			"pipeline": {
+				"title": "销售管道管理",
+				"description": "用可自定义阶段和预测能力可视化整个销售管道。",
+				"benefits": [
+					"管道可视化",
+					"商机跟踪",
+					"阶段管理"
+				]
+			},
+			"leads": {
+				"title": "线索管理",
+				"description": "通过自动化流程和评分机制捕获、筛选并培育线索。",
+				"benefits": [
+					"线索收集",
+					"资格流程",
+					"线索评分"
+				]
+			},
+			"deals": {
+				"title": "商机管理",
+				"description": "跟踪商机进展、管理销售活动并更快达成成交。",
+				"benefits": [
+					"商机跟踪",
+					"活动管理",
+					"成交概率"
+				]
+			},
+			"forecasting": {
+				"title": "销售预测",
+				"description": "基于实时管道数据和历史趋势做出更准确的收入预测。",
+				"benefits": [
+					"收入预测",
+					"趋势分析",
+					"预测模型"
+				]
+			},
+			"mobile": {
+				"title": "移动销售应用",
+				"description": "通过 iOS 和 Android 移动应用让销售团队随时保持连接。",
+				"benefits": [
+					"离线访问",
+					"推送通知",
+					"移动表单"
+				]
+			},
+			"integration": {
+				"title": "第三方集成",
+				"description": "无缝连接您现有的工具与工作流。",
+				"benefits": [
+					"邮件集成",
+					"日历同步",
+					"CRM 集成"
+				]
+			}
+		},
+		"screenshots": {
+			"title": "体验更高效的销售流程",
+			"subtitle": "为销售团队设计的直观界面，帮助提升效率并带来更多成交。",
+			"badge": "销售平台预览",
+			"pipeline": {
+				"title": "销售管道仪表盘",
+				"description": "实时查看整个销售管道及收入预测。",
+				"features": [
+					"商机跟踪",
+					"管道阶段",
+					"赢单概率",
+					"收入预测"
+				]
+			},
+			"analytics": {
+				"title": "销售分析",
+				"description": "用全面数据跟踪团队表现并发现新机会。",
+				"features": [
+					"表现指标",
+					"转化跟踪",
+					"收入分析",
+					"团队指标"
+				]
+			},
+			"mobile": {
+				"title": "移动端访问",
+				"description": "即使离线也能在移动端完成核心销售工作。",
+				"features": [
+					"移动更新",
+					"离线模式",
+					"快捷操作",
+					"实时同步"
+				]
+			},
+			"exploreFeature": "查看功能"
+		},
+		"benefits": {
+			"title": "销售结果看得见",
+			"subtitle": "平台上线后，销售效率和收入表现都会出现可衡量的提升。",
+			"badge": "成功案例",
+			"productivity": {
+				"title": "效率提升",
+				"description": "借助更顺畅的流程，销售团队成交速度提升 45%。",
+				"stat": "+45%"
+			},
+			"speed": {
+				"title": "销售周期更短",
+				"description": "自动化重复工作，缩短整体销售周期。",
+				"stat": "快 30%"
+			},
+			"increase": {
+				"title": "收入增长",
+				"description": "通过更好的管道可视化和商机管理推动收入增长。",
+				"stat": "+35%"
+			},
+			"visibility": {
+				"title": "全局可见",
+				"description": "实时掌握销售管道和团队表现。",
+				"stat": "100% 可见"
+			},
+			"organizations": "使用中的组织",
+			"uptime": "稳定性保障",
+			"support": "专家支持"
+		},
+		"testimonials": {
+			"title": "销售团队负责人都在用",
+			"subtitle": "看看领先团队如何借助 Omniflow 加速增长。",
+			"badge": "客户成功",
+			"items": [
+				{
+					"quote": "Omniflow 销售模块彻底改变了我们管理商机的方式。上线后，成交率明显提升。",
+					"author": "David Wilson",
+					"position": "销售总监",
+					"company": "Enterprise Solutions",
+					"rating": 5,
+					"image": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&q=80&w=150"
+				},
+				{
+					"quote": "现在我们对销售管道有了非常清晰的可视化。管理层能够依靠实时数据和预测更快做决策。",
+					"author": "Jessica Martinez",
+					"position": "销售副总裁",
+					"company": "Growth Accelerators",
+					"rating": 5,
+					"image": "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?auto=format&fit=crop&q=80&w=150"
+				},
+				{
+					"quote": "移动应用对外勤销售团队来说是个巨大提升。他们可以随时更新商机，邮件集成也非常顺畅。",
+					"author": "Robert Thompson",
+					"position": "销售经理",
+					"company": "Tech Innovations Ltd",
+					"rating": 5,
+					"image": "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?auto=format&fit=crop&q=80&w=150"
+				}
+			],
+			"joinSuccess": {
+				"title": "想加速销售增长？",
+				"description": "预约演示，看看 Omniflow 如何帮助您的销售组织升级。",
+				"scheduleDemo": "预约您的演示"
+			}
+		},
+		"cta": {
+			"title": "升级您的销售组织",
+			"subtitle": "加入已经借助 Omniflow Sales 加速增长的团队。",
+			"badge": "开始赢得更多成交",
+			"scheduleDemo": "预约演示",
+			"contactSales": "联系销售",
+			"features": {
+				"trial": "30 天免费试用",
+				"setup": "无需设置费用",
+				"support": "24/7 支持"
+			},
+			"stats": {
+				"users": "活跃用户",
+				"uptime": "正常运行 SLA",
+				"growth": "平均增长"
+			}
+		}
+	},
+	"purchasing": {
+		"title": "智能采购管理平台",
+		"subtitle": "优化采购流程、管理供应商，并通过自动化能力降低采购成本。",
+		"badge": "受到 30,000+ 采购专业人士信赖",
+		"hero": {
+			"scheduleDemo": "预约演示",
+			"watchOverview": "查看概览",
+			"imageAlt": "采购仪表盘界面",
+			"stats": {
+				"users": "活跃用户",
+				"uptime": "正常运行 SLA",
+				"savings": "成本节省",
+				"efficiency": "流程效率"
+			},
+			"costReduction": "成本下降"
+		},
+		"features": {
+			"title": "完整采购解决方案",
+			"subtitle": "从申请到发票，在一个平台中梳理整个采购流程。",
+			"badge": "完整采购功能",
+			"requisition": {
+				"title": "采购申请",
+				"description": "通过自动审批和路由快速创建采购申请。",
+				"benefits": [
+					"审批流程",
+					"自动路由",
+					"预算控制"
+				]
+			},
+			"rfq": {
+				"title": "询价与竞价",
+				"description": "创建 RFQ、发送给供应商并高效比较报价。",
+				"benefits": [
+					"报价比较",
+					"竞价流程",
+					"供应商评分"
+				]
+			},
+			"vendors": {
+				"title": "供应商管理",
+				"description": "集中管理供应商关系、表现和合规状态。",
+				"benefits": [
+					"供应商档案",
+					"表现跟踪",
+					"合规管理"
+				]
+			},
+			"approvals": {
+				"title": "审批工作流",
+				"description": "根据公司政策设置多级审批流程。",
+				"benefits": [
+					"自定义流程",
+					"策略执行",
+					"审计轨迹"
+				]
+			},
+			"reporting": {
+				"title": "报告与分析",
+				"description": "通过数据分析掌握支出结构和采购效率。",
+				"benefits": [
+					"支出分析",
+					"供应商分析",
+					"成本趋势"
+				]
+			},
+			"compliance": {
+				"title": "合规与审计",
+				"description": "确保采购流程符合内部制度与监管要求。",
+				"benefits": [
+					"审计轨迹",
+					"策略管理",
+					"法规合规"
+				]
+			}
+		},
+		"screenshots": {
+			"title": "更可控的采购运营",
+			"subtitle": "直观平台帮助您管理完整采购流程。",
+			"badge": "平台预览",
+			"orders": {
+				"title": "采购订单",
+				"description": "创建并实时跟踪采购订单状态。",
+				"features": [
+					"PO 创建",
+					"订单跟踪",
+					"交付管理",
+					"发票匹配"
+				]
+			},
+			"vendors": {
+				"title": "供应商门户",
+				"description": "让供应商更高效地协同和响应采购需求。",
+				"features": [
+					"供应商协同",
+					"报价提交",
+					"绩效指标",
+					"合规文档"
+				]
+			},
+			"analytics": {
+				"title": "采购分析",
+				"description": "深入了解支出、供应商表现和节省空间。",
+				"features": [
+					"支出分析",
+					"供应商表现",
+					"品类分析",
+					"节省跟踪"
+				]
+			},
+			"exploreFeature": "查看功能"
+		},
+		"benefits": {
+			"title": "采购成效更直观",
+			"subtitle": "在成本控制和流程效率上获得可衡量的提升。",
+			"badge": "已验证的收益",
+			"savings": {
+				"title": "节省成本",
+				"description": "通过更好的谈判和自动化降低采购支出。",
+				"stat": "-40%"
+			},
+			"speed": {
+				"title": "处理更快",
+				"description": "缩短采购周期并提升供应商响应速度。",
+				"stat": "快 50%"
+			},
+			"compliance": {
+				"title": "合规更稳",
+				"description": "确保采购流程持续符合制度与法规。",
+				"stat": "100% 合规"
+			},
+			"visibility": {
+				"title": "全局可见",
+				"description": "实时掌握支出与供应商表现。",
+				"stat": "100% 可见"
+			},
+			"vendors": "活跃供应商",
+			"uptime": "稳定性保障",
+			"support": "专家支持"
+		},
+		"testimonials": {
+			"title": "采购负责人都在用",
+			"subtitle": "看看企业如何借助 Omniflow 降低成本并提升效率。",
+			"badge": "客户成功",
+			"items": [
+				{
+					"quote": "Omniflow 采购模块让我们的采购流程清晰了很多。采购周期缩短，供应商协作也明显更顺畅。",
+					"author": "Lisa Anderson",
+					"position": "采购经理",
+					"company": "Supply Chain Solutions",
+					"rating": 5,
+					"image": "https://images.unsplash.com/photo-1494790108377-be9c29b29330?auto=format&fit=crop&q=80&w=150"
+				},
+				{
+					"quote": "供应商管理和合规功能帮助我们在控制成本的同时维持质量标准。RFQ 流程现在已经完全自动化。",
+					"author": "James Mitchell",
+					"position": "供应链总监",
+					"company": "Manufacturing Corp",
+					"rating": 5,
+					"image": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&q=80&w=150"
+				},
+				{
+					"quote": "报告和分析让我们对支出有了更清晰的了解，也更容易识别节省空间。",
+					"author": "Patricia Brown",
+					"position": "采购总监",
+					"company": "Industrial Enterprises",
+					"rating": 5,
+					"image": "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?auto=format&fit=crop&q=80&w=150"
+				}
+			],
+			"joinSuccess": {
+				"title": "想优化采购流程？",
+				"description": "预约演示，看看我们如何帮助您降低采购成本。",
+				"scheduleDemo": "预约您的演示"
+			}
+		},
+		"cta": {
+			"title": "优化您的采购流程",
+			"subtitle": "加入已经通过 Omniflow 实现采购转型的组织。",
+			"badge": "从今天开始节省",
+			"scheduleDemo": "预约演示",
+			"contactSales": "联系销售",
+			"features": {
+				"trial": "30 天免费试用",
+				"setup": "无需设置费用",
+				"support": "24/7 支持"
+			},
+			"stats": {
+				"users": "活跃用户",
+				"uptime": "正常运行 SLA",
+				"savings": "成本节省"
+			}
+		}
+	},
+	"assetManagement": {
+		"title": "企业资产管理平台",
+		"subtitle": "通过智能资产管理平台跟踪、维护并优化企业资产的完整生命周期。",
+		"badge": "受到 25,000+ 组织信赖",
+		"hero": {
+			"scheduleDemo": "预约演示",
+			"watchOverview": "查看概览",
+			"imageAlt": "资产管理仪表盘",
+			"stats": {
+				"users": "活跃用户",
+				"uptime": "正常运行 SLA",
+				"efficiency": "效率提升",
+				"accuracy": "数据准确率"
+			},
+			"accuracyImprovement": "准确率提升"
+		},
+		"features": {
+			"title": "完整资产管理方案",
+			"subtitle": "集中管理固定资产、折旧、维护与使用效率。",
+			"badge": "核心资产管理功能",
+			"tracking": {
+				"title": "资产跟踪",
+				"description": "实时掌握资产位置、状态和使用情况。",
+				"benefits": [
+					"位置跟踪",
+					"条码扫描",
+					"二维码管理"
+				]
+			},
+			"depreciation": {
+				"title": "折旧管理",
+				"description": "自动计算折旧并支持财务合规报告。",
+				"benefits": [
+					"自动计算",
+					"多种方法",
+					"财务报告"
+				]
+			},
+			"lifecycle": {
+				"title": "资产生命周期",
+				"description": "从采购到报废，完整管理资产生命周期。",
+				"benefits": [
+					"采购跟踪",
+					"维护记录",
+					"报废管理"
+				]
+			},
+			"maintenance": {
+				"title": "维护计划",
+				"description": "安排并跟踪预防性和纠正性维护。",
+				"benefits": [
+					"维护排程",
+					"工单管理",
+					"服务跟踪"
+				]
+			},
+			"reports": {
+				"title": "报告与分析",
+				"description": "通过报表和分析掌握资产组合表现。",
+				"benefits": [
+					"资产报表",
+					"利用率分析",
+					"价值跟踪"
+				]
+			},
+			"integration": {
+				"title": "系统集成",
+				"description": "连接财务系统和其他企业应用。",
+				"benefits": [
+					"总账集成",
+					"API 接入",
+					"数据同步"
+				]
+			}
+		},
+		"screenshots": {
+			"title": "资产管理更有条理",
+			"subtitle": "直观界面让资产状态和维护计划一目了然。",
+			"badge": "平台预览",
+			"tracking": {
+				"title": "资产台账",
+				"description": "查看所有资产及其状态、明细和历史。",
+				"features": [
+					"资产台账",
+					"明细视图",
+					"历史跟踪",
+					"状态监控"
+				]
+			},
+			"maintenance": {
+				"title": "维护管理",
+				"description": "统一安排和跟踪所有维护活动。",
+				"features": [
+					"工单",
+					"服务历史",
+					"排程",
+					"成本跟踪"
+				]
+			},
+			"reporting": {
+				"title": "资产报表",
+				"description": "从价值、折旧和利用率角度分析资产表现。",
+				"features": [
+					"资产台账",
+					"折旧报表",
+					"利用率分析",
+					"价值报表"
+				]
+			},
+			"exploreFeature": "查看功能"
+		},
+		"benefits": {
+			"title": "资产管理带来的价值",
+			"subtitle": "在资产可视化和运营效率上获得显著提升。",
+			"badge": "已验证成果",
+			"efficiency": {
+				"title": "效率提升",
+				"description": "简化资产管理流程并减少行政负担。",
+				"stat": "+50%"
+			},
+			"accuracy": {
+				"title": "准确率提升",
+				"description": "通过自动跟踪将资产准确率提升到 95%。",
+				"stat": "+95%"
+			},
+			"cost": {
+				"title": "降低成本",
+				"description": "通过预防性维护减少维修和停机成本。",
+				"stat": "-30%"
+			},
+			"visibility": {
+				"title": "实时可见",
+				"description": "随时掌握资产组合和使用状态。",
+				"stat": "100% 可见"
+			},
+			"organizations": "使用中的组织",
+			"uptime": "稳定性保障",
+			"support": "专家支持"
+		},
+		"testimonials": {
+			"title": "资产管理团队都在用",
+			"subtitle": "看看企业如何提升资产利用率并降低维护成本。",
+			"badge": "客户成功",
+			"items": [
+				{
+					"quote": "Omniflow 资产管理模块改变了我们跟踪和维护公司资产的方式。自动折旧计算为财务团队节省了大量时间。",
+					"author": "Thomas Wilson",
+					"position": "财务经理",
+					"company": "Industrial Solutions",
+					"rating": 5,
+					"image": "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?auto=format&fit=crop&q=80&w=150"
+				},
+				{
+					"quote": "维护排程和跟踪功能大幅降低了停机时间。运营团队现在对资产健康状态有了完整视图。",
+					"author": "Margaret Chen",
+					"position": "运营总监",
+					"company": "Manufacturing Excellence",
+					"rating": 5,
+					"image": "https://images.unsplash.com/photo-1494790108377-be9c29b29330?auto=format&fit=crop&q=80&w=150"
+				},
+				{
+					"quote": "报表能力让我们能更好地做长期资产规划。投入回报很明显，实施过程也很顺畅。",
+					"author": "Richard Thompson",
+					"position": "资产经理",
+					"company": "Enterprise Corp",
+					"rating": 5,
+					"image": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&q=80&w=150"
+				}
+			],
+			"joinSuccess": {
+				"title": "想优化资产管理？",
+				"description": "预约演示，体验更高效的资产管理方式。",
+				"scheduleDemo": "预约您的演示"
+			}
+		},
+		"cta": {
+			"title": "升级您的资产管理能力",
+			"subtitle": "加入已经借助 Omniflow 提升资产效率的组织。",
+			"badge": "开始管理资产",
+			"scheduleDemo": "预约演示",
+			"contactSales": "联系销售",
+			"features": {
+				"trial": "30 天免费试用",
+				"setup": "无需设置费用",
+				"support": "24/7 支持"
+			},
+			"stats": {
+				"users": "活跃用户",
+				"uptime": "正常运行 SLA",
+				"efficiency": "效率提升"
+			}
+		}
+	},
+	"inventory": {
+		"title": "智能库存管理系统",
+		"subtitle": "通过更智能的库存管理优化库存水平、减少缺货并提升仓库运营效率。",
+		"badge": "受到 40,000+ 组织信赖",
+		"hero": {
+			"scheduleDemo": "预约演示",
+			"watchOverview": "查看概览",
+			"imageAlt": "库存管理仪表盘",
+			"stats": {
+				"users": "活跃用户",
+				"uptime": "正常运行 SLA",
+				"reduction": "成本下降",
+				"accuracy": "库存准确率"
+			},
+			"accuracyBoost": "准确率提升"
+		},
+		"features": {
+			"title": "完整库存管理方案",
+			"subtitle": "在多仓、多地点场景下保持库存实时可见并优化补货。",
+			"badge": "核心库存功能",
+			"tracking": {
+				"title": "实时跟踪",
+				"description": "实时掌握各仓库和地点的库存数量。",
+				"benefits": [
+					"实时库存",
+					"多地点管理",
+					"即时更新"
+				]
+			},
+			"warehouse": {
+				"title": "仓库管理",
+				"description": "通过库位和拣货优化提升仓库运营效率。",
+				"benefits": [
+					"库位管理",
+					"拣货优化",
+					"区域管理"
+				]
+			},
+			"orders": {
+				"title": "订单管理",
+				"description": "通过自动化拣货和打包提升订单履约效率。",
+				"benefits": [
+					"订单拣货",
+					"自动打包",
+					"发货跟踪"
+				]
+			},
+			"forecasting": {
+				"title": "需求预测",
+				"description": "用智能预测维持健康库存水平。",
+				"benefits": [
+					"需求预测",
+					"季节趋势",
+					"自动补货"
+				]
+			},
+			"reporting": {
+				"title": "报告与分析",
+				"description": "通过分析与报表持续优化库存表现。",
+				"benefits": [
+					"库存报表",
+					"周转分析",
+					"SKU 表现"
+				]
+			},
+			"barcoding": {
+				"title": "条码与扫描",
+				"description": "借助条码扫描和移动盘点提升库存准确率。",
+				"benefits": [
+					"条码扫描",
+					"移动扫描",
+					"库存盘点"
+				]
+			}
+		},
+		"screenshots": {
+			"title": "库存运营更精准",
+			"subtitle": "直观平台帮助您管理完整库存运营。",
+			"badge": "平台预览",
+			"dashboard": {
+				"title": "库存仪表盘",
+				"description": "实时查看库存水位和关键指标。",
+				"features": [
+					"库存水平",
+					"缺货提醒",
+					"流转趋势",
+					"核心指标"
+				]
+			},
+			"warehouse": {
+				"title": "仓库运营",
+				"description": "基于库位管理仓库作业和库存流转。",
+				"features": [
+					"库位跟踪",
+					"拣货单",
+					"收货",
+					"上架"
+				]
+			},
+			"tracking": {
+				"title": "实时追踪",
+				"description": "快速了解库存流动和趋势变化。",
+				"features": [
+					"流转跟踪",
+					"趋势分析",
+					"预测",
+					"库存调整"
+				]
+			},
+			"exploreFeature": "查看功能"
+		},
+		"benefits": {
+			"title": "库存管理带来的价值",
+			"subtitle": "在库存准确率和仓库效率上获得可衡量提升。",
+			"badge": "已验证成果",
+			"accuracy": {
+				"title": "准确率提升",
+				"description": "通过条码扫描将库存准确率提升到 85%。",
+				"stat": "+85%"
+			},
+			"efficiency": {
+				"title": "运营更高效",
+				"description": "减少人工操作，提升仓库作业效率。",
+				"stat": "快 40%"
+			},
+			"cost": {
+				"title": "降低成本",
+				"description": "通过优化库存降低持有成本和缺货风险。",
+				"stat": "-30%"
+			},
+			"visibility": {
+				"title": "全局可见",
+				"description": "实时查看所有地点的库存状态。",
+				"stat": "100% 可见"
+			},
+			"organizations": "使用中的组织",
+			"uptime": "稳定性保障",
+			"support": "专家支持"
+		},
+		"testimonials": {
+			"title": "库存负责人都在用",
+			"subtitle": "看看企业如何借助 Omniflow 优化库存与仓库运营。",
+			"badge": "客户成功",
+			"items": [
+				{
+					"quote": "Omniflow 库存模块彻底提升了我们的仓库运营。实时跟踪和自动补货显著减少了缺货。",
+					"author": "Michael Torres",
+					"position": "仓库经理",
+					"company": "Distribution Hub Inc",
+					"rating": 5,
+					"image": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&q=80&w=150"
+				},
+				{
+					"quote": "多仓能力和库存预测彻底改变了我们的供应链管理。现在我们对所有地点都拥有完整可视化。",
+					"author": "Christina Williams",
+					"position": "物流总监",
+					"company": "Global Supply Chain",
+					"rating": 5,
+					"image": "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?auto=format&fit=crop&q=80&w=150"
+				},
+				{
+					"quote": "条码扫描和移动应用让盘点更快也更准确。团队效率提升非常明显。",
+					"author": "Kevin Anderson",
+					"position": "运营经理",
+					"company": "Retail Solutions Group",
+					"rating": 5,
+					"image": "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?auto=format&fit=crop&q=80&w=150"
+				}
+			],
+			"joinSuccess": {
+				"title": "想优化库存运营？",
+				"description": "预约演示，看看 Omniflow 如何让库存管理更高效。",
+				"scheduleDemo": "预约您的演示"
+			}
+		},
+		"cta": {
+			"title": "升级您的库存运营",
+			"subtitle": "加入已经通过 Omniflow 优化库存和仓库效率的组织。",
+			"badge": "从今天开始优化",
+			"scheduleDemo": "预约演示",
+			"contactSales": "联系销售",
+			"features": {
+				"trial": "30 天免费试用",
+				"setup": "无需设置费用",
+				"support": "24/7 支持"
+			},
+			"stats": {
+				"users": "活跃用户",
+				"uptime": "正常运行 SLA",
+				"reduction": "成本下降"
 			}
 		}
 	},
