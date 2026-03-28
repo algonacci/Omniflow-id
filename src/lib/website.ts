@@ -1,10 +1,14 @@
 export type WebsiteLocale = "en" | "id" | "zh";
 
-const DEFAULT_API_BASE_URL = "http://localhost:8003";
+const DEFAULT_API_BASE_URL = "https://omniflow-api.syncloud.my.id";
 
-function normalizeApiBaseUrl() {
+export function getApiBaseUrl() {
 	const configured = import.meta.env.VITE_API_BASE_URL?.trim();
 	return (configured || DEFAULT_API_BASE_URL).replace(/\/$/, "");
+}
+
+function normalizeApiBaseUrl() {
+	return getApiBaseUrl();
 }
 
 function getQueryParams(search: string) {

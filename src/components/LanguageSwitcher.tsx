@@ -2,6 +2,7 @@ import { ChevronDown, Globe } from "lucide-react";
 import React from "react";
 import { useTranslation } from "react-i18next";
 import { useLocation, useNavigate } from "react-router-dom";
+import { getApiBaseUrl } from "../lib/website";
 
 const languages = [
 	{ code: "en", name: "English", flag: "🇺🇸" },
@@ -31,7 +32,7 @@ export default function LanguageSwitcher() {
 			try {
 				// Call slug mapping API to get correct target slug
 				const response = await fetch(
-					`${window.location.protocol}//${window.location.hostname}:8003/api/blogs/slug-mapping/${currentLang}/${slug}/${languageCode}`
+					`${getApiBaseUrl()}/api/blogs/slug-mapping/${currentLang}/${slug}/${languageCode}`
 				);
 				const data = await response.json();
 
