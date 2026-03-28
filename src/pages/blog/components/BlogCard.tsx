@@ -49,7 +49,10 @@ export default function BlogCard({ post }: BlogCardProps) {
 		<Link to={`${langPrefix}/blog/${post.slug}`} className="group block">
 			<article className="bg-white rounded-2xl shadow-lg hover:shadow-2xl transition-all duration-300 overflow-hidden border border-gray-100 hover:border-blue-200 transform hover:-translate-y-2">
 				{/* Image Container */}
-				<div className="relative overflow-hidden" style={{ aspectRatio: '16/9' }}>
+				<div
+					className="relative overflow-hidden"
+					style={{ aspectRatio: "16/9" }}
+				>
 					<img
 						src={
 							post.banner_url ||
@@ -59,7 +62,7 @@ export default function BlogCard({ post }: BlogCardProps) {
 						className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500"
 					/>
 					<div className="absolute inset-0 bg-gradient-to-t from-black/40 via-transparent to-transparent" />
-					
+
 					{/* Primary Tag Overlay */}
 					<div className="absolute top-4 left-4">
 						<span className="inline-flex items-center bg-white/90 backdrop-blur-sm text-gray-800 px-3 py-1.5 rounded-full text-sm font-medium shadow-lg">
@@ -96,27 +99,27 @@ export default function BlogCard({ post }: BlogCardProps) {
 					</p>
 
 					{/* Footer */}
-					<div className="flex items-center justify-between">
-						{/* Read More Link */}
-						<span className="inline-flex items-center text-blue-600 font-semibold text-sm group-hover:text-blue-700 transition-colors">
-							{t("blog.readMore")}
-							<ArrowRight className="ml-2 h-4 w-4 group-hover:translate-x-1 transition-transform duration-200" />
-						</span>
-
+					<div className="space-y-3">
 						{/* Additional Tags */}
-						<div className="flex gap-1">
+						<div className="flex flex-wrap gap-2">
 							{post.meta_keywords
 								.split(", ")
-								.slice(1, 3)
-								.map((keyword, index) => (
+								.slice(1, 4)
+								.map((keyword) => (
 									<span
-										key={index}
-										className="inline-block bg-gray-100 text-gray-600 px-2 py-1 rounded-md text-xs font-medium"
+										key={keyword}
+										className="inline-block bg-gray-100 text-gray-600 px-3 py-1.5 rounded-md text-xs font-medium"
 									>
 										{keyword}
 									</span>
 								))}
 						</div>
+
+						{/* Read More Link */}
+						<span className="inline-flex items-center text-blue-600 font-semibold text-sm group-hover:text-blue-700 transition-colors">
+							{t("blog.readMore")}
+							<ArrowRight className="ml-2 h-4 w-4 group-hover:translate-x-1 transition-transform duration-200" />
+						</span>
 					</div>
 				</div>
 			</article>

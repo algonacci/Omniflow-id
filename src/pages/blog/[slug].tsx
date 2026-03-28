@@ -6,7 +6,6 @@ import {
 	Facebook,
 	Linkedin,
 	Loader2,
-	Share2,
 	Tag,
 	Twitter,
 } from "lucide-react";
@@ -37,8 +36,8 @@ export default function BlogDetailPage() {
 
 	// Scroll to top when component mounts or slug changes
 	useEffect(() => {
-		window.scrollTo({ top: 0, behavior: 'smooth' });
-	}, [slug]);
+		window.scrollTo({ top: 0, behavior: "smooth" });
+	}, []);
 
 	useEffect(() => {
 		const fetchBlogDetail = async () => {
@@ -80,7 +79,7 @@ export default function BlogDetailPage() {
 		};
 
 		fetchBlogDetail();
-	}, [currentLang, slug]);
+	}, [currentLang, slug, langPrefix]);
 
 	const formatDate = (dateString: string) => {
 		const [datePart] = dateString.split(", ");
@@ -234,7 +233,7 @@ export default function BlogDetailPage() {
 			<div className="min-h-screen bg-gradient-to-b from-slate-50 to-white">
 				{/* Hero Section with Banner Image as Background */}
 				<section className="relative min-h-[70vh] flex items-center justify-center overflow-hidden">
-					<div 
+					<div
 						className="absolute inset-0 bg-cover bg-center bg-no-repeat"
 						style={{
 							backgroundImage: `url(${post.banner_url || "https://images.unsplash.com/photo-1499750310107-5fef28a66643?auto=format&fit=crop&q=80&w=1920"})`,
@@ -242,7 +241,7 @@ export default function BlogDetailPage() {
 					/>
 					<div className="absolute inset-0 bg-black/50" />
 					<div className="absolute inset-0 bg-gradient-to-t from-black/70 via-black/30 to-transparent" />
-					
+
 					<div className="relative z-10 container-enterprise px-6">
 						<div className="max-w-4xl mx-auto text-center text-white">
 							<Link
@@ -282,11 +281,13 @@ export default function BlogDetailPage() {
 								<p className="text-xl md:text-2xl text-white/90 leading-relaxed max-w-3xl mx-auto">
 									{post.meta_description}
 								</p>
-								
+
 								{/* Author */}
 								<div className="flex items-center justify-center mt-8">
 									<div className="bg-white/10 backdrop-blur-sm px-4 py-2 rounded-full">
-										<span className="text-white/90">By {post.author_name || "Omniflow.id Team"}</span>
+										<span className="text-white/90">
+											By {post.author_name || "Omniflow.id Team"}
+										</span>
 									</div>
 								</div>
 							</div>
@@ -296,58 +297,102 @@ export default function BlogDetailPage() {
 
 				{/* Content Section */}
 				<section className="py-16 lg:py-24">
-					<div className="container-enterprise px-6">
-						<div className="max-w-4xl mx-auto">
-							<div className="grid grid-cols-1 lg:grid-cols-4 gap-12">
-								{/* Main Content */}
-								<article className="lg:col-span-3">
-									<div className="bg-white rounded-3xl shadow-2xl border border-gray-100 overflow-hidden">
-										<div className="p-8 lg:p-12">
-											<div className="prose prose-xl max-w-none prose-headings:text-gray-900 prose-headings:font-bold prose-p:text-gray-700 prose-p:leading-relaxed prose-a:text-blue-600 prose-a:no-underline hover:prose-a:underline prose-strong:text-gray-900 prose-code:bg-gray-100 prose-code:px-1 prose-code:py-0.5 prose-code:rounded prose-pre:bg-gray-900 prose-pre:text-gray-100 prose-blockquote:border-l-4 prose-blockquote:border-blue-500 prose-blockquote:bg-blue-50 prose-blockquote:py-4 prose-blockquote:px-6 prose-blockquote:my-6 prose-li:text-gray-700">
-												<ReactMarkdown remarkPlugins={[remarkGfm]}>
-													{post.content}
-												</ReactMarkdown>
-											</div>
-										</div>
-									</div>
-								</article>
-
-								{/* Sidebar */}
-								<aside className="lg:col-span-1">
-									<div className="sticky top-8 space-y-6">
-										{/* Share Card */}
-										<div className="bg-white rounded-2xl shadow-xl border border-gray-100 p-6">
-											<h4 className="text-lg font-bold text-gray-900 mb-6 flex items-center">
-												<Share2 className="h-5 w-5 mr-2 text-blue-600" />
-												{t("blog.shareArticle")}
-											</h4>
-											<div className="space-y-3">
-												<button
-													onClick={() => handleShare("facebook")}
-													className="w-full flex items-center justify-center px-4 py-3 bg-gradient-to-r from-blue-600 to-blue-700 text-white rounded-xl hover:from-blue-700 hover:to-blue-800 transition-all duration-200 font-medium shadow-lg hover:shadow-xl transform hover:-translate-y-0.5"
-												>
-													<Facebook className="h-4 w-4 mr-2" />
-													Facebook
-												</button>
-												<button
-													onClick={() => handleShare("twitter")}
-													className="w-full flex items-center justify-center px-4 py-3 bg-gradient-to-r from-sky-500 to-sky-600 text-white rounded-xl hover:from-sky-600 hover:to-sky-700 transition-all duration-200 font-medium shadow-lg hover:shadow-xl transform hover:-translate-y-0.5"
-												>
-													<Twitter className="h-4 w-4 mr-2" />
-													Twitter
-												</button>
-												<button
-													onClick={() => handleShare("linkedin")}
-													className="w-full flex items-center justify-center px-4 py-3 bg-gradient-to-r from-blue-700 to-blue-800 text-white rounded-xl hover:from-blue-800 hover:to-blue-900 transition-all duration-200 font-medium shadow-lg hover:shadow-xl transform hover:-translate-y-0.5"
-												>
-													<Linkedin className="h-4 w-4 mr-2" />
-													LinkedIn
-												</button>
-											</div>
-										</div>
-									</div>
-								</aside>
+					<div className="container mx-auto px-6">
+						<div className="max-w-5xl mx-auto">
+							{/* Tags Section */}
+							<div className="mb-8 flex flex-wrap gap-3">
+								{post.meta_keywords.split(", ").map((keyword) => (
+									<span
+										key={keyword}
+										className="inline-flex items-center bg-blue-50 text-blue-700 px-4 py-2 rounded-full text-sm font-semibold border border-blue-200"
+									>
+										<Tag className="h-3.5 w-3.5 mr-2" />
+										{keyword}
+									</span>
+								))}
 							</div>
+
+							{/* Main Content */}
+							<article>
+								<div className="bg-white rounded-3xl shadow-2xl border border-gray-100 overflow-hidden">
+									<div className="p-8 lg:p-16">
+										<div
+											className="prose prose-lg lg:prose-xl max-w-none 
+											prose-headings:text-gray-900 prose-headings:font-bold prose-headings:tracking-tight
+											prose-h1:text-4xl prose-h1:mb-6 prose-h1:mt-8
+											prose-h2:text-3xl prose-h2:mb-5 prose-h2:mt-10 prose-h2:border-b prose-h2:border-gray-200 prose-h2:pb-3
+											prose-h3:text-2xl prose-h3:mb-4 prose-h3:mt-8
+											prose-p:text-gray-700 prose-p:leading-relaxed prose-p:mb-6
+											prose-a:text-blue-600 prose-a:font-medium prose-a:no-underline hover:prose-a:underline hover:prose-a:text-blue-700
+											prose-strong:text-gray-900 prose-strong:font-bold
+											prose-ul:my-6 prose-ul:space-y-2
+											prose-ol:my-6 prose-ol:space-y-2
+											prose-li:text-gray-700 prose-li:leading-relaxed
+											prose-code:bg-blue-50 prose-code:text-blue-900 prose-code:px-2 prose-code:py-1 prose-code:rounded prose-code:text-sm prose-code:font-mono prose-code:before:content-[''] prose-code:after:content-['']
+											prose-pre:bg-gray-900 prose-pre:text-gray-100 prose-pre:rounded-xl prose-pre:shadow-lg prose-pre:p-6
+											prose-blockquote:border-l-4 prose-blockquote:border-blue-500 prose-blockquote:bg-blue-50 prose-blockquote:py-4 prose-blockquote:px-6 prose-blockquote:my-8 prose-blockquote:rounded-r-xl prose-blockquote:italic
+											prose-img:rounded-2xl prose-img:shadow-xl prose-img:my-8
+											prose-hr:border-gray-200 prose-hr:my-12
+										"
+										>
+											<ReactMarkdown remarkPlugins={[remarkGfm]}>
+												{post.content}
+											</ReactMarkdown>
+										</div>
+									</div>
+								</div>
+
+								{/* Article Footer - Author & Share */}
+								<div className="mt-12 bg-gradient-to-r from-blue-50 to-indigo-50 rounded-2xl p-8 border border-blue-100">
+									<div className="flex flex-col md:flex-row items-center justify-between gap-6">
+										{/* Author Info */}
+										<div className="flex items-center gap-4">
+											<div className="w-14 h-14 bg-gradient-to-br from-blue-600 to-indigo-600 rounded-full flex items-center justify-center text-white font-bold text-xl shadow-lg">
+												{(post.author_name || "O")[0].toUpperCase()}
+											</div>
+											<div>
+												<p className="text-sm text-gray-600 font-medium">
+													Written by
+												</p>
+												<p className="text-lg font-bold text-gray-900">
+													{post.author_name || "Omniflow.id Team"}
+												</p>
+											</div>
+										</div>
+
+										{/* Share Buttons */}
+										<div className="flex items-center gap-3">
+											<span className="text-sm font-semibold text-gray-700 mr-2">
+												Share:
+											</span>
+											<button
+												type="button"
+												onClick={() => handleShare("facebook")}
+												className="w-10 h-10 bg-blue-600 text-white rounded-full flex items-center justify-center hover:bg-blue-700 transition-all shadow-md hover:shadow-lg transform hover:-translate-y-0.5"
+												aria-label="Share on Facebook"
+											>
+												<Facebook className="h-4 w-4" />
+											</button>
+											<button
+												type="button"
+												onClick={() => handleShare("twitter")}
+												className="w-10 h-10 bg-sky-500 text-white rounded-full flex items-center justify-center hover:bg-sky-600 transition-all shadow-md hover:shadow-lg transform hover:-translate-y-0.5"
+												aria-label="Share on Twitter"
+											>
+												<Twitter className="h-4 w-4" />
+											</button>
+											<button
+												type="button"
+												onClick={() => handleShare("linkedin")}
+												className="w-10 h-10 bg-blue-700 text-white rounded-full flex items-center justify-center hover:bg-blue-800 transition-all shadow-md hover:shadow-lg transform hover:-translate-y-0.5"
+												aria-label="Share on LinkedIn"
+											>
+												<Linkedin className="h-4 w-4" />
+											</button>
+										</div>
+									</div>
+								</div>
+							</article>
 						</div>
 					</div>
 				</section>
@@ -356,7 +401,7 @@ export default function BlogDetailPage() {
 				<section className="py-16 lg:py-24 bg-gradient-to-br from-blue-900 via-blue-800 to-indigo-900 text-white relative overflow-hidden">
 					<div className="absolute inset-0 bg-[url('https://images.unsplash.com/photo-1451187580459-43490279c0fa?auto=format&fit=crop&q=80&w=1920')] bg-cover bg-center opacity-10" />
 					<div className="absolute inset-0 bg-gradient-to-r from-blue-900/90 to-indigo-900/90" />
-					
+
 					<div className="relative z-10 container-enterprise px-6 text-center">
 						<h2 className="text-3xl lg:text-4xl font-bold text-white mb-6">
 							{t("blog.cta.title")}
@@ -372,8 +417,8 @@ export default function BlogDetailPage() {
 							>
 								{t("blog.cta.consultation")}
 							</Link>
-							<Link 
-								to={`${langPrefix}/blog`} 
+							<Link
+								to={`${langPrefix}/blog`}
 								className="border-2 border-white text-white px-8 py-4 rounded-xl font-bold text-lg hover:bg-white hover:text-blue-900 transition-all duration-200 transform hover:-translate-y-1"
 							>
 								{t("blog.cta.readMore")}
