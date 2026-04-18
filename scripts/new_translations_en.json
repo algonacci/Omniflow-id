@@ -1,0 +1,436 @@
+{
+  "ai": {
+    "title": "AI-Powered Business Intelligence Platform",
+    "subtitle": "Leverage the power of artificial intelligence to automate processes, gain predictive insights, and drive smarter business decisions.",
+    "badge": "Trusted by 5,000+ Enterprises",
+    "hero": {
+      "scheduleDemo": "Schedule Demo",
+      "watchOverview": "Watch Overview",
+      "imageAlt": "AI Business Intelligence Dashboard",
+      "stats": { "users": "Active Users", "uptime": "Uptime SLA", "automation": "Automation Rate", "accuracy": "AI Accuracy" },
+      "automationBoost": "Automation Boost"
+    },
+    "features": {
+      "title": "Complete AI Solution for Your Business",
+      "subtitle": "From predictive analytics to intelligent automation — everything you need to build a smarter organization.",
+      "badge": "AI Features",
+      "predictive": { "title": "Predictive Analytics", "description": "Forecast trends, demand, and business outcomes with machine learning models.", "benefits": ["Demand forecasting", "Risk prediction", "Revenue projections"] },
+      "automation": { "title": "Intelligent Automation", "description": "Automate repetitive tasks and workflows with AI-driven decision engines.", "benefits": ["Workflow automation", "Smart routing", "Auto-classification"] },
+      "nlp": { "title": "Natural Language Processing", "description": "Analyze text, extract insights, and understand customer sentiment at scale.", "benefits": ["Sentiment analysis", "Text extraction", "Chatbot integration"] },
+      "vision": { "title": "Computer Vision", "description": "Process images and video for quality control, recognition, and monitoring.", "benefits": ["Image recognition", "Quality inspection", "OCR processing"] },
+      "recommendation": { "title": "Recommendation Engine", "description": "Deliver personalized recommendations to customers and internal users.", "benefits": ["Product recommendations", "Content personalization", "Upsell suggestions"] },
+      "reports": { "title": "AI-Generated Reports", "description": "Auto-generate business reports with narrative summaries powered by AI.", "benefits": ["Auto narratives", "Scheduled reports", "Custom templates"] }
+    },
+    "screenshots": {
+      "title": "AI Excellence", "subtitle": "Intuitive AI dashboards designed for business leaders and data teams.", "badge": "Platform Overview", "exploreFeature": "Explore Feature",
+      "dashboard": { "title": "AI Command Center", "description": "Monitor all AI models, predictions, and automation workflows in one place.", "features": ["Model performance", "Live predictions", "Automation logs", "Alerts"] },
+      "insights": { "title": "Business Insights", "description": "Deep-dive analytics with AI-generated narratives for executive reporting.", "features": ["Trend charts", "Anomaly detection", "KPI tracking", "Narratives"] },
+      "automation": { "title": "Automation Studio", "description": "Design and monitor AI-powered automation workflows visually.", "features": ["Flow designer", "Trigger rules", "Action logs", "Performance"] }
+    },
+    "benefits": {
+      "title": "Why Choose Omniflow AI", "subtitle": "Transform your business with enterprise-grade AI built for scale.", "badge": "Business Benefits",
+      "efficiency": { "title": "Operational Efficiency", "description": "Reduce manual effort and accelerate decision-making with intelligent automation.", "stat": "70%" },
+      "accuracy": { "title": "Prediction Accuracy", "description": "Industry-leading ML models trained on millions of business data points.", "stat": "94%" },
+      "cost": { "title": "Cost Reduction", "description": "Cut operational costs by automating high-volume, repetitive business processes.", "stat": "40%" },
+      "speed": { "title": "Faster Insights", "description": "Get actionable insights in seconds instead of waiting days for manual reports.", "stat": "10x" },
+      "organizations": "Organizations Transformed", "uptime": "Uptime Guarantee", "support": "Expert Support"
+    },
+    "testimonials": {
+      "badge": "Customer Success", "title": "What Our Customers Say", "subtitle": "Organizations worldwide trust Omniflow AI to power their intelligent operations.",
+      "items": [
+        { "quote": "Omniflow AI reduced our manual forecasting time by 80%. Our team now focuses on strategy instead of spreadsheets.", "author": "Budi Santoso", "position": "Chief Data Officer", "company": "TechCorp Indonesia", "rating": 5, "image": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&q=80&w=100" },
+        { "quote": "The recommendation engine boosted our cross-sell revenue by 35% within the first quarter.", "author": "Sari Dewi", "position": "VP of Product", "company": "Nusantara Retail", "rating": 5, "image": "https://images.unsplash.com/photo-1494790108755-2616b612b1c0?auto=format&fit=crop&q=80&w=100" },
+        { "quote": "AI-powered document processing cut our admin workload in half. Incredible ROI from day one.", "author": "Ahmad Fauzi", "position": "Operations Director", "company": "Maju Bersama Group", "rating": 5, "image": "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?auto=format&fit=crop&q=80&w=100" }
+      ],
+      "joinSuccess": { "title": "Ready to Transform with AI?", "description": "Join thousands of organizations using Omniflow AI to build smarter businesses.", "scheduleDemo": "Schedule a Demo" }
+    },
+    "cta": { "badge": "Get Started with AI", "title": "Ready to Unlock the Power of AI?", "subtitle": "Start your AI transformation journey today with a personalized demo.", "scheduleDemo": "Schedule Demo", "contactSales": "Contact Sales", "features": { "trial": "Free 30-day trial", "setup": "Guided onboarding", "support": "24/7 AI expert support" }, "stats": { "users": "Active Enterprise Users", "uptime": "Uptime SLA", "reduction": "Cost Reduction" } }
+  },
+  "bookingEngine": {
+    "title": "Smart Booking & Reservation Management",
+    "subtitle": "Streamline reservations, manage resources, and delight customers with a powerful booking engine built for modern businesses.",
+    "badge": "Trusted by 8,000+ Businesses",
+    "hero": {
+      "scheduleDemo": "Schedule Demo", "watchOverview": "Watch Overview", "imageAlt": "Booking Engine Dashboard",
+      "stats": { "users": "Active Users", "uptime": "Uptime SLA", "bookings": "Monthly Bookings", "satisfaction": "Customer Satisfaction" },
+      "bookingBoost": "Booking Efficiency"
+    },
+    "features": {
+      "title": "Everything You Need to Manage Bookings", "subtitle": "From online reservations to resource management — a complete platform for any booking-based business.", "badge": "Booking Features",
+      "online": { "title": "Online Booking", "description": "Accept reservations 24/7 through a branded booking portal accessible on any device.", "benefits": ["24/7 availability", "Custom branding", "Mobile-friendly"] },
+      "calendar": { "title": "Calendar Management", "description": "Visual calendar to manage availability, bookings, and scheduling conflicts effortlessly.", "benefits": ["Drag-and-drop", "Multi-view", "Conflict detection"] },
+      "resources": { "title": "Resource Allocation", "description": "Assign rooms, equipment, or staff to bookings automatically to maximize utilization.", "benefits": ["Auto-assignment", "Utilization reports", "Capacity planning"] },
+      "payments": { "title": "Payment Processing", "description": "Accept deposits, full payments, and refunds with integrated payment gateway support.", "benefits": ["Deposit collection", "Refund management", "Multi-currency"] },
+      "notifications": { "title": "Automated Notifications", "description": "Send confirmation, reminder, and follow-up messages automatically to customers.", "benefits": ["Email alerts", "SMS reminders", "WhatsApp integration"] },
+      "analytics": { "title": "Booking Analytics", "description": "Track revenue, occupancy rates, and customer patterns with detailed reports.", "benefits": ["Revenue reports", "Occupancy rates", "Customer insights"] }
+    },
+    "screenshots": {
+      "title": "Booking Excellence", "subtitle": "Beautiful, intuitive interfaces for your team and your customers.", "badge": "Platform Overview", "exploreFeature": "Explore Feature",
+      "dashboard": { "title": "Booking Dashboard", "description": "Real-time overview of today's bookings, availability, and revenue.", "features": ["Live bookings", "Revenue metrics", "Availability view", "Quick actions"] },
+      "calendar": { "title": "Smart Calendar", "description": "Manage all reservations with an intuitive drag-and-drop calendar interface.", "features": ["Daily view", "Weekly view", "Resource view", "Conflict alerts"] },
+      "customer": { "title": "Customer Portal", "description": "Self-service booking portal branded to your business for seamless customer experience.", "features": ["Easy booking", "Modification", "Cancellation", "Payment"] }
+    },
+    "benefits": {
+      "title": "Why Choose Omniflow Booking Engine", "subtitle": "Built for hospitality, healthcare, salons, co-working spaces, and any resource-based business.", "badge": "Business Benefits",
+      "efficiency": { "title": "Admin Efficiency", "description": "Eliminate manual booking management and reduce no-shows with automated reminders.", "stat": "60%" },
+      "revenue": { "title": "Revenue Growth", "description": "Maximize occupancy and upsell add-ons to increase revenue per booking.", "stat": "35%" },
+      "satisfaction": { "title": "Customer Satisfaction", "description": "Self-service booking and instant confirmations create a frictionless customer experience.", "stat": "98%" },
+      "noshow": { "title": "No-Show Reduction", "description": "Automated reminders and deposit requirements significantly reduce no-shows.", "stat": "45%" },
+      "organizations": "Active Businesses", "uptime": "Uptime Guarantee", "support": "24/7 Support"
+    },
+    "testimonials": {
+      "badge": "Customer Success", "title": "Trusted by Booking Businesses", "subtitle": "From hotels to clinics, businesses rely on Omniflow Booking Engine to run smoothly.",
+      "items": [
+        { "quote": "Our reservation process went from chaotic spreadsheets to a fully automated system. Game changer.", "author": "Dewi Rahayu", "position": "General Manager", "company": "Villa Harmonia Bali", "rating": 5, "image": "https://images.unsplash.com/photo-1494790108755-2616b612b1c0?auto=format&fit=crop&q=80&w=100" },
+        { "quote": "Patient scheduling has never been easier. No-shows dropped by 40% thanks to automated reminders.", "author": "Dr. Rizal Hakim", "position": "Clinic Director", "company": "Klinik Sehat Prima", "rating": 5, "image": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&q=80&w=100" },
+        { "quote": "We manage 200+ room bookings daily. Omniflow handles it all effortlessly.", "author": "Hendra Kurniawan", "position": "Operations Manager", "company": "CoWork Jakarta", "rating": 5, "image": "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?auto=format&fit=crop&q=80&w=100" }
+      ],
+      "joinSuccess": { "title": "Ready to Modernize Your Booking?", "description": "Join thousands of businesses already using Omniflow Booking Engine.", "scheduleDemo": "Schedule a Demo" }
+    },
+    "cta": { "badge": "Start Booking Smarter", "title": "Ready to Streamline Your Reservations?", "subtitle": "See how Omniflow Booking Engine can transform your reservation management.", "scheduleDemo": "Schedule Demo", "contactSales": "Contact Sales", "features": { "trial": "Free 30-day trial", "setup": "Quick setup", "support": "24/7 support" }, "stats": { "users": "Active Businesses", "uptime": "Uptime SLA", "reduction": "No-Show Reduction" } }
+  },
+  "customers": {
+    "title": "Customer Data Management Platform",
+    "subtitle": "Centralize customer data, build richer profiles, and deliver personalized experiences that drive loyalty and retention.",
+    "badge": "Trusted by 12,000+ Businesses",
+    "hero": {
+      "scheduleDemo": "Schedule Demo", "watchOverview": "Watch Overview", "imageAlt": "Customer Management Dashboard",
+      "stats": { "users": "Active Users", "uptime": "Uptime SLA", "customers": "Customers Managed", "retention": "Retention Rate" },
+      "retentionBoost": "Retention Boost"
+    },
+    "features": {
+      "title": "Complete Customer Management", "subtitle": "Everything you need to know your customers and build lasting relationships.", "badge": "Customer Features",
+      "profiles": { "title": "Customer Profiles", "description": "Build complete 360° customer profiles with contact info, preferences, and history.", "benefits": ["360° view", "Custom fields", "Profile enrichment"] },
+      "segmentation": { "title": "Smart Segmentation", "description": "Group customers by behavior, demographics, or value for targeted campaigns.", "benefits": ["Dynamic segments", "RFM analysis", "Custom criteria"] },
+      "history": { "title": "Purchase History", "description": "Track every transaction, interaction, and touchpoint across the customer lifecycle.", "benefits": ["Full transaction log", "Interaction timeline", "Lifecycle tracking"] },
+      "loyalty": { "title": "Loyalty Programs", "description": "Reward loyal customers with points, tiers, and exclusive benefits automatically.", "benefits": ["Points system", "Tier management", "Reward redemption"] },
+      "communication": { "title": "Communication Logs", "description": "Record all customer communications across email, phone, chat, and social channels.", "benefits": ["Omnichannel log", "Team visibility", "Follow-up tracking"] },
+      "analytics": { "title": "Customer Analytics", "description": "Analyze customer lifetime value, churn risk, and behavior patterns at scale.", "benefits": ["CLV analysis", "Churn prediction", "Cohort analysis"] }
+    },
+    "screenshots": {
+      "title": "Customer Excellence", "subtitle": "Beautiful interfaces to manage and understand your customers.", "badge": "Platform Overview", "exploreFeature": "Explore Feature",
+      "dashboard": { "title": "Customer Overview", "description": "Real-time dashboard showing customer activity, segments, and key metrics.", "features": ["Active customers", "New acquisitions", "Churn alerts", "Revenue"] },
+      "profile": { "title": "Customer Profile", "description": "Deep-dive into individual customer profiles with full history and preferences.", "features": ["Contact details", "Purchase history", "Interactions", "Loyalty points"] },
+      "analytics": { "title": "Customer Analytics", "description": "Comprehensive analytics to understand behavior and optimize customer strategy.", "features": ["CLV trends", "Segment reports", "Cohort analysis", "Churn map"] }
+    },
+    "benefits": {
+      "title": "Why Choose Omniflow Customers", "subtitle": "Build stronger customer relationships and drive sustainable business growth.", "badge": "Business Benefits",
+      "retention": { "title": "Customer Retention", "description": "Identify at-risk customers early and engage them with targeted retention campaigns.", "stat": "25%" },
+      "revenue": { "title": "Revenue per Customer", "description": "Increase average order value with personalized recommendations and loyalty rewards.", "stat": "40%" },
+      "satisfaction": { "title": "Customer Satisfaction", "description": "Deliver consistent, personalized experiences across every touchpoint.", "stat": "97%" },
+      "efficiency": { "title": "Team Efficiency", "description": "Reduce time spent on manual data entry and customer lookups with unified profiles.", "stat": "50%" },
+      "organizations": "Active Businesses", "uptime": "Uptime Guarantee", "support": "24/7 Support"
+    },
+    "testimonials": {
+      "badge": "Customer Success", "title": "Trusted by Customer-Centric Businesses", "subtitle": "Companies across industries rely on Omniflow Customers to know and grow their customer base.",
+      "items": [
+        { "quote": "We finally have a single source of truth for all customer data. Our team collaborates better than ever.", "author": "Indah Permata", "position": "Head of Customer Success", "company": "Belanja.id", "rating": 5, "image": "https://images.unsplash.com/photo-1494790108755-2616b612b1c0?auto=format&fit=crop&q=80&w=100" },
+        { "quote": "Churn prediction alone saved us hundreds of accounts last quarter. Remarkable platform.", "author": "Reza Pratama", "position": "VP Growth", "company": "SaaS Nusantara", "rating": 5, "image": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&q=80&w=100" },
+        { "quote": "Our loyalty program runs on autopilot now. Customers love the rewards and we love the retention.", "author": "Fitriani Sari", "position": "Marketing Director", "company": "Toko Rasa", "rating": 5, "image": "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?auto=format&fit=crop&q=80&w=100" }
+      ],
+      "joinSuccess": { "title": "Ready to Know Your Customers Better?", "description": "Join thousands of businesses building stronger customer relationships with Omniflow.", "scheduleDemo": "Schedule a Demo" }
+    },
+    "cta": { "badge": "Build Better Relationships", "title": "Ready to Transform Customer Management?", "subtitle": "See how Omniflow Customers gives you a complete view of every customer relationship.", "scheduleDemo": "Schedule Demo", "contactSales": "Contact Sales", "features": { "trial": "Free 30-day trial", "setup": "Easy data import", "support": "24/7 support" }, "stats": { "users": "Active Businesses", "uptime": "Uptime SLA", "reduction": "Churn Reduction" } }
+  },
+  "ecf": {
+    "title": "Equity Crowdfunding Platform",
+    "subtitle": "Connect real-world project operators with investors through a transparent, structured, and lifecycle-tracked funding platform.",
+    "badge": "Trusted by 3,000+ Investors & Operators",
+    "hero": {
+      "scheduleDemo": "Schedule Demo", "watchOverview": "Watch Overview", "imageAlt": "Equity Crowdfunding Dashboard",
+      "stats": { "users": "Active Users", "uptime": "Uptime SLA", "funded": "Projects Funded", "distributed": "Profit Distributed" },
+      "fundingBoost": "Funding Success"
+    },
+    "features": {
+      "title": "Complete Crowdfunding Solution", "subtitle": "From project listing to profit distribution — a fully transparent funding lifecycle platform.", "badge": "ECF Features",
+      "projects": { "title": "Project Management", "description": "Create, manage, and update project listings with milestones and financial targets.", "benefits": ["Project lifecycle", "Milestone tracking", "Progress updates"] },
+      "investors": { "title": "Investor Dashboard", "description": "Investors get a transparent view of their portfolio, returns, and project status.", "benefits": ["Portfolio view", "Return tracking", "Real-time updates"] },
+      "distribution": { "title": "Profit Distribution", "description": "Automated profit sharing calculations and distributions to all participating investors.", "benefits": ["Auto calculation", "Batch distribution", "Distribution logs"] },
+      "kyc": { "title": "KYC Verification", "description": "Integrated identity verification to ensure compliance and investor eligibility.", "benefits": ["ID verification", "Compliance checks", "Risk profiling"] },
+      "documents": { "title": "Document Management", "description": "Securely store and share legal documents, agreements, and project reports.", "benefits": ["Secure storage", "E-signatures", "Version control"] },
+      "transactions": { "title": "Transaction Tracking", "description": "Full audit trail of all investment transactions, distributions, and fee records.", "benefits": ["Full audit trail", "Fee tracking", "Export reports"] }
+    },
+    "screenshots": {
+      "title": "ECF Platform Excellence", "subtitle": "Transparent, professional interfaces for operators and investors alike.", "badge": "Platform Overview", "exploreFeature": "Explore Feature",
+      "dashboard": { "title": "Operator Dashboard", "description": "Manage all projects, monitor funding progress, and trigger profit distributions.", "features": ["Funding progress", "Investor count", "Distribution status", "Documents"] },
+      "investor": { "title": "Investor Portal", "description": "Investors browse opportunities, track investments, and monitor returns in real-time.", "features": ["Project browser", "Investment tracker", "Return history", "KYC status"] },
+      "reports": { "title": "Financial Reports", "description": "Detailed financial reporting for auditors, regulators, and stakeholders.", "features": ["P&L summary", "Distribution reports", "Investor ledger", "Tax docs"] }
+    },
+    "benefits": {
+      "title": "Why Choose Omniflow ECF", "subtitle": "The most transparent and structured platform for equity crowdfunding in Southeast Asia.", "badge": "Platform Benefits",
+      "transparency": { "title": "Full Transparency", "description": "Every transaction, update, and distribution is logged and visible to all stakeholders.", "stat": "100%" },
+      "compliance": { "title": "Regulatory Compliance", "description": "Built-in KYC and audit trail features to meet local and international regulations.", "stat": "99%" },
+      "speed": { "title": "Faster Funding", "description": "Digital-first process reduces funding cycle time compared to traditional channels.", "stat": "3x" },
+      "reach": { "title": "Investor Reach", "description": "Connect with a network of verified investors interested in real-world projects.", "stat": "10x" },
+      "organizations": "Projects Funded", "uptime": "Uptime Guarantee", "support": "24/7 Support"
+    },
+    "testimonials": {
+      "badge": "Success Stories", "title": "Operators & Investors Trust Omniflow ECF", "subtitle": "Real businesses raising real capital through transparent crowdfunding.",
+      "items": [
+        { "quote": "We raised our F&B expansion capital in 3 weeks. The transparency gave investors the confidence to commit.", "author": "Andi Wijaya", "position": "Founder & CEO", "company": "Warung Nusantara Chain", "rating": 5, "image": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&q=80&w=100" },
+        { "quote": "As an investor, the profit distribution dashboard gives me complete peace of mind about my returns.", "author": "Lina Hartati", "position": "Private Investor", "company": "Individual Investor", "rating": 5, "image": "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?auto=format&fit=crop&q=80&w=100" },
+        { "quote": "KYC and document management built into the platform saved us months of compliance setup.", "author": "Bagas Nugroho", "position": "Operations Lead", "company": "PropertyFund Indonesia", "rating": 5, "image": "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?auto=format&fit=crop&q=80&w=100" }
+      ],
+      "joinSuccess": { "title": "Ready to Launch Your Crowdfunding Campaign?", "description": "Join operators and investors building transparent funding relationships with Omniflow ECF.", "scheduleDemo": "Schedule a Demo" }
+    },
+    "cta": { "badge": "Start Fundraising", "title": "Ready to Democratize Business Funding?", "subtitle": "See how Omniflow ECF makes structured crowdfunding simple, transparent, and compliant.", "scheduleDemo": "Schedule Demo", "contactSales": "Contact Sales", "features": { "trial": "Free platform setup", "setup": "Compliance-ready", "support": "Dedicated support" }, "stats": { "users": "Active Users", "uptime": "Uptime SLA", "reduction": "Faster Funding" } }
+  },
+  "eventTicketing": {
+    "title": "Event Ticketing & Registration System",
+    "subtitle": "Manage events end-to-end — from ticketing and registration to QR code check-in and post-event analytics.",
+    "badge": "Trusted by 6,000+ Event Organizers",
+    "hero": {
+      "scheduleDemo": "Schedule Demo", "watchOverview": "Watch Overview", "imageAlt": "Event Ticketing Dashboard",
+      "stats": { "users": "Active Users", "uptime": "Uptime SLA", "tickets": "Tickets Processed", "satisfaction": "Attendee Satisfaction" },
+      "checkInBoost": "Check-in Speed"
+    },
+    "features": {
+      "title": "Complete Event Management Solution", "subtitle": "Everything you need to run professional events from registration to post-event reporting.", "badge": "Event Features",
+      "events": { "title": "Event Management", "description": "Create and manage events with flexible ticket types, pricing tiers, and capacity limits.", "benefits": ["Multi-tier tickets", "Capacity management", "Promo codes"] },
+      "checkin": { "title": "QR Code Check-in", "description": "Fast, reliable QR code scanning for contactless attendee check-in at any scale.", "benefits": ["QR scanning", "Offline mode", "Bulk check-in"] },
+      "attendees": { "title": "Attendee Management", "description": "Manage attendee data, dietary preferences, and special requirements effortlessly.", "benefits": ["Attendee profiles", "Badge printing", "Special requirements"] },
+      "payments": { "title": "Payment Processing", "description": "Accept online payments with support for cards, bank transfer, and digital wallets.", "benefits": ["Online payment", "Refund handling", "Revenue tracking"] },
+      "communications": { "title": "Event Communications", "description": "Send invitations, confirmations, reminders, and post-event follow-ups automatically.", "benefits": ["Email invites", "WhatsApp alerts", "Post-event survey"] },
+      "analytics": { "title": "Event Analytics", "description": "Measure event success with attendance rates, revenue, and engagement metrics.", "benefits": ["Attendance reports", "Revenue analytics", "Engagement metrics"] }
+    },
+    "screenshots": {
+      "title": "Event Excellence", "subtitle": "Professional tools for organizers and a smooth experience for attendees.", "badge": "Platform Overview", "exploreFeature": "Explore Feature",
+      "dashboard": { "title": "Event Dashboard", "description": "Monitor registrations, sales, and check-ins in real-time as your event unfolds.", "features": ["Live registrations", "Revenue tracker", "Check-in status", "Capacity"] },
+      "checkin": { "title": "QR Check-in App", "description": "Mobile check-in app for fast, contactless attendee verification at the gate.", "features": ["QR scanning", "Instant validation", "Offline mode", "Stats"] },
+      "reports": { "title": "Post-Event Reports", "description": "Comprehensive event performance reports to inform future event planning.", "features": ["Attendance data", "Revenue report", "Feedback summary", "Export"] }
+    },
+    "benefits": {
+      "title": "Why Choose Omniflow Event Ticketing", "subtitle": "From small workshops to large conferences — built to scale with your events.", "badge": "Event Benefits",
+      "speed": { "title": "Check-in Speed", "description": "Process hundreds of attendees per minute with QR code scanning.", "stat": "5x" },
+      "revenue": { "title": "Revenue Increase", "description": "Maximize ticket revenue with dynamic pricing and upsell capabilities.", "stat": "30%" },
+      "satisfaction": { "title": "Attendee Satisfaction", "description": "Smooth registration and check-in experience that attendees love.", "stat": "98%" },
+      "efficiency": { "title": "Admin Efficiency", "description": "Automate communications, payments, and reporting to save your team hours.", "stat": "65%" },
+      "organizations": "Events Managed", "uptime": "Uptime Guarantee", "support": "24/7 Support"
+    },
+    "testimonials": {
+      "badge": "Organizer Success", "title": "Trusted by Event Organizers", "subtitle": "From corporate conferences to music festivals, organizers trust Omniflow.",
+      "items": [
+        { "quote": "We checked in 2,000 attendees in under 20 minutes. The QR system is incredibly fast and reliable.", "author": "Maya Sari", "position": "Event Director", "company": "TechConf Jakarta", "rating": 5, "image": "https://images.unsplash.com/photo-1494790108755-2616b612b1c0?auto=format&fit=crop&q=80&w=100" },
+        { "quote": "Online ticket sales and automated WhatsApp reminders boosted our attendance rate by 25%.", "author": "Dian Pratiwi", "position": "Event Manager", "company": "Festival Budaya Nasional", "rating": 5, "image": "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?auto=format&fit=crop&q=80&w=100" },
+        { "quote": "Post-event analytics help us plan better every time. Revenue grew 40% after switching to Omniflow.", "author": "Rizki Aditya", "position": "CEO", "company": "EduSeminar Indonesia", "rating": 5, "image": "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?auto=format&fit=crop&q=80&w=100" }
+      ],
+      "joinSuccess": { "title": "Ready to Run Better Events?", "description": "Join thousands of organizers using Omniflow to manage events of all sizes.", "scheduleDemo": "Schedule a Demo" }
+    },
+    "cta": { "badge": "Start Selling Tickets", "title": "Ready to Transform Your Events?", "subtitle": "See how Omniflow Event Ticketing makes it easy to sell tickets, manage attendees, and measure success.", "scheduleDemo": "Schedule Demo", "contactSales": "Contact Sales", "features": { "trial": "Free 30-day trial", "setup": "Launch in minutes", "support": "24/7 support" }, "stats": { "users": "Events Managed", "uptime": "Uptime SLA", "reduction": "Faster Check-in" } }
+  },
+  "habitat": {
+    "title": "Community Environment Management",
+    "subtitle": "Manage residential and community environments with digital tools for facilities, announcements, billing, and resident engagement.",
+    "badge": "Trusted by 2,000+ Communities",
+    "hero": {
+      "scheduleDemo": "Schedule Demo", "watchOverview": "Watch Overview", "imageAlt": "Community Management Dashboard",
+      "stats": { "users": "Active Users", "uptime": "Uptime SLA", "communities": "Communities Managed", "satisfaction": "Resident Satisfaction" },
+      "engagementBoost": "Resident Engagement"
+    },
+    "features": {
+      "title": "Complete Community Management Platform", "subtitle": "Everything a community manager needs to run a smooth, connected residential environment.", "badge": "Habitat Features",
+      "members": { "title": "Member Management", "description": "Manage resident profiles, unit assignments, and household data in one place.", "benefits": ["Resident profiles", "Unit management", "Household data"] },
+      "facilities": { "title": "Facility Booking", "description": "Let residents book shared facilities — pool, gym, meeting rooms — online.", "benefits": ["Online booking", "Availability calendar", "Usage limits"] },
+      "announcements": { "title": "Announcements", "description": "Send community-wide or targeted announcements via app, email, or SMS.", "benefits": ["Push notifications", "Targeted alerts", "Broadcast history"] },
+      "billing": { "title": "Bills & Payments", "description": "Generate and collect maintenance fees, utility bills, and facility charges digitally.", "benefits": ["Auto billing", "Online payment", "Payment history"] },
+      "visitors": { "title": "Visitor Management", "description": "Pre-register visitors and log all gate entries and exits for security.", "benefits": ["Visitor pre-registration", "Gate log", "Vehicle tracking"] },
+      "reports": { "title": "Community Reports", "description": "Track financial health, facility usage, and resident satisfaction with reports.", "benefits": ["Financial reports", "Usage analytics", "Satisfaction surveys"] }
+    },
+    "screenshots": {
+      "title": "Habitat Excellence", "subtitle": "Modern tools for modern community management.", "badge": "Platform Overview", "exploreFeature": "Explore Feature",
+      "dashboard": { "title": "Management Dashboard", "description": "Overview of community health — payments, facilities, announcements, and visitors.", "features": ["Payment status", "Facility usage", "Pending issues", "Announcements"] },
+      "resident": { "title": "Resident App", "description": "Mobile-friendly portal for residents to pay bills, book facilities, and stay updated.", "features": ["Bill payment", "Facility booking", "Announcements", "Visitor pass"] },
+      "reports": { "title": "Community Reports", "description": "Comprehensive reports on financial performance and community engagement.", "features": ["Revenue report", "Facility usage", "Visitor logs", "Satisfaction"] }
+    },
+    "benefits": {
+      "title": "Why Choose Omniflow Habitat", "subtitle": "Modern community management for apartments, condominiums, housing estates, and co-living spaces.", "badge": "Community Benefits",
+      "collection": { "title": "Bill Collection Rate", "description": "Digital billing and automated reminders dramatically improve on-time payment rates.", "stat": "95%" },
+      "satisfaction": { "title": "Resident Satisfaction", "description": "Self-service tools and fast communication channels keep residents happy.", "stat": "92%" },
+      "efficiency": { "title": "Admin Efficiency", "description": "Eliminate paper-based processes and reduce management admin workload significantly.", "stat": "70%" },
+      "security": { "title": "Security Compliance", "description": "Digital visitor logs and gate management improve community security standards.", "stat": "100%" },
+      "organizations": "Communities Managed", "uptime": "Uptime Guarantee", "support": "24/7 Support"
+    },
+    "testimonials": {
+      "badge": "Community Success", "title": "Communities Love Omniflow Habitat", "subtitle": "Residents and managers alike enjoy the convenience of digital community management.",
+      "items": [
+        { "quote": "Bill collection improved from 65% to 96% after switching to digital billing. Residents pay on time now.", "author": "Pak Surya", "position": "Estate Manager", "company": "Perumahan Griya Asri", "rating": 5, "image": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&q=80&w=100" },
+        { "quote": "As a resident, I love booking facilities from my phone without going to the management office.", "author": "Nita Anggraini", "position": "Resident", "company": "Apartemen Green Park", "rating": 5, "image": "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?auto=format&fit=crop&q=80&w=100" },
+        { "quote": "Visitor management alone has made our security team 3x more efficient. Great system.", "author": "Bp. Harianto", "position": "Security Coordinator", "company": "Cluster Harmoni", "rating": 5, "image": "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?auto=format&fit=crop&q=80&w=100" }
+      ],
+      "joinSuccess": { "title": "Ready to Modernize Your Community?", "description": "Join thousands of communities already running on Omniflow Habitat.", "scheduleDemo": "Schedule a Demo" }
+    },
+    "cta": { "badge": "Manage Smarter", "title": "Ready to Digitize Your Community?", "subtitle": "See how Omniflow Habitat transforms community management into a seamless digital experience.", "scheduleDemo": "Schedule Demo", "contactSales": "Contact Sales", "features": { "trial": "Free 30-day trial", "setup": "Easy onboarding", "support": "Dedicated support" }, "stats": { "users": "Communities Active", "uptime": "Uptime SLA", "reduction": "Admin Time Saved" } }
+  },
+  "helpdesk": {
+    "title": "Helpdesk & Customer Support System",
+    "subtitle": "Deliver exceptional customer support with a powerful helpdesk platform — from ticket management to SLA tracking and knowledge base.",
+    "badge": "Trusted by 7,000+ Support Teams",
+    "hero": {
+      "scheduleDemo": "Schedule Demo", "watchOverview": "Watch Overview", "imageAlt": "Helpdesk Dashboard",
+      "stats": { "users": "Active Users", "uptime": "Uptime SLA", "tickets": "Tickets Resolved", "satisfaction": "Customer Satisfaction" },
+      "resolutionBoost": "Resolution Speed"
+    },
+    "features": {
+      "title": "Complete Support Platform", "subtitle": "Everything your support team needs to deliver fast, consistent, and measurable customer service.", "badge": "Helpdesk Features",
+      "tickets": { "title": "Ticket Management", "description": "Centralize all customer requests with smart routing, prioritization, and status tracking.", "benefits": ["Smart routing", "Priority queues", "Status tracking"] },
+      "multichannel": { "title": "Multi-channel Support", "description": "Handle tickets from email, live chat, WhatsApp, and web forms in one unified inbox.", "benefits": ["Unified inbox", "Email integration", "WhatsApp support"] },
+      "sla": { "title": "SLA Management", "description": "Define response and resolution SLAs with automated escalations and alerts.", "benefits": ["SLA policies", "Auto escalation", "Breach alerts"] },
+      "knowledge": { "title": "Knowledge Base", "description": "Build a searchable self-service knowledge base to deflect common support requests.", "benefits": ["Article editor", "Search indexing", "Self-service portal"] },
+      "collaboration": { "title": "Team Collaboration", "description": "Internal notes, ticket assignment, and real-time collaboration tools for support teams.", "benefits": ["Internal notes", "Team assignments", "Live collaboration"] },
+      "reports": { "title": "Support Analytics", "description": "Track team performance, resolution rates, and customer satisfaction scores.", "benefits": ["CSAT scores", "Resolution time", "Agent performance"] }
+    },
+    "screenshots": {
+      "title": "Helpdesk Excellence", "subtitle": "Clean, efficient interfaces that help support teams do their best work.", "badge": "Platform Overview", "exploreFeature": "Explore Feature",
+      "dashboard": { "title": "Support Dashboard", "description": "Real-time view of open tickets, team workload, SLA status, and key metrics.", "features": ["Open tickets", "SLA status", "Agent workload", "CSAT"] },
+      "inbox": { "title": "Unified Inbox", "description": "All customer messages from every channel in one organized, prioritized inbox.", "features": ["Email", "Live chat", "WhatsApp", "Web form"] },
+      "analytics": { "title": "Support Analytics", "description": "Comprehensive reporting to identify bottlenecks and optimize team performance.", "features": ["Volume trends", "Resolution time", "Agent stats", "CSAT trends"] }
+    },
+    "benefits": {
+      "title": "Why Choose Omniflow Helpdesk", "subtitle": "Reduce response times, improve CSAT scores, and scale your support operations effortlessly.", "badge": "Support Benefits",
+      "speed": { "title": "Faster Resolution", "description": "Smart routing and knowledge base deflection cut average resolution times significantly.", "stat": "60%" },
+      "satisfaction": { "title": "Customer Satisfaction", "description": "Consistent, fast support across all channels drives industry-leading CSAT scores.", "stat": "96%" },
+      "deflection": { "title": "Ticket Deflection", "description": "Self-service knowledge base reduces inbound ticket volume automatically.", "stat": "40%" },
+      "efficiency": { "title": "Team Efficiency", "description": "Automation and smart workflows help agents handle more tickets in less time.", "stat": "55%" },
+      "organizations": "Support Teams", "uptime": "Uptime Guarantee", "support": "24/7 Support"
+    },
+    "testimonials": {
+      "badge": "Support Success", "title": "Support Teams Love Omniflow Helpdesk", "subtitle": "From startups to enterprises, support teams trust Omniflow to manage customer relationships.",
+      "items": [
+        { "quote": "Our average response time dropped from 4 hours to under 30 minutes after implementing Omniflow Helpdesk.", "author": "Rina Kurniasih", "position": "Head of Customer Support", "company": "Logistik Cepat", "rating": 5, "image": "https://images.unsplash.com/photo-1494790108755-2616b612b1c0?auto=format&fit=crop&q=80&w=100" },
+        { "quote": "The knowledge base alone deflected 35% of our tickets. Our team can now focus on complex cases.", "author": "Tono Susilo", "position": "Support Manager", "company": "Fintech Andalan", "rating": 5, "image": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&q=80&w=100" },
+        { "quote": "SLA management and escalation alerts ensure we never miss a critical customer commitment.", "author": "Siti Nurhaliza", "position": "VP Customer Experience", "company": "E-Commerce Maju", "rating": 5, "image": "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?auto=format&fit=crop&q=80&w=100" }
+      ],
+      "joinSuccess": { "title": "Ready to Deliver World-Class Support?", "description": "Join thousands of support teams using Omniflow Helpdesk to delight customers.", "scheduleDemo": "Schedule a Demo" }
+    },
+    "cta": { "badge": "Upgrade Your Support", "title": "Ready to Transform Customer Support?", "subtitle": "See how Omniflow Helpdesk helps your team resolve issues faster and keep customers happy.", "scheduleDemo": "Schedule Demo", "contactSales": "Contact Sales", "features": { "trial": "Free 30-day trial", "setup": "Quick setup", "support": "24/7 support" }, "stats": { "users": "Support Teams", "uptime": "Uptime SLA", "reduction": "Faster Resolution" } }
+  },
+  "profilex": {
+    "title": "Psychological Assessment Platform",
+    "subtitle": "Run MBTI, DISC, and custom psychological assessments with auto-grading, versioned configurations, and team analytics built for HR and talent teams.",
+    "badge": "Trusted by 4,000+ HR Teams",
+    "hero": {
+      "scheduleDemo": "Schedule Demo", "watchOverview": "Watch Overview", "imageAlt": "Psychological Assessment Dashboard",
+      "stats": { "users": "Active Users", "uptime": "Uptime SLA", "assessments": "Assessments Completed", "accuracy": "Scoring Accuracy" },
+      "assessmentBoost": "Assessment Efficiency"
+    },
+    "features": {
+      "title": "Complete Assessment Engine", "subtitle": "A flexible, extensible platform for any psychological or competency assessment — without rebuilding the engine every time.", "badge": "Profilex Features",
+      "mbti": { "title": "MBTI Assessment", "description": "Run standardized Myers-Briggs Type Indicator assessments with instant auto-scoring.", "benefits": ["Auto-scoring", "Type report", "Team distribution"] },
+      "disc": { "title": "DISC Assessment", "description": "Administer DISC personality assessments with detailed behavioral style reports.", "benefits": ["Auto-scoring", "Style analysis", "Team dynamics"] },
+      "custom": { "title": "Custom Assessments", "description": "Build custom questionnaires with flexible scoring rules and interpretation logic.", "benefits": ["Custom questions", "Flexible scoring", "Custom reports"] },
+      "grading": { "title": "Auto-grading Engine", "description": "Automated scoring and interpretation for all assessment types — zero manual calculation.", "benefits": ["Instant results", "Norm-based scoring", "Version management"] },
+      "analytics": { "title": "Team Analytics", "description": "Analyze team composition, personality distribution, and culture fit across departments.", "benefits": ["Team heatmaps", "Culture analysis", "Hiring insights"] },
+      "reports": { "title": "Assessment Reports", "description": "Generate individual and group assessment reports in PDF format automatically.", "benefits": ["Individual report", "Group report", "PDF export"] }
+    },
+    "screenshots": {
+      "title": "Profilex Excellence", "subtitle": "Clean, science-backed assessment interfaces for HR professionals and participants.", "badge": "Platform Overview", "exploreFeature": "Explore Feature",
+      "dashboard": { "title": "HR Dashboard", "description": "Overview of all assessments, completion rates, and team personality distribution.", "features": ["Completion rates", "Type distribution", "Pending assessments", "Reports"] },
+      "assessment": { "title": "Assessment Interface", "description": "Clean, distraction-free assessment experience for participants on any device.", "features": ["Mobile-friendly", "Progress indicator", "Auto-save", "Instant results"] },
+      "reports": { "title": "Individual Reports", "description": "Detailed personality reports with behavioral insights and development recommendations.", "features": ["Type overview", "Strengths", "Development areas", "Team fit"] }
+    },
+    "benefits": {
+      "title": "Why Choose Omniflow Profilex", "subtitle": "The assessment platform that grows with your organization — from startup hiring to enterprise talent development.", "badge": "HR Benefits",
+      "speed": { "title": "Assessment Speed", "description": "Complete and score assessments in minutes, not days, with automated processing.", "stat": "10x" },
+      "accuracy": { "title": "Scoring Accuracy", "description": "Norm-based auto-scoring eliminates human error and ensures consistent results.", "stat": "100%" },
+      "insights": { "title": "Hiring Quality", "description": "Data-driven personality insights help HR teams make better hiring and placement decisions.", "stat": "45%" },
+      "cost": { "title": "Cost Reduction", "description": "Eliminate manual scoring, paper forms, and external assessment vendors entirely.", "stat": "70%" },
+      "organizations": "HR Teams Active", "uptime": "Uptime Guarantee", "support": "24/7 Support"
+    },
+    "testimonials": {
+      "badge": "HR Success", "title": "HR Teams Love Omniflow Profilex", "subtitle": "Companies use Profilex to hire smarter, build better teams, and develop talent.",
+      "items": [
+        { "quote": "We now run MBTI and DISC for every new hire. Results are instant and the reports are beautifully detailed.", "author": "Wulandari Putri", "position": "HR Director", "company": "Konsultan Maju", "rating": 5, "image": "https://images.unsplash.com/photo-1494790108755-2616b612b1c0?auto=format&fit=crop&q=80&w=100" },
+        { "quote": "Team personality heatmaps helped us identify cultural gaps in our product team. Very insightful.", "author": "Yusuf Ramadhan", "position": "People & Culture Lead", "company": "Startup Digital", "rating": 5, "image": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&q=80&w=100" },
+        { "quote": "Replacing external assessment vendors with Profilex saved us 70% annually. Highly recommended.", "author": "Kartika Dewi", "position": "Talent Manager", "company": "Grup Industri Indonesia", "rating": 5, "image": "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?auto=format&fit=crop&q=80&w=100" }
+      ],
+      "joinSuccess": { "title": "Ready to Assess Smarter?", "description": "Join thousands of HR teams running science-backed assessments with Omniflow Profilex.", "scheduleDemo": "Schedule a Demo" }
+    },
+    "cta": { "badge": "Assess Your Team", "title": "Ready to Build a Data-Driven HR Practice?", "subtitle": "See how Omniflow Profilex makes running MBTI, DISC, and custom assessments effortless.", "scheduleDemo": "Schedule Demo", "contactSales": "Contact Sales", "features": { "trial": "Free 30-day trial", "setup": "Assessments ready in minutes", "support": "24/7 support" }, "stats": { "users": "HR Teams", "uptime": "Uptime SLA", "reduction": "Cost Savings" } }
+  },
+  "propertyManagement": {
+    "title": "Property Management System",
+    "subtitle": "Manage properties, tenants, leases, and maintenance requests in one integrated platform designed for property managers and landlords.",
+    "badge": "Trusted by 3,500+ Property Managers",
+    "hero": {
+      "scheduleDemo": "Schedule Demo", "watchOverview": "Watch Overview", "imageAlt": "Property Management Dashboard",
+      "stats": { "users": "Active Users", "uptime": "Uptime SLA", "units": "Units Managed", "collection": "Rent Collection Rate" },
+      "collectionBoost": "Collection Rate"
+    },
+    "features": {
+      "title": "Complete Property Management", "subtitle": "From unit listings to tenant management and maintenance — everything in one place.", "badge": "PMS Features",
+      "listings": { "title": "Property Listings", "description": "Manage your entire property portfolio with detailed unit profiles and availability tracking.", "benefits": ["Unit profiles", "Availability calendar", "Photo management"] },
+      "tenants": { "title": "Tenant Management", "description": "Maintain complete tenant records, screening history, and communication logs.", "benefits": ["Tenant profiles", "Screening records", "Communication log"] },
+      "leases": { "title": "Lease Management", "description": "Create, track, and renew leases digitally with automated expiry alerts.", "benefits": ["Digital leases", "Auto-renewal alerts", "E-signatures"] },
+      "maintenance": { "title": "Maintenance Requests", "description": "Track and resolve maintenance requests with vendor management and cost tracking.", "benefits": ["Request tracking", "Vendor assignment", "Cost records"] },
+      "payments": { "title": "Rent Collection", "description": "Collect rent online, automate reminders, and track payment status across all units.", "benefits": ["Online payment", "Auto reminders", "Arrears tracking"] },
+      "reports": { "title": "Financial Reports", "description": "Track revenue, occupancy rates, and expenses across your entire property portfolio.", "benefits": ["Revenue reports", "Occupancy analytics", "Expense tracking"] }
+    },
+    "screenshots": {
+      "title": "PMS Excellence", "subtitle": "Professional tools for modern property management operations.", "badge": "Platform Overview", "exploreFeature": "Explore Feature",
+      "dashboard": { "title": "Portfolio Dashboard", "description": "Bird's eye view of all properties, occupancy, rent collection, and maintenance.", "features": ["Occupancy rate", "Rent due", "Maintenance queue", "Revenue"] },
+      "tenant": { "title": "Tenant Portal", "description": "Self-service tenant portal for rent payment, maintenance requests, and documents.", "features": ["Pay rent", "Submit requests", "View documents", "Message manager"] },
+      "reports": { "title": "Financial Reports", "description": "Comprehensive property financial reports for owners and managers.", "features": ["Revenue report", "Expense log", "Occupancy trends", "Tax docs"] }
+    },
+    "benefits": {
+      "title": "Why Choose Omniflow PMS", "subtitle": "Modern property management software that saves time, improves collections, and scales with your portfolio.", "badge": "Property Benefits",
+      "collection": { "title": "Rent Collection", "description": "Digital payments and automated reminders drive higher on-time rent collection rates.", "stat": "98%" },
+      "efficiency": { "title": "Admin Efficiency", "description": "Automate lease tracking, reminders, and reporting to free up management time.", "stat": "65%" },
+      "occupancy": { "title": "Occupancy Rate", "description": "Better unit visibility and faster tenant screening keeps occupancy rates high.", "stat": "95%" },
+      "satisfaction": { "title": "Tenant Satisfaction", "description": "Self-service portals and fast maintenance resolution improve tenant retention.", "stat": "94%" },
+      "organizations": "Properties Managed", "uptime": "Uptime Guarantee", "support": "24/7 Support"
+    },
+    "testimonials": {
+      "badge": "Property Success", "title": "Property Managers Trust Omniflow PMS", "subtitle": "From residential to commercial properties, managers rely on Omniflow to run efficiently.",
+      "items": [
+        { "quote": "Managing 200+ units used to require 3 full-time admin staff. Now 1 person handles it all with Omniflow.", "author": "Bp. Kusuma", "position": "Property Manager", "company": "Properti Sejahtera", "rating": 5, "image": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&q=80&w=100" },
+        { "quote": "Rent collection rate went from 78% to 97% after implementing online payments and auto reminders.", "author": "Ibu Lastri", "position": "Landlord", "company": "Kost Harmoni", "rating": 5, "image": "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?auto=format&fit=crop&q=80&w=100" },
+        { "quote": "Maintenance request tracking gave us full visibility. Tenants see updates in real-time now.", "author": "Farid Setiawan", "position": "Facilities Director", "company": "Gedung Komersial Utama", "rating": 5, "image": "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?auto=format&fit=crop&q=80&w=100" }
+      ],
+      "joinSuccess": { "title": "Ready to Modernize Property Management?", "description": "Join thousands of property managers running efficiently on Omniflow PMS.", "scheduleDemo": "Schedule a Demo" }
+    },
+    "cta": { "badge": "Manage Properties Smarter", "title": "Ready to Transform Your Property Operations?", "subtitle": "See how Omniflow PMS streamlines tenant management, rent collection, and maintenance.", "scheduleDemo": "Schedule Demo", "contactSales": "Contact Sales", "features": { "trial": "Free 30-day trial", "setup": "Quick data import", "support": "24/7 support" }, "stats": { "users": "Units Managed", "uptime": "Uptime SLA", "reduction": "Admin Time Saved" } }
+  },
+  "simklinik": {
+    "title": "Clinic Information Management System",
+    "subtitle": "Digitize your clinic or hospital operations with integrated patient management, medical records, pharmacy, and billing — all in one system.",
+    "badge": "Trusted by 1,500+ Healthcare Providers",
+    "hero": {
+      "scheduleDemo": "Schedule Demo", "watchOverview": "Watch Overview", "imageAlt": "Clinic Management Dashboard",
+      "stats": { "users": "Active Users", "uptime": "Uptime SLA", "patients": "Patients Managed", "satisfaction": "Patient Satisfaction" },
+      "efficiencyBoost": "Operational Efficiency"
+    },
+    "features": {
+      "title": "Complete Clinic Management", "subtitle": "From patient registration to medical records and billing — a fully integrated clinic information system.", "badge": "SIMKlinik Features",
+      "patients": { "title": "Patient Management", "description": "Register and manage patient records with complete medical history and contact details.", "benefits": ["Patient registry", "Medical history", "Contact management"] },
+      "appointments": { "title": "Appointment Scheduling", "description": "Book, manage, and remind patients of appointments across multiple doctors and departments.", "benefits": ["Online booking", "Doctor scheduling", "Automated reminders"] },
+      "records": { "title": "Medical Records", "description": "Digital EMR with SOAP notes, diagnoses, prescriptions, and lab results.", "benefits": ["SOAP notes", "Diagnosis history", "Lab results"] },
+      "pharmacy": { "title": "Pharmacy Module", "description": "Manage drug inventory, dispense prescriptions, and track medication usage.", "benefits": ["Drug inventory", "Prescription dispensing", "Stock alerts"] },
+      "billing": { "title": "Billing & Payments", "description": "Generate invoices, process insurance claims, and collect payments digitally.", "benefits": ["Invoice generation", "Insurance claims", "Payment tracking"] },
+      "doctors": { "title": "Doctor Management", "description": "Manage doctor profiles, specializations, schedules, and patient assignments.", "benefits": ["Doctor profiles", "Scheduling", "Performance reports"] }
+    },
+    "screenshots": {
+      "title": "SIMKlinik Excellence", "subtitle": "Modern clinical interfaces designed for healthcare efficiency.", "badge": "Platform Overview", "exploreFeature": "Explore Feature",
+      "dashboard": { "title": "Clinic Dashboard", "description": "Real-time clinic overview — today's appointments, waiting patients, and billing status.", "features": ["Daily appointments", "Queue management", "Billing status", "Doctor schedule"] },
+      "emr": { "title": "Electronic Medical Records", "description": "Clean EMR interface for doctors to record diagnoses, prescriptions, and notes.", "features": ["SOAP notes", "Diagnosis ICD-10", "e-Prescription", "Lab orders"] },
+      "reports": { "title": "Clinical Reports", "description": "Comprehensive reports on patient visits, revenue, and clinical performance.", "features": ["Visit reports", "Revenue analytics", "Doctor performance", "Drug usage"] }
+    },
+    "benefits": {
+      "title": "Why Choose Omniflow SIMKlinik", "subtitle": "Built for Indonesian healthcare providers — clinics, hospitals, and specialty practices.", "badge": "Healthcare Benefits",
+      "efficiency": { "title": "Clinical Efficiency", "description": "Digital records and automated workflows reduce administrative burden significantly.", "stat": "60%" },
+      "accuracy": { "title": "Record Accuracy", "description": "Eliminate paper records and transcription errors with digital EMR.", "stat": "99%" },
+      "satisfaction": { "title": "Patient Satisfaction", "description": "Shorter wait times and better communication improve the patient experience.", "stat": "93%" },
+      "revenue": { "title": "Revenue Optimization", "description": "Faster billing and insurance claim processing reduces revenue leakage.", "stat": "25%" },
+      "organizations": "Healthcare Providers", "uptime": "Uptime Guarantee", "support": "24/7 Support"
+    },
+    "testimonials": {
+      "badge": "Healthcare Success", "title": "Healthcare Providers Trust SIMKlinik", "subtitle": "Clinics and hospitals across Indonesia rely on Omniflow SIMKlinik for daily operations.",
+      "items": [
+        { "quote": "Patient waiting time dropped by 50% after implementing the digital queue and appointment system.", "author": "dr. Bambang Suryadi", "position": "Medical Director", "company": "Klinik Sehat Bersama", "rating": 5, "image": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&q=80&w=100" },
+        { "quote": "We eliminated paper records entirely. Doctors can access complete patient history in seconds.", "author": "dr. Aisyah Putri", "position": "Chief of Medicine", "company": "RS Harapan Mulia", "rating": 5, "image": "https://images.unsplash.com/photo-1494790108755-2616b612b1c0?auto=format&fit=crop&q=80&w=100" },
+        { "quote": "Pharmacy inventory management alone saved us from stock-outs and overstock simultaneously.", "author": "Apoteker Sari", "position": "Head Pharmacist", "company": "Apotek Sehat Prima", "rating": 5, "image": "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?auto=format&fit=crop&q=80&w=100" }
+      ],
+      "joinSuccess": { "title": "Ready to Digitize Your Clinic?", "description": "Join hundreds of healthcare providers running on Omniflow SIMKlinik.", "scheduleDemo": "Schedule a Demo" }
+    },
+    "cta": { "badge": "Digitize Your Clinic", "title": "Ready to Modernize Your Healthcare Operations?", "subtitle": "See how Omniflow SIMKlinik transforms clinical workflows and improves patient care.", "scheduleDemo": "Schedule Demo", "contactSales": "Contact Sales", "features": { "trial": "Free 30-day trial", "setup": "Guided implementation", "support": "24/7 support" }, "stats": { "users": "Healthcare Providers", "uptime": "Uptime SLA", "reduction": "Admin Time Saved" } }
+  }
+}

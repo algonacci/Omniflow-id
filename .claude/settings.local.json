@@ -1,0 +1,9 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(rtk ls *)",
+      "Bash(node -e \"const d=require\\('./src/i18n/locales/en.json'\\); console.log\\(JSON.stringify\\(d.inventory, null, 2\\)\\);\")",
+      "Bash(node -e \"const d=require\\('./src/i18n/locales/en.json'\\); console.log\\(JSON.stringify\\(d.navigation, null, 2\\)\\);\")"
+    ]
+  }
+}
