@@ -1,26 +1,8 @@
-import {
-	BarChart3,
-	ChevronDown,
-	Contact,
-	CreditCard,
-	GraduationCap,
-	Headset,
-	Link2,
-	Menu,
-	ReceiptText,
-	ShoppingBag,
-	Store,
-	Users,
-	WalletCards,
-	X,
-	TrendingUp,
-	ShoppingCart,
-	Package,
-	Boxes,
-} from "lucide-react";
+import { ArrowRight, ChevronDown, Menu, X } from "lucide-react";
 import React from "react";
 import { useTranslation } from "react-i18next";
 import { Link, useLocation } from "react-router-dom";
+import { moduleCategories, type ModuleCategoryKey } from "../lib/modules";
 import LanguageSwitcher from "./LanguageSwitcher";
 
 export default function Header() {
@@ -28,9 +10,9 @@ export default function Header() {
 	const location = useLocation();
 	const [isMenuOpen, setIsMenuOpen] = React.useState(false);
 	const [isModulesOpen, setIsModulesOpen] = React.useState(false);
-	const [isMobileModulesOpen, setIsMobileModulesOpen] = React.useState(false);
+	const [activeCategory, setActiveCategory] = React.useState<ModuleCategoryKey>("core");
+	const [mobileOpenCategory, setMobileOpenCategory] = React.useState<ModuleCategoryKey | null>(null);
 
-	// Get current language from URL
 	const getCurrentLang = () => {
 		const match = location.pathname.match(/^\/(en|id|zh)/);
 		return match ? match[1] : "en";
@@ -39,113 +21,11 @@ export default function Header() {
 	const currentLang = getCurrentLang();
 	const langPrefix = `/${currentLang}`;
 	const currentPath = location.pathname;
-	const modules = [
-		{
-			key: "hris",
-			href: `${langPrefix}/modules/hris`,
-			icon: Users,
-			title: t("navigation.hris"),
-			description: t("modules.hris.description"),
-		},
-		{
-			key: "ecommerce",
-			href: `${langPrefix}/modules/ecommerce`,
-			icon: Store,
-			title: t("navigation.ecommerce"),
-			description: t("modulesPage.modules.ecommerce"),
-		},
-		{
-			key: "xrm",
-			href: `${langPrefix}/modules/xrm`,
-			icon: Contact,
-			title: t("navigation.xrm"),
-			description: t("modulesPage.modules.xrm"),
-		},
-		{
-			key: "accounting",
-			href: `${langPrefix}/modules/accounting`,
-			icon: ReceiptText,
-			title: t("navigation.accounting"),
-			description: t("modules.accounting.description"),
-		},
-		{
-			key: "analytics",
-			href: `${langPrefix}/modules/analytics`,
-			icon: BarChart3,
-			title: t("navigation.analytics"),
-			description: t("modules.analytics.description"),
-		},
-		{
-			key: "urls",
-			href: `${langPrefix}/modules/urls`,
-			icon: Link2,
-			title: t("navigation.urls"),
-			description: t("modules.urls.description"),
-		},
-		{
-			key: "bizzcard",
-			href: `${langPrefix}/modules/bizzcard`,
-			icon: CreditCard,
-			title: t("navigation.bizzcard"),
-			description: t("modules.bizzcard.description"),
-		},
-		{
-			key: "pos",
-			href: `${langPrefix}/modules/pos`,
-			icon: ShoppingBag,
-			title: t("navigation.pos"),
-			description: t("modules.pos.description"),
-		},
-		{
-			key: "lms",
-			href: `${langPrefix}/modules/lms`,
-			icon: GraduationCap,
-			title: t("navigation.lms"),
-			description: t("modules.lms.description"),
-		},
-		{
-			key: "telemarketing",
-			href: `${langPrefix}/modules/telemarketing`,
-			icon: Headset,
-			title: t("navigation.telemarketing"),
-			description: t("modulesPage.modules.telemarketing"),
-		},
-		{
-			key: "payment-gateway",
-			href: `${langPrefix}/modules/payment-gateway`,
-			icon: WalletCards,
-			title: t("navigation.paymentGateway"),
-			description: t("modulesPage.modules.payment-gateway"),
-		},
-		{
-			key: "sales",
-			href: `${langPrefix}/modules/sales`,
-			icon: TrendingUp,
-			title: t("navigation.sales"),
-			description: t("modules.sales.description"),
-		},
-		{
-			key: "purchasing",
-			href: `${langPrefix}/modules/purchasing`,
-			icon: ShoppingCart,
-			title: t("navigation.purchasing"),
-			description: t("modulesPage.modules.purchasing"),
-		},
-		{
-			key: "assetManagement",
-			href: `${langPrefix}/modules/asset-management`,
-			icon: Package,
-			title: t("navigation.assetManagement"),
-			description: t("modulesPage.modules.assetManagement"),
-		},
-		{
-			key: "inventory",
-			href: `${langPrefix}/modules/inventory`,
-			icon: Boxes,
-			title: t("navigation.inventory"),
-			description: t("modules.inventory.description"),
-		},
-	];
+
+	const buildHref = (slug: string) => `${langPrefix}/modules/${slug}`;
+
+	const activeCategoryDef =
+		moduleCategories.find((c) => c.key === activeCategory) ?? moduleCategories[0];
 
 	const isLinkActive = (path: string, exact = false) => {
 		if (exact) {
@@ -159,13 +39,10 @@ export default function Header() {
 		return `${baseClass} ${isLinkActive(path, exact) ? "active" : ""}`;
 	};
 
-	const getModuleLinkClass = (path: string, isMobile = false) =>
-		`block transition-all duration-300 ${isMobile ? "rounded-xl px-3.5 py-2.5 text-lg " : "rounded-2xl p-4 "}${currentPath === path ? "bg-blue-50 text-blue-700 shadow-sm ring-1 ring-blue-100" : "text-slate-700 hover:bg-slate-50 hover:text-blue-700"}`;
-
 	React.useEffect(() => {
 		setIsModulesOpen(false);
 		setIsMenuOpen(false);
-		setIsMobileModulesOpen(false);
+		setMobileOpenCategory(null);
 	}, [location.pathname]);
 
 	React.useEffect(() => {
@@ -217,58 +94,119 @@ export default function Header() {
 								/>
 							</button>
 							<div
-								className={`absolute left-1/2 top-full w-[min(96vw,1180px)] -translate-x-1/2 pt-4 transition-all duration-200 ${isModulesOpen ? "visible opacity-100" : "invisible opacity-0"}`}
+								className={`absolute left-1/2 top-full w-[min(96vw,1240px)] -translate-x-1/2 pt-4 transition-all duration-200 ${isModulesOpen ? "visible opacity-100" : "invisible opacity-0"}`}
 							>
 								<div className="overflow-hidden rounded-[28px] border border-slate-200/80 bg-white shadow-enterprise-lg">
-									<div className="grid grid-cols-[320px_minmax(0,1fr)]">
-										<div className="relative overflow-hidden bg-gradient-to-br from-slate-950 via-blue-900 to-blue-700 p-8 text-white">
-											<div className="absolute -left-10 top-10 h-32 w-32 rounded-full bg-white/10 blur-2xl" />
-											<div className="absolute bottom-0 right-0 h-24 w-24 rounded-full bg-cyan-300/20 blur-2xl" />
-											<div className="relative">
-												<p className="text-xs font-semibold uppercase tracking-[0.24em] text-blue-100/80">
+									<div className="grid grid-cols-[300px_minmax(0,1fr)]">
+										{/* Sidebar: category tabs */}
+										<div className="relative flex flex-col overflow-hidden bg-gradient-to-br from-slate-950 via-blue-900 to-blue-700 p-6 text-white">
+											<div className="pointer-events-none absolute -left-10 top-10 h-32 w-32 rounded-full bg-white/10 blur-2xl" />
+											<div className="pointer-events-none absolute bottom-0 right-0 h-28 w-28 rounded-full bg-cyan-300/20 blur-2xl" />
+											<div className="relative flex h-full flex-col">
+												<p className="px-3 text-[11px] font-bold uppercase tracking-[0.22em] text-blue-100/80">
 													{t("navigation.modules")}
 												</p>
-												<h3 className="mt-3 text-2xl font-semibold leading-tight">
-													{t("navigation.allModules")}
-												</h3>
-												<p className="mt-4 max-w-[28ch] text-[15px] leading-7 text-blue-50/88">
-													{t("modules.subtitle")}
-												</p>
-												<Link
-													to={`${langPrefix}/modules`}
-													className="mt-7 inline-flex items-center rounded-full border border-white/20 bg-white/12 px-5 py-3 text-sm font-semibold text-white transition hover:bg-white/20"
-												>
-													{t("common.learnMore")}
-												</Link>
+												<div className="mt-4 flex flex-col gap-1">
+													{moduleCategories.map((cat) => {
+														const isActive = activeCategory === cat.key;
+														return (
+															<button
+																key={cat.key}
+																type="button"
+																onMouseEnter={() => setActiveCategory(cat.key)}
+																onFocus={() => setActiveCategory(cat.key)}
+																onClick={() => setActiveCategory(cat.key)}
+																className={`group flex items-start justify-between rounded-2xl px-4 py-3.5 text-left transition-all duration-200 ${
+																	isActive
+																		? "bg-white text-blue-900 shadow-lg"
+																		: "text-white hover:bg-white/10"
+																}`}
+															>
+																<div className="min-w-0">
+																	<p className={`text-[15px] font-semibold ${isActive ? "text-blue-800" : "text-white"}`}>
+																		{t(`navigation.categories.${cat.key}.label`)}
+																	</p>
+																	<p className={`mt-0.5 truncate text-xs ${isActive ? "text-slate-500" : "text-blue-100/80"}`}>
+																		{t(`navigation.categories.${cat.key}.tagline`)}
+																	</p>
+																</div>
+																<ArrowRight
+																	className={`mt-1 h-4 w-4 shrink-0 transition-all duration-200 ${
+																		isActive
+																			? "translate-x-0 text-blue-600 opacity-100"
+																			: "-translate-x-1 text-white/60 opacity-0 group-hover:translate-x-0 group-hover:opacity-100"
+																	}`}
+																/>
+															</button>
+														);
+													})}
+												</div>
+												<div className="mt-auto pt-6">
+													<div className="rounded-2xl border border-white/15 bg-white/10 p-4 backdrop-blur-sm">
+														<p className="text-sm font-semibold text-white">
+															{t("navigation.megaMenuTitle")}
+														</p>
+														<p className="mt-1 text-xs leading-5 text-blue-50/85">
+															{t("navigation.megaMenuSubtitle")}
+														</p>
+														<Link
+															to={`${langPrefix}/modules`}
+															className="mt-3 inline-flex items-center gap-1.5 text-sm font-semibold text-white hover:text-blue-100"
+														>
+															{t("navigation.exploreAll")}
+															<ArrowRight className="h-4 w-4" />
+														</Link>
+													</div>
+												</div>
 											</div>
 										</div>
-										<div className="p-5">
-											<div className="grid grid-cols-3 gap-2.5">
-												{modules.map((module) => {
-													const Icon = module.icon;
 
+										{/* Content: active category's modules */}
+										<div className="p-7">
+											<div className="mb-5 flex items-baseline justify-between">
+												<div>
+													<p className="text-[11px] font-bold uppercase tracking-[0.22em] text-slate-500">
+														{t(`navigation.categories.${activeCategoryDef.key}.label`)}
+													</p>
+													<h3 className="mt-1 text-lg font-semibold text-slate-900">
+														{t(`navigation.categories.${activeCategoryDef.key}.tagline`)}
+													</h3>
+												</div>
+												<span className="text-xs font-medium text-slate-400">
+													{activeCategoryDef.modules.length} {t("navigation.modules").toLowerCase()}
+												</span>
+											</div>
+											<div className="grid grid-cols-3 gap-2">
+												{activeCategoryDef.modules.map((module) => {
+													const Icon = module.icon;
+													const href = buildHref(module.slug);
+													const active = currentPath === href;
 													return (
 														<Link
 															key={module.key}
-															to={module.href}
-															className={getModuleLinkClass(module.href)}
+															to={href}
+															className={`group/item block rounded-2xl p-3.5 transition-all duration-200 ${
+																active
+																	? "bg-blue-50 ring-1 ring-blue-100"
+																	: "hover:bg-slate-50"
+															}`}
 														>
 															<div className="flex items-start gap-3">
 																<div
-																	className={`flex h-10 w-10 shrink-0 items-center justify-center rounded-2xl ${
-																		currentPath === module.href
+																	className={`flex h-10 w-10 shrink-0 items-center justify-center rounded-xl transition-colors ${
+																		active
 																			? "bg-blue-600 text-white"
-																			: "bg-blue-50 text-blue-700"
+																			: "bg-blue-50 text-blue-700 group-hover/item:bg-blue-600 group-hover/item:text-white"
 																	}`}
 																>
-																	<Icon className="h-4 w-4" />
+																	<Icon className="h-[18px] w-[18px]" />
 																</div>
 																<div className="min-w-0">
-																	<p className="font-semibold leading-5 text-slate-900">
-																		{module.title}
+																	<p className={`text-[14px] font-semibold leading-5 ${active ? "text-blue-700" : "text-slate-900"}`}>
+																		{t(module.titleKey)}
 																	</p>
-																	<p className="mt-1 line-clamp-2 text-[13px] leading-5 text-slate-500">
-																		{module.description}
+																	<p className="mt-1 line-clamp-2 text-[12.5px] leading-5 text-slate-500">
+																		{t(module.descKey)}
 																	</p>
 																</div>
 															</div>
@@ -318,71 +256,88 @@ export default function Header() {
 								{t("navigation.integrations")}
 							</Link>
 							<div className="border-t border-slate-200/80 pt-4">
-								<button
-									type="button"
-									className="flex w-full items-center justify-between rounded-xl px-1 py-1 text-left transition-colors duration-200 hover:text-blue-700"
-									onClick={() => setIsMobileModulesOpen((prev) => !prev)}
-									aria-expanded={isMobileModulesOpen}
-								>
-									<p className="text-sm font-semibold uppercase tracking-wide text-slate-500">
-										{t("navigation.modulesDropdown")}
-									</p>
-									<ChevronDown
-										className={`h-4 w-4 text-slate-500 transition-transform duration-200 ${
-											isMobileModulesOpen ? "rotate-180" : ""
-										}`}
-									/>
-								</button>
-								<div
-									className={`overflow-hidden transition-all duration-500 ease-out ${
-										isMobileModulesOpen
-											? "mt-3 max-h-[1200px] opacity-100"
-											: "max-h-0 opacity-0"
+								<p className="px-1 text-sm font-semibold uppercase tracking-wide text-slate-500">
+									{t("navigation.modulesDropdown")}
+								</p>
+								<Link
+									to={`${langPrefix}/modules`}
+									className={`mt-3 flex items-center justify-between rounded-xl px-3.5 py-3 transition-all duration-300 ${
+										currentPath === `${langPrefix}/modules`
+											? "bg-blue-50 text-blue-700 shadow-sm ring-1 ring-blue-100"
+											: "text-slate-700 hover:bg-slate-50 hover:text-blue-700"
 									}`}
 								>
-									<div className="space-y-2 border-l border-slate-200 pl-3">
-									<Link
-										to={`${langPrefix}/modules`}
-										className={`block rounded-xl px-3 py-2.5 transition-all duration-300 ${
-											currentPath === `${langPrefix}/modules`
-												? "bg-blue-50 text-blue-700 shadow-sm ring-1 ring-blue-100"
-												: "text-slate-700 hover:bg-slate-50 hover:text-blue-700"
-										}`}
-									>
-										<p className="text-base font-semibold">{t("navigation.allModules")}</p>
-									</Link>
-									{modules.map((module) => {
-										const Icon = module.icon;
-
+									<span className="text-base font-semibold">{t("navigation.allModules")}</span>
+									<ArrowRight className="h-4 w-4" />
+								</Link>
+								<div className="mt-3 space-y-2">
+									{moduleCategories.map((cat) => {
+										const open = mobileOpenCategory === cat.key;
 										return (
-											<Link
-												key={module.key}
-												to={module.href}
-												className={getModuleLinkClass(module.href, true)}
-											>
-												<div className="flex items-start gap-3">
-													<div
-														className={`mt-0.5 flex h-9 w-9 shrink-0 items-center justify-center rounded-xl ${
-															currentPath === module.href
-																? "bg-blue-600 text-white"
-																: "bg-blue-50 text-blue-700"
-														}`}
-													>
-														<Icon className="h-4 w-4" />
+											<div key={cat.key} className="rounded-xl border border-slate-200/80">
+												<button
+													type="button"
+													onClick={() =>
+														setMobileOpenCategory(open ? null : cat.key)
+													}
+													className="flex w-full items-center justify-between px-3.5 py-3 text-left"
+													aria-expanded={open}
+												>
+													<div>
+														<p className="text-base font-semibold text-slate-900">
+															{t(`navigation.categories.${cat.key}.label`)}
+														</p>
+														<p className="mt-0.5 text-xs text-slate-500">
+															{t(`navigation.categories.${cat.key}.tagline`)}
+														</p>
 													</div>
-													<div className="min-w-0">
-														<p className="text-base font-semibold leading-6">
-															{module.title}
-														</p>
-														<p className="mt-1 line-clamp-2 text-sm leading-6 text-slate-500">
-															{module.description}
-														</p>
+													<ChevronDown
+														className={`h-4 w-4 text-slate-500 transition-transform duration-200 ${open ? "rotate-180" : ""}`}
+													/>
+												</button>
+												<div
+													className={`overflow-hidden transition-all duration-400 ease-out ${open ? "max-h-[1400px] opacity-100" : "max-h-0 opacity-0"}`}
+												>
+													<div className="space-y-1.5 border-t border-slate-200/80 p-2">
+														{cat.modules.map((module) => {
+															const Icon = module.icon;
+															const href = buildHref(module.slug);
+															const active = currentPath === href;
+															return (
+																<Link
+																	key={module.key}
+																	to={href}
+																	className={`flex items-start gap-3 rounded-lg px-2.5 py-2.5 transition-colors ${
+																		active
+																			? "bg-blue-50 text-blue-700"
+																			: "text-slate-700 hover:bg-slate-50"
+																	}`}
+																>
+																	<div
+																		className={`flex h-9 w-9 shrink-0 items-center justify-center rounded-lg ${
+																			active
+																				? "bg-blue-600 text-white"
+																				: "bg-blue-50 text-blue-700"
+																		}`}
+																	>
+																		<Icon className="h-4 w-4" />
+																	</div>
+																	<div className="min-w-0">
+																		<p className="text-[15px] font-semibold leading-5">
+																			{t(module.titleKey)}
+																		</p>
+																		<p className="mt-0.5 line-clamp-2 text-[12.5px] leading-5 text-slate-500">
+																			{t(module.descKey)}
+																		</p>
+																	</div>
+																</Link>
+															);
+														})}
 													</div>
 												</div>
-											</Link>
+											</div>
 										);
 									})}
-									</div>
 								</div>
 							</div>
 							<Link

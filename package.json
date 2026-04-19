@@ -5,6 +5,8 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
+    "sitemaps": "node scripts/generate_sitemaps.cjs",
+    "prebuild": "node scripts/generate_sitemaps.cjs",
     "build": "tsc -b && vite build",
     "snap": "react-snap",
     "lint": "biome lint .",

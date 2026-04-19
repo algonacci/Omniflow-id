@@ -177,9 +177,9 @@ export default function StructuredData({
 		softwareVersion: "2.0",
 		requirements: "Modern web browser",
 		fileSize: "N/A",
-		installUrl: "https://omniflow.id/signup",
-		downloadUrl: "https://omniflow.id/signup",
-		supportingData: "https://omniflow.id/documentation",
+		installUrl: `${window.location.origin}/${i18n.language}/contact`,
+		downloadUrl: `${window.location.origin}/${i18n.language}/contact`,
+		supportingData: `${window.location.origin}/${i18n.language}/contact`,
 		...data,
 	});
 

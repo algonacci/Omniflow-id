@@ -82,7 +82,10 @@ export default function HeroSection() {
 						<div className="absolute inset-0 bg-gradient-to-r from-blue-600/20 to-indigo-700/20 rounded-3xl transform rotate-3"></div>
 						<img
 							src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?auto=format&fit=crop&q=80&w=800"
-							alt="Analytics Dashboard Interface"
+							alt={t(
+								"analytics.hero.imageAlt",
+								"Analytics dashboard showing live business integrations and KPI trends",
+							)}
 							className="relative rounded-3xl shadow-enterprise-lg object-cover h-[500px] w-full"
 						/>
 						

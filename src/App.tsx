@@ -30,6 +30,16 @@ import SalesPage from "./pages/modules/Sales/index.tsx";
 import PurchasingPage from "./pages/modules/Purchasing/index.tsx";
 import AssetManagementPage from "./pages/modules/AssetManagement/index.tsx";
 import InventoryPage from "./pages/modules/Inventory/index.tsx";
+import AIPage from "./pages/modules/AI/index.tsx";
+import BookingEnginePage from "./pages/modules/BookingEngine/index.tsx";
+import CustomersPage from "./pages/modules/Customers/index.tsx";
+import ECFPage from "./pages/modules/ECF/index.tsx";
+import EventTicketingPage from "./pages/modules/EventTicketing/index.tsx";
+import HabitatPage from "./pages/modules/Habitat/index.tsx";
+import HelpdeskPage from "./pages/modules/Helpdesk/index.tsx";
+import ProfilexPage from "./pages/modules/Profilex/index.tsx";
+import PropertyManagementPage from "./pages/modules/PropertyManagement/index.tsx";
+import SIMKlinikPage from "./pages/modules/SIMKlinik/index.tsx";
 import NotFoundPage from "./pages/NotFound";
 
 function App() {
@@ -78,6 +88,16 @@ function App() {
 						<Route path="/en/modules/purchasing" element={<PurchasingPage />} />
 						<Route path="/en/modules/asset-management" element={<AssetManagementPage />} />
 						<Route path="/en/modules/inventory" element={<InventoryPage />} />
+						<Route path="/en/modules/ai" element={<AIPage />} />
+						<Route path="/en/modules/booking-engine" element={<BookingEnginePage />} />
+						<Route path="/en/modules/customers" element={<CustomersPage />} />
+						<Route path="/en/modules/ecf" element={<ECFPage />} />
+						<Route path="/en/modules/event-ticketing" element={<EventTicketingPage />} />
+						<Route path="/en/modules/habitat" element={<HabitatPage />} />
+						<Route path="/en/modules/helpdesk" element={<HelpdeskPage />} />
+						<Route path="/en/modules/profilex" element={<ProfilexPage />} />
+						<Route path="/en/modules/property-management" element={<PropertyManagementPage />} />
+						<Route path="/en/modules/simklinik" element={<SIMKlinikPage />} />
 						<Route path="/en/blog" element={<BlogPage />} />
 						<Route path="/en/blog/:slug" element={<BlogDetailPage />} />
 						<Route path="/en/contact" element={<ContactPage />} />
@@ -111,6 +131,16 @@ function App() {
 						<Route path="/id/modules/purchasing" element={<PurchasingPage />} />
 						<Route path="/id/modules/asset-management" element={<AssetManagementPage />} />
 						<Route path="/id/modules/inventory" element={<InventoryPage />} />
+						<Route path="/id/modules/ai" element={<AIPage />} />
+						<Route path="/id/modules/booking-engine" element={<BookingEnginePage />} />
+						<Route path="/id/modules/customers" element={<CustomersPage />} />
+						<Route path="/id/modules/ecf" element={<ECFPage />} />
+						<Route path="/id/modules/event-ticketing" element={<EventTicketingPage />} />
+						<Route path="/id/modules/habitat" element={<HabitatPage />} />
+						<Route path="/id/modules/helpdesk" element={<HelpdeskPage />} />
+						<Route path="/id/modules/profilex" element={<ProfilexPage />} />
+						<Route path="/id/modules/property-management" element={<PropertyManagementPage />} />
+						<Route path="/id/modules/simklinik" element={<SIMKlinikPage />} />
 						<Route path="/id/blog" element={<BlogPage />} />
 						<Route path="/id/blog/:slug" element={<BlogDetailPage />} />
 						<Route path="/id/contact" element={<ContactPage />} />
@@ -144,6 +174,16 @@ function App() {
 						<Route path="/zh/modules/purchasing" element={<PurchasingPage />} />
 						<Route path="/zh/modules/asset-management" element={<AssetManagementPage />} />
 						<Route path="/zh/modules/inventory" element={<InventoryPage />} />
+						<Route path="/zh/modules/ai" element={<AIPage />} />
+						<Route path="/zh/modules/booking-engine" element={<BookingEnginePage />} />
+						<Route path="/zh/modules/customers" element={<CustomersPage />} />
+						<Route path="/zh/modules/ecf" element={<ECFPage />} />
+						<Route path="/zh/modules/event-ticketing" element={<EventTicketingPage />} />
+						<Route path="/zh/modules/habitat" element={<HabitatPage />} />
+						<Route path="/zh/modules/helpdesk" element={<HelpdeskPage />} />
+						<Route path="/zh/modules/profilex" element={<ProfilexPage />} />
+						<Route path="/zh/modules/property-management" element={<PropertyManagementPage />} />
+						<Route path="/zh/modules/simklinik" element={<SIMKlinikPage />} />
 						<Route path="/zh/blog" element={<BlogPage />} />
 						<Route path="/zh/blog/:slug" element={<BlogDetailPage />} />
 						<Route path="/zh/contact" element={<ContactPage />} />
@@ -163,6 +203,16 @@ function App() {
 						<Route path="/modules/purchasing" element={<PurchasingPage />} />
 						<Route path="/modules/asset-management" element={<AssetManagementPage />} />
 						<Route path="/modules/inventory" element={<InventoryPage />} />
+						<Route path="/modules/ai" element={<AIPage />} />
+						<Route path="/modules/booking-engine" element={<BookingEnginePage />} />
+						<Route path="/modules/customers" element={<CustomersPage />} />
+						<Route path="/modules/ecf" element={<ECFPage />} />
+						<Route path="/modules/event-ticketing" element={<EventTicketingPage />} />
+						<Route path="/modules/habitat" element={<HabitatPage />} />
+						<Route path="/modules/helpdesk" element={<HelpdeskPage />} />
+						<Route path="/modules/profilex" element={<ProfilexPage />} />
+						<Route path="/modules/property-management" element={<PropertyManagementPage />} />
+						<Route path="/modules/simklinik" element={<SIMKlinikPage />} />
 						<Route path="/blog" element={<BlogPage />} />
 						<Route path="/blog/:slug" element={<BlogDetailPage />} />
 						<Route path="/contact" element={<ContactPage />} />

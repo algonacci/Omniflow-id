@@ -17,6 +17,14 @@ import {
 	TrendingUp,
 	Package,
 	Boxes,
+	Brain,
+	Calendar,
+	Coins,
+	Ticket,
+	Home,
+	Headphones,
+	Building,
+	HeartPulse,
 } from "lucide-react";
 import { useEffect } from "react";
 import { useTranslation } from "react-i18next";
@@ -100,6 +108,56 @@ const modules = [
 		icon: Boxes,
 		color: "from-sky-500 to-blue-600",
 	},
+	{
+		key: "ai",
+		icon: Brain,
+		color: "from-violet-500 to-purple-600",
+	},
+	{
+		key: "bookingEngine",
+		icon: Calendar,
+		color: "from-emerald-500 to-teal-600",
+	},
+	{
+		key: "customers",
+		icon: Users,
+		color: "from-rose-500 to-pink-600",
+	},
+	{
+		key: "ecf",
+		icon: Coins,
+		color: "from-amber-500 to-orange-600",
+	},
+	{
+		key: "eventTicketing",
+		icon: Ticket,
+		color: "from-pink-500 to-rose-600",
+	},
+	{
+		key: "habitat",
+		icon: Home,
+		color: "from-green-500 to-emerald-600",
+	},
+	{
+		key: "helpdesk",
+		icon: Headphones,
+		color: "from-blue-500 to-cyan-600",
+	},
+	{
+		key: "profilex",
+		icon: Brain,
+		color: "from-purple-500 to-fuchsia-600",
+	},
+	{
+		key: "propertyManagement",
+		icon: Building,
+		color: "from-slate-500 to-gray-600",
+	},
+	{
+		key: "simklinik",
+		icon: HeartPulse,
+		color: "from-red-500 to-rose-600",
+	},
 ];
 
 export default function ModulesPage() {
@@ -109,11 +167,14 @@ export default function ModulesPage() {
 	const langPrefix = getLangPrefix(currentLang);
 
 	const getModulePath = (moduleKey: string) => {
-		if (moduleKey === "assetManagement") {
-			return `${langPrefix}/modules/asset-management`;
-		}
-
-		return `${langPrefix}/modules/${moduleKey}`;
+		const slugMap: Record<string, string> = {
+			assetManagement: "asset-management",
+			bookingEngine: "booking-engine",
+			eventTicketing: "event-ticketing",
+			propertyManagement: "property-management",
+		};
+		const slug = slugMap[moduleKey] ?? moduleKey;
+		return `${langPrefix}/modules/${slug}`;
 	};
 
 	useEffect(() => {

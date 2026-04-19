@@ -12,7 +12,10 @@ export default function Screenshots() {
                         <div className="absolute inset-0 bg-gradient-to-tr from-blue-200 to-indigo-200 rounded-[2.5rem] transform -rotate-3 blur-sm"></div>
                         <img
                             src="https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&q=80&w=800"
-                            alt={t("analytics.screenshots.alt", "Analytics Dashboard Interface with integration charts")}
+                            alt={t(
+                                "analytics.screenshots.alt",
+                                "Analytics dashboard with integration charts for sales and payment performance",
+                            )}
                             className="relative rounded-[2.5rem] shadow-2xl border-4 border-white/50"
                             loading="lazy"
                         />

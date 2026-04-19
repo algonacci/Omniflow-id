@@ -1,2452 +1,4431 @@
 {
-	"common": {
-		"home": "首页",
-		"about": "关于",
-		"contact": "联系",
-		"blog": "博客",
-		"getStarted": "开始使用",
-		"learnMore": "了解更多",
-		"readMore": "阅读更多",
-		"scheduleDemo": "预约演示",
-		"contactSales": "联系销售",
-		"watchDemo": "观看演示",
-		"tryFree": "免费试用",
-		"loading": "加载中...",
-		"error": "错误",
-		"success": "成功",
-		"back": "返回",
-		"next": "下一步",
-		"previous": "上一步",
-		"save": "保存",
-		"cancel": "取消",
-		"submit": "提交",
-		"search": "搜索",
-		"filter": "筛选",
-		"sort": "排序",
-		"language": "语言"
-	},
-	"navigation": {
-		"solutions": "解决方案",
-		"modules": "模块",
-		"modulesDropdown": "所有模块",
-		"allModules": "所有模块",
-		"integrations": "集成",
-		"hris": "人力资源",
-		"ecommerce": "E-Commerce",
-		"xrm": "XRM",
-		"accounting": "会计",
-		"urls": "URLs",
-		"bizzcard": "Bizzcard",
-		"pos": "销售终端",
-		"lms": "学习管理",
-		"telemarketing": "电话营销",
-		"paymentGateway": "支付网关",
-		"analytics": "分析",
-		"sales": "Sales Management",
-		"purchasing": "Purchasing",
-		"assetManagement": "Asset Management",
-		"inventory": "Inventory Management",
-		"insights": "洞察",
-		"resources": "资源",
-		"support": "支持",
-		"pricing": "定价"
-	},
-	"hero": {
-		"title": "通过全方位 ERP 解决方案实现业务转型",
-		"subtitle": "Omniflow.id 是印尼领先的企业管理系统。为简化运营、提高效率并加速组织成长而设计的完整 ERP 解决方案。",
-		"trustedBy": "受到10,000+企业信赖",
-		"startJourney": "开始您的旅程",
-		"watchDemo": "观看演示",
-		"stats": {
-			"uptime": "正常运行时间SLA",
-			"users": "活跃用户",
-			"support": "支持"
-		}
-	},
-	"modulesPage": {
-		"title": "业务转型的核心驱动力",
-		"subtitle": "通过我们最全面的集成 ERP 模块组合，加速企业增长。专为解决每个业务条线的独特运营挑战而设计。",
-		"badge": "15个可用模块",
-		"getStarted": "开始使用",
-		"modules": {
-			"hris": "完整的人力资源管理系统，包含工资单、考勤和绩效跟踪。",
-			"ecommerce": "功能齐全的在线商店，包含库存、支付和订单管理。",
-			"xrm": "扩展CRM，用于管理客户关系和销售管道。",
-			"accounting": "全面的财务管理，包含发票、报告和税务合规。",
-			"urls": "专业的URL缩短器和重定向管理器，用于营销活动。",
-			"bizzcard": "数字名片解决方案，支持二维码和NFC。",
-			"pos": "现代销售终端系统，适用于零售和餐饮业务。",
-			"lms": "学习管理系统，适用于企业培训和教育。",
-			"telemarketing": "外呼管理和潜在客户跟踪解决方案。",
-			"payment-gateway": "安全的支付处理，支持多种支付方式。",
-			"analytics": "集成 BCA、OrderOnline、Majoo 和 Moka 等服务的集中式分析平台。",
-			"sales": "Modern sales management with visual pipeline, deal tracking, and revenue forecasting.",
-			"purchasing": "Smarter procurement management with vendor control, RFQ workflows, and cost optimization.",
-			"assetManagement": "End-to-end asset management with tracking, depreciation, maintenance, and lifecycle control.",
-			"inventory": "Multi-location inventory management with real-time stock visibility and warehouse optimization."
-		}
-	},
-	"integrationsPage": {
-		"title": "无缝生态系统连接",
-		"subtitle": "通过将 Omniflow 连接到您喜爱的全球业务工具，扩展您的业务能力。享受实时数据同步，实现更智能、更高效的工作流程。",
-		"badge": "50+ 集成",
-		"getStarted": "开始使用",
-		"cta": {
-			"title": "需要定制集成？",
-			"description": "我们可以构建定制集成，将Omniflow与您使用的任何系统连接。",
-			"button": "联系销售"
-		},
-		"odoo": {
-			"description": "与Odoo ERP无缝同步数据，实现统一业务管理。"
-		},
-		"sap": {
-			"description": "与SAP系统的企业级集成，适用于大型组织。"
-		},
-		"salesforce": {
-			"description": "将您的CRM数据与Omniflow连接，简化销售流程。"
-		},
-		"shopify": {
-			"description": "与Shopify商店实时同步，用于库存和订单管理。"
-		},
-		"woocommerce": {
-			"description": "与WooCommerce集成，实现无缝电商运营。"
-		},
-		"magento": {
-			"description": "与Magento连接，用于企业电商管理。"
-		},
-		"dynamics": {
-			"description": "与Microsoft Dynamics集成，实现统一业务解决方案。"
-		},
-		"quickbooks": {
-			"description": "与QuickBooks同步会计数据，简化财务管理。"
-		},
-		"xero": {
-			"description": "与Xero连接，用于云计算会计集成。"
-		},
-		"slack": {
-			"description": "直接在Slack频道获取通知和更新。"
-		},
-		"zoom": {
-			"description": "集成视频会议，用于远程会议和演示。"
-		},
-		"zapier": {
-			"description": "使用自动化工作流程连接5,000+个应用程序。"
-		}
-	},
-	"modules": {
-		"title": "全面的业务解决方案",
-		"subtitle": "从人力资源管理、会计到 AI 驱动的分析和文档管理系统 (DMS)，我们的集成模块无缝协作，为您的整个业务生态系统提供动力。",
-		"badge": "18 个集成模块",
-		"hris": {
-			"name": "人力资源",
-			"description": "完整的人力资源管理系统"
-		},
-		"stock": {
-			"name": "库存管理",
-			"description": "高效的库存跟踪和控制"
-		},
-		"sales": {
-			"name": "销售管理",
-			"description": "简化您的销售运营"
-		},
-		"accounting": {
-			"name": "会计",
-			"description": "全面的财务管理"
-		},
-		"urls": {
-			"name": "URLs",
-			"description": "URL缩短器和重定向管理器"
-		},
-		"bizzcard": {
-			"name": "Bizzcard",
-			"description": "数字名片解决方案"
-		},
-		"pos": {
-			"name": "销售点",
-			"description": "现代销售点系统"
-		},
-		"customers": {
-			"name": "客户",
-			"description": "客户关系管理"
-		},
-		"crm": {
-			"name": "客户关系管理",
-			"description": "建立更强的客户关系"
-		},
-		"project": {
-			"name": "项目管理",
-			"description": "高效的项目跟踪和交付"
-		},
-		"marketing": {
-			"name": "营销",
-			"description": "集成营销解决方案"
-		},
-		"lms": {
-			"name": "学习管理",
-			"description": "学习管理系统"
-		},
-		"payment": {
-			"name": "支付网关",
-			"description": "安全的支付处理"
-		},
-		"inventory": {
-			"name": "库存",
-			"description": "高级库存管理"
-		},
-		"ai": {
-			"name": "人工智能",
-			"description": "智能业务自动化"
-		},
-		"admin": {
-			"name": "管理",
-			"description": "集中式系统管理"
-		},
-		"manufacturing": {
-			"name": "制造",
-			"description": "制造过程管理"
-		},
-		"supply": {
-			"name": "供应链",
-			"description": "端到端供应链可视性"
-		},
-		"procurement": {
-			"name": "采购",
-			"description": "简化的采购流程"
-		},
-		"dms": {
-			"name": "文档管理",
-			"description": "企业级文档管理系统 (DMS)"
-		},
-		"analytics": {
-			"name": "分析",
-			"description": "深入的业务集成和数据分析"
-		}
-	},
-	"advantages": {
-		"title": "为什么选择Omniflow.id？",
-		"subtitle": "加入数千家前瞻性公司，他们已经通过我们的企业级解决方案转型了运营。",
-		"allInOne": {
-			"title": "一体化解决方案",
-			"description": "在单一平台中集成所有业务流程，消除对多个软件解决方案的需求。",
-			"stat": "软件复杂性减少90%"
-		},
-		"analytics": {
-			"title": "实时分析",
-			"description": "访问全面的业务洞察和实时报告，以便更好地决策。",
-			"stat": "决策速度提高3倍"
-		},
-		"scalable": {
-			"title": "可扩展架构",
-			"description": "发展您的业务而无需担心系统限制。我们的平台与您一起成长。",
-			"stat": "支持100K+用户"
-		},
-		"costEffective": {
-			"title": "成本效益",
-			"description": "通过简化流程和消除冗余系统来降低运营成本。",
-			"stat": "平均成本降低40%"
-		},
-		"productivity": {
-			"title": "提高生产力",
-			"description": "自动化日常任务并改善跨部门的团队协作。",
-			"stat": "生产力提高60%"
-		},
-		"security": {
-			"title": "安全第一",
-			"description": "企业级安全措施保护您的敏感业务数据。",
-			"stat": "ISO 27001认证"
-		}
-	},
-	"faq": {
-		"title": "有问题？我们有答案",
-		"subtitle": "找到关于我们平台、实施和支持服务的常见问题答案。",
-		"badge": "常见问题",
-		"contactExperts": "联系我们的专家",
-		"stillHaveQuestions": "还有问题？我们的团队随时为您提供帮助。",
-		"questions": {
-			"difference": {
-				"question": "Omniflow.id与其他ERP解决方案有什么不同？",
-				"answer": "Omniflow.id提供全面模块、现代技术和无缝集成能力的独特组合。我们的AI驱动功能、直观界面和企业级安全性使我们与传统ERP系统区别开来。我们专注于用户体验，同时保持强大的功能。"
-			},
-			"implementation": {
-				"question": "实施通常需要多长时间？",
-				"answer": "实施时间因您的业务规模和需求而异。小型企业的基本设置需要2-4周，而企业实施通常需要2-3个月。我们在整个过程中提供专门的项目经理和24/7支持，以确保顺利部署。"
-			},
-			"customization": {
-				"question": "Omniflow.id可以为我的特定行业定制吗？",
-				"answer": "当然可以。Omniflow.id高度可定制，可以根据您行业的特定需求进行调整。我们的模块化架构允许灵活配置、自定义工作流程和行业特定功能。我们在制造、零售、服务等领域都有经验。"
-			},
-			"support": {
-				"question": "您提供什么样的支持和培训？",
-				"answer": "我们提供全面的支持，包括24/7技术援助、定期系统更新、个性化培训课程和专门的客户经理。我们的支持团队包括了解您业务需求并能提供战略指导的认证专家。"
-			},
-			"security": {
-				"question": "我的数据在Omniflow.id中有多安全？",
-				"answer": "安全是我们的首要任务。我们维护ISO 27001认证，使用企业级加密，实施多因素身份验证，并进行定期安全审计。您的数据存储在安全、合规的数据中心，保证99.9%的正常运行时间。"
-			},
-			"integration": {
-				"question": "我可以将Omniflow.id与现有系统集成吗？",
-				"answer": "是的，Omniflow.id提供与流行业务工具、会计软件、CRM系统和第三方应用程序的强大集成能力。我们的API优先方法确保系统之间的无缝数据流，最大限度地减少对当前工作流程的干扰。"
-			}
-		}
-	},
-	"contact": {
-		"title": "准备转型您的业务？",
-		"subtitle": "与我们的企业解决方案专家联系，了解Omniflow.id如何简化运营、提高生产力并加速增长。",
-		"badge": "受企业领导者信赖",
-		"form": {
-			"title": "让我们开始对话",
-			"subtitle": "填写下面的表格，我们的团队将在24小时内与您联系。",
-			"name": "全名",
-			"email": "电子邮件地址",
-			"company": "公司名称",
-			"phone": "电话号码",
-			"jobTitle": "职位",
-			"companySize": "公司规模",
-			"subject": "主题",
-			"message": "消息",
-			"required": "*",
-			"namePlaceholder": "张三",
-			"emailPlaceholder": "zhang@company.com",
-			"companyPlaceholder": "您的公司有限公司",
-			"phonePlaceholder": "+86 xxx-xxxx-xxxx",
-			"jobTitlePlaceholder": "CEO、CTO、经理等",
-			"messagePlaceholder": "告诉我们您的业务需求、挑战或我们如何帮助您...",
-			"selectSubject": "选择主题",
-			"selectCompanySize": "选择公司规模",
-			"sendMessage": "发送消息",
-			"sending": "发送消息中...",
-			"subjects": {
-				"general": "一般咨询",
-				"demo": "产品演示",
-				"support": "技术支持",
-				"sales": "销售问题",
-				"partnership": "合作机会",
-				"enterprise": "企业解决方案",
-				"other": "其他"
-			},
-			"companySizes": {
-				"small": "1-10名员工",
-				"medium": "11-50名员工",
-				"large": "51-200名员工",
-				"enterprise": "201-1000名员工",
-				"mega": "1000+名员工"
-			},
-			"success": {
-				"title": "消息发送成功！",
-				"message": "我们将在24小时内与您联系。"
-			},
-			"error": {
-				"title": "发送消息时出错",
-				"message": "请重试或直接联系我们。"
-			}
-		},
-		"info": {
-			"title": "联系信息",
-			"email": {
-				"title": "邮件联系",
-				"details": "contact@omniflow.id",
-				"description": "随时联系"
-			},
-			"phone": {
-				"title": "电话联系",
-				"details": "+62 821 2560 9413",
-				"description": "周一至周五，上午8点-下午6点 WIB"
-			},
-			"address": {
-				"title": "拜访我们",
-				"details": "雅加达，印度尼西亚",
-				"description": "安排办公室访问"
-			},
-			"support": {
-				"title": "24/7支持",
-				"details": "始终可用",
-				"description": "企业支持"
-			}
-		},
-		"office": {
-			"title": "我们的办公室",
-			"name": "PT. ALGONACCI SOBAT NUSANTARA",
-			"country": "印度尼西亚",
-			"address": "地址：",
-			"addressDetails": "Jl. Letjen S. Parman No. 28\nGrogol Petamburan\n雅加达西部市\n雅加达首都特区 11470",
-			"hours": "营业时间：",
-			"hoursDetails": "周一至周五：上午8:00 - 下午6:00 WIB",
-			"station": "最近车站：",
-			"stationDetails": "MRT Bundaran HI（步行5分钟）"
-		},
-		"whyChoose": {
-			"title": "为什么选择我们",
-			"hours": "小时",
-			"responseTime": "平均响应时间",
-			"customers": "满意客户",
-			"uptime": "正常运行时间保证"
-		},
-		"cta": {
-			"title": "准备开始了吗？",
-			"subtitle": "加入数千家信任Omniflow.id简化运营和提高生产力的企业。让我们讨论如何帮助转型您的业务。",
-			"scheduleDemo": "预约演示",
-			"viewPricing": "查看定价计划"
-		},
-		"features": {
-			"security": "企业级安全",
-			"customers": "10,000+满意客户",
-			"certified": "ISO 27001认证",
-			"uptime": "99.9%正常运行时间保证",
-			"support": "全球支持覆盖",
-			"roi": "经验证的ROI结果"
-		}
-	},
-	"blog": {
-		"title": "企业洞察与资源",
-		"subtitle": "通过业务技术、数字化转型和推动成功的企业解决方案的最新趋势保持领先。",
-		"badge": "知识中心",
-		"features": {
-			"trends": {
-				"title": "行业趋势",
-				"description": "最新市场洞察和预测"
-			},
-			"practices": {
-				"title": "最佳实践",
-				"description": "来自行业领导者的经验证策略"
-			},
-			"stories": {
-				"title": "成功案例",
-				"description": "真实世界的转型案例"
-			}
-		},
-		"latest": "最新文章",
-		"latestSubtitle": "发现可操作的洞察来转型您的业务运营",
-		"comingSoon": {
-			"title": "即将推出",
-			"message": "我们正在为您准备有价值的内容。请稍后查看最新的洞察和资源。"
-		},
-		"error": {
-			"title": "无法加载内容",
-			"tryAgain": "重试"
-		},
-		"loading": "加载最新洞察中...",
-		"backToBlog": "返回博客",
-		"readingTime": "分钟阅读",
-		"articleNotFound": {
-			"title": "文章未找到",
-			"message": "请求的博客文章无法找到。"
-		},
-		"shareArticle": "分享文章",
-		"articleDetails": "文章详情",
-		"published": "发布时间：",
-		"lastUpdated": "最后更新：",
-		"readingTimeLabel": "阅读时间：",
-		"wordCount": "字数：",
-		"minutes": "分钟",
-		"words": "字",
-		"relatedTopics": "相关主题",
-		"cta": {
-			"title": "准备转型您的业务？",
-			"subtitle": "了解Omniflow.id如何帮助您实施本文讨论的策略和解决方案。",
-			"consultation": "预约咨询",
-			"readMore": "阅读更多文章"
-		}
-	},
-	"hris": {
-		"title": "现代人力资源管理助力企业成功",
-		"subtitle": "通过我们全面的HRIS解决方案转型您的人力资源运营。简化招聘、管理员工数据，并通过企业级安全性和可扩展性自动化人力资源流程。",
-		"badge": "受10,000+人力资源专业人士信赖",
-		"hero": {
-			"scheduleDemo": "预约演示",
-			"watchOverview": "观看概述",
-			"stats": {
-				"users": "活跃用户",
-				"uptime": "正常运行时间SLA",
-				"saved": "节省/周",
-				"reduction": "成本降低"
-			},
-			"productivityBoost": "生产力提升"
-		},
-		"features": {
-			"title": "现代人力资源管理所需的一切",
-			"subtitle": "我们的HRIS平台提供您的人力资源团队高效管理员工、确保合规性和推动组织成功所需的所有工具。",
-			"badge": "全面的人力资源功能",
-			"recruitment": {
-				"title": "招聘管理",
-				"description": "通过自动化职位发布、申请人跟踪和面试安排简化您的招聘流程。",
-				"benefits": [
-					"自动化职位发布",
-					"候选人跟踪",
-					"面试安排"
-				]
-			},
-			"records": {
-				"title": "员工记录",
-				"description": "员工信息、文档和历史记录的集中数据库，便于访问和更新。",
-				"benefits": [
-					"数字文档存储",
-					"员工档案",
-					"历史跟踪"
-				]
-			},
-			"leave": {
-				"title": "请假管理",
-				"description": "自动化请假申请、审批和余额跟踪，集成日历功能。",
-				"benefits": [
-					"请假申请工作流",
-					"余额跟踪",
-					"日历同步"
-				]
-			},
-			"performance": {
-				"title": "绩效管理",
-				"description": "设置和跟踪KPI，进行评估，并管理员工发展计划。",
-				"benefits": [
-					"KPI跟踪",
-					"绩效评估",
-					"发展计划"
-				]
-			},
-			"attendance": {
-				"title": "时间与考勤",
-				"description": "通过自动化考勤监控跟踪工作时间、班次和加班。",
-				"benefits": [
-					"时间跟踪",
-					"班次管理",
-					"加班计算"
-				]
-			},
-			"compliance": {
-				"title": "合规管理",
-				"description": "通过内置合规工具保持符合劳动法律法规。",
-				"benefits": [
-					"法规合规",
-					"审计跟踪",
-					"政策管理"
-				]
-			}
-		},
-		"screenshots": {
-			"title": "查看HRIS实际应用",
-			"subtitle": "体验我们为人力资源专业人士和员工在所有设备上设计的直观界面的强大功能。",
-			"badge": "平台概述",
-			"dashboard": {
-				"title": "员工仪表板",
-				"description": "直观的仪表板为员工提供快速访问个人信息、请假余额和重要公告的功能。",
-				"features": [
-					"个人信息",
-					"请假管理",
-					"公司公告",
-					"快速操作"
-				]
-			},
-			"analytics": {
-				"title": "绩效分析",
-				"description": "全面的绩效指标和分析可视化，用于跟踪员工进度和组织KPI。",
-				"features": [
-					"绩效跟踪",
-					"目标管理",
-					"分析仪表板",
-					"进度报告"
-				]
-			},
-			"leave": {
-				"title": "请假管理",
-				"description": "简化的请假申请和审批流程，集成日历和自动余额计算。",
-				"features": [
-					"请假申请",
-					"审批工作流",
-					"日历集成",
-					"余额跟踪"
-				]
-			},
-			"exploreFeature": "探索功能"
-		},
-		"benefits": {
-			"title": "对您业务的可衡量影响",
-			"subtitle": "加入数千家已经通过我们的HRIS平台转型人力资源运营并取得显著成果的公司。",
-			"badge": "经验证的结果",
-			"productivity": {
-				"title": "提高生产力",
-				"description": "自动化日常任务和简化工作流程，将人力资源团队生产力提高多达40%。",
-				"stat": "+40%"
-			},
-			"time": {
-				"title": "节省时间",
-				"description": "通过自动化流程和自助服务门户将管理工作减少60%。",
-				"stat": "15小时/周"
-			},
-			"cost": {
-				"title": "成本降低",
-				"description": "通过流程自动化和提高效率将人力资源运营成本削减35%。",
-				"stat": "节省35%"
-			},
-			"compliance": {
-				"title": "更好的合规性",
-				"description": "通过自动化跟踪确保100%符合劳动法律法规。",
-				"stat": "100%合规"
-			},
-			"customers": "满意客户",
-			"uptime": "正常运行时间保证",
-			"support": "专家支持"
-		},
-		"testimonials": {
-			"title": "受全球人力资源领导者信赖",
-			"subtitle": "了解像您这样的组织如何通过我们的HRIS平台转型人力资源运营并取得显著成果。",
-			"badge": "客户成功案例",
-			"joinSuccess": {
-				"title": "加入我们的成功案例",
-				"description": "准备转型您的人力资源运营？预约个性化演示，看看我们的HRIS如何使您的组织受益。",
-				"scheduleDemo": "预约您的演示"
-			}
-		},
-		"cta": {
-			"title": "今天就转型您的人力资源运营",
-			"subtitle": "加入数千家已经通过Omniflow HRIS现代化人力资源流程的公司。体验自动化、合规性和数据驱动洞察的力量。",
-			"badge": "准备开始了吗？",
-			"scheduleDemo": "预约演示",
-			"contactSales": "联系销售",
-			"features": {
-				"trial": "免费30天试用",
-				"setup": "无设置费用",
-				"support": "24/7支持"
-			},
-			"stats": {
-				"users": "活跃用户",
-				"uptime": "正常运行时间SLA",
-				"security": "认证安全"
-			}
-		}
-	},
-	"commerce": {
-		"hero": {
-			"badge": "电商平台",
-			"title": "综合在线商店平台",
-			"subtitle": "Omniflow电商平台为管理您的在线商店提供综合解决方案。在一个易于使用的平台上管理产品、库存、订单和付款，并与您的ERP系统无缝集成。",
-			"stats": {
-				"users": "活跃用户",
-				"uptime": "正常运行时间SLA",
-				"saved": "节省/周",
-				"reduction": "成本降低"
-			},
-			"productivityBoost": "生产力提升"
-		},
-		"features": {
-			"title": "核心功能",
-			"subtitle": "我们的电商平台提供全面功能，加速您的在线商店运营。",
-			"badge": "全面电子商务功能",
-			"products": {
-				"title": "产品管理",
-				"description": "轻松管理您的产品目录。上传图片，设置价格，在一个地方管理产品变体。"
-			},
-			"inventory": {
-				"title": "库存控制",
-				"description": "实时跟踪库存并在库存不足时自动提醒。与物理仓库和在线商店同步。"
-			},
-			"orders": {
-				"title": "订单管理",
-				"description": "无缝处理从开始到结束的订单。状态跟踪、电子邮件通知和完整历史记录，以提供更好的客户体验。"
-			},
-			"payments": {
-				"title": "安全支付",
-				"description": "接受多种支付方式，包括信用卡、银行转账和数字钱包。安全且兼容的支付处理。"
-			},
-			"reports": {
-				"title": "综合报告",
-				"description": "深入了解您的商店业绩。销售报告、趋势分析和库存报告，用于数据驱动决策。"
-			},
-			"analytics": {
-				"title": "智能分析",
-				"description": "分析仪表板，深入了解客户行为和销售趋势。帮助优化营销策略并提高转化率。"
-			}
-		},
-		"benefits": {
-			"badge": "为什么选择Omniflow电子商务？",
-			"title": "平台优势",
-			"subtitle": "通过Omniflow电子商务平台的卓越功能提升您的在线商店运营。",
-			"conversion": {
-				"title": "提高转化率",
-				"description": "多种支付方式选项可使客户完成交易的可能性提高多达40%。"
-			},
-			"fastSettlement": {
-				"title": "快速结算",
-				"description": "资金在1-2个工作日内存入您的账户。业务运营现金流更顺畅。"
-			},
-			"fraudProtection": {
-				"title": "欺诈保护",
-				"description": "先进的欺诈检测系统，使用机器学习保护您的业务免受可疑交易侵害。"
-			},
-			"compliance": {
-				"title": "法规与合规",
-				"description": "符合PCI DSS安全标准和印度尼西亚银行法规，确保交易安全合法。"
-			},
-			"costEffective": {
-				"title": "价格实惠",
-				"description": "透明的费用结构，无隐藏设置费用。通过为您的业务提供具有竞争力的费率来节省资金。"
-			},
-			"customers": "满意客户",
-			"uptime": "正常运行时间保证",
-			"support": "专家支持",
-			"easy": {
-				"title": "操作简单",
-				"description": "在一个直观的仪表板中管理商品、订单和客户。"
-			},
-			"secure": {
-				"title": "安全可靠",
-				"description": "企业级安全与支付防护，保障每一笔交易。"
-			},
-			"fast": {
-				"title": "高速性能",
-				"description": "优化的店铺与结账流程，提升速度和转化率。"
-			},
-			"automated": {
-				"title": "自动化流程",
-				"description": "自动更新库存、订单状态和客户通知。"
-			}
-		},
-		"testimonials": {
-			"badge": "我们的客户",
-			"title": "他们怎么说",
-			"subtitle": "知名企业选择Omniflow电子商务来管理他们的在线商店运营。加入他们，看看我们的平台如何帮助您的业务转型。",
-			"joinSuccess": {
-				"title": "准备开始？",
-				"description": "加入数千家已通过Omniflow转型其电子商务运营的公司。安排演示，看看我们的平台如何帮助您的业务。",
-				"scheduleDemo": "安排您的演示"
-			},
-			"scheduleDemo": "安排演示"
-		},
-		"cta": {
-			"badge": "准备开始？",
-			"title": "准备开始？",
-			"subtitle": "今天迁移到Omniflow电商平台，体验差异。我们的平台与Omniflow ERP系统无缝集成，实现卓越的业务管理。",
-			"getStarted": "免费开始",
-			"scheduleDemo": "安排演示",
-			"contactSales": "联系销售",
-			"features": {
-				"trial": "免费30天试用",
-				"setup": "无设置费用",
-				"support": "24/7支持"
-			},
-			"stats": {
-				"users": "活跃用户",
-				"uptime": "正常运行时间SLA",
-				"security": "认证安全"
-			}
-		}
-	},
-	"xrm": {
-		"hero": {
-			"badge": "扩展关系管理",
-			"title": "高级 XRM 与客户关系",
-			"subtitle": "具有基于角色的访问控制、活动跟踪和企业安全性的下一代 CRM。",
-			"productivityBoost": "提升效率",
-			"stats": {
-				"users": "活跃用户",
-				"uptime": "SLA 正常运行时间",
-				"saved": "节省工时",
-				"reduction": "成本降低"
-			}
-		},
-		"features": {
-			"title": "全面的XRM功能",
-			"subtitle": "企业级关系管理，具有先进的安全、性能优化和灵活的访问控制。",
-			"badge": "企业安全功能",
-			"mobileApp": {
-				"title": "移动应用程序",
-				"description": "适用于iOS和Android的原生Flutter移动应用程序。随时随地访问您的XRM，在移动设备上获得完整的功能支持。"
-			},
-			"users": {
-				"title": "用户管理",
-				"description": "完整的用户帐户管理，具有基于角色的访问控制、帐户状态控制和批量用户操作。"
-			},
-			"rbac": {
-				"title": "基于角色的访问控制",
-				"description": "灵活的RBAC系统，具有细粒度权限、用户特定覆盖和动态菜单可见性。"
-			},
-			"activityLogs": {
-				"title": "活动记录",
-				"description": "全面的审计跟踪，具有数据更改跟踪、设备指纹识别和敏感数据屏蔽。"
-			},
-			"twofa": {
-				"title": "双因素身份验证",
-				"description": "企业级2FA，具有电子邮件OTP、滑动会话超时和自动会话管理。"
-			},
-			"caching": {
-				"title": "Redis缓存",
-				"description": "高性能缓存，具有自动回退、智能失效和实时性能指标。"
-			},
-			"queue": {
-				"title": "作业队列系统",
-				"description": "由RabbitMQ驱动的作业队列，具有断路器模式、死信队列和全面监控。"
-			}
-		},
-		"screenshots": {
-			"badge": "平台概述",
-			"title": "查看XRM实际应用",
-			"subtitle": "体验我们为所有设备上的管理员和用户设计的直观界面的强大功能。"
-		},
-		"benefits": {
-			"badge": "为什么选择XRM？",
-			"title": "平台优势",
-			"subtitle": "通过Omniflow XRM的卓越功能转型您的关系管理。",
-			"security": {
-				"title": "企业安全",
-				"description": "多层安全，包括2FA、基于角色的访问控制和全面的审计跟踪。"
-			},
-			"scalable": {
-				"title": "高度可扩展",
-				"description": "专为增长而设计，具有Redis缓存和高效的数据库连接池。",
-				"stat": "100K+"
-			},
-			"performance": {
-				"title": "优化性能",
-				"description": "Redis缓存、作业队列处理和自动回退确保亚毫秒级响应时间。",
-				"stat": "99.9%"
-			},
-			"flexible": {
-				"title": "灵活权限",
-				"description": "用户特定的权限覆盖允许为您的组织定制细粒度访问控制。"
-			},
-			"conversion": {
-				"title": "提高转化率",
-				"description": "多种支付方式选项可使客户完成交易的可能性提高多达40%。",
-				"stat": "+40%"
-			},
-			"fastSettlement": {
-				"title": "快速结算",
-				"description": "资金在1-2个工作日内存入您的账户。业务运营现金流更顺畅。",
-				"stat": "1-2天"
-			},
-			"fraudProtection": {
-				"title": "欺诈保护",
-				"description": "先进的欺诈检测系统，使用机器学习保护您的业务免受可疑交易侵害。",
-				"stat": "99.9%"
-			},
-			"compliance": {
-				"title": "法规与合规",
-				"description": "符合PCI DSS安全标准和印度尼西亚银行法规，确保交易安全合法。",
-				"stat": "ISO 27001"
-			},
-			"customers": "满意客户",
-			"uptime": "正常运行时间保证",
-			"support": "专家支持"
-		},
-		"testimonials": {
-			"badge": "我们的客户",
-			"title": "他们怎么说",
-			"subtitle": "知名企业选择Omniflow XRM来管理他们的关系运营。加入他们，看看我们的平台如何帮助您的业务转型。",
-			"joinSuccess": {
-				"title": "准备开始？",
-				"description": "加入数千家已通过Omniflow转型其XRM运营的公司。安排演示，看看我们的平台如何帮助您的业务。",
-				"scheduleDemo": "安排您的演示"
-			},
-			"scheduleDemo": "安排演示"
-		},
-		"cta": {
-			"badge": "开始转型",
-			"title": "准备开始？",
-			"subtitle": "今天迁移到Omniflow XRM，体验差异。我们的平台与Omniflow ERP系统无缝集成，实现卓越的业务管理。",
-			"getStarted": "免费开始",
-			"scheduleDemo": "安排演示",
-			"stats": {
-				"users": "99.9%",
-				"uptime": "15小时",
-				"security": "ISO 27001"
-			}
-		}
-	},
-	"accounting": {
-		"hero": {
-			"badge": "会计系统",
-			"title": "统一会计软件",
-			"subtitle": "在一个可靠的平台上管理总账、交易和财务报告。",
-			"stats": {
-				"users": "活跃用户",
-				"uptime": "正常运行时间SLA",
-				"saved": "节省/周",
-				"reduction": "成本降低"
-			},
-			"productivityBoost": "生产力提升"
-		},
-		"features": {
-			"title": "全面的会计功能",
-			"subtitle": "企业级财务管理，完全控制您的会计运营。",
-			"badge": "全面会计功能",
-			"generalLedger": {
-				"title": "总账",
-				"description": "完整的总账管理，包括日记账分录、账户对账和多币种支持。"
-			},
-			"chartOfAccounts": {
-				"title": "科目表",
-				"description": "灵活的科目表，具有层次结构、账户类型和自动账户代码生成。"
-			},
-			"accountsPayable": {
-				"title": "应付账款",
-				"description": "供应商管理、采购订单、付款处理和账龄报告。"
-			},
-			"accountsReceivable": {
-				"title": "应收账款",
-				"description": "客户管理、开票、付款跟踪和催收管理。"
-			},
-			"invoicing": {
-				"title": "开票与账单",
-				"description": "使用模板、循环开票和自动付款提醒创建专业发票。"
-			},
-			"reports": {
-				"title": "财务报告",
-				"description": "资产负债表、损益表、现金流量表、试算平衡表和自定义财务报告。"
-			}
-		},
-		"screenshots": {
-			"badge": "平台概述",
-			"title": "查看会计实际应用",
-			"subtitle": "体验我们为财务专业人士设计的直观会计界面的强大功能。"
-		},
-		"benefits": {
-			"badge": "为什么选择会计？",
-			"title": "平台优势",
-			"subtitle": "通过Omniflow会计的卓越功能转型您的财务管理。",
-			"conversion": {
-				"title": "提高转化率",
-				"description": "多种支付方式选项可使客户完成交易的可能性提高多达40%。"
-			},
-			"fastSettlement": {
-				"title": "快速结算",
-				"description": "资金在1-2个工作日内存入您的账户。业务运营现金流更顺畅。"
-			},
-			"fraudProtection": {
-				"title": "欺诈保护",
-				"description": "先进的欺诈检测系统，使用机器学习保护您的业务免受可疑交易侵害。"
-			},
-			"compliance": {
-				"title": "法规合规",
-				"description": "内置控制和审计跟踪，确保符合会计标准。"
-			},
-			"costEffective": {
-				"title": "价格实惠",
-				"description": "透明的费用结构，无隐藏设置费用。通过为您的业务提供具有竞争力的费率来节省资金。"
-			},
-			"customers": "满意客户",
-			"uptime": "正常运行时间保证",
-			"support": "专家支持",
-			"accuracy": {
-				"title": "财务准确性",
-				"description": "自动计算和对账确保无错误的财务记录。",
-				"stat": "财务准确性"
-			},
-			"automation": {
-				"title": "流程自动化",
-				"description": "自动化循环分录、开票和对账以节省时间。",
-				"stat": "流程自动化"
-			},
-			"insights": {
-				"title": "实时洞察",
-				"description": "即时访问财务数据和可定制的报告，以支持更好的决策。",
-				"stat": "洞察"
-			}
-		},
-		"testimonials": {
-			"badge": "我们的客户",
-			"title": "他们怎么说",
-			"subtitle": "知名企业选择Omniflow会计来管理他们的财务运营。",
-			"joinSuccess": {
-				"title": "准备开始？",
-				"description": "加入数千家已通过Omniflow转型其会计运营的公司。安排演示，看看我们的平台如何帮助您的业务。",
-				"scheduleDemo": "预约演示"
-			},
-			"scheduleDemo": "安排演示"
-		},
-		"cta": {
-			"badge": "准备开始？",
-			"title": "准备开始？",
-			"subtitle": "今天迁移到Omniflow会计，体验差异。我们的平台与Omniflow ERP系统无缝集成，实现卓越的业务管理。",
-			"getStarted": "免费开始",
-			"scheduleDemo": "安排演示",
-			"contactSales": "联系销售",
-			"features": {
-				"trial": "免费30天试用",
-				"setup": "无设置费用",
-				"support": "24/7支持"
-			},
-			"stats": {
-				"users": "活跃用户",
-				"uptime": "正常运行时间SLA",
-				"security": "认证安全"
-			}
-		}
-	},
-	"urls": {
-		"hero": {
-			"badge": "URL缩短器和重定向",
-			"title": "智能链接管理",
-			"subtitle": "缩短 URL、跟踪点击、管理自定义域名并轻松监控营销表现。",
-			"stats": {
-				"linksCreated": "已创建链接",
-				"uptime": "正常运行SLA",
-				"redirectSpeed": "重定向速度",
-				"clicks": "总点击量"
-			},
-			"linkCreated": "链接已创建"
-		},
-		"features": {
-			"title": "强大的URL管理功能",
-			"subtitle": "创建、管理和有效跟踪链接所需的一切。",
-			"badge": "强大功能",
-			"shortener": {
-				"title": "URL缩短器",
-				"description": "从长URL创建简短、易于记忆的链接。支持自定义别名、自动缩短和批量创建。"
-			},
-			"analytics": {
-				"title": "高级分析",
-				"description": "跟踪点击量、来源、设备和位置。带有详细报告和导出选项的实时仪表板。"
-			},
-			"qrcode": {
-				"title": "二维码生成器",
-				"description": "为任何链接生成二维码。自定义颜色、徽标和样式。高分辨率打印就绪下载。"
-			},
-			"customDomain": {
-				"title": "自定义域名",
-				"description": "使用您自己的域名创建品牌短链接。非常适合企业和营销活动。"
-			},
-			"expiration": {
-				"title": "链接过期",
-				"description": "为时效性链接设置过期日期。指定时间段后自动停用。"
-			},
-			"password": {
-				"title": "密码保护",
-				"description": "用密码保护敏感链接。为您的重定向添加额外的安全层。"
-			},
-			"team": {
-				"title": "团队协作",
-				"description": "邀请团队成员、分配角色并共同管理链接。活动日志和访问控制。"
-			},
-			"security": {
-				"title": "企业级安全",
-				"description": "SSL加密、速率限制和欺诈检测。符合SOC 2标准的基础设施。"
-			}
-		},
-		"benefits": {
-			"badge": "为什么选择Omniflow URLs？",
-			"title": "平台优势",
-			"subtitle": "适用于各种规模的快速、可靠和安全的URL管理。",
-			"fast": {
-				"title": "闪电般快速",
-				"description": "低于50ms的重定向速度确保您的链接即时加载。全球CDN提供卓越性能。"
-			},
-			"analytics": {
-				"title": "深度分析",
-				"description": "全面的点击跟踪，包含地理位置、设备信息和来源数据。做出数据驱动的决策。"
-			},
-			"mobile": {
-				"title": "移动友好",
-				"description": "完全响应的仪表板可在任何设备上运行。移动支持让您随时随地创建和管理链接。"
-			},
-			"secure": {
-				"title": "安全可靠",
-				"description": "企业级安全，含SSL、速率限制和99.9%正常运行时间SLA。您的数据在我们这里是安全的。"
-			},
-			"custom": {
-				"title": "自定义品牌",
-				"description": "使用自定义域名、品牌二维码和个性化链接别名。加强您的品牌标识。"
-			},
-			"reliability": {
-				"title": "99.9%正常运行时间",
-				"description": "冗余基础设施确保您的链接始终可用。企业SLA保证可靠性。"
-			},
-			"stats": {
-				"fast": "50ms",
-				"fastLabel": "平均重定向",
-				"secure": "256位",
-				"secureLabel": "SSL加密",
-				"sla": "99.9%",
-				"slaLabel": "正常运行SLA",
-				"support": "24/7",
-				"supportLabel": "专家支持"
-			}
-		},
-		"cta": {
-			"title": "立即开始缩短链接",
-			"subtitle": "加入数百万信任Omniflow URLs进行链接管理的用户。",
-			"getStarted": "免费开始",
-			"contactSales": "联系销售",
-			"tryDemo": "试用演示"
-		}
-	},
-	"bizzcard": {
-		"hero": {
-			"badge": "数字名片",
-			"title": "现代数字名片",
-			"subtitle": "通过 NFC 或 QR 立即分享专业资料。实用、环保且随时更新。",
-			"stats": {
-				"cardsCreated": "已创建名片",
-				"scans": "总扫描次数",
-				"countries": "国家",
-				"satisfaction": "满意度"
-			},
-			"qrCode": "二维码已准备"
-		},
-		"features": {
-			"title": "强大的数字名片功能",
-			"subtitle": "创建和分享专业数字名片所需的一切。",
-			"badge": "强大功能",
-			"digitalCard": {
-				"title": "数字名片",
-				"description": "创建美观、交互式的数字名片。多种模板、自定义颜色和丰富的媒体支持。"
-			},
-			"qrCode": {
-				"title": "二维码集成",
-				"description": "每张名片都有独特的二维码。扫描即可直接将联系信息保存到手机通讯录。"
-			},
-			"nfc": {
-				"title": "NFC触碰分享",
-				"description": "使用NFC技术轻触即可分享您的名片。兼容所有支持NFC的设备。"
-			},
-			"analytics": {
-				"title": "扫描分析",
-				"description": "跟踪谁查看了您的名片。获取参与度和跟进机会的洞察。"
-			},
-			"vcard": {
-				"title": "vCard导出",
-				"description": "将您的名片导出为vCard/VCF文件。兼容所有联系人应用和设备。"
-			},
-			"team": {
-				"title": "团队管理",
-				"description": "为整个团队创建和管理名片。批量创建和组织功能。"
-			},
-			"customDomain": {
-				"title": "自定义域名",
-				"description": "使用您自己的域名创建个性化名片URL。加强您的品牌标识。"
-			},
-			"responsive": {
-				"title": "移动优化",
-				"description": "名片在任何设备上都看起来很棒。响应式设计确保在任何地方都能完美显示。"
-			}
-		},
-		"benefits": {
-			"badge": "为什么选择Omniflow Bizzcard？",
-			"title": "平台优势",
-			"subtitle": "面向专业人士和企业的现代社交解决方案。",
-			"instant": {
-				"title": "即时分享",
-				"description": "在几秒钟内分享您的联系信息。接收者无需下载应用程序。"
-			},
-			"analytics": {
-				"title": "跟踪参与度",
-				"description": "了解谁对您的业务感兴趣。当有人查看您的名片时获得通知。"
-			},
-			"mobile": {
-				"title": "始终最新",
-				"description": "一次更新，处处同步。详细信息更改时无需重新打印名片。"
-			},
-			"secure": {
-				"title": "安全私密",
-				"description": "控制谁可以查看您的信息。添加密码保护和隐私设置。"
-			},
-			"saveCost": {
-				"title": "节省成本",
-				"description": "无打印成本。无纸张浪费。一张数字名片可替代数千张印刷名片。"
-			},
-			"professional": {
-				"title": "专业形象",
-				"description": "通过现代、交互式的数字名片留下持久印象。"
-			},
-			"stats": {
-				"scans": "100万+",
-				"scansLabel": "总扫描",
-				"saved": "200万美元+",
-				"savedLabel": "节省打印",
-				"time": "5万+",
-				"timeLabel": "节省时间",
-				"support": "24/7",
-				"supportLabel": "专家支持"
-			}
-		},
-		"cta": {
-			"title": "立即创建您的数字名片",
-			"subtitle": "加入数千位通过Omniflow Bizzcard提升社交能力的专业人士。",
-			"getStarted": "免费开始",
-			"contactSales": "联系销售",
-			"tryDemo": "试用演示"
-		}
-	},
-	"pos": {
-		"hero": {
-			"badge": "销售终端系统",
-			"title": "智能销售终端系统",
-			"subtitle": "利用进阶在线/离线 PoS 加速零售结账，支持实时同步和多种支付。",
-			"stats": {
-				"users": "活跃用户",
-				"uptime": "正常运行时间SLA",
-				"saved": "节省/周",
-				"reduction": "成本降低"
-			},
-			"productivityBoost": "生产力提升"
-		},
-		"features": {
-			"title": "全面的POS功能",
-			"subtitle": "企业级销售终端系统，专为现代零售业务设计。",
-			"badge": "全面POS功能",
-			"posSystem": {
-				"title": "POS系统",
-				"description": "直观的结账界面，具有产品搜索、条形码扫描和快速产品选择。"
-			},
-			"inventory": {
-				"title": "库存集成",
-				"description": "实时库存同步，具有自动库存更新和低库存警报。"
-			},
-			"payment": {
-				"title": "支付处理",
-				"description": "多种支付方式，包括现金、卡、电子钱包和集成支付网关。"
-			},
-			"receipts": {
-				"title": "收据打印",
-				"description": "热敏打印机支持，具有可自定义的收据模板和数字收据选项。"
-			},
-			"offline": {
-				"title": "离线模式",
-				"description": "在没有互联网的情况下继续处理销售。连接恢复时数据自动同步。"
-			},
-			"multiStore": {
-				"title": "多店支持",
-				"description": "从一个仪表板管理多个位置，具有集中报告和库存。"
-			}
-		},
-		"screenshots": {
-			"badge": "平台概述",
-			"title": "查看POS实际应用",
-			"subtitle": "体验我们为零售专业人士设计的直观POS界面的强大功能。"
-		},
-		"benefits": {
-			"badge": "为什么选择POS？",
-			"title": "平台优势",
-			"subtitle": "通过Omniflow销售终端的卓越功能转型您的零售运营。",
-			"conversion": {
-				"title": "提高转化率",
-				"description": "多种支付方式选项可使客户完成交易的可能性提高多达40%。"
-			},
-			"fastSettlement": {
-				"title": "快速结算",
-				"description": "资金在1-2个工作日内存入您的账户。业务运营现金流更顺畅。"
-			},
-			"fraudProtection": {
-				"title": "欺诈保护",
-				"description": "先进的欺诈检测系统，使用机器学习保护您的业务免受可疑交易侵害。"
-			},
-			"compliance": {
-				"title": "法规与合规",
-				"description": "符合PCI DSS安全标准和印度尼西亚银行法规，确保交易安全合法。"
-			},
-			"costEffective": {
-				"title": "价格实惠",
-				"description": "透明的费用结构，无隐藏设置费用。通过为您的业务提供具有竞争力的费率来节省资金。"
-			},
-			"customers": "满意客户",
-			"uptime": "正常运行时间保证",
-			"support": "专家支持",
-			"fast": {
-				"title": "快速结账",
-				"description": "通过优化的工作流程和条形码扫描，在几秒钟内处理交易。",
-				"stat": "快速结账"
-			},
-			"reliable": {
-				"title": "离线可靠性",
-				"description": "即使互联网中断也不会错过销售。数据自动同步。",
-				"stat": "离线可靠性"
-			},
-			"integrated": {
-				"title": "完全集成",
-				"description": "与库存、会计和客户管理无缝集成。",
-				"stat": "完全集成"
-			},
-			"flexible": {
-				"title": "灵活支付",
-				"description": "接受所有支付方式，包括现金、卡、电子钱包等。",
-				"stat": "灵活支付"
-			}
-		},
-		"testimonials": {
-			"badge": "我们的客户",
-			"title": "他们怎么说",
-			"subtitle": "知名零售商选择Omniflow POS来管理他们的运营。",
-			"joinSuccess": {
-				"title": "准备开始？",
-				"description": "加入数千家已通过Omniflow转型其POS运营的零售商。安排演示，看看我们的平台如何帮助您的业务。",
-				"scheduleDemo": "Jadwalkan Demo"
-			},
-			"scheduleDemo": "安排演示"
-		},
-		"cta": {
-			"badge": "准备开始？",
-			"title": "准备开始？",
-			"subtitle": "今天迁移到Omniflow POS，体验差异。我们的平台与Omniflow ERP系统无缝集成，实现卓越的零售管理。",
-			"getStarted": "免费开始",
-			"scheduleDemo": "安排演示",
-			"contactSales": "联系销售",
-			"features": {
-				"trial": "免费30天试用",
-				"setup": "无设置费用",
-				"support": "24/7支持"
-			},
-			"stats": {
-				"users": "活跃用户",
-				"uptime": "正常运行时间SLA",
-				"security": "认证安全"
-			}
-		}
-	},
-	"lmsModule": {
-		"hero": {
-			"badge": "学习管理系统",
-			"title": "Omniflow LMS - 完整学习平台",
-			"subtitle": "通过我们全面的LMS转变您的培训和评估计划。创建测验、管理题库、跟踪学习者进度，并提供引人入胜的学习体验。",
-			"stats": {
-				"users": "活跃用户",
-				"uptime": "正常运行时间SLA",
-				"saved": "节省/周",
-				"reduction": "成本降低"
-			},
-			"productivityBoost": "生产力提升"
-		},
-		"features": {
-			"title": "全面的LMS功能",
-			"subtitle": "企业级学习管理，具有强大的评估工具和灵活的内容交付。",
-			"badge": "全面LMS功能",
-			"assessments": {
-				"title": "评估与测验管理",
-				"description": "创建各种类型的评估，具有可配置的设置、时间限制和多次尝试选项。"
-			},
-			"questionBank": {
-				"title": "题库",
-				"description": "集中式题目库，具有分类、难度级别和版本控制，可在多个评估中重复使用。"
-			},
-			"questionTypes": {
-				"title": "多种题型",
-				"description": "支持选择题、判断题、简答题、论述题、匹配题和自定义题目格式。"
-			},
-			"tracking": {
-				"title": "进度跟踪",
-				"description": "通过详细的分析、完成率和绩效洞察监控学习者进度。"
-			},
-			"bulkUpload": {
-				"title": "批量上传",
-				"description": "使用Excel或CSV文件批量导入题目和内容，节省时间并确保一致性。"
-			},
-			"multiTenant": {
-				"title": "多租户",
-				"description": "支持多个组织，具有隔离数据、自定义品牌和基于角色的访问权限。"
-			},
-			"grading": {
-				"title": "自动评分",
-				"description": "客观题自动评分，主观题可手动审查选项。"
-			},
-			"categories": {
-				"title": "内容分类",
-				"description": "将学习内容组织成类别和子类别，便于导航和管理。"
-			}
-		},
-		"screenshots": {
-			"title": "查看LMS实际应用",
-			"subtitle": "体验我们为教育工作者和学习者设计的直观学习平台的强大功能。",
-			"dashboard": {
-				"title": "学习仪表板",
-				"description": "全面的仪表板显示学习者进度、即将到来的评估和课程材料。"
-			},
-			"assessments": {
-				"title": "评估界面",
-				"description": "用户友好的评估界面，具有计时器、进度跟踪和题目导航。"
-			},
-			"questionBank": {
-				"title": "题库管理器",
-				"description": "强大的题目管理界面，具有搜索、筛选和批量操作功能。"
-			}
-		},
-		"benefits": {
-			"title": "平台优势",
-			"subtitle": "通过Omniflow LMS的卓越功能转变您的学习计划。",
-			"conversion": {
-				"title": "提高转化率",
-				"description": "多种支付方式选项可使客户完成交易的可能性提高多达40%。"
-			},
-			"fastSettlement": {
-				"title": "快速结算",
-				"description": "资金在1-2个工作日内存入您的账户。业务运营现金流更顺畅。"
-			},
-			"fraudProtection": {
-				"title": "欺诈保护",
-				"description": "先进的欺诈检测系统，使用机器学习保护您的业务免受可疑交易侵害。"
-			},
-			"compliance": {
-				"title": "法规与合规",
-				"description": "符合PCI DSS安全标准和印度尼西亚银行法规，确保交易安全合法。"
-			},
-			"costEffective": {
-				"title": "价格实惠",
-				"description": "透明的费用结构，无隐藏设置费用。通过为您的业务提供具有竞争力的费率来节省资金。"
-			},
-			"customers": "满意客户",
-			"uptime": "正常运行时间保证",
-			"support": "专家支持",
-			"efficiency": {
-				"title": "提高效率",
-				"description": "自动创建评估、评分和报告，节省时间和资源。",
-				"stat": "效率提升"
-			},
-			"scalable": {
-				"title": "高度可扩展",
-				"description": "通过我们可扩展的云基础设施同时支持数千名学习者。",
-				"stat": "可扩展性"
-			},
-			"insights": {
-				"title": "学习洞察",
-				"description": "通过详细的分析和报告获得学习者绩效的宝贵洞察。",
-				"stat": "洞察"
-			},
-			"flexible": {
-				"title": "灵活交付",
-				"description": "通过移动响应式设计随时随地交付学习内容。",
-				"stat": "灵活"
-			}
-		},
-		"testimonials": {
-			"title": "我们的客户怎么说",
-			"subtitle": "值得信赖的组织选择Omniflow LMS来推动他们的学习计划。",
-			"items": [
-				{
-					"quote": "Omniflow LMS改变了我们的企业培训。评估工具非常强大，分析帮助我们有效跟踪员工进度。",
-					"author": "Sarah Johnson",
-					"role": "培训经理",
-					"company": "TechCorp Inc."
-				},
-				{
-					"quote": "批量上传功能为我们节省了无数时间。我们现在可以在几分钟而不是几天内创建全面的评估。",
-					"author": "Michael Chen",
-					"role": "教育总监",
-					"company": "Global Learning Academy"
-				},
-				{
-					"quote": "我们用过的最好的LMS。多租户架构允许我们从单一平台管理多个客户的培训。",
-					"author": "Lisa Wong",
-					"role": "首席执行官",
-					"company": "EduTech Solutions"
-				}
-			]
-		},
-		"cta": {
-			"badge": "准备转变您的学习？",
-			"title": "准备转变您的学习？",
-			"subtitle": "加入数千个已通过Omniflow LMS现代化培训的机构。",
-			"getStarted": "立即开始",
-			"scheduleDemo": "安排演示",
-			"contactSales": "联系销售",
-			"features": {
-				"trial": "免费30天试用",
-				"setup": "无设置费用",
-				"support": "24/7支持"
-			},
-			"stats": {
-				"users": "活跃用户",
-				"uptime": "正常运行时间SLA",
-				"security": "认证安全"
-			}
-		}
-	},
-	"telemarketing": {
-		"hero": {
-			"badge": "电话营销与自动拨号器",
-			"title": "自动化电话营销平台",
-			"subtitle": "管理联系人、运行自动拨号活动，并使用直接集成在ERP中的TTS。",
-			"stats": {
-				"users": "活跃用户",
-				"uptime": "正常运行时间SLA",
-				"saved": "节省/周",
-				"reduction": "成本降低"
-			},
-			"productivityBoost": "生产力提升"
-		},
-		"features": {
-			"title": "完整的电话营销功能",
-			"subtitle": "我们的电话营销平台提供全面的功能来优化您的外呼活动。",
-			"badge": "全面电话营销功能",
-			"contacts": {
-				"title": "联系人管理",
-				"description": "轻松管理联系人数据库。批量导入联系人，根据标准进行细分，并跟踪与每个联系人的互动状态。"
-			},
-			"audio": {
-				"title": "TTS音频与脚本",
-				"description": "使用文本转语音创建专业的音频消息。管理电话营销脚本，自动生成音频，并保存在音频库中。"
-			},
-			"autodial": {
-				"title": "自动拨号器",
-				"description": "与Twilio集成的智能自动拨号系统。使用选定的音频脚本对联系人列表运行自动呼叫。"
-			},
-			"analytics": {
-				"title": "分析与报告",
-				"description": "实时监控电话营销活动表现的分析仪表板。通话记录报告、转化率以及完整统计数据。"
-			},
-			"scripts": {
-				"title": "电话营销脚本",
-				"description": "创建和管理专业的电话营销脚本。适用于各种行业和通话目的的即用型模板。"
-			},
-			"templates": {
-				"title": "消息模板",
-				"description": "可定制的消息模板库。使用动态变量个性化消息以提高参与度。"
-			},
-			"scheduling": {
-				"title": "活动调度",
-				"description": "安排电话营销活动在最佳时间自动运行。根据目标时区设置呼叫时间表。"
-			},
-			"logs": {
-				"title": "通话记录与历史",
-				"description": "每次通话的完整历史记录，包括状态详情、时长和回拨。与CRM系统集成以跟踪跟进。"
-			}
-		},
-		"benefits": {
-			"title": "电话营销系统优势",
-			"subtitle": "通过Omniflow电话营销的卓越功能提高您的电话营销团队效率。",
-			"conversion": {
-				"title": "更高的转化率",
-				"description": "通过专业脚本和优化的自动拨号，将您的电话营销活动转化率提高多达40%。"
-			},
-			"fastSettlement": {
-				"title": "快速结算",
-				"description": "资金在1-2个工作日内存入您的账户。业务运营现金流更顺畅。"
-			},
-			"fraudProtection": {
-				"title": "欺诈保护",
-				"description": "先进的欺诈检测系统，使用机器学习保护您的业务免受可疑交易侵害。"
-			},
-			"compliance": {
-				"title": "法规合规",
-				"description": "系统设计时考虑电话营销法规。集成的DNC（请勿致电）和选择退出管理功能。"
-			},
-			"costEffective": {
-				"title": "价格实惠",
-				"description": "透明的费用结构，无隐藏设置费用。通过为您的业务提供具有竞争力的费率来节省资金。"
-			},
-			"customers": "满意客户",
-			"uptime": "正常运行时间保证",
-			"support": "专家支持",
-			"efficiency": {
-				"title": "运营效率",
-				"description": "呼叫自动化节省您团队的时间。专注于优质线索和有效的跟进。"
-			},
-			"reach": {
-				"title": "更广泛的覆盖",
-				"description": "通过可靠的自动拨号系统在短时间内联系数千个联系人。与全球电信网络集成。",
-				"stat": "覆盖更广"
-			},
-			"automation": {
-				"title": "完全自动化",
-				"description": "从TTS音频创建到结果报告，所有流程都实现自动化以达到最高效率。"
-			},
-			"team": {
-				"title": "团队管理",
-				"description": "将线索分配给电话营销代理，监控团队表现，并从一个仪表板轻松设置KPI目标。"
-			}
-		},
-		"cta": {
-			"badge": "准备提升销售？",
-			"title": "今天开始您的电话营销活动",
-			"subtitle": "加入数千家已通过Omniflow优化电话营销运营的公司。安排演示以了解我们的平台如何帮助您的业务。",
-			"getStarted": "免费开始",
-			"scheduleDemo": "安排演示",
-			"contactSales": "联系销售",
-			"features": {
-				"trial": "免费30天试用",
-				"setup": "无设置费用",
-				"support": "24/7支持"
-			},
-			"stats": {
-				"users": "活跃用户",
-				"uptime": "正常运行时间SLA",
-				"security": "认证安全"
-			}
-		}
-	},
-	"paymentGateway": {
-		"hero": {
-			"badge": "集成支付网关",
-			"title": "全能支付网关",
-			"subtitle": "在您的 Omniflow 系统中自动接受 QRIS、虚拟账户和电子钱包付款。",
-			"stats": {
-				"users": "活跃用户",
-				"uptime": "正常运行时间SLA",
-				"saved": "节省/周",
-				"reduction": "成本降低"
-			},
-			"productivityBoost": "生产力提升"
-		},
-		"features": {
-			"title": "完整的支付网关功能",
-			"subtitle": "为电子商务和在线业务提供全面的支付解决方案，支持印度尼西亚各种流行的支付方式。",
-			"badge": "全面支付网关功能",
-			"multipleGateways": {
-				"title": "多渠道支付网关",
-				"description": "与Midtrans和各种其他支付网关集成。根据您的业务需求选择最佳提供商。"
-			},
-			"paymentMethods": {
-				"title": "多种支付方式",
-				"description": "通过虚拟账户、QRIS、信用卡、电子钱包（GoPay、OVO、DANA、LinkAja）、银行转账和现金零售接受付款。"
-			},
-			"security": {
-				"title": "保证安全",
-				"description": "敏感数据加密、自动欺诈检测和PCI DSS合规性，确保交易安全。"
-			},
-			"instantNotification": {
-				"title": "实时通知",
-				"description": "通过webhook、电子邮件或推送通知获取每笔交易的即时通知。24/7支付状态监控。"
-			},
-			"transactionManagement": {
-				"title": "交易管理",
-				"description": "在一个仪表板中监控所有交易。跟踪支付状态、退款、拒付和完整的交易历史。"
-			},
-			"analytics": {
-				"title": "分析与报告",
-				"description": "综合分析仪表板，监控支付表现。交易报告、热门支付方式和销售趋势。"
-			},
-			"mobileReady": {
-				"title": "移动优化",
-				"description": "在所有设备上提供无缝的支付体验。移动响应式支付页面，提高转化率。"
-			},
-			"multiCurrency": {
-				"title": "多币种支持",
-				"description": "以多种货币接受付款，自动转换。将您的业务扩展到国际市场。"
-			}
-		},
-		"benefits": {
-			"title": "支付网关优势",
-			"subtitle": "通过我们集成的支付网关解决方案提高转化率并轻松管理付款。",
-			"badge": {
-				"title": "完整支付方式"
-			},
-			"conversion": {
-				"title": "提高转化率",
-				"description": "多种支付方式选项可将客户完成交易的可能性提高多达40%。"
-			},
-			"fastSettlement": {
-				"title": "快速结算",
-				"description": "资金在1-2个工作日内存入您的账户。业务运营现金流更顺畅。"
-			},
-			"fraudProtection": {
-				"title": "欺诈保护",
-				"description": "先进的欺诈检测系统，使用机器学习保护您的业务免受可疑交易侵害。"
-			},
-			"compliance": {
-				"title": "法规与合规",
-				"description": "符合PCI DSS安全标准和印度尼西亚银行法规，确保交易安全合法。"
-			},
-			"support": {
-				"title": "24/7支持",
-				"description": "我们的支持团队随时准备帮助集成和故障排除。响应迅速的技术协助。"
-			},
-			"costEffective": {
-				"title": "价格实惠",
-				"description": "透明的费用结构，无隐藏设置费用。通过为您的业务提供具有竞争力的费率来节省资金。"
-			},
-			"customers": "99.9%",
-			"uptime": "24/7"
-		},
-		"cta": {
-			"badge": "准备接受在线付款？",
-			"title": "今天开始接受付款",
-			"subtitle": "加入使用Omniflow支付网关的数千商家。集成简单，数小时内即可准备就绪。",
-			"getStarted": "免费开始",
-			"scheduleDemo": "安排演示",
-			"contactSales": "联系销售",
-			"features": {
-				"trial": "免费30天试用",
-				"setup": "无设置费用",
-				"support": "24/7支持"
-			},
-			"stats": {
-				"users": "活跃用户",
-				"uptime": "正常运行时间SLA",
-				"security": "认证安全"
-			}
-		}
-	},
-	"sales": {
-		"title": "现代销售管理平台",
-		"subtitle": "通过强大的销售自动化工具梳理销售管道、跟进商机并加速收入增长。",
-		"badge": "受到 50,000+ 销售专业人士信赖",
-		"hero": {
-			"scheduleDemo": "预约演示",
-			"watchOverview": "查看概览",
-			"imageAlt": "销售仪表盘界面",
-			"stats": {
-				"users": "活跃用户",
-				"uptime": "正常运行 SLA",
-				"increase": "收入增长",
-				"implementation": "部署时间"
-			},
-			"revenueGrowth": "收入增长"
-		},
-		"features": {
-			"title": "完整的销售管理方案",
-			"subtitle": "从线索到成交，在一个平台中管理整个销售流程。",
-			"badge": "核心销售功能",
-			"pipeline": {
-				"title": "销售管道管理",
-				"description": "用可自定义阶段和预测能力可视化整个销售管道。",
-				"benefits": [
-					"管道可视化",
-					"商机跟踪",
-					"阶段管理"
-				]
-			},
-			"leads": {
-				"title": "线索管理",
-				"description": "通过自动化流程和评分机制捕获、筛选并培育线索。",
-				"benefits": [
-					"线索收集",
-					"资格流程",
-					"线索评分"
-				]
-			},
-			"deals": {
-				"title": "商机管理",
-				"description": "跟踪商机进展、管理销售活动并更快达成成交。",
-				"benefits": [
-					"商机跟踪",
-					"活动管理",
-					"成交概率"
-				]
-			},
-			"forecasting": {
-				"title": "销售预测",
-				"description": "基于实时管道数据和历史趋势做出更准确的收入预测。",
-				"benefits": [
-					"收入预测",
-					"趋势分析",
-					"预测模型"
-				]
-			},
-			"mobile": {
-				"title": "移动销售应用",
-				"description": "通过 iOS 和 Android 移动应用让销售团队随时保持连接。",
-				"benefits": [
-					"离线访问",
-					"推送通知",
-					"移动表单"
-				]
-			},
-			"integration": {
-				"title": "第三方集成",
-				"description": "无缝连接您现有的工具与工作流。",
-				"benefits": [
-					"邮件集成",
-					"日历同步",
-					"CRM 集成"
-				]
-			}
-		},
-		"screenshots": {
-			"title": "体验更高效的销售流程",
-			"subtitle": "为销售团队设计的直观界面，帮助提升效率并带来更多成交。",
-			"badge": "销售平台预览",
-			"pipeline": {
-				"title": "销售管道仪表盘",
-				"description": "实时查看整个销售管道及收入预测。",
-				"features": [
-					"商机跟踪",
-					"管道阶段",
-					"赢单概率",
-					"收入预测"
-				]
-			},
-			"analytics": {
-				"title": "销售分析",
-				"description": "用全面数据跟踪团队表现并发现新机会。",
-				"features": [
-					"表现指标",
-					"转化跟踪",
-					"收入分析",
-					"团队指标"
-				]
-			},
-			"mobile": {
-				"title": "移动端访问",
-				"description": "即使离线也能在移动端完成核心销售工作。",
-				"features": [
-					"移动更新",
-					"离线模式",
-					"快捷操作",
-					"实时同步"
-				]
-			},
-			"exploreFeature": "查看功能"
-		},
-		"benefits": {
-			"title": "销售结果看得见",
-			"subtitle": "平台上线后，销售效率和收入表现都会出现可衡量的提升。",
-			"badge": "成功案例",
-			"productivity": {
-				"title": "效率提升",
-				"description": "借助更顺畅的流程，销售团队成交速度提升 45%。",
-				"stat": "+45%"
-			},
-			"speed": {
-				"title": "销售周期更短",
-				"description": "自动化重复工作，缩短整体销售周期。",
-				"stat": "快 30%"
-			},
-			"increase": {
-				"title": "收入增长",
-				"description": "通过更好的管道可视化和商机管理推动收入增长。",
-				"stat": "+35%"
-			},
-			"visibility": {
-				"title": "全局可见",
-				"description": "实时掌握销售管道和团队表现。",
-				"stat": "100% 可见"
-			},
-			"organizations": "使用中的组织",
-			"uptime": "稳定性保障",
-			"support": "专家支持"
-		},
-		"testimonials": {
-			"title": "销售团队负责人都在用",
-			"subtitle": "看看领先团队如何借助 Omniflow 加速增长。",
-			"badge": "客户成功",
-			"items": [
-				{
-					"quote": "Omniflow 销售模块彻底改变了我们管理商机的方式。上线后，成交率明显提升。",
-					"author": "David Wilson",
-					"position": "销售总监",
-					"company": "Enterprise Solutions",
-					"rating": 5,
-					"image": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&q=80&w=150"
-				},
-				{
-					"quote": "现在我们对销售管道有了非常清晰的可视化。管理层能够依靠实时数据和预测更快做决策。",
-					"author": "Jessica Martinez",
-					"position": "销售副总裁",
-					"company": "Growth Accelerators",
-					"rating": 5,
-					"image": "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?auto=format&fit=crop&q=80&w=150"
-				},
-				{
-					"quote": "移动应用对外勤销售团队来说是个巨大提升。他们可以随时更新商机，邮件集成也非常顺畅。",
-					"author": "Robert Thompson",
-					"position": "销售经理",
-					"company": "Tech Innovations Ltd",
-					"rating": 5,
-					"image": "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?auto=format&fit=crop&q=80&w=150"
-				}
-			],
-			"joinSuccess": {
-				"title": "想加速销售增长？",
-				"description": "预约演示，看看 Omniflow 如何帮助您的销售组织升级。",
-				"scheduleDemo": "预约您的演示"
-			}
-		},
-		"cta": {
-			"title": "升级您的销售组织",
-			"subtitle": "加入已经借助 Omniflow Sales 加速增长的团队。",
-			"badge": "开始赢得更多成交",
-			"scheduleDemo": "预约演示",
-			"contactSales": "联系销售",
-			"features": {
-				"trial": "30 天免费试用",
-				"setup": "无需设置费用",
-				"support": "24/7 支持"
-			},
-			"stats": {
-				"users": "活跃用户",
-				"uptime": "正常运行 SLA",
-				"growth": "平均增长"
-			}
-		}
-	},
-	"purchasing": {
-		"title": "智能采购管理平台",
-		"subtitle": "优化采购流程、管理供应商，并通过自动化能力降低采购成本。",
-		"badge": "受到 30,000+ 采购专业人士信赖",
-		"hero": {
-			"scheduleDemo": "预约演示",
-			"watchOverview": "查看概览",
-			"imageAlt": "采购仪表盘界面",
-			"stats": {
-				"users": "活跃用户",
-				"uptime": "正常运行 SLA",
-				"savings": "成本节省",
-				"efficiency": "流程效率"
-			},
-			"costReduction": "成本下降"
-		},
-		"features": {
-			"title": "完整采购解决方案",
-			"subtitle": "从申请到发票，在一个平台中梳理整个采购流程。",
-			"badge": "完整采购功能",
-			"requisition": {
-				"title": "采购申请",
-				"description": "通过自动审批和路由快速创建采购申请。",
-				"benefits": [
-					"审批流程",
-					"自动路由",
-					"预算控制"
-				]
-			},
-			"rfq": {
-				"title": "询价与竞价",
-				"description": "创建 RFQ、发送给供应商并高效比较报价。",
-				"benefits": [
-					"报价比较",
-					"竞价流程",
-					"供应商评分"
-				]
-			},
-			"vendors": {
-				"title": "供应商管理",
-				"description": "集中管理供应商关系、表现和合规状态。",
-				"benefits": [
-					"供应商档案",
-					"表现跟踪",
-					"合规管理"
-				]
-			},
-			"approvals": {
-				"title": "审批工作流",
-				"description": "根据公司政策设置多级审批流程。",
-				"benefits": [
-					"自定义流程",
-					"策略执行",
-					"审计轨迹"
-				]
-			},
-			"reporting": {
-				"title": "报告与分析",
-				"description": "通过数据分析掌握支出结构和采购效率。",
-				"benefits": [
-					"支出分析",
-					"供应商分析",
-					"成本趋势"
-				]
-			},
-			"compliance": {
-				"title": "合规与审计",
-				"description": "确保采购流程符合内部制度与监管要求。",
-				"benefits": [
-					"审计轨迹",
-					"策略管理",
-					"法规合规"
-				]
-			}
-		},
-		"screenshots": {
-			"title": "更可控的采购运营",
-			"subtitle": "直观平台帮助您管理完整采购流程。",
-			"badge": "平台预览",
-			"orders": {
-				"title": "采购订单",
-				"description": "创建并实时跟踪采购订单状态。",
-				"features": [
-					"PO 创建",
-					"订单跟踪",
-					"交付管理",
-					"发票匹配"
-				]
-			},
-			"vendors": {
-				"title": "供应商门户",
-				"description": "让供应商更高效地协同和响应采购需求。",
-				"features": [
-					"供应商协同",
-					"报价提交",
-					"绩效指标",
-					"合规文档"
-				]
-			},
-			"analytics": {
-				"title": "采购分析",
-				"description": "深入了解支出、供应商表现和节省空间。",
-				"features": [
-					"支出分析",
-					"供应商表现",
-					"品类分析",
-					"节省跟踪"
-				]
-			},
-			"exploreFeature": "查看功能"
-		},
-		"benefits": {
-			"title": "采购成效更直观",
-			"subtitle": "在成本控制和流程效率上获得可衡量的提升。",
-			"badge": "已验证的收益",
-			"savings": {
-				"title": "节省成本",
-				"description": "通过更好的谈判和自动化降低采购支出。",
-				"stat": "-40%"
-			},
-			"speed": {
-				"title": "处理更快",
-				"description": "缩短采购周期并提升供应商响应速度。",
-				"stat": "快 50%"
-			},
-			"compliance": {
-				"title": "合规更稳",
-				"description": "确保采购流程持续符合制度与法规。",
-				"stat": "100% 合规"
-			},
-			"visibility": {
-				"title": "全局可见",
-				"description": "实时掌握支出与供应商表现。",
-				"stat": "100% 可见"
-			},
-			"vendors": "活跃供应商",
-			"uptime": "稳定性保障",
-			"support": "专家支持"
-		},
-		"testimonials": {
-			"title": "采购负责人都在用",
-			"subtitle": "看看企业如何借助 Omniflow 降低成本并提升效率。",
-			"badge": "客户成功",
-			"items": [
-				{
-					"quote": "Omniflow 采购模块让我们的采购流程清晰了很多。采购周期缩短，供应商协作也明显更顺畅。",
-					"author": "Lisa Anderson",
-					"position": "采购经理",
-					"company": "Supply Chain Solutions",
-					"rating": 5,
-					"image": "https://images.unsplash.com/photo-1494790108377-be9c29b29330?auto=format&fit=crop&q=80&w=150"
-				},
-				{
-					"quote": "供应商管理和合规功能帮助我们在控制成本的同时维持质量标准。RFQ 流程现在已经完全自动化。",
-					"author": "James Mitchell",
-					"position": "供应链总监",
-					"company": "Manufacturing Corp",
-					"rating": 5,
-					"image": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&q=80&w=150"
-				},
-				{
-					"quote": "报告和分析让我们对支出有了更清晰的了解，也更容易识别节省空间。",
-					"author": "Patricia Brown",
-					"position": "采购总监",
-					"company": "Industrial Enterprises",
-					"rating": 5,
-					"image": "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?auto=format&fit=crop&q=80&w=150"
-				}
-			],
-			"joinSuccess": {
-				"title": "想优化采购流程？",
-				"description": "预约演示，看看我们如何帮助您降低采购成本。",
-				"scheduleDemo": "预约您的演示"
-			}
-		},
-		"cta": {
-			"title": "优化您的采购流程",
-			"subtitle": "加入已经通过 Omniflow 实现采购转型的组织。",
-			"badge": "从今天开始节省",
-			"scheduleDemo": "预约演示",
-			"contactSales": "联系销售",
-			"features": {
-				"trial": "30 天免费试用",
-				"setup": "无需设置费用",
-				"support": "24/7 支持"
-			},
-			"stats": {
-				"users": "活跃用户",
-				"uptime": "正常运行 SLA",
-				"savings": "成本节省"
-			}
-		}
-	},
-	"assetManagement": {
-		"title": "企业资产管理平台",
-		"subtitle": "通过智能资产管理平台跟踪、维护并优化企业资产的完整生命周期。",
-		"badge": "受到 25,000+ 组织信赖",
-		"hero": {
-			"scheduleDemo": "预约演示",
-			"watchOverview": "查看概览",
-			"imageAlt": "资产管理仪表盘",
-			"stats": {
-				"users": "活跃用户",
-				"uptime": "正常运行 SLA",
-				"efficiency": "效率提升",
-				"accuracy": "数据准确率"
-			},
-			"accuracyImprovement": "准确率提升"
-		},
-		"features": {
-			"title": "完整资产管理方案",
-			"subtitle": "集中管理固定资产、折旧、维护与使用效率。",
-			"badge": "核心资产管理功能",
-			"tracking": {
-				"title": "资产跟踪",
-				"description": "实时掌握资产位置、状态和使用情况。",
-				"benefits": [
-					"位置跟踪",
-					"条码扫描",
-					"二维码管理"
-				]
-			},
-			"depreciation": {
-				"title": "折旧管理",
-				"description": "自动计算折旧并支持财务合规报告。",
-				"benefits": [
-					"自动计算",
-					"多种方法",
-					"财务报告"
-				]
-			},
-			"lifecycle": {
-				"title": "资产生命周期",
-				"description": "从采购到报废，完整管理资产生命周期。",
-				"benefits": [
-					"采购跟踪",
-					"维护记录",
-					"报废管理"
-				]
-			},
-			"maintenance": {
-				"title": "维护计划",
-				"description": "安排并跟踪预防性和纠正性维护。",
-				"benefits": [
-					"维护排程",
-					"工单管理",
-					"服务跟踪"
-				]
-			},
-			"reports": {
-				"title": "报告与分析",
-				"description": "通过报表和分析掌握资产组合表现。",
-				"benefits": [
-					"资产报表",
-					"利用率分析",
-					"价值跟踪"
-				]
-			},
-			"integration": {
-				"title": "系统集成",
-				"description": "连接财务系统和其他企业应用。",
-				"benefits": [
-					"总账集成",
-					"API 接入",
-					"数据同步"
-				]
-			}
-		},
-		"screenshots": {
-			"title": "资产管理更有条理",
-			"subtitle": "直观界面让资产状态和维护计划一目了然。",
-			"badge": "平台预览",
-			"tracking": {
-				"title": "资产台账",
-				"description": "查看所有资产及其状态、明细和历史。",
-				"features": [
-					"资产台账",
-					"明细视图",
-					"历史跟踪",
-					"状态监控"
-				]
-			},
-			"maintenance": {
-				"title": "维护管理",
-				"description": "统一安排和跟踪所有维护活动。",
-				"features": [
-					"工单",
-					"服务历史",
-					"排程",
-					"成本跟踪"
-				]
-			},
-			"reporting": {
-				"title": "资产报表",
-				"description": "从价值、折旧和利用率角度分析资产表现。",
-				"features": [
-					"资产台账",
-					"折旧报表",
-					"利用率分析",
-					"价值报表"
-				]
-			},
-			"exploreFeature": "查看功能"
-		},
-		"benefits": {
-			"title": "资产管理带来的价值",
-			"subtitle": "在资产可视化和运营效率上获得显著提升。",
-			"badge": "已验证成果",
-			"efficiency": {
-				"title": "效率提升",
-				"description": "简化资产管理流程并减少行政负担。",
-				"stat": "+50%"
-			},
-			"accuracy": {
-				"title": "准确率提升",
-				"description": "通过自动跟踪将资产准确率提升到 95%。",
-				"stat": "+95%"
-			},
-			"cost": {
-				"title": "降低成本",
-				"description": "通过预防性维护减少维修和停机成本。",
-				"stat": "-30%"
-			},
-			"visibility": {
-				"title": "实时可见",
-				"description": "随时掌握资产组合和使用状态。",
-				"stat": "100% 可见"
-			},
-			"organizations": "使用中的组织",
-			"uptime": "稳定性保障",
-			"support": "专家支持"
-		},
-		"testimonials": {
-			"title": "资产管理团队都在用",
-			"subtitle": "看看企业如何提升资产利用率并降低维护成本。",
-			"badge": "客户成功",
-			"items": [
-				{
-					"quote": "Omniflow 资产管理模块改变了我们跟踪和维护公司资产的方式。自动折旧计算为财务团队节省了大量时间。",
-					"author": "Thomas Wilson",
-					"position": "财务经理",
-					"company": "Industrial Solutions",
-					"rating": 5,
-					"image": "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?auto=format&fit=crop&q=80&w=150"
-				},
-				{
-					"quote": "维护排程和跟踪功能大幅降低了停机时间。运营团队现在对资产健康状态有了完整视图。",
-					"author": "Margaret Chen",
-					"position": "运营总监",
-					"company": "Manufacturing Excellence",
-					"rating": 5,
-					"image": "https://images.unsplash.com/photo-1494790108377-be9c29b29330?auto=format&fit=crop&q=80&w=150"
-				},
-				{
-					"quote": "报表能力让我们能更好地做长期资产规划。投入回报很明显，实施过程也很顺畅。",
-					"author": "Richard Thompson",
-					"position": "资产经理",
-					"company": "Enterprise Corp",
-					"rating": 5,
-					"image": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&q=80&w=150"
-				}
-			],
-			"joinSuccess": {
-				"title": "想优化资产管理？",
-				"description": "预约演示，体验更高效的资产管理方式。",
-				"scheduleDemo": "预约您的演示"
-			}
-		},
-		"cta": {
-			"title": "升级您的资产管理能力",
-			"subtitle": "加入已经借助 Omniflow 提升资产效率的组织。",
-			"badge": "开始管理资产",
-			"scheduleDemo": "预约演示",
-			"contactSales": "联系销售",
-			"features": {
-				"trial": "30 天免费试用",
-				"setup": "无需设置费用",
-				"support": "24/7 支持"
-			},
-			"stats": {
-				"users": "活跃用户",
-				"uptime": "正常运行 SLA",
-				"efficiency": "效率提升"
-			}
-		}
-	},
-	"inventory": {
-		"title": "智能库存管理系统",
-		"subtitle": "通过更智能的库存管理优化库存水平、减少缺货并提升仓库运营效率。",
-		"badge": "受到 40,000+ 组织信赖",
-		"hero": {
-			"scheduleDemo": "预约演示",
-			"watchOverview": "查看概览",
-			"imageAlt": "库存管理仪表盘",
-			"stats": {
-				"users": "活跃用户",
-				"uptime": "正常运行 SLA",
-				"reduction": "成本下降",
-				"accuracy": "库存准确率"
-			},
-			"accuracyBoost": "准确率提升"
-		},
-		"features": {
-			"title": "完整库存管理方案",
-			"subtitle": "在多仓、多地点场景下保持库存实时可见并优化补货。",
-			"badge": "核心库存功能",
-			"tracking": {
-				"title": "实时跟踪",
-				"description": "实时掌握各仓库和地点的库存数量。",
-				"benefits": [
-					"实时库存",
-					"多地点管理",
-					"即时更新"
-				]
-			},
-			"warehouse": {
-				"title": "仓库管理",
-				"description": "通过库位和拣货优化提升仓库运营效率。",
-				"benefits": [
-					"库位管理",
-					"拣货优化",
-					"区域管理"
-				]
-			},
-			"orders": {
-				"title": "订单管理",
-				"description": "通过自动化拣货和打包提升订单履约效率。",
-				"benefits": [
-					"订单拣货",
-					"自动打包",
-					"发货跟踪"
-				]
-			},
-			"forecasting": {
-				"title": "需求预测",
-				"description": "用智能预测维持健康库存水平。",
-				"benefits": [
-					"需求预测",
-					"季节趋势",
-					"自动补货"
-				]
-			},
-			"reporting": {
-				"title": "报告与分析",
-				"description": "通过分析与报表持续优化库存表现。",
-				"benefits": [
-					"库存报表",
-					"周转分析",
-					"SKU 表现"
-				]
-			},
-			"barcoding": {
-				"title": "条码与扫描",
-				"description": "借助条码扫描和移动盘点提升库存准确率。",
-				"benefits": [
-					"条码扫描",
-					"移动扫描",
-					"库存盘点"
-				]
-			}
-		},
-		"screenshots": {
-			"title": "库存运营更精准",
-			"subtitle": "直观平台帮助您管理完整库存运营。",
-			"badge": "平台预览",
-			"dashboard": {
-				"title": "库存仪表盘",
-				"description": "实时查看库存水位和关键指标。",
-				"features": [
-					"库存水平",
-					"缺货提醒",
-					"流转趋势",
-					"核心指标"
-				]
-			},
-			"warehouse": {
-				"title": "仓库运营",
-				"description": "基于库位管理仓库作业和库存流转。",
-				"features": [
-					"库位跟踪",
-					"拣货单",
-					"收货",
-					"上架"
-				]
-			},
-			"tracking": {
-				"title": "实时追踪",
-				"description": "快速了解库存流动和趋势变化。",
-				"features": [
-					"流转跟踪",
-					"趋势分析",
-					"预测",
-					"库存调整"
-				]
-			},
-			"exploreFeature": "查看功能"
-		},
-		"benefits": {
-			"title": "库存管理带来的价值",
-			"subtitle": "在库存准确率和仓库效率上获得可衡量提升。",
-			"badge": "已验证成果",
-			"accuracy": {
-				"title": "准确率提升",
-				"description": "通过条码扫描将库存准确率提升到 85%。",
-				"stat": "+85%"
-			},
-			"efficiency": {
-				"title": "运营更高效",
-				"description": "减少人工操作，提升仓库作业效率。",
-				"stat": "快 40%"
-			},
-			"cost": {
-				"title": "降低成本",
-				"description": "通过优化库存降低持有成本和缺货风险。",
-				"stat": "-30%"
-			},
-			"visibility": {
-				"title": "全局可见",
-				"description": "实时查看所有地点的库存状态。",
-				"stat": "100% 可见"
-			},
-			"organizations": "使用中的组织",
-			"uptime": "稳定性保障",
-			"support": "专家支持"
-		},
-		"testimonials": {
-			"title": "库存负责人都在用",
-			"subtitle": "看看企业如何借助 Omniflow 优化库存与仓库运营。",
-			"badge": "客户成功",
-			"items": [
-				{
-					"quote": "Omniflow 库存模块彻底提升了我们的仓库运营。实时跟踪和自动补货显著减少了缺货。",
-					"author": "Michael Torres",
-					"position": "仓库经理",
-					"company": "Distribution Hub Inc",
-					"rating": 5,
-					"image": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&q=80&w=150"
-				},
-				{
-					"quote": "多仓能力和库存预测彻底改变了我们的供应链管理。现在我们对所有地点都拥有完整可视化。",
-					"author": "Christina Williams",
-					"position": "物流总监",
-					"company": "Global Supply Chain",
-					"rating": 5,
-					"image": "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?auto=format&fit=crop&q=80&w=150"
-				},
-				{
-					"quote": "条码扫描和移动应用让盘点更快也更准确。团队效率提升非常明显。",
-					"author": "Kevin Anderson",
-					"position": "运营经理",
-					"company": "Retail Solutions Group",
-					"rating": 5,
-					"image": "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?auto=format&fit=crop&q=80&w=150"
-				}
-			],
-			"joinSuccess": {
-				"title": "想优化库存运营？",
-				"description": "预约演示，看看 Omniflow 如何让库存管理更高效。",
-				"scheduleDemo": "预约您的演示"
-			}
-		},
-		"cta": {
-			"title": "升级您的库存运营",
-			"subtitle": "加入已经通过 Omniflow 优化库存和仓库效率的组织。",
-			"badge": "从今天开始优化",
-			"scheduleDemo": "预约演示",
-			"contactSales": "联系销售",
-			"features": {
-				"trial": "30 天免费试用",
-				"setup": "无需设置费用",
-				"support": "24/7 支持"
-			},
-			"stats": {
-				"users": "活跃用户",
-				"uptime": "正常运行 SLA",
-				"reduction": "成本下降"
-			}
-		}
-	},
-	"footer": {
-		"description": "通过集成ERP解决方案在全球范围内转型企业。加入数千家信任我们简化运营和加速增长的公司。",
-		"seo": {
-			"title": "Omniflow.id - 企业成功的集成ERP解决方案",
-			"description": "通过Omniflow.id的综合ERP平台转型您的业务。简化运营、提高生产力，并通过我们受全球10,000+企业信赖的企业级解决方案加速增长。",
-			"keywords": "ERP软件, 人力资源信息系统, 业务管理, 企业解决方案, Omniflow, 印度尼西亚, 业务管理系统, 人力资源, 会计软件, 客户关系管理系统, 数字化转型, 业务自动化, 云ERP, 企业软件"
-		},
-		"solutions": "解决方案",
-		"company": "公司",
-		"aboutUs": "关于我们",
-		"careers": "职业",
-		"support": "支持",
-		"privacy": "隐私政策",
-		"terms": "服务条款",
-		"cookies": "Cookie政策",
-		"copyright": "版权所有。为企业成功而精心打造。"
-	}
+  "common": {
+    "home": "首页",
+    "about": "关于",
+    "contact": "联系",
+    "blog": "博客",
+    "getStarted": "开始使用",
+    "learnMore": "了解更多",
+    "readMore": "阅读更多",
+    "scheduleDemo": "预约演示",
+    "contactSales": "联系销售",
+    "watchDemo": "观看演示",
+    "tryFree": "免费试用",
+    "loading": "加载中...",
+    "error": "错误",
+    "success": "成功",
+    "back": "返回",
+    "next": "下一步",
+    "previous": "上一步",
+    "save": "保存",
+    "cancel": "取消",
+    "submit": "提交",
+    "search": "搜索",
+    "filter": "筛选",
+    "sort": "排序",
+    "language": "语言"
+  },
+  "navigation": {
+    "solutions": "解决方案",
+    "modules": "模块",
+    "modulesDropdown": "所有模块",
+    "allModules": "所有模块",
+    "integrations": "集成",
+    "hris": "人力资源",
+    "ecommerce": "E-Commerce",
+    "xrm": "XRM",
+    "accounting": "会计",
+    "urls": "URLs",
+    "bizzcard": "Bizzcard",
+    "pos": "销售终端",
+    "lms": "学习管理",
+    "telemarketing": "电话营销",
+    "paymentGateway": "支付网关",
+    "analytics": "分析",
+    "sales": "Sales Management",
+    "purchasing": "Purchasing",
+    "assetManagement": "Asset Management",
+    "inventory": "Inventory Management",
+    "insights": "洞察",
+    "resources": "资源",
+    "support": "支持",
+    "pricing": "定价",
+    "ai": "AI",
+    "bookingEngine": "预订引擎",
+    "customers": "客户管理",
+    "ecf": "ECF",
+    "eventTicketing": "活动票务",
+    "habitat": "社区管理",
+    "helpdesk": "帮助台",
+    "profilex": "Profilex",
+    "propertyManagement": "物业管理",
+    "simklinik": "诊所管理",
+    "categories": {
+      "core": {
+        "label": "核心 ERP",
+        "tagline": "端到端运营日常业务"
+      },
+      "customer": {
+        "label": "客户与商务",
+        "tagline": "在各渠道赢得并留住客户"
+      },
+      "industry": {
+        "label": "行业解决方案",
+        "tagline": "针对特定行业的专属系统"
+      },
+      "tools": {
+        "label": "工具与实用程序",
+        "tagline": "为每个团队提升生产力"
+      }
+    },
+    "exploreAll": "探索所有模块",
+    "megaMenuTitle": "我们的模块",
+    "megaMenuSubtitle": "25 个模块助力您的业务。选择类别开始。"
+  },
+  "hero": {
+    "title": "通过全方位 ERP 解决方案实现业务转型",
+    "subtitle": "Omniflow.id 是印尼领先的企业管理系统。为简化运营、提高效率并加速组织成长而设计的完整 ERP 解决方案。",
+    "trustedBy": "受到10,000+企业信赖",
+    "startJourney": "开始您的旅程",
+    "watchDemo": "观看演示",
+    "stats": {
+      "uptime": "正常运行时间SLA",
+      "users": "活跃用户",
+      "support": "支持"
+    }
+  },
+  "modulesPage": {
+    "title": "业务转型的核心驱动力",
+    "subtitle": "通过我们最全面的集成 ERP 模块组合，加速企业增长。专为解决每个业务条线的独特运营挑战而设计。",
+    "badge": "25个可用模块",
+    "getStarted": "开始使用",
+    "modules": {
+      "hris": "完整的人力资源管理系统，包含工资单、考勤和绩效跟踪。",
+      "ecommerce": "功能齐全的在线商店，包含库存、支付和订单管理。",
+      "xrm": "扩展CRM，用于管理客户关系和销售管道。",
+      "accounting": "全面的财务管理，包含发票、报告和税务合规。",
+      "urls": "专业的URL缩短器和重定向管理器，用于营销活动。",
+      "bizzcard": "数字名片解决方案，支持二维码和NFC。",
+      "pos": "现代销售终端系统，适用于零售和餐饮业务。",
+      "lms": "学习管理系统，适用于企业培训和教育。",
+      "telemarketing": "外呼管理和潜在客户跟踪解决方案。",
+      "payment-gateway": "安全的支付处理，支持多种支付方式。",
+      "analytics": "集成 BCA、OrderOnline、Majoo 和 Moka 等服务的集中式分析平台。",
+      "sales": "Modern sales management with visual pipeline, deal tracking, and revenue forecasting.",
+      "purchasing": "Smarter procurement management with vendor control, RFQ workflows, and cost optimization.",
+      "assetManagement": "End-to-end asset management with tracking, depreciation, maintenance, and lifecycle control.",
+      "inventory": "Multi-location inventory management with real-time stock visibility and warehouse optimization.",
+      "ai": "AI驱动的商业智能和自动化平台。",
+      "bookingEngine": "适合任何业务的智能预订和预约管理。",
+      "customers": "集中客户数据，提供360°档案和忠诚度计划。",
+      "ecf": "面向运营商和投资者的透明股权众筹平台。",
+      "eventTicketing": "端到端活动管理，支持二维码签到。",
+      "habitat": "住宅环境的数字化社区管理。",
+      "helpdesk": "多渠道客户支持，具有SLA跟踪和知识库。",
+      "profilex": "MBTI、DISC和自定义测评，配备自动评分。",
+      "propertyManagement": "面向房东和物业经理的集成物业管理。",
+      "simklinik": "含EMR、药房和账单的诊所信息系统。"
+    }
+  },
+  "integrationsPage": {
+    "title": "无缝生态系统连接",
+    "subtitle": "通过将 Omniflow 连接到您喜爱的全球业务工具，扩展您的业务能力。享受实时数据同步，实现更智能、更高效的工作流程。",
+    "badge": "50+ 集成",
+    "getStarted": "开始使用",
+    "cta": {
+      "title": "需要定制集成？",
+      "description": "我们可以构建定制集成，将Omniflow与您使用的任何系统连接。",
+      "button": "联系销售"
+    },
+    "odoo": {
+      "description": "与Odoo ERP无缝同步数据，实现统一业务管理。"
+    },
+    "sap": {
+      "description": "与SAP系统的企业级集成，适用于大型组织。"
+    },
+    "salesforce": {
+      "description": "将您的CRM数据与Omniflow连接，简化销售流程。"
+    },
+    "shopify": {
+      "description": "与Shopify商店实时同步，用于库存和订单管理。"
+    },
+    "woocommerce": {
+      "description": "与WooCommerce集成，实现无缝电商运营。"
+    },
+    "magento": {
+      "description": "与Magento连接，用于企业电商管理。"
+    },
+    "dynamics": {
+      "description": "与Microsoft Dynamics集成，实现统一业务解决方案。"
+    },
+    "quickbooks": {
+      "description": "与QuickBooks同步会计数据，简化财务管理。"
+    },
+    "xero": {
+      "description": "与Xero连接，用于云计算会计集成。"
+    },
+    "slack": {
+      "description": "直接在Slack频道获取通知和更新。"
+    },
+    "zoom": {
+      "description": "集成视频会议，用于远程会议和演示。"
+    },
+    "zapier": {
+      "description": "使用自动化工作流程连接5,000+个应用程序。"
+    }
+  },
+  "modules": {
+    "title": "全面的业务解决方案",
+    "subtitle": "从人力资源管理、会计到 AI 驱动的分析和文档管理系统 (DMS)，我们的集成模块无缝协作，为您的整个业务生态系统提供动力。",
+    "badge": "25 个集成模块",
+    "hris": {
+      "name": "人力资源",
+      "description": "完整的人力资源管理系统"
+    },
+    "stock": {
+      "name": "库存管理",
+      "description": "高效的库存跟踪和控制"
+    },
+    "sales": {
+      "name": "销售管理",
+      "description": "简化您的销售运营"
+    },
+    "accounting": {
+      "name": "会计",
+      "description": "全面的财务管理"
+    },
+    "urls": {
+      "name": "URLs",
+      "description": "URL缩短器和重定向管理器"
+    },
+    "bizzcard": {
+      "name": "Bizzcard",
+      "description": "数字名片解决方案"
+    },
+    "pos": {
+      "name": "销售点",
+      "description": "现代销售点系统"
+    },
+    "customers": {
+      "name": "客户",
+      "description": "客户关系管理"
+    },
+    "crm": {
+      "name": "客户关系管理",
+      "description": "建立更强的客户关系"
+    },
+    "project": {
+      "name": "项目管理",
+      "description": "高效的项目跟踪和交付"
+    },
+    "marketing": {
+      "name": "营销",
+      "description": "集成营销解决方案"
+    },
+    "lms": {
+      "name": "学习管理",
+      "description": "学习管理系统"
+    },
+    "payment": {
+      "name": "支付网关",
+      "description": "安全的支付处理"
+    },
+    "inventory": {
+      "name": "库存",
+      "description": "高级库存管理"
+    },
+    "ai": {
+      "name": "人工智能",
+      "description": "智能业务自动化"
+    },
+    "admin": {
+      "name": "管理",
+      "description": "集中式系统管理"
+    },
+    "manufacturing": {
+      "name": "制造",
+      "description": "制造过程管理"
+    },
+    "supply": {
+      "name": "供应链",
+      "description": "端到端供应链可视性"
+    },
+    "procurement": {
+      "name": "采购",
+      "description": "简化的采购流程"
+    },
+    "dms": {
+      "name": "文档管理",
+      "description": "企业级文档管理系统 (DMS)"
+    },
+    "analytics": {
+      "name": "分析",
+      "description": "深入的业务集成和数据分析"
+    }
+  },
+  "advantages": {
+    "title": "为什么选择Omniflow.id？",
+    "subtitle": "加入数千家前瞻性公司，他们已经通过我们的企业级解决方案转型了运营。",
+    "allInOne": {
+      "title": "一体化解决方案",
+      "description": "在单一平台中集成所有业务流程，消除对多个软件解决方案的需求。",
+      "stat": "软件复杂性减少90%"
+    },
+    "analytics": {
+      "title": "实时分析",
+      "description": "访问全面的业务洞察和实时报告，以便更好地决策。",
+      "stat": "决策速度提高3倍"
+    },
+    "scalable": {
+      "title": "可扩展架构",
+      "description": "发展您的业务而无需担心系统限制。我们的平台与您一起成长。",
+      "stat": "支持100K+用户"
+    },
+    "costEffective": {
+      "title": "成本效益",
+      "description": "通过简化流程和消除冗余系统来降低运营成本。",
+      "stat": "平均成本降低40%"
+    },
+    "productivity": {
+      "title": "提高生产力",
+      "description": "自动化日常任务并改善跨部门的团队协作。",
+      "stat": "生产力提高60%"
+    },
+    "security": {
+      "title": "安全第一",
+      "description": "企业级安全措施保护您的敏感业务数据。",
+      "stat": "ISO 27001认证"
+    }
+  },
+  "faq": {
+    "title": "有问题？我们有答案",
+    "subtitle": "找到关于我们平台、实施和支持服务的常见问题答案。",
+    "badge": "常见问题",
+    "contactExperts": "联系我们的专家",
+    "stillHaveQuestions": "还有问题？我们的团队随时为您提供帮助。",
+    "questions": {
+      "difference": {
+        "question": "Omniflow.id与其他ERP解决方案有什么不同？",
+        "answer": "Omniflow.id提供全面模块、现代技术和无缝集成能力的独特组合。我们的AI驱动功能、直观界面和企业级安全性使我们与传统ERP系统区别开来。我们专注于用户体验，同时保持强大的功能。"
+      },
+      "implementation": {
+        "question": "实施通常需要多长时间？",
+        "answer": "实施时间因您的业务规模和需求而异。小型企业的基本设置需要2-4周，而企业实施通常需要2-3个月。我们在整个过程中提供专门的项目经理和24/7支持，以确保顺利部署。"
+      },
+      "customization": {
+        "question": "Omniflow.id可以为我的特定行业定制吗？",
+        "answer": "当然可以。Omniflow.id高度可定制，可以根据您行业的特定需求进行调整。我们的模块化架构允许灵活配置、自定义工作流程和行业特定功能。我们在制造、零售、服务等领域都有经验。"
+      },
+      "support": {
+        "question": "您提供什么样的支持和培训？",
+        "answer": "我们提供全面的支持，包括24/7技术援助、定期系统更新、个性化培训课程和专门的客户经理。我们的支持团队包括了解您业务需求并能提供战略指导的认证专家。"
+      },
+      "security": {
+        "question": "我的数据在Omniflow.id中有多安全？",
+        "answer": "安全是我们的首要任务。我们维护ISO 27001认证，使用企业级加密，实施多因素身份验证，并进行定期安全审计。您的数据存储在安全、合规的数据中心，保证99.9%的正常运行时间。"
+      },
+      "integration": {
+        "question": "我可以将Omniflow.id与现有系统集成吗？",
+        "answer": "是的，Omniflow.id提供与流行业务工具、会计软件、CRM系统和第三方应用程序的强大集成能力。我们的API优先方法确保系统之间的无缝数据流，最大限度地减少对当前工作流程的干扰。"
+      }
+    }
+  },
+  "contact": {
+    "title": "准备转型您的业务？",
+    "subtitle": "与我们的企业解决方案专家联系，了解Omniflow.id如何简化运营、提高生产力并加速增长。",
+    "badge": "受企业领导者信赖",
+    "form": {
+      "title": "让我们开始对话",
+      "subtitle": "填写下面的表格，我们的团队将在24小时内与您联系。",
+      "name": "全名",
+      "email": "电子邮件地址",
+      "company": "公司名称",
+      "phone": "电话号码",
+      "jobTitle": "职位",
+      "companySize": "公司规模",
+      "subject": "主题",
+      "message": "消息",
+      "required": "*",
+      "namePlaceholder": "张三",
+      "emailPlaceholder": "zhang@company.com",
+      "companyPlaceholder": "您的公司有限公司",
+      "phonePlaceholder": "+86 xxx-xxxx-xxxx",
+      "jobTitlePlaceholder": "CEO、CTO、经理等",
+      "messagePlaceholder": "告诉我们您的业务需求、挑战或我们如何帮助您...",
+      "selectSubject": "选择主题",
+      "selectCompanySize": "选择公司规模",
+      "sendMessage": "发送消息",
+      "sending": "发送消息中...",
+      "subjects": {
+        "general": "一般咨询",
+        "demo": "产品演示",
+        "support": "技术支持",
+        "sales": "销售问题",
+        "partnership": "合作机会",
+        "enterprise": "企业解决方案",
+        "other": "其他"
+      },
+      "companySizes": {
+        "small": "1-10名员工",
+        "medium": "11-50名员工",
+        "large": "51-200名员工",
+        "enterprise": "201-1000名员工",
+        "mega": "1000+名员工"
+      },
+      "success": {
+        "title": "消息发送成功！",
+        "message": "我们将在24小时内与您联系。"
+      },
+      "error": {
+        "title": "发送消息时出错",
+        "message": "请重试或直接联系我们。"
+      }
+    },
+    "info": {
+      "title": "联系信息",
+      "email": {
+        "title": "邮件联系",
+        "details": "contact@omniflow.id",
+        "description": "随时联系"
+      },
+      "phone": {
+        "title": "电话联系",
+        "details": "+62 821 2560 9413",
+        "description": "周一至周五，上午8点-下午6点 WIB"
+      },
+      "address": {
+        "title": "拜访我们",
+        "details": "雅加达，印度尼西亚",
+        "description": "安排办公室访问"
+      },
+      "support": {
+        "title": "24/7支持",
+        "details": "始终可用",
+        "description": "企业支持"
+      }
+    },
+    "office": {
+      "title": "我们的办公室",
+      "name": "PT. ALGONACCI SOBAT NUSANTARA",
+      "country": "印度尼西亚",
+      "address": "地址：",
+      "addressDetails": "Jl. Letjen S. Parman No. 28\nGrogol Petamburan\n雅加达西部市\n雅加达首都特区 11470",
+      "hours": "营业时间：",
+      "hoursDetails": "周一至周五：上午8:00 - 下午6:00 WIB",
+      "station": "最近车站：",
+      "stationDetails": "MRT Bundaran HI（步行5分钟）"
+    },
+    "whyChoose": {
+      "title": "为什么选择我们",
+      "hours": "小时",
+      "responseTime": "平均响应时间",
+      "customers": "满意客户",
+      "uptime": "正常运行时间保证"
+    },
+    "cta": {
+      "title": "准备开始了吗？",
+      "subtitle": "加入数千家信任Omniflow.id简化运营和提高生产力的企业。让我们讨论如何帮助转型您的业务。",
+      "scheduleDemo": "预约演示",
+      "viewPricing": "查看定价计划"
+    },
+    "features": {
+      "security": "企业级安全",
+      "customers": "10,000+满意客户",
+      "certified": "ISO 27001认证",
+      "uptime": "99.9%正常运行时间保证",
+      "support": "全球支持覆盖",
+      "roi": "经验证的ROI结果"
+    }
+  },
+  "blog": {
+    "title": "企业洞察与资源",
+    "subtitle": "通过业务技术、数字化转型和推动成功的企业解决方案的最新趋势保持领先。",
+    "badge": "知识中心",
+    "features": {
+      "trends": {
+        "title": "行业趋势",
+        "description": "最新市场洞察和预测"
+      },
+      "practices": {
+        "title": "最佳实践",
+        "description": "来自行业领导者的经验证策略"
+      },
+      "stories": {
+        "title": "成功案例",
+        "description": "真实世界的转型案例"
+      }
+    },
+    "latest": "最新文章",
+    "latestSubtitle": "发现可操作的洞察来转型您的业务运营",
+    "comingSoon": {
+      "title": "即将推出",
+      "message": "我们正在为您准备有价值的内容。请稍后查看最新的洞察和资源。"
+    },
+    "error": {
+      "title": "无法加载内容",
+      "tryAgain": "重试"
+    },
+    "loading": "加载最新洞察中...",
+    "backToBlog": "返回博客",
+    "readingTime": "分钟阅读",
+    "articleNotFound": {
+      "title": "文章未找到",
+      "message": "请求的博客文章无法找到。"
+    },
+    "shareArticle": "分享文章",
+    "articleDetails": "文章详情",
+    "published": "发布时间：",
+    "lastUpdated": "最后更新：",
+    "readingTimeLabel": "阅读时间：",
+    "wordCount": "字数：",
+    "minutes": "分钟",
+    "words": "字",
+    "relatedTopics": "相关主题",
+    "cta": {
+      "title": "准备转型您的业务？",
+      "subtitle": "了解Omniflow.id如何帮助您实施本文讨论的策略和解决方案。",
+      "consultation": "预约咨询",
+      "readMore": "阅读更多文章"
+    }
+  },
+  "hris": {
+    "title": "现代人力资源管理助力企业成功",
+    "subtitle": "通过我们全面的HRIS解决方案转型您的人力资源运营。简化招聘、管理员工数据，并通过企业级安全性和可扩展性自动化人力资源流程。",
+    "badge": "受10,000+人力资源专业人士信赖",
+    "hero": {
+      "scheduleDemo": "预约演示",
+      "watchOverview": "观看概述",
+      "stats": {
+        "users": "活跃用户",
+        "uptime": "正常运行时间SLA",
+        "saved": "节省/周",
+        "reduction": "成本降低"
+      },
+      "productivityBoost": "生产力提升"
+    },
+    "features": {
+      "title": "现代人力资源管理所需的一切",
+      "subtitle": "我们的HRIS平台提供您的人力资源团队高效管理员工、确保合规性和推动组织成功所需的所有工具。",
+      "badge": "全面的人力资源功能",
+      "recruitment": {
+        "title": "招聘管理",
+        "description": "通过自动化职位发布、申请人跟踪和面试安排简化您的招聘流程。",
+        "benefits": [
+          "自动化职位发布",
+          "候选人跟踪",
+          "面试安排"
+        ]
+      },
+      "records": {
+        "title": "员工记录",
+        "description": "员工信息、文档和历史记录的集中数据库，便于访问和更新。",
+        "benefits": [
+          "数字文档存储",
+          "员工档案",
+          "历史跟踪"
+        ]
+      },
+      "leave": {
+        "title": "请假管理",
+        "description": "自动化请假申请、审批和余额跟踪，集成日历功能。",
+        "benefits": [
+          "请假申请工作流",
+          "余额跟踪",
+          "日历同步"
+        ]
+      },
+      "performance": {
+        "title": "绩效管理",
+        "description": "设置和跟踪KPI，进行评估，并管理员工发展计划。",
+        "benefits": [
+          "KPI跟踪",
+          "绩效评估",
+          "发展计划"
+        ]
+      },
+      "attendance": {
+        "title": "时间与考勤",
+        "description": "通过自动化考勤监控跟踪工作时间、班次和加班。",
+        "benefits": [
+          "时间跟踪",
+          "班次管理",
+          "加班计算"
+        ]
+      },
+      "compliance": {
+        "title": "合规管理",
+        "description": "通过内置合规工具保持符合劳动法律法规。",
+        "benefits": [
+          "法规合规",
+          "审计跟踪",
+          "政策管理"
+        ]
+      }
+    },
+    "screenshots": {
+      "title": "查看HRIS实际应用",
+      "subtitle": "体验我们为人力资源专业人士和员工在所有设备上设计的直观界面的强大功能。",
+      "badge": "平台概述",
+      "dashboard": {
+        "title": "员工仪表板",
+        "description": "直观的仪表板为员工提供快速访问个人信息、请假余额和重要公告的功能。",
+        "features": [
+          "个人信息",
+          "请假管理",
+          "公司公告",
+          "快速操作"
+        ]
+      },
+      "analytics": {
+        "title": "绩效分析",
+        "description": "全面的绩效指标和分析可视化，用于跟踪员工进度和组织KPI。",
+        "features": [
+          "绩效跟踪",
+          "目标管理",
+          "分析仪表板",
+          "进度报告"
+        ]
+      },
+      "leave": {
+        "title": "请假管理",
+        "description": "简化的请假申请和审批流程，集成日历和自动余额计算。",
+        "features": [
+          "请假申请",
+          "审批工作流",
+          "日历集成",
+          "余额跟踪"
+        ]
+      },
+      "exploreFeature": "探索功能"
+    },
+    "benefits": {
+      "title": "对您业务的可衡量影响",
+      "subtitle": "加入数千家已经通过我们的HRIS平台转型人力资源运营并取得显著成果的公司。",
+      "badge": "经验证的结果",
+      "productivity": {
+        "title": "提高生产力",
+        "description": "自动化日常任务和简化工作流程，将人力资源团队生产力提高多达40%。",
+        "stat": "+40%"
+      },
+      "time": {
+        "title": "节省时间",
+        "description": "通过自动化流程和自助服务门户将管理工作减少60%。",
+        "stat": "15小时/周"
+      },
+      "cost": {
+        "title": "成本降低",
+        "description": "通过流程自动化和提高效率将人力资源运营成本削减35%。",
+        "stat": "节省35%"
+      },
+      "compliance": {
+        "title": "更好的合规性",
+        "description": "通过自动化跟踪确保100%符合劳动法律法规。",
+        "stat": "100%合规"
+      },
+      "customers": "满意客户",
+      "uptime": "正常运行时间保证",
+      "support": "专家支持"
+    },
+    "testimonials": {
+      "title": "受全球人力资源领导者信赖",
+      "subtitle": "了解像您这样的组织如何通过我们的HRIS平台转型人力资源运营并取得显著成果。",
+      "badge": "客户成功案例",
+      "joinSuccess": {
+        "title": "加入我们的成功案例",
+        "description": "准备转型您的人力资源运营？预约个性化演示，看看我们的HRIS如何使您的组织受益。",
+        "scheduleDemo": "预约您的演示"
+      }
+    },
+    "cta": {
+      "title": "今天就转型您的人力资源运营",
+      "subtitle": "加入数千家已经通过Omniflow HRIS现代化人力资源流程的公司。体验自动化、合规性和数据驱动洞察的力量。",
+      "badge": "准备开始了吗？",
+      "scheduleDemo": "预约演示",
+      "contactSales": "联系销售",
+      "features": {
+        "trial": "免费30天试用",
+        "setup": "无设置费用",
+        "support": "24/7支持"
+      },
+      "stats": {
+        "users": "活跃用户",
+        "uptime": "正常运行时间SLA",
+        "security": "认证安全"
+      }
+    }
+  },
+  "commerce": {
+    "hero": {
+      "badge": "电商平台",
+      "title": "综合在线商店平台",
+      "subtitle": "Omniflow电商平台为管理您的在线商店提供综合解决方案。在一个易于使用的平台上管理产品、库存、订单和付款，并与您的ERP系统无缝集成。",
+      "stats": {
+        "users": "活跃用户",
+        "uptime": "正常运行时间SLA",
+        "saved": "节省/周",
+        "reduction": "成本降低"
+      },
+      "productivityBoost": "生产力提升"
+    },
+    "features": {
+      "title": "核心功能",
+      "subtitle": "我们的电商平台提供全面功能，加速您的在线商店运营。",
+      "badge": "全面电子商务功能",
+      "products": {
+        "title": "产品管理",
+        "description": "轻松管理您的产品目录。上传图片，设置价格，在一个地方管理产品变体。"
+      },
+      "inventory": {
+        "title": "库存控制",
+        "description": "实时跟踪库存并在库存不足时自动提醒。与物理仓库和在线商店同步。"
+      },
+      "orders": {
+        "title": "订单管理",
+        "description": "无缝处理从开始到结束的订单。状态跟踪、电子邮件通知和完整历史记录，以提供更好的客户体验。"
+      },
+      "payments": {
+        "title": "安全支付",
+        "description": "接受多种支付方式，包括信用卡、银行转账和数字钱包。安全且兼容的支付处理。"
+      },
+      "reports": {
+        "title": "综合报告",
+        "description": "深入了解您的商店业绩。销售报告、趋势分析和库存报告，用于数据驱动决策。"
+      },
+      "analytics": {
+        "title": "智能分析",
+        "description": "分析仪表板，深入了解客户行为和销售趋势。帮助优化营销策略并提高转化率。"
+      }
+    },
+    "benefits": {
+      "badge": "为什么选择Omniflow电子商务？",
+      "title": "平台优势",
+      "subtitle": "通过Omniflow电子商务平台的卓越功能提升您的在线商店运营。",
+      "conversion": {
+        "title": "提高转化率",
+        "description": "多种支付方式选项可使客户完成交易的可能性提高多达40%。"
+      },
+      "fastSettlement": {
+        "title": "快速结算",
+        "description": "资金在1-2个工作日内存入您的账户。业务运营现金流更顺畅。"
+      },
+      "fraudProtection": {
+        "title": "欺诈保护",
+        "description": "先进的欺诈检测系统，使用机器学习保护您的业务免受可疑交易侵害。"
+      },
+      "compliance": {
+        "title": "法规与合规",
+        "description": "符合PCI DSS安全标准和印度尼西亚银行法规，确保交易安全合法。"
+      },
+      "costEffective": {
+        "title": "价格实惠",
+        "description": "透明的费用结构，无隐藏设置费用。通过为您的业务提供具有竞争力的费率来节省资金。"
+      },
+      "customers": "满意客户",
+      "uptime": "正常运行时间保证",
+      "support": "专家支持",
+      "easy": {
+        "title": "操作简单",
+        "description": "在一个直观的仪表板中管理商品、订单和客户。"
+      },
+      "secure": {
+        "title": "安全可靠",
+        "description": "企业级安全与支付防护，保障每一笔交易。"
+      },
+      "fast": {
+        "title": "高速性能",
+        "description": "优化的店铺与结账流程，提升速度和转化率。"
+      },
+      "automated": {
+        "title": "自动化流程",
+        "description": "自动更新库存、订单状态和客户通知。"
+      }
+    },
+    "testimonials": {
+      "badge": "我们的客户",
+      "title": "他们怎么说",
+      "subtitle": "知名企业选择Omniflow电子商务来管理他们的在线商店运营。加入他们，看看我们的平台如何帮助您的业务转型。",
+      "joinSuccess": {
+        "title": "准备开始？",
+        "description": "加入数千家已通过Omniflow转型其电子商务运营的公司。安排演示，看看我们的平台如何帮助您的业务。",
+        "scheduleDemo": "安排您的演示"
+      },
+      "scheduleDemo": "安排演示"
+    },
+    "cta": {
+      "badge": "准备开始？",
+      "title": "准备开始？",
+      "subtitle": "今天迁移到Omniflow电商平台，体验差异。我们的平台与Omniflow ERP系统无缝集成，实现卓越的业务管理。",
+      "getStarted": "免费开始",
+      "scheduleDemo": "安排演示",
+      "contactSales": "联系销售",
+      "features": {
+        "trial": "免费30天试用",
+        "setup": "无设置费用",
+        "support": "24/7支持"
+      },
+      "stats": {
+        "users": "活跃用户",
+        "uptime": "正常运行时间SLA",
+        "security": "认证安全"
+      }
+    }
+  },
+  "xrm": {
+    "hero": {
+      "badge": "扩展关系管理",
+      "title": "高级 XRM 与客户关系",
+      "subtitle": "具有基于角色的访问控制、活动跟踪和企业安全性的下一代 CRM。",
+      "productivityBoost": "提升效率",
+      "stats": {
+        "users": "活跃用户",
+        "uptime": "SLA 正常运行时间",
+        "saved": "节省工时",
+        "reduction": "成本降低"
+      }
+    },
+    "features": {
+      "title": "全面的XRM功能",
+      "subtitle": "企业级关系管理，具有先进的安全、性能优化和灵活的访问控制。",
+      "badge": "企业安全功能",
+      "mobileApp": {
+        "title": "移动应用程序",
+        "description": "适用于iOS和Android的原生Flutter移动应用程序。随时随地访问您的XRM，在移动设备上获得完整的功能支持。"
+      },
+      "users": {
+        "title": "用户管理",
+        "description": "完整的用户帐户管理，具有基于角色的访问控制、帐户状态控制和批量用户操作。"
+      },
+      "rbac": {
+        "title": "基于角色的访问控制",
+        "description": "灵活的RBAC系统，具有细粒度权限、用户特定覆盖和动态菜单可见性。"
+      },
+      "activityLogs": {
+        "title": "活动记录",
+        "description": "全面的审计跟踪，具有数据更改跟踪、设备指纹识别和敏感数据屏蔽。"
+      },
+      "twofa": {
+        "title": "双因素身份验证",
+        "description": "企业级2FA，具有电子邮件OTP、滑动会话超时和自动会话管理。"
+      },
+      "caching": {
+        "title": "Redis缓存",
+        "description": "高性能缓存，具有自动回退、智能失效和实时性能指标。"
+      },
+      "queue": {
+        "title": "作业队列系统",
+        "description": "由RabbitMQ驱动的作业队列，具有断路器模式、死信队列和全面监控。"
+      }
+    },
+    "screenshots": {
+      "badge": "平台概述",
+      "title": "查看XRM实际应用",
+      "subtitle": "体验我们为所有设备上的管理员和用户设计的直观界面的强大功能。"
+    },
+    "benefits": {
+      "badge": "为什么选择XRM？",
+      "title": "平台优势",
+      "subtitle": "通过Omniflow XRM的卓越功能转型您的关系管理。",
+      "security": {
+        "title": "企业安全",
+        "description": "多层安全，包括2FA、基于角色的访问控制和全面的审计跟踪。"
+      },
+      "scalable": {
+        "title": "高度可扩展",
+        "description": "专为增长而设计，具有Redis缓存和高效的数据库连接池。",
+        "stat": "100K+"
+      },
+      "performance": {
+        "title": "优化性能",
+        "description": "Redis缓存、作业队列处理和自动回退确保亚毫秒级响应时间。",
+        "stat": "99.9%"
+      },
+      "flexible": {
+        "title": "灵活权限",
+        "description": "用户特定的权限覆盖允许为您的组织定制细粒度访问控制。"
+      },
+      "conversion": {
+        "title": "提高转化率",
+        "description": "多种支付方式选项可使客户完成交易的可能性提高多达40%。",
+        "stat": "+40%"
+      },
+      "fastSettlement": {
+        "title": "快速结算",
+        "description": "资金在1-2个工作日内存入您的账户。业务运营现金流更顺畅。",
+        "stat": "1-2天"
+      },
+      "fraudProtection": {
+        "title": "欺诈保护",
+        "description": "先进的欺诈检测系统，使用机器学习保护您的业务免受可疑交易侵害。",
+        "stat": "99.9%"
+      },
+      "compliance": {
+        "title": "法规与合规",
+        "description": "符合PCI DSS安全标准和印度尼西亚银行法规，确保交易安全合法。",
+        "stat": "ISO 27001"
+      },
+      "customers": "满意客户",
+      "uptime": "正常运行时间保证",
+      "support": "专家支持"
+    },
+    "testimonials": {
+      "badge": "我们的客户",
+      "title": "他们怎么说",
+      "subtitle": "知名企业选择Omniflow XRM来管理他们的关系运营。加入他们，看看我们的平台如何帮助您的业务转型。",
+      "joinSuccess": {
+        "title": "准备开始？",
+        "description": "加入数千家已通过Omniflow转型其XRM运营的公司。安排演示，看看我们的平台如何帮助您的业务。",
+        "scheduleDemo": "安排您的演示"
+      },
+      "scheduleDemo": "安排演示"
+    },
+    "cta": {
+      "badge": "开始转型",
+      "title": "准备开始？",
+      "subtitle": "今天迁移到Omniflow XRM，体验差异。我们的平台与Omniflow ERP系统无缝集成，实现卓越的业务管理。",
+      "getStarted": "免费开始",
+      "scheduleDemo": "安排演示",
+      "stats": {
+        "users": "99.9%",
+        "uptime": "15小时",
+        "security": "ISO 27001"
+      }
+    }
+  },
+  "accounting": {
+    "hero": {
+      "badge": "会计系统",
+      "title": "统一会计软件",
+      "subtitle": "在一个可靠的平台上管理总账、交易和财务报告。",
+      "stats": {
+        "users": "活跃用户",
+        "uptime": "正常运行时间SLA",
+        "saved": "节省/周",
+        "reduction": "成本降低"
+      },
+      "productivityBoost": "生产力提升"
+    },
+    "features": {
+      "title": "全面的会计功能",
+      "subtitle": "企业级财务管理，完全控制您的会计运营。",
+      "badge": "全面会计功能",
+      "generalLedger": {
+        "title": "总账",
+        "description": "完整的总账管理，包括日记账分录、账户对账和多币种支持。"
+      },
+      "chartOfAccounts": {
+        "title": "科目表",
+        "description": "灵活的科目表，具有层次结构、账户类型和自动账户代码生成。"
+      },
+      "accountsPayable": {
+        "title": "应付账款",
+        "description": "供应商管理、采购订单、付款处理和账龄报告。"
+      },
+      "accountsReceivable": {
+        "title": "应收账款",
+        "description": "客户管理、开票、付款跟踪和催收管理。"
+      },
+      "invoicing": {
+        "title": "开票与账单",
+        "description": "使用模板、循环开票和自动付款提醒创建专业发票。"
+      },
+      "reports": {
+        "title": "财务报告",
+        "description": "资产负债表、损益表、现金流量表、试算平衡表和自定义财务报告。"
+      }
+    },
+    "screenshots": {
+      "badge": "平台概述",
+      "title": "查看会计实际应用",
+      "subtitle": "体验我们为财务专业人士设计的直观会计界面的强大功能。"
+    },
+    "benefits": {
+      "badge": "为什么选择会计？",
+      "title": "平台优势",
+      "subtitle": "通过Omniflow会计的卓越功能转型您的财务管理。",
+      "conversion": {
+        "title": "提高转化率",
+        "description": "多种支付方式选项可使客户完成交易的可能性提高多达40%。"
+      },
+      "fastSettlement": {
+        "title": "快速结算",
+        "description": "资金在1-2个工作日内存入您的账户。业务运营现金流更顺畅。"
+      },
+      "fraudProtection": {
+        "title": "欺诈保护",
+        "description": "先进的欺诈检测系统，使用机器学习保护您的业务免受可疑交易侵害。"
+      },
+      "compliance": {
+        "title": "法规合规",
+        "description": "内置控制和审计跟踪，确保符合会计标准。"
+      },
+      "costEffective": {
+        "title": "价格实惠",
+        "description": "透明的费用结构，无隐藏设置费用。通过为您的业务提供具有竞争力的费率来节省资金。"
+      },
+      "customers": "满意客户",
+      "uptime": "正常运行时间保证",
+      "support": "专家支持",
+      "accuracy": {
+        "title": "财务准确性",
+        "description": "自动计算和对账确保无错误的财务记录。",
+        "stat": "财务准确性"
+      },
+      "automation": {
+        "title": "流程自动化",
+        "description": "自动化循环分录、开票和对账以节省时间。",
+        "stat": "流程自动化"
+      },
+      "insights": {
+        "title": "实时洞察",
+        "description": "即时访问财务数据和可定制的报告，以支持更好的决策。",
+        "stat": "洞察"
+      }
+    },
+    "testimonials": {
+      "badge": "我们的客户",
+      "title": "他们怎么说",
+      "subtitle": "知名企业选择Omniflow会计来管理他们的财务运营。",
+      "joinSuccess": {
+        "title": "准备开始？",
+        "description": "加入数千家已通过Omniflow转型其会计运营的公司。安排演示，看看我们的平台如何帮助您的业务。",
+        "scheduleDemo": "预约演示"
+      },
+      "scheduleDemo": "安排演示"
+    },
+    "cta": {
+      "badge": "准备开始？",
+      "title": "准备开始？",
+      "subtitle": "今天迁移到Omniflow会计，体验差异。我们的平台与Omniflow ERP系统无缝集成，实现卓越的业务管理。",
+      "getStarted": "免费开始",
+      "scheduleDemo": "安排演示",
+      "contactSales": "联系销售",
+      "features": {
+        "trial": "免费30天试用",
+        "setup": "无设置费用",
+        "support": "24/7支持"
+      },
+      "stats": {
+        "users": "活跃用户",
+        "uptime": "正常运行时间SLA",
+        "security": "认证安全"
+      }
+    }
+  },
+  "urls": {
+    "hero": {
+      "badge": "URL缩短器和重定向",
+      "title": "智能链接管理",
+      "subtitle": "缩短 URL、跟踪点击、管理自定义域名并轻松监控营销表现。",
+      "stats": {
+        "linksCreated": "已创建链接",
+        "uptime": "正常运行SLA",
+        "redirectSpeed": "重定向速度",
+        "clicks": "总点击量"
+      },
+      "linkCreated": "链接已创建"
+    },
+    "features": {
+      "title": "强大的URL管理功能",
+      "subtitle": "创建、管理和有效跟踪链接所需的一切。",
+      "badge": "强大功能",
+      "shortener": {
+        "title": "URL缩短器",
+        "description": "从长URL创建简短、易于记忆的链接。支持自定义别名、自动缩短和批量创建。"
+      },
+      "analytics": {
+        "title": "高级分析",
+        "description": "跟踪点击量、来源、设备和位置。带有详细报告和导出选项的实时仪表板。"
+      },
+      "qrcode": {
+        "title": "二维码生成器",
+        "description": "为任何链接生成二维码。自定义颜色、徽标和样式。高分辨率打印就绪下载。"
+      },
+      "customDomain": {
+        "title": "自定义域名",
+        "description": "使用您自己的域名创建品牌短链接。非常适合企业和营销活动。"
+      },
+      "expiration": {
+        "title": "链接过期",
+        "description": "为时效性链接设置过期日期。指定时间段后自动停用。"
+      },
+      "password": {
+        "title": "密码保护",
+        "description": "用密码保护敏感链接。为您的重定向添加额外的安全层。"
+      },
+      "team": {
+        "title": "团队协作",
+        "description": "邀请团队成员、分配角色并共同管理链接。活动日志和访问控制。"
+      },
+      "security": {
+        "title": "企业级安全",
+        "description": "SSL加密、速率限制和欺诈检测。符合SOC 2标准的基础设施。"
+      }
+    },
+    "benefits": {
+      "badge": "为什么选择Omniflow URLs？",
+      "title": "平台优势",
+      "subtitle": "适用于各种规模的快速、可靠和安全的URL管理。",
+      "fast": {
+        "title": "闪电般快速",
+        "description": "低于50ms的重定向速度确保您的链接即时加载。全球CDN提供卓越性能。"
+      },
+      "analytics": {
+        "title": "深度分析",
+        "description": "全面的点击跟踪，包含地理位置、设备信息和来源数据。做出数据驱动的决策。"
+      },
+      "mobile": {
+        "title": "移动友好",
+        "description": "完全响应的仪表板可在任何设备上运行。移动支持让您随时随地创建和管理链接。"
+      },
+      "secure": {
+        "title": "安全可靠",
+        "description": "企业级安全，含SSL、速率限制和99.9%正常运行时间SLA。您的数据在我们这里是安全的。"
+      },
+      "custom": {
+        "title": "自定义品牌",
+        "description": "使用自定义域名、品牌二维码和个性化链接别名。加强您的品牌标识。"
+      },
+      "reliability": {
+        "title": "99.9%正常运行时间",
+        "description": "冗余基础设施确保您的链接始终可用。企业SLA保证可靠性。"
+      },
+      "stats": {
+        "fast": "50ms",
+        "fastLabel": "平均重定向",
+        "secure": "256位",
+        "secureLabel": "SSL加密",
+        "sla": "99.9%",
+        "slaLabel": "正常运行SLA",
+        "support": "24/7",
+        "supportLabel": "专家支持"
+      }
+    },
+    "cta": {
+      "title": "立即开始缩短链接",
+      "subtitle": "加入数百万信任Omniflow URLs进行链接管理的用户。",
+      "getStarted": "免费开始",
+      "contactSales": "联系销售",
+      "tryDemo": "试用演示"
+    }
+  },
+  "bizzcard": {
+    "hero": {
+      "badge": "数字名片",
+      "title": "现代数字名片",
+      "subtitle": "通过 NFC 或 QR 立即分享专业资料。实用、环保且随时更新。",
+      "stats": {
+        "cardsCreated": "已创建名片",
+        "scans": "总扫描次数",
+        "countries": "国家",
+        "satisfaction": "满意度"
+      },
+      "qrCode": "二维码已准备"
+    },
+    "features": {
+      "title": "强大的数字名片功能",
+      "subtitle": "创建和分享专业数字名片所需的一切。",
+      "badge": "强大功能",
+      "digitalCard": {
+        "title": "数字名片",
+        "description": "创建美观、交互式的数字名片。多种模板、自定义颜色和丰富的媒体支持。"
+      },
+      "qrCode": {
+        "title": "二维码集成",
+        "description": "每张名片都有独特的二维码。扫描即可直接将联系信息保存到手机通讯录。"
+      },
+      "nfc": {
+        "title": "NFC触碰分享",
+        "description": "使用NFC技术轻触即可分享您的名片。兼容所有支持NFC的设备。"
+      },
+      "analytics": {
+        "title": "扫描分析",
+        "description": "跟踪谁查看了您的名片。获取参与度和跟进机会的洞察。"
+      },
+      "vcard": {
+        "title": "vCard导出",
+        "description": "将您的名片导出为vCard/VCF文件。兼容所有联系人应用和设备。"
+      },
+      "team": {
+        "title": "团队管理",
+        "description": "为整个团队创建和管理名片。批量创建和组织功能。"
+      },
+      "customDomain": {
+        "title": "自定义域名",
+        "description": "使用您自己的域名创建个性化名片URL。加强您的品牌标识。"
+      },
+      "responsive": {
+        "title": "移动优化",
+        "description": "名片在任何设备上都看起来很棒。响应式设计确保在任何地方都能完美显示。"
+      }
+    },
+    "benefits": {
+      "badge": "为什么选择Omniflow Bizzcard？",
+      "title": "平台优势",
+      "subtitle": "面向专业人士和企业的现代社交解决方案。",
+      "instant": {
+        "title": "即时分享",
+        "description": "在几秒钟内分享您的联系信息。接收者无需下载应用程序。"
+      },
+      "analytics": {
+        "title": "跟踪参与度",
+        "description": "了解谁对您的业务感兴趣。当有人查看您的名片时获得通知。"
+      },
+      "mobile": {
+        "title": "始终最新",
+        "description": "一次更新，处处同步。详细信息更改时无需重新打印名片。"
+      },
+      "secure": {
+        "title": "安全私密",
+        "description": "控制谁可以查看您的信息。添加密码保护和隐私设置。"
+      },
+      "saveCost": {
+        "title": "节省成本",
+        "description": "无打印成本。无纸张浪费。一张数字名片可替代数千张印刷名片。"
+      },
+      "professional": {
+        "title": "专业形象",
+        "description": "通过现代、交互式的数字名片留下持久印象。"
+      },
+      "stats": {
+        "scans": "100万+",
+        "scansLabel": "总扫描",
+        "saved": "200万美元+",
+        "savedLabel": "节省打印",
+        "time": "5万+",
+        "timeLabel": "节省时间",
+        "support": "24/7",
+        "supportLabel": "专家支持"
+      }
+    },
+    "cta": {
+      "title": "立即创建您的数字名片",
+      "subtitle": "加入数千位通过Omniflow Bizzcard提升社交能力的专业人士。",
+      "getStarted": "免费开始",
+      "contactSales": "联系销售",
+      "tryDemo": "试用演示"
+    }
+  },
+  "pos": {
+    "hero": {
+      "badge": "销售终端系统",
+      "title": "智能销售终端系统",
+      "subtitle": "利用进阶在线/离线 PoS 加速零售结账，支持实时同步和多种支付。",
+      "stats": {
+        "users": "活跃用户",
+        "uptime": "正常运行时间SLA",
+        "saved": "节省/周",
+        "reduction": "成本降低"
+      },
+      "productivityBoost": "生产力提升"
+    },
+    "features": {
+      "title": "全面的POS功能",
+      "subtitle": "企业级销售终端系统，专为现代零售业务设计。",
+      "badge": "全面POS功能",
+      "posSystem": {
+        "title": "POS系统",
+        "description": "直观的结账界面，具有产品搜索、条形码扫描和快速产品选择。"
+      },
+      "inventory": {
+        "title": "库存集成",
+        "description": "实时库存同步，具有自动库存更新和低库存警报。"
+      },
+      "payment": {
+        "title": "支付处理",
+        "description": "多种支付方式，包括现金、卡、电子钱包和集成支付网关。"
+      },
+      "receipts": {
+        "title": "收据打印",
+        "description": "热敏打印机支持，具有可自定义的收据模板和数字收据选项。"
+      },
+      "offline": {
+        "title": "离线模式",
+        "description": "在没有互联网的情况下继续处理销售。连接恢复时数据自动同步。"
+      },
+      "multiStore": {
+        "title": "多店支持",
+        "description": "从一个仪表板管理多个位置，具有集中报告和库存。"
+      }
+    },
+    "screenshots": {
+      "badge": "平台概述",
+      "title": "查看POS实际应用",
+      "subtitle": "体验我们为零售专业人士设计的直观POS界面的强大功能。"
+    },
+    "benefits": {
+      "badge": "为什么选择POS？",
+      "title": "平台优势",
+      "subtitle": "通过Omniflow销售终端的卓越功能转型您的零售运营。",
+      "conversion": {
+        "title": "提高转化率",
+        "description": "多种支付方式选项可使客户完成交易的可能性提高多达40%。"
+      },
+      "fastSettlement": {
+        "title": "快速结算",
+        "description": "资金在1-2个工作日内存入您的账户。业务运营现金流更顺畅。"
+      },
+      "fraudProtection": {
+        "title": "欺诈保护",
+        "description": "先进的欺诈检测系统，使用机器学习保护您的业务免受可疑交易侵害。"
+      },
+      "compliance": {
+        "title": "法规与合规",
+        "description": "符合PCI DSS安全标准和印度尼西亚银行法规，确保交易安全合法。"
+      },
+      "costEffective": {
+        "title": "价格实惠",
+        "description": "透明的费用结构，无隐藏设置费用。通过为您的业务提供具有竞争力的费率来节省资金。"
+      },
+      "customers": "满意客户",
+      "uptime": "正常运行时间保证",
+      "support": "专家支持",
+      "fast": {
+        "title": "快速结账",
+        "description": "通过优化的工作流程和条形码扫描，在几秒钟内处理交易。",
+        "stat": "快速结账"
+      },
+      "reliable": {
+        "title": "离线可靠性",
+        "description": "即使互联网中断也不会错过销售。数据自动同步。",
+        "stat": "离线可靠性"
+      },
+      "integrated": {
+        "title": "完全集成",
+        "description": "与库存、会计和客户管理无缝集成。",
+        "stat": "完全集成"
+      },
+      "flexible": {
+        "title": "灵活支付",
+        "description": "接受所有支付方式，包括现金、卡、电子钱包等。",
+        "stat": "灵活支付"
+      }
+    },
+    "testimonials": {
+      "badge": "我们的客户",
+      "title": "他们怎么说",
+      "subtitle": "知名零售商选择Omniflow POS来管理他们的运营。",
+      "joinSuccess": {
+        "title": "准备开始？",
+        "description": "加入数千家已通过Omniflow转型其POS运营的零售商。安排演示，看看我们的平台如何帮助您的业务。",
+        "scheduleDemo": "Jadwalkan Demo"
+      },
+      "scheduleDemo": "安排演示"
+    },
+    "cta": {
+      "badge": "准备开始？",
+      "title": "准备开始？",
+      "subtitle": "今天迁移到Omniflow POS，体验差异。我们的平台与Omniflow ERP系统无缝集成，实现卓越的零售管理。",
+      "getStarted": "免费开始",
+      "scheduleDemo": "安排演示",
+      "contactSales": "联系销售",
+      "features": {
+        "trial": "免费30天试用",
+        "setup": "无设置费用",
+        "support": "24/7支持"
+      },
+      "stats": {
+        "users": "活跃用户",
+        "uptime": "正常运行时间SLA",
+        "security": "认证安全"
+      }
+    }
+  },
+  "lmsModule": {
+    "hero": {
+      "badge": "学习管理系统",
+      "title": "Omniflow LMS - 完整学习平台",
+      "subtitle": "通过我们全面的LMS转变您的培训和评估计划。创建测验、管理题库、跟踪学习者进度，并提供引人入胜的学习体验。",
+      "stats": {
+        "users": "活跃用户",
+        "uptime": "正常运行时间SLA",
+        "saved": "节省/周",
+        "reduction": "成本降低"
+      },
+      "productivityBoost": "生产力提升"
+    },
+    "features": {
+      "title": "全面的LMS功能",
+      "subtitle": "企业级学习管理，具有强大的评估工具和灵活的内容交付。",
+      "badge": "全面LMS功能",
+      "assessments": {
+        "title": "评估与测验管理",
+        "description": "创建各种类型的评估，具有可配置的设置、时间限制和多次尝试选项。"
+      },
+      "questionBank": {
+        "title": "题库",
+        "description": "集中式题目库，具有分类、难度级别和版本控制，可在多个评估中重复使用。"
+      },
+      "questionTypes": {
+        "title": "多种题型",
+        "description": "支持选择题、判断题、简答题、论述题、匹配题和自定义题目格式。"
+      },
+      "tracking": {
+        "title": "进度跟踪",
+        "description": "通过详细的分析、完成率和绩效洞察监控学习者进度。"
+      },
+      "bulkUpload": {
+        "title": "批量上传",
+        "description": "使用Excel或CSV文件批量导入题目和内容，节省时间并确保一致性。"
+      },
+      "multiTenant": {
+        "title": "多租户",
+        "description": "支持多个组织，具有隔离数据、自定义品牌和基于角色的访问权限。"
+      },
+      "grading": {
+        "title": "自动评分",
+        "description": "客观题自动评分，主观题可手动审查选项。"
+      },
+      "categories": {
+        "title": "内容分类",
+        "description": "将学习内容组织成类别和子类别，便于导航和管理。"
+      }
+    },
+    "screenshots": {
+      "title": "查看LMS实际应用",
+      "subtitle": "体验我们为教育工作者和学习者设计的直观学习平台的强大功能。",
+      "dashboard": {
+        "title": "学习仪表板",
+        "description": "全面的仪表板显示学习者进度、即将到来的评估和课程材料。"
+      },
+      "assessments": {
+        "title": "评估界面",
+        "description": "用户友好的评估界面，具有计时器、进度跟踪和题目导航。"
+      },
+      "questionBank": {
+        "title": "题库管理器",
+        "description": "强大的题目管理界面，具有搜索、筛选和批量操作功能。"
+      }
+    },
+    "benefits": {
+      "title": "平台优势",
+      "subtitle": "通过Omniflow LMS的卓越功能转变您的学习计划。",
+      "conversion": {
+        "title": "提高转化率",
+        "description": "多种支付方式选项可使客户完成交易的可能性提高多达40%。"
+      },
+      "fastSettlement": {
+        "title": "快速结算",
+        "description": "资金在1-2个工作日内存入您的账户。业务运营现金流更顺畅。"
+      },
+      "fraudProtection": {
+        "title": "欺诈保护",
+        "description": "先进的欺诈检测系统，使用机器学习保护您的业务免受可疑交易侵害。"
+      },
+      "compliance": {
+        "title": "法规与合规",
+        "description": "符合PCI DSS安全标准和印度尼西亚银行法规，确保交易安全合法。"
+      },
+      "costEffective": {
+        "title": "价格实惠",
+        "description": "透明的费用结构，无隐藏设置费用。通过为您的业务提供具有竞争力的费率来节省资金。"
+      },
+      "customers": "满意客户",
+      "uptime": "正常运行时间保证",
+      "support": "专家支持",
+      "efficiency": {
+        "title": "提高效率",
+        "description": "自动创建评估、评分和报告，节省时间和资源。",
+        "stat": "效率提升"
+      },
+      "scalable": {
+        "title": "高度可扩展",
+        "description": "通过我们可扩展的云基础设施同时支持数千名学习者。",
+        "stat": "可扩展性"
+      },
+      "insights": {
+        "title": "学习洞察",
+        "description": "通过详细的分析和报告获得学习者绩效的宝贵洞察。",
+        "stat": "洞察"
+      },
+      "flexible": {
+        "title": "灵活交付",
+        "description": "通过移动响应式设计随时随地交付学习内容。",
+        "stat": "灵活"
+      }
+    },
+    "testimonials": {
+      "title": "我们的客户怎么说",
+      "subtitle": "值得信赖的组织选择Omniflow LMS来推动他们的学习计划。",
+      "items": [
+        {
+          "quote": "Omniflow LMS改变了我们的企业培训。评估工具非常强大，分析帮助我们有效跟踪员工进度。",
+          "author": "Sarah Johnson",
+          "role": "培训经理",
+          "company": "TechCorp Inc."
+        },
+        {
+          "quote": "批量上传功能为我们节省了无数时间。我们现在可以在几分钟而不是几天内创建全面的评估。",
+          "author": "Michael Chen",
+          "role": "教育总监",
+          "company": "Global Learning Academy"
+        },
+        {
+          "quote": "我们用过的最好的LMS。多租户架构允许我们从单一平台管理多个客户的培训。",
+          "author": "Lisa Wong",
+          "role": "首席执行官",
+          "company": "EduTech Solutions"
+        }
+      ]
+    },
+    "cta": {
+      "badge": "准备转变您的学习？",
+      "title": "准备转变您的学习？",
+      "subtitle": "加入数千个已通过Omniflow LMS现代化培训的机构。",
+      "getStarted": "立即开始",
+      "scheduleDemo": "安排演示",
+      "contactSales": "联系销售",
+      "features": {
+        "trial": "免费30天试用",
+        "setup": "无设置费用",
+        "support": "24/7支持"
+      },
+      "stats": {
+        "users": "活跃用户",
+        "uptime": "正常运行时间SLA",
+        "security": "认证安全"
+      }
+    }
+  },
+  "telemarketing": {
+    "hero": {
+      "badge": "电话营销与自动拨号器",
+      "title": "自动化电话营销平台",
+      "subtitle": "管理联系人、运行自动拨号活动，并使用直接集成在ERP中的TTS。",
+      "stats": {
+        "users": "活跃用户",
+        "uptime": "正常运行时间SLA",
+        "saved": "节省/周",
+        "reduction": "成本降低"
+      },
+      "productivityBoost": "生产力提升"
+    },
+    "features": {
+      "title": "完整的电话营销功能",
+      "subtitle": "我们的电话营销平台提供全面的功能来优化您的外呼活动。",
+      "badge": "全面电话营销功能",
+      "contacts": {
+        "title": "联系人管理",
+        "description": "轻松管理联系人数据库。批量导入联系人，根据标准进行细分，并跟踪与每个联系人的互动状态。"
+      },
+      "audio": {
+        "title": "TTS音频与脚本",
+        "description": "使用文本转语音创建专业的音频消息。管理电话营销脚本，自动生成音频，并保存在音频库中。"
+      },
+      "autodial": {
+        "title": "自动拨号器",
+        "description": "与Twilio集成的智能自动拨号系统。使用选定的音频脚本对联系人列表运行自动呼叫。"
+      },
+      "analytics": {
+        "title": "分析与报告",
+        "description": "实时监控电话营销活动表现的分析仪表板。通话记录报告、转化率以及完整统计数据。"
+      },
+      "scripts": {
+        "title": "电话营销脚本",
+        "description": "创建和管理专业的电话营销脚本。适用于各种行业和通话目的的即用型模板。"
+      },
+      "templates": {
+        "title": "消息模板",
+        "description": "可定制的消息模板库。使用动态变量个性化消息以提高参与度。"
+      },
+      "scheduling": {
+        "title": "活动调度",
+        "description": "安排电话营销活动在最佳时间自动运行。根据目标时区设置呼叫时间表。"
+      },
+      "logs": {
+        "title": "通话记录与历史",
+        "description": "每次通话的完整历史记录，包括状态详情、时长和回拨。与CRM系统集成以跟踪跟进。"
+      }
+    },
+    "benefits": {
+      "title": "电话营销系统优势",
+      "subtitle": "通过Omniflow电话营销的卓越功能提高您的电话营销团队效率。",
+      "conversion": {
+        "title": "更高的转化率",
+        "description": "通过专业脚本和优化的自动拨号，将您的电话营销活动转化率提高多达40%。"
+      },
+      "fastSettlement": {
+        "title": "快速结算",
+        "description": "资金在1-2个工作日内存入您的账户。业务运营现金流更顺畅。"
+      },
+      "fraudProtection": {
+        "title": "欺诈保护",
+        "description": "先进的欺诈检测系统，使用机器学习保护您的业务免受可疑交易侵害。"
+      },
+      "compliance": {
+        "title": "法规合规",
+        "description": "系统设计时考虑电话营销法规。集成的DNC（请勿致电）和选择退出管理功能。"
+      },
+      "costEffective": {
+        "title": "价格实惠",
+        "description": "透明的费用结构，无隐藏设置费用。通过为您的业务提供具有竞争力的费率来节省资金。"
+      },
+      "customers": "满意客户",
+      "uptime": "正常运行时间保证",
+      "support": "专家支持",
+      "efficiency": {
+        "title": "运营效率",
+        "description": "呼叫自动化节省您团队的时间。专注于优质线索和有效的跟进。"
+      },
+      "reach": {
+        "title": "更广泛的覆盖",
+        "description": "通过可靠的自动拨号系统在短时间内联系数千个联系人。与全球电信网络集成。",
+        "stat": "覆盖更广"
+      },
+      "automation": {
+        "title": "完全自动化",
+        "description": "从TTS音频创建到结果报告，所有流程都实现自动化以达到最高效率。"
+      },
+      "team": {
+        "title": "团队管理",
+        "description": "将线索分配给电话营销代理，监控团队表现，并从一个仪表板轻松设置KPI目标。"
+      }
+    },
+    "cta": {
+      "badge": "准备提升销售？",
+      "title": "今天开始您的电话营销活动",
+      "subtitle": "加入数千家已通过Omniflow优化电话营销运营的公司。安排演示以了解我们的平台如何帮助您的业务。",
+      "getStarted": "免费开始",
+      "scheduleDemo": "安排演示",
+      "contactSales": "联系销售",
+      "features": {
+        "trial": "免费30天试用",
+        "setup": "无设置费用",
+        "support": "24/7支持"
+      },
+      "stats": {
+        "users": "活跃用户",
+        "uptime": "正常运行时间SLA",
+        "security": "认证安全"
+      }
+    }
+  },
+  "paymentGateway": {
+    "hero": {
+      "badge": "集成支付网关",
+      "title": "全能支付网关",
+      "subtitle": "在您的 Omniflow 系统中自动接受 QRIS、虚拟账户和电子钱包付款。",
+      "stats": {
+        "users": "活跃用户",
+        "uptime": "正常运行时间SLA",
+        "saved": "节省/周",
+        "reduction": "成本降低"
+      },
+      "productivityBoost": "生产力提升"
+    },
+    "features": {
+      "title": "完整的支付网关功能",
+      "subtitle": "为电子商务和在线业务提供全面的支付解决方案，支持印度尼西亚各种流行的支付方式。",
+      "badge": "全面支付网关功能",
+      "multipleGateways": {
+        "title": "多渠道支付网关",
+        "description": "与Midtrans和各种其他支付网关集成。根据您的业务需求选择最佳提供商。"
+      },
+      "paymentMethods": {
+        "title": "多种支付方式",
+        "description": "通过虚拟账户、QRIS、信用卡、电子钱包（GoPay、OVO、DANA、LinkAja）、银行转账和现金零售接受付款。"
+      },
+      "security": {
+        "title": "保证安全",
+        "description": "敏感数据加密、自动欺诈检测和PCI DSS合规性，确保交易安全。"
+      },
+      "instantNotification": {
+        "title": "实时通知",
+        "description": "通过webhook、电子邮件或推送通知获取每笔交易的即时通知。24/7支付状态监控。"
+      },
+      "transactionManagement": {
+        "title": "交易管理",
+        "description": "在一个仪表板中监控所有交易。跟踪支付状态、退款、拒付和完整的交易历史。"
+      },
+      "analytics": {
+        "title": "分析与报告",
+        "description": "综合分析仪表板，监控支付表现。交易报告、热门支付方式和销售趋势。"
+      },
+      "mobileReady": {
+        "title": "移动优化",
+        "description": "在所有设备上提供无缝的支付体验。移动响应式支付页面，提高转化率。"
+      },
+      "multiCurrency": {
+        "title": "多币种支持",
+        "description": "以多种货币接受付款，自动转换。将您的业务扩展到国际市场。"
+      }
+    },
+    "benefits": {
+      "title": "支付网关优势",
+      "subtitle": "通过我们集成的支付网关解决方案提高转化率并轻松管理付款。",
+      "badge": {
+        "title": "完整支付方式"
+      },
+      "conversion": {
+        "title": "提高转化率",
+        "description": "多种支付方式选项可将客户完成交易的可能性提高多达40%。"
+      },
+      "fastSettlement": {
+        "title": "快速结算",
+        "description": "资金在1-2个工作日内存入您的账户。业务运营现金流更顺畅。"
+      },
+      "fraudProtection": {
+        "title": "欺诈保护",
+        "description": "先进的欺诈检测系统，使用机器学习保护您的业务免受可疑交易侵害。"
+      },
+      "compliance": {
+        "title": "法规与合规",
+        "description": "符合PCI DSS安全标准和印度尼西亚银行法规，确保交易安全合法。"
+      },
+      "support": {
+        "title": "24/7支持",
+        "description": "我们的支持团队随时准备帮助集成和故障排除。响应迅速的技术协助。"
+      },
+      "costEffective": {
+        "title": "价格实惠",
+        "description": "透明的费用结构，无隐藏设置费用。通过为您的业务提供具有竞争力的费率来节省资金。"
+      },
+      "customers": "99.9%",
+      "uptime": "24/7"
+    },
+    "cta": {
+      "badge": "准备接受在线付款？",
+      "title": "今天开始接受付款",
+      "subtitle": "加入使用Omniflow支付网关的数千商家。集成简单，数小时内即可准备就绪。",
+      "getStarted": "免费开始",
+      "scheduleDemo": "安排演示",
+      "contactSales": "联系销售",
+      "features": {
+        "trial": "免费30天试用",
+        "setup": "无设置费用",
+        "support": "24/7支持"
+      },
+      "stats": {
+        "users": "活跃用户",
+        "uptime": "正常运行时间SLA",
+        "security": "认证安全"
+      }
+    }
+  },
+  "sales": {
+    "title": "现代销售管理平台",
+    "subtitle": "通过强大的销售自动化工具梳理销售管道、跟进商机并加速收入增长。",
+    "badge": "受到 50,000+ 销售专业人士信赖",
+    "hero": {
+      "scheduleDemo": "预约演示",
+      "watchOverview": "查看概览",
+      "imageAlt": "销售仪表盘界面",
+      "stats": {
+        "users": "活跃用户",
+        "uptime": "正常运行 SLA",
+        "increase": "收入增长",
+        "implementation": "部署时间"
+      },
+      "revenueGrowth": "收入增长"
+    },
+    "features": {
+      "title": "完整的销售管理方案",
+      "subtitle": "从线索到成交，在一个平台中管理整个销售流程。",
+      "badge": "核心销售功能",
+      "pipeline": {
+        "title": "销售管道管理",
+        "description": "用可自定义阶段和预测能力可视化整个销售管道。",
+        "benefits": [
+          "管道可视化",
+          "商机跟踪",
+          "阶段管理"
+        ]
+      },
+      "leads": {
+        "title": "线索管理",
+        "description": "通过自动化流程和评分机制捕获、筛选并培育线索。",
+        "benefits": [
+          "线索收集",
+          "资格流程",
+          "线索评分"
+        ]
+      },
+      "deals": {
+        "title": "商机管理",
+        "description": "跟踪商机进展、管理销售活动并更快达成成交。",
+        "benefits": [
+          "商机跟踪",
+          "活动管理",
+          "成交概率"
+        ]
+      },
+      "forecasting": {
+        "title": "销售预测",
+        "description": "基于实时管道数据和历史趋势做出更准确的收入预测。",
+        "benefits": [
+          "收入预测",
+          "趋势分析",
+          "预测模型"
+        ]
+      },
+      "mobile": {
+        "title": "移动销售应用",
+        "description": "通过 iOS 和 Android 移动应用让销售团队随时保持连接。",
+        "benefits": [
+          "离线访问",
+          "推送通知",
+          "移动表单"
+        ]
+      },
+      "integration": {
+        "title": "第三方集成",
+        "description": "无缝连接您现有的工具与工作流。",
+        "benefits": [
+          "邮件集成",
+          "日历同步",
+          "CRM 集成"
+        ]
+      }
+    },
+    "screenshots": {
+      "title": "体验更高效的销售流程",
+      "subtitle": "为销售团队设计的直观界面，帮助提升效率并带来更多成交。",
+      "badge": "销售平台预览",
+      "pipeline": {
+        "title": "销售管道仪表盘",
+        "description": "实时查看整个销售管道及收入预测。",
+        "features": [
+          "商机跟踪",
+          "管道阶段",
+          "赢单概率",
+          "收入预测"
+        ]
+      },
+      "analytics": {
+        "title": "销售分析",
+        "description": "用全面数据跟踪团队表现并发现新机会。",
+        "features": [
+          "表现指标",
+          "转化跟踪",
+          "收入分析",
+          "团队指标"
+        ]
+      },
+      "mobile": {
+        "title": "移动端访问",
+        "description": "即使离线也能在移动端完成核心销售工作。",
+        "features": [
+          "移动更新",
+          "离线模式",
+          "快捷操作",
+          "实时同步"
+        ]
+      },
+      "exploreFeature": "查看功能"
+    },
+    "benefits": {
+      "title": "销售结果看得见",
+      "subtitle": "平台上线后，销售效率和收入表现都会出现可衡量的提升。",
+      "badge": "成功案例",
+      "productivity": {
+        "title": "效率提升",
+        "description": "借助更顺畅的流程，销售团队成交速度提升 45%。",
+        "stat": "+45%"
+      },
+      "speed": {
+        "title": "销售周期更短",
+        "description": "自动化重复工作，缩短整体销售周期。",
+        "stat": "快 30%"
+      },
+      "increase": {
+        "title": "收入增长",
+        "description": "通过更好的管道可视化和商机管理推动收入增长。",
+        "stat": "+35%"
+      },
+      "visibility": {
+        "title": "全局可见",
+        "description": "实时掌握销售管道和团队表现。",
+        "stat": "100% 可见"
+      },
+      "organizations": "使用中的组织",
+      "uptime": "稳定性保障",
+      "support": "专家支持"
+    },
+    "testimonials": {
+      "title": "销售团队负责人都在用",
+      "subtitle": "看看领先团队如何借助 Omniflow 加速增长。",
+      "badge": "客户成功",
+      "items": [
+        {
+          "quote": "Omniflow 销售模块彻底改变了我们管理商机的方式。上线后，成交率明显提升。",
+          "author": "David Wilson",
+          "position": "销售总监",
+          "company": "Enterprise Solutions",
+          "rating": 5,
+          "image": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&q=80&w=150"
+        },
+        {
+          "quote": "现在我们对销售管道有了非常清晰的可视化。管理层能够依靠实时数据和预测更快做决策。",
+          "author": "Jessica Martinez",
+          "position": "销售副总裁",
+          "company": "Growth Accelerators",
+          "rating": 5,
+          "image": "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?auto=format&fit=crop&q=80&w=150"
+        },
+        {
+          "quote": "移动应用对外勤销售团队来说是个巨大提升。他们可以随时更新商机，邮件集成也非常顺畅。",
+          "author": "Robert Thompson",
+          "position": "销售经理",
+          "company": "Tech Innovations Ltd",
+          "rating": 5,
+          "image": "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?auto=format&fit=crop&q=80&w=150"
+        }
+      ],
+      "joinSuccess": {
+        "title": "想加速销售增长？",
+        "description": "预约演示，看看 Omniflow 如何帮助您的销售组织升级。",
+        "scheduleDemo": "预约您的演示"
+      }
+    },
+    "cta": {
+      "title": "升级您的销售组织",
+      "subtitle": "加入已经借助 Omniflow Sales 加速增长的团队。",
+      "badge": "开始赢得更多成交",
+      "scheduleDemo": "预约演示",
+      "contactSales": "联系销售",
+      "features": {
+        "trial": "30 天免费试用",
+        "setup": "无需设置费用",
+        "support": "24/7 支持"
+      },
+      "stats": {
+        "users": "活跃用户",
+        "uptime": "正常运行 SLA",
+        "growth": "平均增长"
+      }
+    }
+  },
+  "purchasing": {
+    "title": "智能采购管理平台",
+    "subtitle": "优化采购流程、管理供应商，并通过自动化能力降低采购成本。",
+    "badge": "受到 30,000+ 采购专业人士信赖",
+    "hero": {
+      "scheduleDemo": "预约演示",
+      "watchOverview": "查看概览",
+      "imageAlt": "采购仪表盘界面",
+      "stats": {
+        "users": "活跃用户",
+        "uptime": "正常运行 SLA",
+        "savings": "成本节省",
+        "efficiency": "流程效率"
+      },
+      "costReduction": "成本下降"
+    },
+    "features": {
+      "title": "完整采购解决方案",
+      "subtitle": "从申请到发票，在一个平台中梳理整个采购流程。",
+      "badge": "完整采购功能",
+      "requisition": {
+        "title": "采购申请",
+        "description": "通过自动审批和路由快速创建采购申请。",
+        "benefits": [
+          "审批流程",
+          "自动路由",
+          "预算控制"
+        ]
+      },
+      "rfq": {
+        "title": "询价与竞价",
+        "description": "创建 RFQ、发送给供应商并高效比较报价。",
+        "benefits": [
+          "报价比较",
+          "竞价流程",
+          "供应商评分"
+        ]
+      },
+      "vendors": {
+        "title": "供应商管理",
+        "description": "集中管理供应商关系、表现和合规状态。",
+        "benefits": [
+          "供应商档案",
+          "表现跟踪",
+          "合规管理"
+        ]
+      },
+      "approvals": {
+        "title": "审批工作流",
+        "description": "根据公司政策设置多级审批流程。",
+        "benefits": [
+          "自定义流程",
+          "策略执行",
+          "审计轨迹"
+        ]
+      },
+      "reporting": {
+        "title": "报告与分析",
+        "description": "通过数据分析掌握支出结构和采购效率。",
+        "benefits": [
+          "支出分析",
+          "供应商分析",
+          "成本趋势"
+        ]
+      },
+      "compliance": {
+        "title": "合规与审计",
+        "description": "确保采购流程符合内部制度与监管要求。",
+        "benefits": [
+          "审计轨迹",
+          "策略管理",
+          "法规合规"
+        ]
+      }
+    },
+    "screenshots": {
+      "title": "更可控的采购运营",
+      "subtitle": "直观平台帮助您管理完整采购流程。",
+      "badge": "平台预览",
+      "orders": {
+        "title": "采购订单",
+        "description": "创建并实时跟踪采购订单状态。",
+        "features": [
+          "PO 创建",
+          "订单跟踪",
+          "交付管理",
+          "发票匹配"
+        ]
+      },
+      "vendors": {
+        "title": "供应商门户",
+        "description": "让供应商更高效地协同和响应采购需求。",
+        "features": [
+          "供应商协同",
+          "报价提交",
+          "绩效指标",
+          "合规文档"
+        ]
+      },
+      "analytics": {
+        "title": "采购分析",
+        "description": "深入了解支出、供应商表现和节省空间。",
+        "features": [
+          "支出分析",
+          "供应商表现",
+          "品类分析",
+          "节省跟踪"
+        ]
+      },
+      "exploreFeature": "查看功能"
+    },
+    "benefits": {
+      "title": "采购成效更直观",
+      "subtitle": "在成本控制和流程效率上获得可衡量的提升。",
+      "badge": "已验证的收益",
+      "savings": {
+        "title": "节省成本",
+        "description": "通过更好的谈判和自动化降低采购支出。",
+        "stat": "-40%"
+      },
+      "speed": {
+        "title": "处理更快",
+        "description": "缩短采购周期并提升供应商响应速度。",
+        "stat": "快 50%"
+      },
+      "compliance": {
+        "title": "合规更稳",
+        "description": "确保采购流程持续符合制度与法规。",
+        "stat": "100% 合规"
+      },
+      "visibility": {
+        "title": "全局可见",
+        "description": "实时掌握支出与供应商表现。",
+        "stat": "100% 可见"
+      },
+      "vendors": "活跃供应商",
+      "uptime": "稳定性保障",
+      "support": "专家支持"
+    },
+    "testimonials": {
+      "title": "采购负责人都在用",
+      "subtitle": "看看企业如何借助 Omniflow 降低成本并提升效率。",
+      "badge": "客户成功",
+      "items": [
+        {
+          "quote": "Omniflow 采购模块让我们的采购流程清晰了很多。采购周期缩短，供应商协作也明显更顺畅。",
+          "author": "Lisa Anderson",
+          "position": "采购经理",
+          "company": "Supply Chain Solutions",
+          "rating": 5,
+          "image": "https://images.unsplash.com/photo-1494790108377-be9c29b29330?auto=format&fit=crop&q=80&w=150"
+        },
+        {
+          "quote": "供应商管理和合规功能帮助我们在控制成本的同时维持质量标准。RFQ 流程现在已经完全自动化。",
+          "author": "James Mitchell",
+          "position": "供应链总监",
+          "company": "Manufacturing Corp",
+          "rating": 5,
+          "image": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&q=80&w=150"
+        },
+        {
+          "quote": "报告和分析让我们对支出有了更清晰的了解，也更容易识别节省空间。",
+          "author": "Patricia Brown",
+          "position": "采购总监",
+          "company": "Industrial Enterprises",
+          "rating": 5,
+          "image": "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?auto=format&fit=crop&q=80&w=150"
+        }
+      ],
+      "joinSuccess": {
+        "title": "想优化采购流程？",
+        "description": "预约演示，看看我们如何帮助您降低采购成本。",
+        "scheduleDemo": "预约您的演示"
+      }
+    },
+    "cta": {
+      "title": "优化您的采购流程",
+      "subtitle": "加入已经通过 Omniflow 实现采购转型的组织。",
+      "badge": "从今天开始节省",
+      "scheduleDemo": "预约演示",
+      "contactSales": "联系销售",
+      "features": {
+        "trial": "30 天免费试用",
+        "setup": "无需设置费用",
+        "support": "24/7 支持"
+      },
+      "stats": {
+        "users": "活跃用户",
+        "uptime": "正常运行 SLA",
+        "savings": "成本节省"
+      }
+    }
+  },
+  "assetManagement": {
+    "title": "企业资产管理平台",
+    "subtitle": "通过智能资产管理平台跟踪、维护并优化企业资产的完整生命周期。",
+    "badge": "受到 25,000+ 组织信赖",
+    "hero": {
+      "scheduleDemo": "预约演示",
+      "watchOverview": "查看概览",
+      "imageAlt": "资产管理仪表盘",
+      "stats": {
+        "users": "活跃用户",
+        "uptime": "正常运行 SLA",
+        "efficiency": "效率提升",
+        "accuracy": "数据准确率"
+      },
+      "accuracyImprovement": "准确率提升"
+    },
+    "features": {
+      "title": "完整资产管理方案",
+      "subtitle": "集中管理固定资产、折旧、维护与使用效率。",
+      "badge": "核心资产管理功能",
+      "tracking": {
+        "title": "资产跟踪",
+        "description": "实时掌握资产位置、状态和使用情况。",
+        "benefits": [
+          "位置跟踪",
+          "条码扫描",
+          "二维码管理"
+        ]
+      },
+      "depreciation": {
+        "title": "折旧管理",
+        "description": "自动计算折旧并支持财务合规报告。",
+        "benefits": [
+          "自动计算",
+          "多种方法",
+          "财务报告"
+        ]
+      },
+      "lifecycle": {
+        "title": "资产生命周期",
+        "description": "从采购到报废，完整管理资产生命周期。",
+        "benefits": [
+          "采购跟踪",
+          "维护记录",
+          "报废管理"
+        ]
+      },
+      "maintenance": {
+        "title": "维护计划",
+        "description": "安排并跟踪预防性和纠正性维护。",
+        "benefits": [
+          "维护排程",
+          "工单管理",
+          "服务跟踪"
+        ]
+      },
+      "reports": {
+        "title": "报告与分析",
+        "description": "通过报表和分析掌握资产组合表现。",
+        "benefits": [
+          "资产报表",
+          "利用率分析",
+          "价值跟踪"
+        ]
+      },
+      "integration": {
+        "title": "系统集成",
+        "description": "连接财务系统和其他企业应用。",
+        "benefits": [
+          "总账集成",
+          "API 接入",
+          "数据同步"
+        ]
+      }
+    },
+    "screenshots": {
+      "title": "资产管理更有条理",
+      "subtitle": "直观界面让资产状态和维护计划一目了然。",
+      "badge": "平台预览",
+      "tracking": {
+        "title": "资产台账",
+        "description": "查看所有资产及其状态、明细和历史。",
+        "features": [
+          "资产台账",
+          "明细视图",
+          "历史跟踪",
+          "状态监控"
+        ]
+      },
+      "maintenance": {
+        "title": "维护管理",
+        "description": "统一安排和跟踪所有维护活动。",
+        "features": [
+          "工单",
+          "服务历史",
+          "排程",
+          "成本跟踪"
+        ]
+      },
+      "reporting": {
+        "title": "资产报表",
+        "description": "从价值、折旧和利用率角度分析资产表现。",
+        "features": [
+          "资产台账",
+          "折旧报表",
+          "利用率分析",
+          "价值报表"
+        ]
+      },
+      "exploreFeature": "查看功能"
+    },
+    "benefits": {
+      "title": "资产管理带来的价值",
+      "subtitle": "在资产可视化和运营效率上获得显著提升。",
+      "badge": "已验证成果",
+      "efficiency": {
+        "title": "效率提升",
+        "description": "简化资产管理流程并减少行政负担。",
+        "stat": "+50%"
+      },
+      "accuracy": {
+        "title": "准确率提升",
+        "description": "通过自动跟踪将资产准确率提升到 95%。",
+        "stat": "+95%"
+      },
+      "cost": {
+        "title": "降低成本",
+        "description": "通过预防性维护减少维修和停机成本。",
+        "stat": "-30%"
+      },
+      "visibility": {
+        "title": "实时可见",
+        "description": "随时掌握资产组合和使用状态。",
+        "stat": "100% 可见"
+      },
+      "organizations": "使用中的组织",
+      "uptime": "稳定性保障",
+      "support": "专家支持"
+    },
+    "testimonials": {
+      "title": "资产管理团队都在用",
+      "subtitle": "看看企业如何提升资产利用率并降低维护成本。",
+      "badge": "客户成功",
+      "items": [
+        {
+          "quote": "Omniflow 资产管理模块改变了我们跟踪和维护公司资产的方式。自动折旧计算为财务团队节省了大量时间。",
+          "author": "Thomas Wilson",
+          "position": "财务经理",
+          "company": "Industrial Solutions",
+          "rating": 5,
+          "image": "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?auto=format&fit=crop&q=80&w=150"
+        },
+        {
+          "quote": "维护排程和跟踪功能大幅降低了停机时间。运营团队现在对资产健康状态有了完整视图。",
+          "author": "Margaret Chen",
+          "position": "运营总监",
+          "company": "Manufacturing Excellence",
+          "rating": 5,
+          "image": "https://images.unsplash.com/photo-1494790108377-be9c29b29330?auto=format&fit=crop&q=80&w=150"
+        },
+        {
+          "quote": "报表能力让我们能更好地做长期资产规划。投入回报很明显，实施过程也很顺畅。",
+          "author": "Richard Thompson",
+          "position": "资产经理",
+          "company": "Enterprise Corp",
+          "rating": 5,
+          "image": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&q=80&w=150"
+        }
+      ],
+      "joinSuccess": {
+        "title": "想优化资产管理？",
+        "description": "预约演示，体验更高效的资产管理方式。",
+        "scheduleDemo": "预约您的演示"
+      }
+    },
+    "cta": {
+      "title": "升级您的资产管理能力",
+      "subtitle": "加入已经借助 Omniflow 提升资产效率的组织。",
+      "badge": "开始管理资产",
+      "scheduleDemo": "预约演示",
+      "contactSales": "联系销售",
+      "features": {
+        "trial": "30 天免费试用",
+        "setup": "无需设置费用",
+        "support": "24/7 支持"
+      },
+      "stats": {
+        "users": "活跃用户",
+        "uptime": "正常运行 SLA",
+        "efficiency": "效率提升"
+      }
+    }
+  },
+  "inventory": {
+    "title": "智能库存管理系统",
+    "subtitle": "通过更智能的库存管理优化库存水平、减少缺货并提升仓库运营效率。",
+    "badge": "受到 40,000+ 组织信赖",
+    "hero": {
+      "scheduleDemo": "预约演示",
+      "watchOverview": "查看概览",
+      "imageAlt": "库存管理仪表盘",
+      "stats": {
+        "users": "活跃用户",
+        "uptime": "正常运行 SLA",
+        "reduction": "成本下降",
+        "accuracy": "库存准确率"
+      },
+      "accuracyBoost": "准确率提升"
+    },
+    "features": {
+      "title": "完整库存管理方案",
+      "subtitle": "在多仓、多地点场景下保持库存实时可见并优化补货。",
+      "badge": "核心库存功能",
+      "tracking": {
+        "title": "实时跟踪",
+        "description": "实时掌握各仓库和地点的库存数量。",
+        "benefits": [
+          "实时库存",
+          "多地点管理",
+          "即时更新"
+        ]
+      },
+      "warehouse": {
+        "title": "仓库管理",
+        "description": "通过库位和拣货优化提升仓库运营效率。",
+        "benefits": [
+          "库位管理",
+          "拣货优化",
+          "区域管理"
+        ]
+      },
+      "orders": {
+        "title": "订单管理",
+        "description": "通过自动化拣货和打包提升订单履约效率。",
+        "benefits": [
+          "订单拣货",
+          "自动打包",
+          "发货跟踪"
+        ]
+      },
+      "forecasting": {
+        "title": "需求预测",
+        "description": "用智能预测维持健康库存水平。",
+        "benefits": [
+          "需求预测",
+          "季节趋势",
+          "自动补货"
+        ]
+      },
+      "reporting": {
+        "title": "报告与分析",
+        "description": "通过分析与报表持续优化库存表现。",
+        "benefits": [
+          "库存报表",
+          "周转分析",
+          "SKU 表现"
+        ]
+      },
+      "barcoding": {
+        "title": "条码与扫描",
+        "description": "借助条码扫描和移动盘点提升库存准确率。",
+        "benefits": [
+          "条码扫描",
+          "移动扫描",
+          "库存盘点"
+        ]
+      }
+    },
+    "screenshots": {
+      "title": "库存运营更精准",
+      "subtitle": "直观平台帮助您管理完整库存运营。",
+      "badge": "平台预览",
+      "dashboard": {
+        "title": "库存仪表盘",
+        "description": "实时查看库存水位和关键指标。",
+        "features": [
+          "库存水平",
+          "缺货提醒",
+          "流转趋势",
+          "核心指标"
+        ]
+      },
+      "warehouse": {
+        "title": "仓库运营",
+        "description": "基于库位管理仓库作业和库存流转。",
+        "features": [
+          "库位跟踪",
+          "拣货单",
+          "收货",
+          "上架"
+        ]
+      },
+      "tracking": {
+        "title": "实时追踪",
+        "description": "快速了解库存流动和趋势变化。",
+        "features": [
+          "流转跟踪",
+          "趋势分析",
+          "预测",
+          "库存调整"
+        ]
+      },
+      "exploreFeature": "查看功能"
+    },
+    "benefits": {
+      "title": "库存管理带来的价值",
+      "subtitle": "在库存准确率和仓库效率上获得可衡量提升。",
+      "badge": "已验证成果",
+      "accuracy": {
+        "title": "准确率提升",
+        "description": "通过条码扫描将库存准确率提升到 85%。",
+        "stat": "+85%"
+      },
+      "efficiency": {
+        "title": "运营更高效",
+        "description": "减少人工操作，提升仓库作业效率。",
+        "stat": "快 40%"
+      },
+      "cost": {
+        "title": "降低成本",
+        "description": "通过优化库存降低持有成本和缺货风险。",
+        "stat": "-30%"
+      },
+      "visibility": {
+        "title": "全局可见",
+        "description": "实时查看所有地点的库存状态。",
+        "stat": "100% 可见"
+      },
+      "organizations": "使用中的组织",
+      "uptime": "稳定性保障",
+      "support": "专家支持"
+    },
+    "testimonials": {
+      "title": "库存负责人都在用",
+      "subtitle": "看看企业如何借助 Omniflow 优化库存与仓库运营。",
+      "badge": "客户成功",
+      "items": [
+        {
+          "quote": "Omniflow 库存模块彻底提升了我们的仓库运营。实时跟踪和自动补货显著减少了缺货。",
+          "author": "Michael Torres",
+          "position": "仓库经理",
+          "company": "Distribution Hub Inc",
+          "rating": 5,
+          "image": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&q=80&w=150"
+        },
+        {
+          "quote": "多仓能力和库存预测彻底改变了我们的供应链管理。现在我们对所有地点都拥有完整可视化。",
+          "author": "Christina Williams",
+          "position": "物流总监",
+          "company": "Global Supply Chain",
+          "rating": 5,
+          "image": "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?auto=format&fit=crop&q=80&w=150"
+        },
+        {
+          "quote": "条码扫描和移动应用让盘点更快也更准确。团队效率提升非常明显。",
+          "author": "Kevin Anderson",
+          "position": "运营经理",
+          "company": "Retail Solutions Group",
+          "rating": 5,
+          "image": "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?auto=format&fit=crop&q=80&w=150"
+        }
+      ],
+      "joinSuccess": {
+        "title": "想优化库存运营？",
+        "description": "预约演示，看看 Omniflow 如何让库存管理更高效。",
+        "scheduleDemo": "预约您的演示"
+      }
+    },
+    "cta": {
+      "title": "升级您的库存运营",
+      "subtitle": "加入已经通过 Omniflow 优化库存和仓库效率的组织。",
+      "badge": "从今天开始优化",
+      "scheduleDemo": "预约演示",
+      "contactSales": "联系销售",
+      "features": {
+        "trial": "30 天免费试用",
+        "setup": "无需设置费用",
+        "support": "24/7 支持"
+      },
+      "stats": {
+        "users": "活跃用户",
+        "uptime": "正常运行 SLA",
+        "reduction": "成本下降"
+      }
+    }
+  },
+  "footer": {
+    "description": "通过集成ERP解决方案在全球范围内转型企业。加入数千家信任我们简化运营和加速增长的公司。",
+    "seo": {
+      "title": "Omniflow.id - 企业成功的集成ERP解决方案",
+      "description": "通过Omniflow.id的综合ERP平台转型您的业务。简化运营、提高生产力，并通过我们受全球10,000+企业信赖的企业级解决方案加速增长。",
+      "keywords": "ERP软件, 人力资源信息系统, 业务管理, 企业解决方案, Omniflow, 印度尼西亚, 业务管理系统, 人力资源, 会计软件, 客户关系管理系统, 数字化转型, 业务自动化, 云ERP, 企业软件"
+    },
+    "solutions": "解决方案",
+    "company": "公司",
+    "aboutUs": "关于我们",
+    "careers": "职业",
+    "support": "支持",
+    "privacy": "隐私政策",
+    "terms": "服务条款",
+    "cookies": "Cookie政策",
+    "copyright": "版权所有。为企业成功而精心打造。"
+  },
+  "analytics": {
+    "hero": {
+      "imageAlt": "展示实时业务集成和 KPI 趋势的分析仪表盘"
+    },
+    "screenshots": {
+      "alt": "展示销售与支付集成图表的分析仪表盘"
+    }
+  },
+  "ai": {
+    "title": "AI 驱动的商业智能平台",
+    "subtitle": "利用人工智能的力量自动化流程、获取预测性洞察，并推动更智能的商业决策。",
+    "badge": "受到5,000+企业信赖",
+    "hero": {
+      "scheduleDemo": "Schedule Demo",
+      "watchOverview": "Watch Overview",
+      "imageAlt": "AI Business Intelligence Dashboard",
+      "stats": {
+        "users": "Active Users",
+        "uptime": "Uptime SLA",
+        "automation": "Automation Rate",
+        "accuracy": "AI Accuracy"
+      },
+      "automationBoost": "Automation Boost"
+    },
+    "features": {
+      "title": "为您的企业提供完整的AI解决方案",
+      "subtitle": "从预测分析到智能自动化 — 构建更智能组织所需的一切。",
+      "badge": "AI Features",
+      "predictive": {
+        "title": "Predictive Analytics",
+        "description": "Forecast trends, demand, and business outcomes with machine learning models.",
+        "benefits": [
+          "Demand forecasting",
+          "Risk prediction",
+          "Revenue projections"
+        ]
+      },
+      "automation": {
+        "title": "Intelligent Automation",
+        "description": "Automate repetitive tasks and workflows with AI-driven decision engines.",
+        "benefits": [
+          "Workflow automation",
+          "Smart routing",
+          "Auto-classification"
+        ]
+      },
+      "nlp": {
+        "title": "Natural Language Processing",
+        "description": "Analyze text, extract insights, and understand customer sentiment at scale.",
+        "benefits": [
+          "Sentiment analysis",
+          "Text extraction",
+          "Chatbot integration"
+        ]
+      },
+      "vision": {
+        "title": "Computer Vision",
+        "description": "Process images and video for quality control, recognition, and monitoring.",
+        "benefits": [
+          "Image recognition",
+          "Quality inspection",
+          "OCR processing"
+        ]
+      },
+      "recommendation": {
+        "title": "Recommendation Engine",
+        "description": "Deliver personalized recommendations to customers and internal users.",
+        "benefits": [
+          "Product recommendations",
+          "Content personalization",
+          "Upsell suggestions"
+        ]
+      },
+      "reports": {
+        "title": "AI-Generated Reports",
+        "description": "Auto-generate business reports with narrative summaries powered by AI.",
+        "benefits": [
+          "Auto narratives",
+          "Scheduled reports",
+          "Custom templates"
+        ]
+      }
+    },
+    "screenshots": {
+      "title": "AI Excellence",
+      "subtitle": "Intuitive AI dashboards designed for business leaders and data teams.",
+      "badge": "Platform Overview",
+      "exploreFeature": "Explore Feature",
+      "dashboard": {
+        "title": "AI Command Center",
+        "description": "Monitor all AI models, predictions, and automation workflows in one place.",
+        "features": [
+          "Model performance",
+          "Live predictions",
+          "Automation logs",
+          "Alerts"
+        ]
+      },
+      "insights": {
+        "title": "Business Insights",
+        "description": "Deep-dive analytics with AI-generated narratives for executive reporting.",
+        "features": [
+          "Trend charts",
+          "Anomaly detection",
+          "KPI tracking",
+          "Narratives"
+        ]
+      },
+      "automation": {
+        "title": "Automation Studio",
+        "description": "Design and monitor AI-powered automation workflows visually.",
+        "features": [
+          "Flow designer",
+          "Trigger rules",
+          "Action logs",
+          "Performance"
+        ]
+      }
+    },
+    "benefits": {
+      "title": "为何选择 Omniflow AI",
+      "subtitle": "以企业级AI转型您的业务，专为规模化而构建。",
+      "badge": "Business Benefits",
+      "efficiency": {
+        "title": "Operational Efficiency",
+        "description": "Reduce manual effort and accelerate decision-making with intelligent automation.",
+        "stat": "70%"
+      },
+      "accuracy": {
+        "title": "Prediction Accuracy",
+        "description": "Industry-leading ML models trained on millions of business data points.",
+        "stat": "94%"
+      },
+      "cost": {
+        "title": "Cost Reduction",
+        "description": "Cut operational costs by automating high-volume, repetitive business processes.",
+        "stat": "40%"
+      },
+      "speed": {
+        "title": "Faster Insights",
+        "description": "Get actionable insights in seconds instead of waiting days for manual reports.",
+        "stat": "10x"
+      },
+      "organizations": "Organizations Transformed",
+      "uptime": "Uptime Guarantee",
+      "support": "Expert Support"
+    },
+    "testimonials": {
+      "badge": "Customer Success",
+      "title": "客户的评价",
+      "subtitle": "全球各地的组织信任Omniflow AI驱动他们的智能运营。",
+      "items": [
+        {
+          "quote": "Omniflow AI reduced our manual forecasting time by 80%. Our team now focuses on strategy instead of spreadsheets.",
+          "author": "Budi Santoso",
+          "position": "Chief Data Officer",
+          "company": "TechCorp Indonesia",
+          "rating": 5,
+          "image": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&q=80&w=100"
+        },
+        {
+          "quote": "The recommendation engine boosted our cross-sell revenue by 35% within the first quarter.",
+          "author": "Sari Dewi",
+          "position": "VP of Product",
+          "company": "Nusantara Retail",
+          "rating": 5,
+          "image": "https://images.unsplash.com/photo-1494790108755-2616b612b1c0?auto=format&fit=crop&q=80&w=100"
+        },
+        {
+          "quote": "AI-powered document processing cut our admin workload in half. Incredible ROI from day one.",
+          "author": "Ahmad Fauzi",
+          "position": "Operations Director",
+          "company": "Maju Bersama Group",
+          "rating": 5,
+          "image": "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?auto=format&fit=crop&q=80&w=100"
+        }
+      ],
+      "joinSuccess": {
+        "title": "Ready to Transform with AI?",
+        "description": "Join thousands of organizations using Omniflow AI to build smarter businesses.",
+        "scheduleDemo": "Schedule a Demo"
+      }
+    },
+    "cta": {
+      "badge": "Get Started with AI",
+      "title": "准备好释放AI的力量了吗？",
+      "subtitle": "立即开始您的AI转型之旅，享受个性化演示。",
+      "scheduleDemo": "Schedule Demo",
+      "contactSales": "Contact Sales",
+      "features": {
+        "trial": "Free 30-day trial",
+        "setup": "Guided onboarding",
+        "support": "24/7 AI expert support"
+      },
+      "stats": {
+        "users": "Active Enterprise Users",
+        "uptime": "Uptime SLA",
+        "reduction": "Cost Reduction"
+      }
+    }
+  },
+  "bookingEngine": {
+    "title": "智能预订与预约管理",
+    "subtitle": "通过为现代企业打造的强大预订引擎简化预约、管理资源并让客户满意。",
+    "badge": "受到8,000+企业信赖",
+    "hero": {
+      "scheduleDemo": "Schedule Demo",
+      "watchOverview": "Watch Overview",
+      "imageAlt": "Booking Engine Dashboard",
+      "stats": {
+        "users": "Active Users",
+        "uptime": "Uptime SLA",
+        "bookings": "Monthly Bookings",
+        "satisfaction": "Customer Satisfaction"
+      },
+      "bookingBoost": "Booking Efficiency"
+    },
+    "features": {
+      "title": "管理预订所需的一切",
+      "subtitle": "从在线预约到资源管理 — 适合任何预订型业务的完整平台。",
+      "badge": "Booking Features",
+      "online": {
+        "title": "Online Booking",
+        "description": "Accept reservations 24/7 through a branded booking portal accessible on any device.",
+        "benefits": [
+          "24/7 availability",
+          "Custom branding",
+          "Mobile-friendly"
+        ]
+      },
+      "calendar": {
+        "title": "Calendar Management",
+        "description": "Visual calendar to manage availability, bookings, and scheduling conflicts effortlessly.",
+        "benefits": [
+          "Drag-and-drop",
+          "Multi-view",
+          "Conflict detection"
+        ]
+      },
+      "resources": {
+        "title": "Resource Allocation",
+        "description": "Assign rooms, equipment, or staff to bookings automatically to maximize utilization.",
+        "benefits": [
+          "Auto-assignment",
+          "Utilization reports",
+          "Capacity planning"
+        ]
+      },
+      "payments": {
+        "title": "Payment Processing",
+        "description": "Accept deposits, full payments, and refunds with integrated payment gateway support.",
+        "benefits": [
+          "Deposit collection",
+          "Refund management",
+          "Multi-currency"
+        ]
+      },
+      "notifications": {
+        "title": "Automated Notifications",
+        "description": "Send confirmation, reminder, and follow-up messages automatically to customers.",
+        "benefits": [
+          "Email alerts",
+          "SMS reminders",
+          "WhatsApp integration"
+        ]
+      },
+      "analytics": {
+        "title": "Booking Analytics",
+        "description": "Track revenue, occupancy rates, and customer patterns with detailed reports.",
+        "benefits": [
+          "Revenue reports",
+          "Occupancy rates",
+          "Customer insights"
+        ]
+      }
+    },
+    "screenshots": {
+      "title": "Booking Excellence",
+      "subtitle": "Beautiful, intuitive interfaces for your team and your customers.",
+      "badge": "Platform Overview",
+      "exploreFeature": "Explore Feature",
+      "dashboard": {
+        "title": "Booking Dashboard",
+        "description": "Real-time overview of today's bookings, availability, and revenue.",
+        "features": [
+          "Live bookings",
+          "Revenue metrics",
+          "Availability view",
+          "Quick actions"
+        ]
+      },
+      "calendar": {
+        "title": "Smart Calendar",
+        "description": "Manage all reservations with an intuitive drag-and-drop calendar interface.",
+        "features": [
+          "Daily view",
+          "Weekly view",
+          "Resource view",
+          "Conflict alerts"
+        ]
+      },
+      "customer": {
+        "title": "Customer Portal",
+        "description": "Self-service booking portal branded to your business for seamless customer experience.",
+        "features": [
+          "Easy booking",
+          "Modification",
+          "Cancellation",
+          "Payment"
+        ]
+      }
+    },
+    "benefits": {
+      "title": "为何选择 Omniflow 预订引擎",
+      "subtitle": "专为酒店、医疗、美容、联合办公等资源型业务而构建。",
+      "badge": "Business Benefits",
+      "efficiency": {
+        "title": "Admin Efficiency",
+        "description": "Eliminate manual booking management and reduce no-shows with automated reminders.",
+        "stat": "60%"
+      },
+      "revenue": {
+        "title": "Revenue Growth",
+        "description": "Maximize occupancy and upsell add-ons to increase revenue per booking.",
+        "stat": "35%"
+      },
+      "satisfaction": {
+        "title": "Customer Satisfaction",
+        "description": "Self-service booking and instant confirmations create a frictionless customer experience.",
+        "stat": "98%"
+      },
+      "noshow": {
+        "title": "No-Show Reduction",
+        "description": "Automated reminders and deposit requirements significantly reduce no-shows.",
+        "stat": "45%"
+      },
+      "organizations": "Active Businesses",
+      "uptime": "Uptime Guarantee",
+      "support": "24/7 Support"
+    },
+    "testimonials": {
+      "badge": "Customer Success",
+      "title": "预订业务的信赖之选",
+      "subtitle": "从酒店到诊所，企业依靠Omniflow预订引擎顺畅运营。",
+      "items": [
+        {
+          "quote": "Our reservation process went from chaotic spreadsheets to a fully automated system. Game changer.",
+          "author": "Dewi Rahayu",
+          "position": "General Manager",
+          "company": "Villa Harmonia Bali",
+          "rating": 5,
+          "image": "https://images.unsplash.com/photo-1494790108755-2616b612b1c0?auto=format&fit=crop&q=80&w=100"
+        },
+        {
+          "quote": "Patient scheduling has never been easier. No-shows dropped by 40% thanks to automated reminders.",
+          "author": "Dr. Rizal Hakim",
+          "position": "Clinic Director",
+          "company": "Klinik Sehat Prima",
+          "rating": 5,
+          "image": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&q=80&w=100"
+        },
+        {
+          "quote": "We manage 200+ room bookings daily. Omniflow handles it all effortlessly.",
+          "author": "Hendra Kurniawan",
+          "position": "Operations Manager",
+          "company": "CoWork Jakarta",
+          "rating": 5,
+          "image": "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?auto=format&fit=crop&q=80&w=100"
+        }
+      ],
+      "joinSuccess": {
+        "title": "Ready to Modernize Your Booking?",
+        "description": "Join thousands of businesses already using Omniflow Booking Engine.",
+        "scheduleDemo": "Schedule a Demo"
+      }
+    },
+    "cta": {
+      "badge": "Start Booking Smarter",
+      "title": "准备好简化您的预约流程了吗？",
+      "subtitle": "了解Omniflow预订引擎如何改变您的预约管理。",
+      "scheduleDemo": "Schedule Demo",
+      "contactSales": "Contact Sales",
+      "features": {
+        "trial": "Free 30-day trial",
+        "setup": "Quick setup",
+        "support": "24/7 support"
+      },
+      "stats": {
+        "users": "Active Businesses",
+        "uptime": "Uptime SLA",
+        "reduction": "No-Show Reduction"
+      }
+    }
+  },
+  "customers": {
+    "title": "客户数据管理平台",
+    "subtitle": "集中客户数据，构建更丰富的客户档案，提供个性化体验以促进忠诚度和留存率。",
+    "badge": "受到12,000+企业信赖",
+    "hero": {
+      "scheduleDemo": "Schedule Demo",
+      "watchOverview": "Watch Overview",
+      "imageAlt": "Customer Management Dashboard",
+      "stats": {
+        "users": "Active Users",
+        "uptime": "Uptime SLA",
+        "customers": "Customers Managed",
+        "retention": "Retention Rate"
+      },
+      "retentionBoost": "Retention Boost"
+    },
+    "features": {
+      "title": "完整的客户管理",
+      "subtitle": "了解您的客户并建立持久关系所需的一切。",
+      "badge": "Customer Features",
+      "profiles": {
+        "title": "Customer Profiles",
+        "description": "Build complete 360° customer profiles with contact info, preferences, and history.",
+        "benefits": [
+          "360° view",
+          "Custom fields",
+          "Profile enrichment"
+        ]
+      },
+      "segmentation": {
+        "title": "Smart Segmentation",
+        "description": "Group customers by behavior, demographics, or value for targeted campaigns.",
+        "benefits": [
+          "Dynamic segments",
+          "RFM analysis",
+          "Custom criteria"
+        ]
+      },
+      "history": {
+        "title": "Purchase History",
+        "description": "Track every transaction, interaction, and touchpoint across the customer lifecycle.",
+        "benefits": [
+          "Full transaction log",
+          "Interaction timeline",
+          "Lifecycle tracking"
+        ]
+      },
+      "loyalty": {
+        "title": "Loyalty Programs",
+        "description": "Reward loyal customers with points, tiers, and exclusive benefits automatically.",
+        "benefits": [
+          "Points system",
+          "Tier management",
+          "Reward redemption"
+        ]
+      },
+      "communication": {
+        "title": "Communication Logs",
+        "description": "Record all customer communications across email, phone, chat, and social channels.",
+        "benefits": [
+          "Omnichannel log",
+          "Team visibility",
+          "Follow-up tracking"
+        ]
+      },
+      "analytics": {
+        "title": "Customer Analytics",
+        "description": "Analyze customer lifetime value, churn risk, and behavior patterns at scale.",
+        "benefits": [
+          "CLV analysis",
+          "Churn prediction",
+          "Cohort analysis"
+        ]
+      }
+    },
+    "screenshots": {
+      "title": "Customer Excellence",
+      "subtitle": "Beautiful interfaces to manage and understand your customers.",
+      "badge": "Platform Overview",
+      "exploreFeature": "Explore Feature",
+      "dashboard": {
+        "title": "Customer Overview",
+        "description": "Real-time dashboard showing customer activity, segments, and key metrics.",
+        "features": [
+          "Active customers",
+          "New acquisitions",
+          "Churn alerts",
+          "Revenue"
+        ]
+      },
+      "profile": {
+        "title": "Customer Profile",
+        "description": "Deep-dive into individual customer profiles with full history and preferences.",
+        "features": [
+          "Contact details",
+          "Purchase history",
+          "Interactions",
+          "Loyalty points"
+        ]
+      },
+      "analytics": {
+        "title": "Customer Analytics",
+        "description": "Comprehensive analytics to understand behavior and optimize customer strategy.",
+        "features": [
+          "CLV trends",
+          "Segment reports",
+          "Cohort analysis",
+          "Churn map"
+        ]
+      }
+    },
+    "benefits": {
+      "title": "为何选择 Omniflow Customers",
+      "subtitle": "建立更强的客户关系，推动可持续的业务增长。",
+      "badge": "Business Benefits",
+      "retention": {
+        "title": "Customer Retention",
+        "description": "Identify at-risk customers early and engage them with targeted retention campaigns.",
+        "stat": "25%"
+      },
+      "revenue": {
+        "title": "Revenue per Customer",
+        "description": "Increase average order value with personalized recommendations and loyalty rewards.",
+        "stat": "40%"
+      },
+      "satisfaction": {
+        "title": "Customer Satisfaction",
+        "description": "Deliver consistent, personalized experiences across every touchpoint.",
+        "stat": "97%"
+      },
+      "efficiency": {
+        "title": "Team Efficiency",
+        "description": "Reduce time spent on manual data entry and customer lookups with unified profiles.",
+        "stat": "50%"
+      },
+      "organizations": "Active Businesses",
+      "uptime": "Uptime Guarantee",
+      "support": "24/7 Support"
+    },
+    "testimonials": {
+      "badge": "Customer Success",
+      "title": "以客户为中心的企业信赖之选",
+      "subtitle": "各行业的企业依靠Omniflow Customers了解并扩大其客户群。",
+      "items": [
+        {
+          "quote": "We finally have a single source of truth for all customer data. Our team collaborates better than ever.",
+          "author": "Indah Permata",
+          "position": "Head of Customer Success",
+          "company": "Belanja.id",
+          "rating": 5,
+          "image": "https://images.unsplash.com/photo-1494790108755-2616b612b1c0?auto=format&fit=crop&q=80&w=100"
+        },
+        {
+          "quote": "Churn prediction alone saved us hundreds of accounts last quarter. Remarkable platform.",
+          "author": "Reza Pratama",
+          "position": "VP Growth",
+          "company": "SaaS Nusantara",
+          "rating": 5,
+          "image": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&q=80&w=100"
+        },
+        {
+          "quote": "Our loyalty program runs on autopilot now. Customers love the rewards and we love the retention.",
+          "author": "Fitriani Sari",
+          "position": "Marketing Director",
+          "company": "Toko Rasa",
+          "rating": 5,
+          "image": "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?auto=format&fit=crop&q=80&w=100"
+        }
+      ],
+      "joinSuccess": {
+        "title": "Ready to Know Your Customers Better?",
+        "description": "Join thousands of businesses building stronger customer relationships with Omniflow.",
+        "scheduleDemo": "Schedule a Demo"
+      }
+    },
+    "cta": {
+      "badge": "Build Better Relationships",
+      "title": "准备好改变客户管理了吗？",
+      "subtitle": "了解Omniflow Customers如何为您提供每个客户关系的完整视图。",
+      "scheduleDemo": "Schedule Demo",
+      "contactSales": "Contact Sales",
+      "features": {
+        "trial": "Free 30-day trial",
+        "setup": "Easy data import",
+        "support": "24/7 support"
+      },
+      "stats": {
+        "users": "Active Businesses",
+        "uptime": "Uptime SLA",
+        "reduction": "Churn Reduction"
+      }
+    }
+  },
+  "ecf": {
+    "title": "股权众筹平台",
+    "subtitle": "通过透明、结构化、全生命周期追踪的融资平台，将现实世界的项目运营商与投资者联系起来。",
+    "badge": "受到3,000+投资者和运营商信赖",
+    "hero": {
+      "scheduleDemo": "Schedule Demo",
+      "watchOverview": "Watch Overview",
+      "imageAlt": "Equity Crowdfunding Dashboard",
+      "stats": {
+        "users": "Active Users",
+        "uptime": "Uptime SLA",
+        "funded": "Projects Funded",
+        "distributed": "Profit Distributed"
+      },
+      "fundingBoost": "Funding Success"
+    },
+    "features": {
+      "title": "完整的众筹解决方案",
+      "subtitle": "从项目上架到利润分配 — 全透明的资金生命周期平台。",
+      "badge": "ECF Features",
+      "projects": {
+        "title": "Project Management",
+        "description": "Create, manage, and update project listings with milestones and financial targets.",
+        "benefits": [
+          "Project lifecycle",
+          "Milestone tracking",
+          "Progress updates"
+        ]
+      },
+      "investors": {
+        "title": "Investor Dashboard",
+        "description": "Investors get a transparent view of their portfolio, returns, and project status.",
+        "benefits": [
+          "Portfolio view",
+          "Return tracking",
+          "Real-time updates"
+        ]
+      },
+      "distribution": {
+        "title": "Profit Distribution",
+        "description": "Automated profit sharing calculations and distributions to all participating investors.",
+        "benefits": [
+          "Auto calculation",
+          "Batch distribution",
+          "Distribution logs"
+        ]
+      },
+      "kyc": {
+        "title": "KYC Verification",
+        "description": "Integrated identity verification to ensure compliance and investor eligibility.",
+        "benefits": [
+          "ID verification",
+          "Compliance checks",
+          "Risk profiling"
+        ]
+      },
+      "documents": {
+        "title": "Document Management",
+        "description": "Securely store and share legal documents, agreements, and project reports.",
+        "benefits": [
+          "Secure storage",
+          "E-signatures",
+          "Version control"
+        ]
+      },
+      "transactions": {
+        "title": "Transaction Tracking",
+        "description": "Full audit trail of all investment transactions, distributions, and fee records.",
+        "benefits": [
+          "Full audit trail",
+          "Fee tracking",
+          "Export reports"
+        ]
+      }
+    },
+    "screenshots": {
+      "title": "ECF Platform Excellence",
+      "subtitle": "Transparent, professional interfaces for operators and investors alike.",
+      "badge": "Platform Overview",
+      "exploreFeature": "Explore Feature",
+      "dashboard": {
+        "title": "Operator Dashboard",
+        "description": "Manage all projects, monitor funding progress, and trigger profit distributions.",
+        "features": [
+          "Funding progress",
+          "Investor count",
+          "Distribution status",
+          "Documents"
+        ]
+      },
+      "investor": {
+        "title": "Investor Portal",
+        "description": "Investors browse opportunities, track investments, and monitor returns in real-time.",
+        "features": [
+          "Project browser",
+          "Investment tracker",
+          "Return history",
+          "KYC status"
+        ]
+      },
+      "reports": {
+        "title": "Financial Reports",
+        "description": "Detailed financial reporting for auditors, regulators, and stakeholders.",
+        "features": [
+          "P&L summary",
+          "Distribution reports",
+          "Investor ledger",
+          "Tax docs"
+        ]
+      }
+    },
+    "benefits": {
+      "title": "为何选择 Omniflow ECF",
+      "subtitle": "东南亚最透明、最结构化的股权众筹平台。",
+      "badge": "Platform Benefits",
+      "transparency": {
+        "title": "Full Transparency",
+        "description": "Every transaction, update, and distribution is logged and visible to all stakeholders.",
+        "stat": "100%"
+      },
+      "compliance": {
+        "title": "Regulatory Compliance",
+        "description": "Built-in KYC and audit trail features to meet local and international regulations.",
+        "stat": "99%"
+      },
+      "speed": {
+        "title": "Faster Funding",
+        "description": "Digital-first process reduces funding cycle time compared to traditional channels.",
+        "stat": "3x"
+      },
+      "reach": {
+        "title": "Investor Reach",
+        "description": "Connect with a network of verified investors interested in real-world projects.",
+        "stat": "10x"
+      },
+      "organizations": "Projects Funded",
+      "uptime": "Uptime Guarantee",
+      "support": "24/7 Support"
+    },
+    "testimonials": {
+      "badge": "Success Stories",
+      "title": "运营商与投资者信赖Omniflow ECF",
+      "subtitle": "通过透明众筹筹集真实资本的真实企业。",
+      "items": [
+        {
+          "quote": "We raised our F&B expansion capital in 3 weeks. The transparency gave investors the confidence to commit.",
+          "author": "Andi Wijaya",
+          "position": "Founder & CEO",
+          "company": "Warung Nusantara Chain",
+          "rating": 5,
+          "image": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&q=80&w=100"
+        },
+        {
+          "quote": "As an investor, the profit distribution dashboard gives me complete peace of mind about my returns.",
+          "author": "Lina Hartati",
+          "position": "Private Investor",
+          "company": "Individual Investor",
+          "rating": 5,
+          "image": "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?auto=format&fit=crop&q=80&w=100"
+        },
+        {
+          "quote": "KYC and document management built into the platform saved us months of compliance setup.",
+          "author": "Bagas Nugroho",
+          "position": "Operations Lead",
+          "company": "PropertyFund Indonesia",
+          "rating": 5,
+          "image": "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?auto=format&fit=crop&q=80&w=100"
+        }
+      ],
+      "joinSuccess": {
+        "title": "Ready to Launch Your Crowdfunding Campaign?",
+        "description": "Join operators and investors building transparent funding relationships with Omniflow ECF.",
+        "scheduleDemo": "Schedule a Demo"
+      }
+    },
+    "cta": {
+      "badge": "Start Fundraising",
+      "title": "准备好使商业融资民主化了吗？",
+      "subtitle": "了解Omniflow ECF如何让结构化众筹变得简单、透明且合规。",
+      "scheduleDemo": "Schedule Demo",
+      "contactSales": "Contact Sales",
+      "features": {
+        "trial": "Free platform setup",
+        "setup": "Compliance-ready",
+        "support": "Dedicated support"
+      },
+      "stats": {
+        "users": "Active Users",
+        "uptime": "Uptime SLA",
+        "reduction": "Faster Funding"
+      }
+    }
+  },
+  "eventTicketing": {
+    "title": "活动票务与报名系统",
+    "subtitle": "端到端管理活动 — 从票务和报名到二维码签到和活动后分析。",
+    "badge": "受到6,000+活动主办方信赖",
+    "hero": {
+      "scheduleDemo": "Schedule Demo",
+      "watchOverview": "Watch Overview",
+      "imageAlt": "Event Ticketing Dashboard",
+      "stats": {
+        "users": "Active Users",
+        "uptime": "Uptime SLA",
+        "tickets": "Tickets Processed",
+        "satisfaction": "Attendee Satisfaction"
+      },
+      "checkInBoost": "Check-in Speed"
+    },
+    "features": {
+      "title": "完整的活动管理解决方案",
+      "subtitle": "从报名到活动后报告，运营专业活动所需的一切。",
+      "badge": "Event Features",
+      "events": {
+        "title": "Event Management",
+        "description": "Create and manage events with flexible ticket types, pricing tiers, and capacity limits.",
+        "benefits": [
+          "Multi-tier tickets",
+          "Capacity management",
+          "Promo codes"
+        ]
+      },
+      "checkin": {
+        "title": "QR Code Check-in",
+        "description": "Fast, reliable QR code scanning for contactless attendee check-in at any scale.",
+        "benefits": [
+          "QR scanning",
+          "Offline mode",
+          "Bulk check-in"
+        ]
+      },
+      "attendees": {
+        "title": "Attendee Management",
+        "description": "Manage attendee data, dietary preferences, and special requirements effortlessly.",
+        "benefits": [
+          "Attendee profiles",
+          "Badge printing",
+          "Special requirements"
+        ]
+      },
+      "payments": {
+        "title": "Payment Processing",
+        "description": "Accept online payments with support for cards, bank transfer, and digital wallets.",
+        "benefits": [
+          "Online payment",
+          "Refund handling",
+          "Revenue tracking"
+        ]
+      },
+      "communications": {
+        "title": "Event Communications",
+        "description": "Send invitations, confirmations, reminders, and post-event follow-ups automatically.",
+        "benefits": [
+          "Email invites",
+          "WhatsApp alerts",
+          "Post-event survey"
+        ]
+      },
+      "analytics": {
+        "title": "Event Analytics",
+        "description": "Measure event success with attendance rates, revenue, and engagement metrics.",
+        "benefits": [
+          "Attendance reports",
+          "Revenue analytics",
+          "Engagement metrics"
+        ]
+      }
+    },
+    "screenshots": {
+      "title": "Event Excellence",
+      "subtitle": "Professional tools for organizers and a smooth experience for attendees.",
+      "badge": "Platform Overview",
+      "exploreFeature": "Explore Feature",
+      "dashboard": {
+        "title": "Event Dashboard",
+        "description": "Monitor registrations, sales, and check-ins in real-time as your event unfolds.",
+        "features": [
+          "Live registrations",
+          "Revenue tracker",
+          "Check-in status",
+          "Capacity"
+        ]
+      },
+      "checkin": {
+        "title": "QR Check-in App",
+        "description": "Mobile check-in app for fast, contactless attendee verification at the gate.",
+        "features": [
+          "QR scanning",
+          "Instant validation",
+          "Offline mode",
+          "Stats"
+        ]
+      },
+      "reports": {
+        "title": "Post-Event Reports",
+        "description": "Comprehensive event performance reports to inform future event planning.",
+        "features": [
+          "Attendance data",
+          "Revenue report",
+          "Feedback summary",
+          "Export"
+        ]
+      }
+    },
+    "benefits": {
+      "title": "为何选择 Omniflow 活动票务",
+      "subtitle": "从小型工作坊到大型会议 — 专为随活动规模增长而构建。",
+      "badge": "Event Benefits",
+      "speed": {
+        "title": "Check-in Speed",
+        "description": "Process hundreds of attendees per minute with QR code scanning.",
+        "stat": "5x"
+      },
+      "revenue": {
+        "title": "Revenue Increase",
+        "description": "Maximize ticket revenue with dynamic pricing and upsell capabilities.",
+        "stat": "30%"
+      },
+      "satisfaction": {
+        "title": "Attendee Satisfaction",
+        "description": "Smooth registration and check-in experience that attendees love.",
+        "stat": "98%"
+      },
+      "efficiency": {
+        "title": "Admin Efficiency",
+        "description": "Automate communications, payments, and reporting to save your team hours.",
+        "stat": "65%"
+      },
+      "organizations": "Events Managed",
+      "uptime": "Uptime Guarantee",
+      "support": "24/7 Support"
+    },
+    "testimonials": {
+      "badge": "Organizer Success",
+      "title": "活动主办方的信赖之选",
+      "subtitle": "从企业会议到音乐节，主办方信赖Omniflow。",
+      "items": [
+        {
+          "quote": "We checked in 2,000 attendees in under 20 minutes. The QR system is incredibly fast and reliable.",
+          "author": "Maya Sari",
+          "position": "Event Director",
+          "company": "TechConf Jakarta",
+          "rating": 5,
+          "image": "https://images.unsplash.com/photo-1494790108755-2616b612b1c0?auto=format&fit=crop&q=80&w=100"
+        },
+        {
+          "quote": "Online ticket sales and automated WhatsApp reminders boosted our attendance rate by 25%.",
+          "author": "Dian Pratiwi",
+          "position": "Event Manager",
+          "company": "Festival Budaya Nasional",
+          "rating": 5,
+          "image": "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?auto=format&fit=crop&q=80&w=100"
+        },
+        {
+          "quote": "Post-event analytics help us plan better every time. Revenue grew 40% after switching to Omniflow.",
+          "author": "Rizki Aditya",
+          "position": "CEO",
+          "company": "EduSeminar Indonesia",
+          "rating": 5,
+          "image": "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?auto=format&fit=crop&q=80&w=100"
+        }
+      ],
+      "joinSuccess": {
+        "title": "Ready to Run Better Events?",
+        "description": "Join thousands of organizers using Omniflow to manage events of all sizes.",
+        "scheduleDemo": "Schedule a Demo"
+      }
+    },
+    "cta": {
+      "badge": "Start Selling Tickets",
+      "title": "准备好改变您的活动了吗？",
+      "subtitle": "了解Omniflow活动票务如何轻松实现票务销售、参与者管理和成功衡量。",
+      "scheduleDemo": "Schedule Demo",
+      "contactSales": "Contact Sales",
+      "features": {
+        "trial": "Free 30-day trial",
+        "setup": "Launch in minutes",
+        "support": "24/7 support"
+      },
+      "stats": {
+        "users": "Events Managed",
+        "uptime": "Uptime SLA",
+        "reduction": "Faster Check-in"
+      }
+    }
+  },
+  "habitat": {
+    "title": "社区环境管理",
+    "subtitle": "利用数字化工具管理住宅和社区环境，包括设施、公告、账单和居民互动。",
+    "badge": "受到2,000+社区信赖",
+    "hero": {
+      "scheduleDemo": "Schedule Demo",
+      "watchOverview": "Watch Overview",
+      "imageAlt": "Community Management Dashboard",
+      "stats": {
+        "users": "Active Users",
+        "uptime": "Uptime SLA",
+        "communities": "Communities Managed",
+        "satisfaction": "Resident Satisfaction"
+      },
+      "engagementBoost": "Resident Engagement"
+    },
+    "features": {
+      "title": "完整的社区管理平台",
+      "subtitle": "社区管理者运营顺畅、互联互通的住宅环境所需的一切。",
+      "badge": "Habitat Features",
+      "members": {
+        "title": "Member Management",
+        "description": "Manage resident profiles, unit assignments, and household data in one place.",
+        "benefits": [
+          "Resident profiles",
+          "Unit management",
+          "Household data"
+        ]
+      },
+      "facilities": {
+        "title": "Facility Booking",
+        "description": "Let residents book shared facilities — pool, gym, meeting rooms — online.",
+        "benefits": [
+          "Online booking",
+          "Availability calendar",
+          "Usage limits"
+        ]
+      },
+      "announcements": {
+        "title": "Announcements",
+        "description": "Send community-wide or targeted announcements via app, email, or SMS.",
+        "benefits": [
+          "Push notifications",
+          "Targeted alerts",
+          "Broadcast history"
+        ]
+      },
+      "billing": {
+        "title": "Bills & Payments",
+        "description": "Generate and collect maintenance fees, utility bills, and facility charges digitally.",
+        "benefits": [
+          "Auto billing",
+          "Online payment",
+          "Payment history"
+        ]
+      },
+      "visitors": {
+        "title": "Visitor Management",
+        "description": "Pre-register visitors and log all gate entries and exits for security.",
+        "benefits": [
+          "Visitor pre-registration",
+          "Gate log",
+          "Vehicle tracking"
+        ]
+      },
+      "reports": {
+        "title": "Community Reports",
+        "description": "Track financial health, facility usage, and resident satisfaction with reports.",
+        "benefits": [
+          "Financial reports",
+          "Usage analytics",
+          "Satisfaction surveys"
+        ]
+      }
+    },
+    "screenshots": {
+      "title": "Habitat Excellence",
+      "subtitle": "Modern tools for modern community management.",
+      "badge": "Platform Overview",
+      "exploreFeature": "Explore Feature",
+      "dashboard": {
+        "title": "Management Dashboard",
+        "description": "Overview of community health — payments, facilities, announcements, and visitors.",
+        "features": [
+          "Payment status",
+          "Facility usage",
+          "Pending issues",
+          "Announcements"
+        ]
+      },
+      "resident": {
+        "title": "Resident App",
+        "description": "Mobile-friendly portal for residents to pay bills, book facilities, and stay updated.",
+        "features": [
+          "Bill payment",
+          "Facility booking",
+          "Announcements",
+          "Visitor pass"
+        ]
+      },
+      "reports": {
+        "title": "Community Reports",
+        "description": "Comprehensive reports on financial performance and community engagement.",
+        "features": [
+          "Revenue report",
+          "Facility usage",
+          "Visitor logs",
+          "Satisfaction"
+        ]
+      }
+    },
+    "benefits": {
+      "title": "为何选择 Omniflow Habitat",
+      "subtitle": "适用于公寓、共管公寓、住宅小区和联合生活空间的现代社区管理。",
+      "badge": "Community Benefits",
+      "collection": {
+        "title": "Bill Collection Rate",
+        "description": "Digital billing and automated reminders dramatically improve on-time payment rates.",
+        "stat": "95%"
+      },
+      "satisfaction": {
+        "title": "Resident Satisfaction",
+        "description": "Self-service tools and fast communication channels keep residents happy.",
+        "stat": "92%"
+      },
+      "efficiency": {
+        "title": "Admin Efficiency",
+        "description": "Eliminate paper-based processes and reduce management admin workload significantly.",
+        "stat": "70%"
+      },
+      "security": {
+        "title": "Security Compliance",
+        "description": "Digital visitor logs and gate management improve community security standards.",
+        "stat": "100%"
+      },
+      "organizations": "Communities Managed",
+      "uptime": "Uptime Guarantee",
+      "support": "24/7 Support"
+    },
+    "testimonials": {
+      "badge": "Community Success",
+      "title": "社区喜爱Omniflow Habitat",
+      "subtitle": "居民和管理者都享受数字化社区管理的便利。",
+      "items": [
+        {
+          "quote": "Bill collection improved from 65% to 96% after switching to digital billing. Residents pay on time now.",
+          "author": "Pak Surya",
+          "position": "Estate Manager",
+          "company": "Perumahan Griya Asri",
+          "rating": 5,
+          "image": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&q=80&w=100"
+        },
+        {
+          "quote": "As a resident, I love booking facilities from my phone without going to the management office.",
+          "author": "Nita Anggraini",
+          "position": "Resident",
+          "company": "Apartemen Green Park",
+          "rating": 5,
+          "image": "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?auto=format&fit=crop&q=80&w=100"
+        },
+        {
+          "quote": "Visitor management alone has made our security team 3x more efficient. Great system.",
+          "author": "Bp. Harianto",
+          "position": "Security Coordinator",
+          "company": "Cluster Harmoni",
+          "rating": 5,
+          "image": "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?auto=format&fit=crop&q=80&w=100"
+        }
+      ],
+      "joinSuccess": {
+        "title": "Ready to Modernize Your Community?",
+        "description": "Join thousands of communities already running on Omniflow Habitat.",
+        "scheduleDemo": "Schedule a Demo"
+      }
+    },
+    "cta": {
+      "badge": "Manage Smarter",
+      "title": "准备好数字化您的社区了吗？",
+      "subtitle": "了解Omniflow Habitat如何将社区管理转变为无缝的数字体验。",
+      "scheduleDemo": "Schedule Demo",
+      "contactSales": "Contact Sales",
+      "features": {
+        "trial": "Free 30-day trial",
+        "setup": "Easy onboarding",
+        "support": "Dedicated support"
+      },
+      "stats": {
+        "users": "Communities Active",
+        "uptime": "Uptime SLA",
+        "reduction": "Admin Time Saved"
+      }
+    }
+  },
+  "helpdesk": {
+    "title": "帮助台与客户支持系统",
+    "subtitle": "通过强大的帮助台平台提供卓越的客户支持 — 从工单管理到SLA跟踪和知识库。",
+    "badge": "受到7,000+支持团队信赖",
+    "hero": {
+      "scheduleDemo": "Schedule Demo",
+      "watchOverview": "Watch Overview",
+      "imageAlt": "Helpdesk Dashboard",
+      "stats": {
+        "users": "Active Users",
+        "uptime": "Uptime SLA",
+        "tickets": "Tickets Resolved",
+        "satisfaction": "Customer Satisfaction"
+      },
+      "resolutionBoost": "Resolution Speed"
+    },
+    "features": {
+      "title": "完整的支持平台",
+      "subtitle": "您的支持团队提供快速、一致、可衡量的客户服务所需的一切。",
+      "badge": "Helpdesk Features",
+      "tickets": {
+        "title": "Ticket Management",
+        "description": "Centralize all customer requests with smart routing, prioritization, and status tracking.",
+        "benefits": [
+          "Smart routing",
+          "Priority queues",
+          "Status tracking"
+        ]
+      },
+      "multichannel": {
+        "title": "Multi-channel Support",
+        "description": "Handle tickets from email, live chat, WhatsApp, and web forms in one unified inbox.",
+        "benefits": [
+          "Unified inbox",
+          "Email integration",
+          "WhatsApp support"
+        ]
+      },
+      "sla": {
+        "title": "SLA Management",
+        "description": "Define response and resolution SLAs with automated escalations and alerts.",
+        "benefits": [
+          "SLA policies",
+          "Auto escalation",
+          "Breach alerts"
+        ]
+      },
+      "knowledge": {
+        "title": "Knowledge Base",
+        "description": "Build a searchable self-service knowledge base to deflect common support requests.",
+        "benefits": [
+          "Article editor",
+          "Search indexing",
+          "Self-service portal"
+        ]
+      },
+      "collaboration": {
+        "title": "Team Collaboration",
+        "description": "Internal notes, ticket assignment, and real-time collaboration tools for support teams.",
+        "benefits": [
+          "Internal notes",
+          "Team assignments",
+          "Live collaboration"
+        ]
+      },
+      "reports": {
+        "title": "Support Analytics",
+        "description": "Track team performance, resolution rates, and customer satisfaction scores.",
+        "benefits": [
+          "CSAT scores",
+          "Resolution time",
+          "Agent performance"
+        ]
+      }
+    },
+    "screenshots": {
+      "title": "Helpdesk Excellence",
+      "subtitle": "Clean, efficient interfaces that help support teams do their best work.",
+      "badge": "Platform Overview",
+      "exploreFeature": "Explore Feature",
+      "dashboard": {
+        "title": "Support Dashboard",
+        "description": "Real-time view of open tickets, team workload, SLA status, and key metrics.",
+        "features": [
+          "Open tickets",
+          "SLA status",
+          "Agent workload",
+          "CSAT"
+        ]
+      },
+      "inbox": {
+        "title": "Unified Inbox",
+        "description": "All customer messages from every channel in one organized, prioritized inbox.",
+        "features": [
+          "Email",
+          "Live chat",
+          "WhatsApp",
+          "Web form"
+        ]
+      },
+      "analytics": {
+        "title": "Support Analytics",
+        "description": "Comprehensive reporting to identify bottlenecks and optimize team performance.",
+        "features": [
+          "Volume trends",
+          "Resolution time",
+          "Agent stats",
+          "CSAT trends"
+        ]
+      }
+    },
+    "benefits": {
+      "title": "为何选择 Omniflow Helpdesk",
+      "subtitle": "缩短响应时间、提高CSAT分数并轻松扩展您的支持运营。",
+      "badge": "Support Benefits",
+      "speed": {
+        "title": "Faster Resolution",
+        "description": "Smart routing and knowledge base deflection cut average resolution times significantly.",
+        "stat": "60%"
+      },
+      "satisfaction": {
+        "title": "Customer Satisfaction",
+        "description": "Consistent, fast support across all channels drives industry-leading CSAT scores.",
+        "stat": "96%"
+      },
+      "deflection": {
+        "title": "Ticket Deflection",
+        "description": "Self-service knowledge base reduces inbound ticket volume automatically.",
+        "stat": "40%"
+      },
+      "efficiency": {
+        "title": "Team Efficiency",
+        "description": "Automation and smart workflows help agents handle more tickets in less time.",
+        "stat": "55%"
+      },
+      "organizations": "Support Teams",
+      "uptime": "Uptime Guarantee",
+      "support": "24/7 Support"
+    },
+    "testimonials": {
+      "badge": "Support Success",
+      "title": "支持团队喜爱Omniflow Helpdesk",
+      "subtitle": "从初创公司到企业，支持团队信赖Omniflow管理客户关系。",
+      "items": [
+        {
+          "quote": "Our average response time dropped from 4 hours to under 30 minutes after implementing Omniflow Helpdesk.",
+          "author": "Rina Kurniasih",
+          "position": "Head of Customer Support",
+          "company": "Logistik Cepat",
+          "rating": 5,
+          "image": "https://images.unsplash.com/photo-1494790108755-2616b612b1c0?auto=format&fit=crop&q=80&w=100"
+        },
+        {
+          "quote": "The knowledge base alone deflected 35% of our tickets. Our team can now focus on complex cases.",
+          "author": "Tono Susilo",
+          "position": "Support Manager",
+          "company": "Fintech Andalan",
+          "rating": 5,
+          "image": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&q=80&w=100"
+        },
+        {
+          "quote": "SLA management and escalation alerts ensure we never miss a critical customer commitment.",
+          "author": "Siti Nurhaliza",
+          "position": "VP Customer Experience",
+          "company": "E-Commerce Maju",
+          "rating": 5,
+          "image": "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?auto=format&fit=crop&q=80&w=100"
+        }
+      ],
+      "joinSuccess": {
+        "title": "Ready to Deliver World-Class Support?",
+        "description": "Join thousands of support teams using Omniflow Helpdesk to delight customers.",
+        "scheduleDemo": "Schedule a Demo"
+      }
+    },
+    "cta": {
+      "badge": "Upgrade Your Support",
+      "title": "准备好改变客户支持了吗？",
+      "subtitle": "了解Omniflow Helpdesk如何帮助您的团队更快解决问题并让客户满意。",
+      "scheduleDemo": "Schedule Demo",
+      "contactSales": "Contact Sales",
+      "features": {
+        "trial": "Free 30-day trial",
+        "setup": "Quick setup",
+        "support": "24/7 support"
+      },
+      "stats": {
+        "users": "Support Teams",
+        "uptime": "Uptime SLA",
+        "reduction": "Faster Resolution"
+      }
+    }
+  },
+  "profilex": {
+    "title": "心理测评平台",
+    "subtitle": "运行MBTI、DISC和自定义心理测评，配备自动评分、版本化配置和团队分析，专为HR和人才团队打造。",
+    "badge": "受到4,000+人力资源团队信赖",
+    "hero": {
+      "scheduleDemo": "Schedule Demo",
+      "watchOverview": "Watch Overview",
+      "imageAlt": "Psychological Assessment Dashboard",
+      "stats": {
+        "users": "Active Users",
+        "uptime": "Uptime SLA",
+        "assessments": "Assessments Completed",
+        "accuracy": "Scoring Accuracy"
+      },
+      "assessmentBoost": "Assessment Efficiency"
+    },
+    "features": {
+      "title": "完整的测评引擎",
+      "subtitle": "灵活、可扩展的平台，适用于任何心理或能力测评 — 无需每次重建引擎。",
+      "badge": "Profilex Features",
+      "mbti": {
+        "title": "MBTI Assessment",
+        "description": "Run standardized Myers-Briggs Type Indicator assessments with instant auto-scoring.",
+        "benefits": [
+          "Auto-scoring",
+          "Type report",
+          "Team distribution"
+        ]
+      },
+      "disc": {
+        "title": "DISC Assessment",
+        "description": "Administer DISC personality assessments with detailed behavioral style reports.",
+        "benefits": [
+          "Auto-scoring",
+          "Style analysis",
+          "Team dynamics"
+        ]
+      },
+      "custom": {
+        "title": "Custom Assessments",
+        "description": "Build custom questionnaires with flexible scoring rules and interpretation logic.",
+        "benefits": [
+          "Custom questions",
+          "Flexible scoring",
+          "Custom reports"
+        ]
+      },
+      "grading": {
+        "title": "Auto-grading Engine",
+        "description": "Automated scoring and interpretation for all assessment types — zero manual calculation.",
+        "benefits": [
+          "Instant results",
+          "Norm-based scoring",
+          "Version management"
+        ]
+      },
+      "analytics": {
+        "title": "Team Analytics",
+        "description": "Analyze team composition, personality distribution, and culture fit across departments.",
+        "benefits": [
+          "Team heatmaps",
+          "Culture analysis",
+          "Hiring insights"
+        ]
+      },
+      "reports": {
+        "title": "Assessment Reports",
+        "description": "Generate individual and group assessment reports in PDF format automatically.",
+        "benefits": [
+          "Individual report",
+          "Group report",
+          "PDF export"
+        ]
+      }
+    },
+    "screenshots": {
+      "title": "Profilex Excellence",
+      "subtitle": "Clean, science-backed assessment interfaces for HR professionals and participants.",
+      "badge": "Platform Overview",
+      "exploreFeature": "Explore Feature",
+      "dashboard": {
+        "title": "HR Dashboard",
+        "description": "Overview of all assessments, completion rates, and team personality distribution.",
+        "features": [
+          "Completion rates",
+          "Type distribution",
+          "Pending assessments",
+          "Reports"
+        ]
+      },
+      "assessment": {
+        "title": "Assessment Interface",
+        "description": "Clean, distraction-free assessment experience for participants on any device.",
+        "features": [
+          "Mobile-friendly",
+          "Progress indicator",
+          "Auto-save",
+          "Instant results"
+        ]
+      },
+      "reports": {
+        "title": "Individual Reports",
+        "description": "Detailed personality reports with behavioral insights and development recommendations.",
+        "features": [
+          "Type overview",
+          "Strengths",
+          "Development areas",
+          "Team fit"
+        ]
+      }
+    },
+    "benefits": {
+      "title": "为何选择 Omniflow Profilex",
+      "subtitle": "随组织成长的测评平台 — 从初创招聘到企业人才发展。",
+      "badge": "HR Benefits",
+      "speed": {
+        "title": "Assessment Speed",
+        "description": "Complete and score assessments in minutes, not days, with automated processing.",
+        "stat": "10x"
+      },
+      "accuracy": {
+        "title": "Scoring Accuracy",
+        "description": "Norm-based auto-scoring eliminates human error and ensures consistent results.",
+        "stat": "100%"
+      },
+      "insights": {
+        "title": "Hiring Quality",
+        "description": "Data-driven personality insights help HR teams make better hiring and placement decisions.",
+        "stat": "45%"
+      },
+      "cost": {
+        "title": "Cost Reduction",
+        "description": "Eliminate manual scoring, paper forms, and external assessment vendors entirely.",
+        "stat": "70%"
+      },
+      "organizations": "HR Teams Active",
+      "uptime": "Uptime Guarantee",
+      "support": "24/7 Support"
+    },
+    "testimonials": {
+      "badge": "HR Success",
+      "title": "人力资源团队喜爱Omniflow Profilex",
+      "subtitle": "企业使用Profilex进行更聪明的招聘、建立更好的团队并培养人才。",
+      "items": [
+        {
+          "quote": "We now run MBTI and DISC for every new hire. Results are instant and the reports are beautifully detailed.",
+          "author": "Wulandari Putri",
+          "position": "HR Director",
+          "company": "Konsultan Maju",
+          "rating": 5,
+          "image": "https://images.unsplash.com/photo-1494790108755-2616b612b1c0?auto=format&fit=crop&q=80&w=100"
+        },
+        {
+          "quote": "Team personality heatmaps helped us identify cultural gaps in our product team. Very insightful.",
+          "author": "Yusuf Ramadhan",
+          "position": "People & Culture Lead",
+          "company": "Startup Digital",
+          "rating": 5,
+          "image": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&q=80&w=100"
+        },
+        {
+          "quote": "Replacing external assessment vendors with Profilex saved us 70% annually. Highly recommended.",
+          "author": "Kartika Dewi",
+          "position": "Talent Manager",
+          "company": "Grup Industri Indonesia",
+          "rating": 5,
+          "image": "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?auto=format&fit=crop&q=80&w=100"
+        }
+      ],
+      "joinSuccess": {
+        "title": "Ready to Assess Smarter?",
+        "description": "Join thousands of HR teams running science-backed assessments with Omniflow Profilex.",
+        "scheduleDemo": "Schedule a Demo"
+      }
+    },
+    "cta": {
+      "badge": "Assess Your Team",
+      "title": "准备好建立数据驱动的HR实践了吗？",
+      "subtitle": "了解Omniflow Profilex如何让MBTI、DISC和自定义测评变得轻松。",
+      "scheduleDemo": "Schedule Demo",
+      "contactSales": "Contact Sales",
+      "features": {
+        "trial": "Free 30-day trial",
+        "setup": "Assessments ready in minutes",
+        "support": "24/7 support"
+      },
+      "stats": {
+        "users": "HR Teams",
+        "uptime": "Uptime SLA",
+        "reduction": "Cost Savings"
+      }
+    }
+  },
+  "propertyManagement": {
+    "title": "物业管理系统",
+    "subtitle": "在一个为物业经理和房东设计的集成平台中管理房产、租户、租约和维护请求。",
+    "badge": "受到3,500+物业经理信赖",
+    "hero": {
+      "scheduleDemo": "Schedule Demo",
+      "watchOverview": "Watch Overview",
+      "imageAlt": "Property Management Dashboard",
+      "stats": {
+        "users": "Active Users",
+        "uptime": "Uptime SLA",
+        "units": "Units Managed",
+        "collection": "Rent Collection Rate"
+      },
+      "collectionBoost": "Collection Rate"
+    },
+    "features": {
+      "title": "完整的物业管理",
+      "subtitle": "从房源列表到租户管理和维护 — 一站式解决方案。",
+      "badge": "PMS Features",
+      "listings": {
+        "title": "Property Listings",
+        "description": "Manage your entire property portfolio with detailed unit profiles and availability tracking.",
+        "benefits": [
+          "Unit profiles",
+          "Availability calendar",
+          "Photo management"
+        ]
+      },
+      "tenants": {
+        "title": "Tenant Management",
+        "description": "Maintain complete tenant records, screening history, and communication logs.",
+        "benefits": [
+          "Tenant profiles",
+          "Screening records",
+          "Communication log"
+        ]
+      },
+      "leases": {
+        "title": "Lease Management",
+        "description": "Create, track, and renew leases digitally with automated expiry alerts.",
+        "benefits": [
+          "Digital leases",
+          "Auto-renewal alerts",
+          "E-signatures"
+        ]
+      },
+      "maintenance": {
+        "title": "Maintenance Requests",
+        "description": "Track and resolve maintenance requests with vendor management and cost tracking.",
+        "benefits": [
+          "Request tracking",
+          "Vendor assignment",
+          "Cost records"
+        ]
+      },
+      "payments": {
+        "title": "Rent Collection",
+        "description": "Collect rent online, automate reminders, and track payment status across all units.",
+        "benefits": [
+          "Online payment",
+          "Auto reminders",
+          "Arrears tracking"
+        ]
+      },
+      "reports": {
+        "title": "Financial Reports",
+        "description": "Track revenue, occupancy rates, and expenses across your entire property portfolio.",
+        "benefits": [
+          "Revenue reports",
+          "Occupancy analytics",
+          "Expense tracking"
+        ]
+      }
+    },
+    "screenshots": {
+      "title": "PMS Excellence",
+      "subtitle": "Professional tools for modern property management operations.",
+      "badge": "Platform Overview",
+      "exploreFeature": "Explore Feature",
+      "dashboard": {
+        "title": "Portfolio Dashboard",
+        "description": "Bird's eye view of all properties, occupancy, rent collection, and maintenance.",
+        "features": [
+          "Occupancy rate",
+          "Rent due",
+          "Maintenance queue",
+          "Revenue"
+        ]
+      },
+      "tenant": {
+        "title": "Tenant Portal",
+        "description": "Self-service tenant portal for rent payment, maintenance requests, and documents.",
+        "features": [
+          "Pay rent",
+          "Submit requests",
+          "View documents",
+          "Message manager"
+        ]
+      },
+      "reports": {
+        "title": "Financial Reports",
+        "description": "Comprehensive property financial reports for owners and managers.",
+        "features": [
+          "Revenue report",
+          "Expense log",
+          "Occupancy trends",
+          "Tax docs"
+        ]
+      }
+    },
+    "benefits": {
+      "title": "为何选择 Omniflow PMS",
+      "subtitle": "现代物业管理软件，节省时间、改善收款，并随您的投资组合扩展。",
+      "badge": "Property Benefits",
+      "collection": {
+        "title": "Rent Collection",
+        "description": "Digital payments and automated reminders drive higher on-time rent collection rates.",
+        "stat": "98%"
+      },
+      "efficiency": {
+        "title": "Admin Efficiency",
+        "description": "Automate lease tracking, reminders, and reporting to free up management time.",
+        "stat": "65%"
+      },
+      "occupancy": {
+        "title": "Occupancy Rate",
+        "description": "Better unit visibility and faster tenant screening keeps occupancy rates high.",
+        "stat": "95%"
+      },
+      "satisfaction": {
+        "title": "Tenant Satisfaction",
+        "description": "Self-service portals and fast maintenance resolution improve tenant retention.",
+        "stat": "94%"
+      },
+      "organizations": "Properties Managed",
+      "uptime": "Uptime Guarantee",
+      "support": "24/7 Support"
+    },
+    "testimonials": {
+      "badge": "Property Success",
+      "title": "物业经理信赖Omniflow PMS",
+      "subtitle": "从住宅到商业物业，经理依靠Omniflow高效运营。",
+      "items": [
+        {
+          "quote": "Managing 200+ units used to require 3 full-time admin staff. Now 1 person handles it all with Omniflow.",
+          "author": "Bp. Kusuma",
+          "position": "Property Manager",
+          "company": "Properti Sejahtera",
+          "rating": 5,
+          "image": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&q=80&w=100"
+        },
+        {
+          "quote": "Rent collection rate went from 78% to 97% after implementing online payments and auto reminders.",
+          "author": "Ibu Lastri",
+          "position": "Landlord",
+          "company": "Kost Harmoni",
+          "rating": 5,
+          "image": "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?auto=format&fit=crop&q=80&w=100"
+        },
+        {
+          "quote": "Maintenance request tracking gave us full visibility. Tenants see updates in real-time now.",
+          "author": "Farid Setiawan",
+          "position": "Facilities Director",
+          "company": "Gedung Komersial Utama",
+          "rating": 5,
+          "image": "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?auto=format&fit=crop&q=80&w=100"
+        }
+      ],
+      "joinSuccess": {
+        "title": "Ready to Modernize Property Management?",
+        "description": "Join thousands of property managers running efficiently on Omniflow PMS.",
+        "scheduleDemo": "Schedule a Demo"
+      }
+    },
+    "cta": {
+      "badge": "Manage Properties Smarter",
+      "title": "准备好改变您的物业运营了吗？",
+      "subtitle": "了解Omniflow PMS如何简化租户管理、租金收取和维护。",
+      "scheduleDemo": "Schedule Demo",
+      "contactSales": "Contact Sales",
+      "features": {
+        "trial": "Free 30-day trial",
+        "setup": "Quick data import",
+        "support": "24/7 support"
+      },
+      "stats": {
+        "users": "Units Managed",
+        "uptime": "Uptime SLA",
+        "reduction": "Admin Time Saved"
+      }
+    }
+  },
+  "simklinik": {
+    "title": "诊所信息管理系统",
+    "subtitle": "通过集成的患者管理、病历、药房和账单数字化您的诊所或医院运营 — 全部在一个系统中。",
+    "badge": "受到1,500+医疗机构信赖",
+    "hero": {
+      "scheduleDemo": "Schedule Demo",
+      "watchOverview": "Watch Overview",
+      "imageAlt": "Clinic Management Dashboard",
+      "stats": {
+        "users": "Active Users",
+        "uptime": "Uptime SLA",
+        "patients": "Patients Managed",
+        "satisfaction": "Patient Satisfaction"
+      },
+      "efficiencyBoost": "Operational Efficiency"
+    },
+    "features": {
+      "title": "完整的诊所管理",
+      "subtitle": "从患者登记到病历和账单 — 完全集成的诊所信息系统。",
+      "badge": "SIMKlinik Features",
+      "patients": {
+        "title": "Patient Management",
+        "description": "Register and manage patient records with complete medical history and contact details.",
+        "benefits": [
+          "Patient registry",
+          "Medical history",
+          "Contact management"
+        ]
+      },
+      "appointments": {
+        "title": "Appointment Scheduling",
+        "description": "Book, manage, and remind patients of appointments across multiple doctors and departments.",
+        "benefits": [
+          "Online booking",
+          "Doctor scheduling",
+          "Automated reminders"
+        ]
+      },
+      "records": {
+        "title": "Medical Records",
+        "description": "Digital EMR with SOAP notes, diagnoses, prescriptions, and lab results.",
+        "benefits": [
+          "SOAP notes",
+          "Diagnosis history",
+          "Lab results"
+        ]
+      },
+      "pharmacy": {
+        "title": "Pharmacy Module",
+        "description": "Manage drug inventory, dispense prescriptions, and track medication usage.",
+        "benefits": [
+          "Drug inventory",
+          "Prescription dispensing",
+          "Stock alerts"
+        ]
+      },
+      "billing": {
+        "title": "Billing & Payments",
+        "description": "Generate invoices, process insurance claims, and collect payments digitally.",
+        "benefits": [
+          "Invoice generation",
+          "Insurance claims",
+          "Payment tracking"
+        ]
+      },
+      "doctors": {
+        "title": "Doctor Management",
+        "description": "Manage doctor profiles, specializations, schedules, and patient assignments.",
+        "benefits": [
+          "Doctor profiles",
+          "Scheduling",
+          "Performance reports"
+        ]
+      }
+    },
+    "screenshots": {
+      "title": "SIMKlinik Excellence",
+      "subtitle": "Modern clinical interfaces designed for healthcare efficiency.",
+      "badge": "Platform Overview",
+      "exploreFeature": "Explore Feature",
+      "dashboard": {
+        "title": "Clinic Dashboard",
+        "description": "Real-time clinic overview — today's appointments, waiting patients, and billing status.",
+        "features": [
+          "Daily appointments",
+          "Queue management",
+          "Billing status",
+          "Doctor schedule"
+        ]
+      },
+      "emr": {
+        "title": "Electronic Medical Records",
+        "description": "Clean EMR interface for doctors to record diagnoses, prescriptions, and notes.",
+        "features": [
+          "SOAP notes",
+          "Diagnosis ICD-10",
+          "e-Prescription",
+          "Lab orders"
+        ]
+      },
+      "reports": {
+        "title": "Clinical Reports",
+        "description": "Comprehensive reports on patient visits, revenue, and clinical performance.",
+        "features": [
+          "Visit reports",
+          "Revenue analytics",
+          "Doctor performance",
+          "Drug usage"
+        ]
+      }
+    },
+    "benefits": {
+      "title": "为何选择 Omniflow SIMKlinik",
+      "subtitle": "专为印度尼西亚医疗机构打造 — 诊所、医院和专科实践。",
+      "badge": "Healthcare Benefits",
+      "efficiency": {
+        "title": "Clinical Efficiency",
+        "description": "Digital records and automated workflows reduce administrative burden significantly.",
+        "stat": "60%"
+      },
+      "accuracy": {
+        "title": "Record Accuracy",
+        "description": "Eliminate paper records and transcription errors with digital EMR.",
+        "stat": "99%"
+      },
+      "satisfaction": {
+        "title": "Patient Satisfaction",
+        "description": "Shorter wait times and better communication improve the patient experience.",
+        "stat": "93%"
+      },
+      "revenue": {
+        "title": "Revenue Optimization",
+        "description": "Faster billing and insurance claim processing reduces revenue leakage.",
+        "stat": "25%"
+      },
+      "organizations": "Healthcare Providers",
+      "uptime": "Uptime Guarantee",
+      "support": "24/7 Support"
+    },
+    "testimonials": {
+      "badge": "Healthcare Success",
+      "title": "医疗机构信赖SIMKlinik",
+      "subtitle": "印度尼西亚各地的诊所和医院依靠Omniflow SIMKlinik进行日常运营。",
+      "items": [
+        {
+          "quote": "Patient waiting time dropped by 50% after implementing the digital queue and appointment system.",
+          "author": "dr. Bambang Suryadi",
+          "position": "Medical Director",
+          "company": "Klinik Sehat Bersama",
+          "rating": 5,
+          "image": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&q=80&w=100"
+        },
+        {
+          "quote": "We eliminated paper records entirely. Doctors can access complete patient history in seconds.",
+          "author": "dr. Aisyah Putri",
+          "position": "Chief of Medicine",
+          "company": "RS Harapan Mulia",
+          "rating": 5,
+          "image": "https://images.unsplash.com/photo-1494790108755-2616b612b1c0?auto=format&fit=crop&q=80&w=100"
+        },
+        {
+          "quote": "Pharmacy inventory management alone saved us from stock-outs and overstock simultaneously.",
+          "author": "Apoteker Sari",
+          "position": "Head Pharmacist",
+          "company": "Apotek Sehat Prima",
+          "rating": 5,
+          "image": "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?auto=format&fit=crop&q=80&w=100"
+        }
+      ],
+      "joinSuccess": {
+        "title": "Ready to Digitize Your Clinic?",
+        "description": "Join hundreds of healthcare providers running on Omniflow SIMKlinik.",
+        "scheduleDemo": "Schedule a Demo"
+      }
+    },
+    "cta": {
+      "badge": "Digitize Your Clinic",
+      "title": "准备好实现医疗运营现代化了吗？",
+      "subtitle": "了解Omniflow SIMKlinik如何改变临床工作流程并改善患者护理。",
+      "scheduleDemo": "Schedule Demo",
+      "contactSales": "Contact Sales",
+      "features": {
+        "trial": "Free 30-day trial",
+        "setup": "Guided implementation",
+        "support": "24/7 support"
+      },
+      "stats": {
+        "users": "Healthcare Providers",
+        "uptime": "Uptime SLA",
+        "reduction": "Admin Time Saved"
+      }
+    }
+  }
 }

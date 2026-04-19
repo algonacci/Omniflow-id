@@ -3,7 +3,20 @@
     "allow": [
       "Bash(rtk ls *)",
       "Bash(node -e \"const d=require\\('./src/i18n/locales/en.json'\\); console.log\\(JSON.stringify\\(d.inventory, null, 2\\)\\);\")",
-      "Bash(node -e \"const d=require\\('./src/i18n/locales/en.json'\\); console.log\\(JSON.stringify\\(d.navigation, null, 2\\)\\);\")"
+      "Bash(node -e \"const d=require\\('./src/i18n/locales/en.json'\\); console.log\\(JSON.stringify\\(d.navigation, null, 2\\)\\);\")",
+      "Bash(mv scripts/merge_translations.js scripts/merge_translations.cjs)",
+      "Bash(node scripts/merge_translations.cjs)",
+      "Bash(node *)",
+      "Bash(rtk tsc *)",
+      "Bash(rtk npm *)",
+      "Bash(rtk grep *)",
+      "Bash(rtk curl *)",
+      "Bash(python -c \"import sys; import xml.etree.ElementTree as ET; ET.fromstring\\(sys.stdin.read\\(\\)\\); print\\('well-formed'\\)\")",
+      "Read(//tmp/**)",
+      "Bash(python -c \"import xml.etree.ElementTree as ET; ET.parse\\('/tmp/smz.xml'\\); print\\('well-formed'\\)\")",
+      "Bash(python -c \"import xml.etree.ElementTree as ET; ET.parse\\('sitemap-zh-fetched.xml'\\); print\\('WELL-FORMED'\\)\")",
+      "Bash(xxd sitemap-zh-fetched.xml)",
+      "Bash(python *)"
     ]
   }
 }
