@@ -1,4 +1,4 @@
-import { useEffect, useMemo } from "react";
+import { useCallback, useEffect, useMemo } from "react";
 import { useTranslation } from "react-i18next";
 import { useLocation } from "react-router-dom";
 
@@ -20,6 +20,20 @@ const OG_BASE = "https://omniflow.id/og";
 const OG_WIDTH = "1200";
 const OG_HEIGHT = "630";
 const OG_TYPE = "image/webp";
+
+// Shared empty default so `tags` keeps a stable identity across renders — a
+// fresh [] literal in the parameter list would re-fire the effect every render.
+const NO_TAGS: string[] = [];
+
+// Cleared on every route change, not just on article pages. Left conditional,
+// they survive a navigation away from a blog post and get attached to whatever
+// page the user lands on next.
+const ARTICLE_META_PROPERTIES = [
+	"article:published_time",
+	"article:modified_time",
+	"article:author",
+	"article:section",
+];
 
 // Known route segments that map to language-specific banners
 const STATIC_BANNER_KEYS: Record<string, string> = {
@@ -101,7 +115,7 @@ export default function SEOHead({
 	modifiedTime,
 	author,
 	section,
-	tags = [],
+	tags = NO_TAGS,
 }: SEOHeadProps) {
 	const { t, i18n } = useTranslation();
 	const location = useLocation();
@@ -116,8 +130,10 @@ export default function SEOHead({
 	const baseUrl = getBaseUrl();
 	const currentUrl = url || `${window.location.origin}${location.pathname}`;
 
-	// Language-specific content
-	const getLanguageSpecificContent = () => {
+	// Memoised: this object feeds the effect's dependency array, and rebuilding
+	// it every render made the effect re-run and rewrite the whole head on each
+	// pass.
+	const langContent = useMemo(() => {
 		const defaultContent = {
 			en: {
 				title: t("hero.title"),
@@ -160,9 +176,8 @@ export default function SEOHead({
 			defaultContent[i18n.language as keyof typeof defaultContent] ||
 			defaultContent.en
 		);
-	};
+	}, [t, i18n.language]);
 
-	const langContent = getLanguageSpecificContent();
 	const finalTitle = title
 		? `${title} | ${langContent.siteName}`
 		: `${langContent.title} | ${langContent.siteName}`;
@@ -178,16 +193,17 @@ export default function SEOHead({
 		[baseUrl, i18n.language, image]
 	);
 
-	// Get language-specific URLs
-	const getLanguageUrls = () => {
+	// Get language-specific URLs — also memoised, for the same reason.
+	const getLanguageUrls = useCallback(() => {
 		const origin = window.location.origin;
+		const suffix = baseUrl === "/" ? "" : baseUrl;
 		return {
-			en: `${origin}/en${baseUrl === "/" ? "" : baseUrl}`,
-			id: `${origin}/id${baseUrl === "/" ? "" : baseUrl}`,
-			zh: `${origin}/zh${baseUrl === "/" ? "" : baseUrl}`,
-			"x-default": `${origin}/en${baseUrl === "/" ? "" : baseUrl}`,
+			en: `${origin}/en${suffix}`,
+			id: `${origin}/id${suffix}`,
+			zh: `${origin}/zh${suffix}`,
+			"x-default": `${origin}/en${suffix}`,
 		};
-	};
+	}, [baseUrl]);
 
 	useEffect(() => {
 		// Update HTML lang and dir attributes
@@ -293,7 +309,17 @@ export default function SEOHead({
 		updateMetaTag("twitter:site", "@omniflowid");
 		updateMetaTag("twitter:creator", "@omniflowid");
 
-		// Article specific tags
+		// Article specific tags.
+		// Clear first, unconditionally: navigating from a blog post to a module
+		// page must not leave that post's published_time/author/tags behind.
+		for (const property of [...ARTICLE_META_PROPERTIES, "article:tag"]) {
+			for (const meta of document.querySelectorAll(
+				`meta[property="${property}"]`
+			)) {
+				meta.remove();
+			}
+		}
+
 		if (type === "article") {
 			if (publishedTime)
 				updateMetaTag("article:published_time", publishedTime, true);
@@ -301,11 +327,6 @@ export default function SEOHead({
 				updateMetaTag("article:modified_time", modifiedTime, true);
 			if (finalAuthor) updateMetaTag("article:author", finalAuthor, true);
 			if (section) updateMetaTag("article:section", section, true);
-
-			// Remove existing article tags
-			document
-				.querySelectorAll('meta[property="article:tag"]')
-				.forEach((meta) => meta.remove());
 
 			// Add article tags
 			tags.forEach((tag) => {
